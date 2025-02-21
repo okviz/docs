@@ -6,6 +6,9 @@ date:               2021-11-17
 modified:           2022-07-16
 order:              /smart-filter-pro/{97}
 ---
+<todo visible>
+We are developing an updated version of this page to outline the new licensing system, which was published in February 2025.
+</todo>
 
 Smart Filter Pro uses a proprietary licensing system that follows a subscription-based model. You can choose the license plan that best suits your needs on our website: [Smart Filter Pro Pricing](https://okviz.com/smart-filter-pro/#pricing)
 

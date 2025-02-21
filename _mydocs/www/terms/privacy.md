@@ -157,7 +157,7 @@ This service allows you to view and interact with content hosted on external pla
 
 #### Adobe Fonts (Adobe Systems Incorporated)
 - **Data Processed:** Usage Data; various types of Data as specified in the service’s privacy policy.
-- **Place of Processing:** United States – <a href="https://www.adobe.com/privacy/policies/adobe-fonts.html%20" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
+- **Place of Processing:** United States – <a href="https://www.adobe.com/privacy/policies/adobe-fonts.html" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
 - **CCPA Category:** identifiers; internet or other electronic network activity information.
 - **This Processing Constitutes:** a Sale in California.
 

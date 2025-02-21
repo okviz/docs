@@ -3,14 +3,16 @@ layout:             page
 title:              Licensing
 published:          true
 date:               2022-07-17
-modified:           2023-09-11
+modified:           2025-02-21
 order:              /calendar-pro/{97}
 toc_h_max:            2
 ---
 
-Calendar Pro requires a valid per-user license to be used. We adhere to the ***ISV app licensing system*** provided by Microsoft to allow users to purchase and manage licenses easily.
+<todo visible>
+We are developing an updated version of this page to outline the new licensing system, which was published in February 2025.
+</todo>
 
-> **Power BI Embedded (Publish To Web, PaaS embed) / Report Server / [National Clouds](https://powerbi.microsoft.com/en-us/clouds/)**: Calendar Pro cannot be licensed on Power BI Embedded or Report Server using the system described on this page. If you are in one of these environments, please [contact us](mailto:support@okviz.com?title=Calendar+Pro+Unsupported+Env)
+Calendar Pro requires a valid per-user license to be used. We adhere to the ***ISV app licensing system*** provided by Microsoft to allow users to purchase and manage licenses easily.
 
 ## Purchase Licenses
 
@@ -56,7 +58,7 @@ If you need to purchase additional licenses, you can do it from the admin center
 
 After you have purchased one or more licenses, you need to assign them to your users or Active Directory groups.
 
-> Anyone purchasing gets permissions to assign purchased licenses. If you are not the purchaser, you must be a Global, License, or User admin to assign licenses. To use group-based licensing, see [Assign licenses to users by group membership in Azure Active Directory](https://learn.microsoft.com/en-us/entra/identity/users/licensing-groups-assign)  
+> Anyone purchasing gets permissions to assign purchased licenses. If you are not the purchaser, you must be a Global, License, or User admin to assign licenses. To use group-based licensing, see [Assign licenses to users by group membership in Azure Active Directory](https://learn.microsoft.com/en-us/entra/identity/users/licensing-admin-center)  
 If you purchased the license for yourself or other users, you can still assign it with the following procedure.
 
 Follow these steps to proceed:
@@ -98,20 +100,4 @@ You can cancel the subscription from the Microsoft 365 admin page:
     <img src="images/cancel-subscription.png" width="600">
 
 > Refund policy is available on the [Refund policies for Microsoft AppSource and Azure Marketplace](https://learn.microsoft.com/en-us/marketplace/refund-policies) page.
-
-## Unlicensed Notifications
-
-If you are using Calendar Pro without a valid license, you will see different notifications based on your environment:
-
-- Power BI Desktop / Power BI service in [Editing View](../glossary.md#reading-and-editing-view):
-
-    <img src="images/license-unlock-edit-view.png" width="600">
-
-- Power BI service in [Reading View](../glossary.md#reading-and-editing-view):
-
-    <img src="images/license-unlock.png" width="500">
- 
-- Power BI Embedded / Report Server / National Clouds environment:
-
-    <img src="images/licensing-unsupported.png" width="400">
 

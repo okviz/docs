@@ -12,7 +12,7 @@ My Storage is an exclusive feature of Synoptic Panel that provides an online sto
 
 >> This feature is **not available** with:
 - Synoptic Panel with an AppSource license
-- [Synoptic Panel Lite](../../synoptic-panel-lite/index.md)
+- Synoptic Panel Lite
 
 My Storage offers several benefits:
 

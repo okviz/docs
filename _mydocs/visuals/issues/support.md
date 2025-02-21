@@ -3,7 +3,7 @@ layout:             page
 title:              Support
 published:          true
 date:               2021-12-03
-modified:           2024-05-12
+modified:           2025-02-21
 order:              /03/03
 ---
 OKVIZ offers direct support to users who have problems with premium visuals and provides a dedicated forum for assistance with free visuals.
@@ -23,7 +23,7 @@ To report a bug with OKVIZ visuals, please follow the directions below:
 ### Issues Pages
 
 For issues with **free visuals**, use this repository on Github:
-- Dot Plot, Candlestick, Card with States, Smart Filter (Free), and Sparkline:  
+- Candlestick, Card with States, Dot Plot, Smart Filter (Free), and Sparkline:  
 [github.com/okviz/free-visuals/issues](https://github.com/okviz/free-visuals/issues)
 
 

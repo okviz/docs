@@ -3,14 +3,17 @@ layout:             page
 title:              Licensing
 published:          true
 date:               2022-07-21
-modified:           2023-09-11
+modified:           2025-02-21
 order:              /bullet-chart/{97}
 toc_h_max:            2
 ---
 
-Bullet Chart is a free visual but [some features](options/premium/index.md) require a valid license to be used. We adhere to the ***ISV app licensing system*** provided by Microsoft to allow users to purchase and manage licenses easily.
+<todo visible>
+We are developing an updated version of this page to outline the new licensing system, which was published in February 2025.
+</todo>
 
-> **Power BI Embedded (Publish To Web, PaaS embed) / Report Server / [National Clouds](https://powerbi.microsoft.com/en-us/clouds/)**: Bullet Chart cannot be licensed on Power BI Embedded or Report Server using the system described on this page. If you are in one of these environments, please [contact us](mailto:support@okviz.com?title=Bullet+Chart+Unsupported+Env)
+
+Bullet Chart is a free visual but [some features](options/premium/index.md) require a valid license to be used. We adhere to the ***ISV app licensing system*** provided by Microsoft to allow users to purchase and manage licenses easily.
 
 ## Purchase Licenses
 
@@ -56,7 +59,7 @@ If you need to purchase additional licenses, you can do it from the admin center
 
 After you have purchased one or more licenses, you need to assign them to your users or Active Directory groups.
 
-> Anyone purchasing gets permissions to assign purchased licenses. If you are not the purchaser, you must be a Global, License, or User admin to assign licenses. To use group-based licensing, see [Assign licenses to users by group membership in Azure Active Directory](https://learn.microsoft.com/en-us/entra/identity/users/licensing-groups-assign)  
+> Anyone purchasing gets permissions to assign purchased licenses. If you are not the purchaser, you must be a Global, License, or User admin to assign licenses. To use group-based licensing, see [Assign licenses to users by group membership in Azure Active Directory](https://learn.microsoft.com/en-us/entra/identity/users/licensing-admin-center)  
 If you purchased the license for yourself or other users, you can still assign it with the following procedure.
 
 Follow these steps to proceed:
@@ -98,19 +101,3 @@ You can cancel the subscription from the Microsoft 365 admin page:
     <img src="images/cancel-subscription.png" width="600">
 
 > Refund policy is available on the [Refund policies for Microsoft AppSource and Azure Marketplace](https://learn.microsoft.com/en-us/marketplace/refund-policies) page.
-
-## Unlicensed Notifications
-
-If you are using Bullet Chart without a valid license, premium features are read-only: this means that you can play with them and try different configurations, but each option will be reset to its original value after a few seconds. Also some notifications will be displayed:
-
-- Upgrade notification: 
-
-    <img src="images/upgrade-banner.png" width="500">
-
-- Feature reset notification:
-
-    <img src="images/feature-reset-banner.png" width="600">
-
-- Power BI Embedded / Report Server / National Clouds environment:
-
-    <img src="images/unsupported-env-banner.png" width="600">
