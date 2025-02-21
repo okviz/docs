@@ -1,10 +1,10 @@
 ---
 layout:         page
 title:          OKVIZ Visuals for Power BI
-menu_title:     Power BI Visuals
+menu_title:     Visuals for Power BI 
 published:      true
 date:           2022-05-04
-modified:       2024-10-04
+modified:       2025-02-21
 order:          /visuals
 next_reading:   true
 ---

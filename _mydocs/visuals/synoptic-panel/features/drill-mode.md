@@ -100,7 +100,12 @@ The Drill Path will be different depending on the actions you perform:
 
 ## Advanced Options
 
-Synoptic Panel offers some advanced options to control the behavior of the Drill Mode. These options are available in the visual settings under the [Drill Behavior](./../options/drill-behavior/index.md).
+Synoptic Panel offers some advanced options to control the behavior of the Drill Mode:
+
+- [Last Level Maps](./../options/drill-behavior/last-level-maps.md)
+- [Category Level Maps](./../options/drill-behavior/category-level-maps.md)
+- [Aggregate on Expand](./../options/drill-behavior/aggregate-on-expand.md)
+
 
 ## Auto-Fetch Mode
 
@@ -118,11 +123,10 @@ and a matched area has a data point id of `sector1`, Synoptic Panel will attempt
 
 If the file exists and is a valid SVG map, it will be automatically used as the child map for that area. If no such file is found, no additional map will be loaded.
 
-> 
+Using the Auto-Fetch mode provides several benefits:
 
-**Key Benefits**
-- ***Automated Map Hierarchy Handling***: No need to manually import each level of the hierarchy.
-- ***Efficient Navigation***: Seamless transitions between different levels of the dataset.
-- ***Dynamic Map Loading***: Only necessary maps are fetched, optimizing performance.
+- **Automated Map Hierarchy Handling**: No need to manually import each level of the hierarchy.
+- **Efficient Navigation**: Seamless transitions between different levels of the dataset.
+- **Dynamic Map Loading**: Only necessary maps are fetched, optimizing performance.
 
-This feature is particularly useful when working with large datasets where multiple maps need to be managed dynamically.
+
