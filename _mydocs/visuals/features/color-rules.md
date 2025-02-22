@@ -4,7 +4,7 @@ title:              OKVIZ Color Rules
 menu_title:         Color Rules
 published:          true
 date:               2022-07-14
-modified:           2024-10-05
+modified:           2025-02-22
 order:              /02/color-rules        
 ---
 OKVIZ visuals allow you to change the color of the visual elements dynamically based on the data values. This feature is useful when you want to highlight specific elements based on the data values.
@@ -49,7 +49,7 @@ If the toggle is not enabled, Calendar Pro will apply the same rule to all the g
 You can manage the transition among the colors to associated values by changing the options for **Minimum**, **Center**, and **Maximum** as follows:
 - **Percentage**. The transition among colors can be at a certain percentage. This can be set by inserting a value in the dedicated box or by moving the percentage bar at the bottom.
 - **Value**. In this case, the transition can be set at precise values, instead of on a percentage base.
-- **Field**. If you need to display different fields, any field, in this case, will be colored with different colors.<todo>Check this</todo>
+- **Field**. In this case, the transition can be set based on the values of a specific field.
 - **Calculation**. In this case, you can set the transition of color based on calculation, using different mathematical operators.
 
 The **Below** and **Above** options allow you to visualize the transition among values with certain colors. Then, below or above certain values (or percentages) the cells can be colored differently. This will enlighten values in a certain range.

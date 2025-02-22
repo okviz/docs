@@ -3,13 +3,11 @@ layout:             page
 title:              Child Maps
 published:          true
 date:               2025-01-21
-modified:           2025-02-05
+modified:           2025-02-22
 order:              /synoptic-panel/concepts/maps/child-maps
 ---
 
-<todo>
-  Check if the following content is correct and complete. Add a screenshot if necessary.
-</todo>
+<todo>Check if the following content is correct and complete. Add a screenshot if necessary.</todo>
 
 **Child Maps** are maps linked to specific areas within a parent map. This feature enables dynamic and hierarchical navigation within the visual, allowing maps to appear based on the area of the parent map being drilled into.
 
@@ -17,9 +15,9 @@ order:              /synoptic-panel/concepts/maps/child-maps
 
 Each area of a parent map can have a [custom attribute](../../concepts/maps/svg-format.md#custom-attributes) that specifies the URL of a linked child map. Child maps can be linked using the following methods:
 
-- Manually: by setting the custom attribute `data-okviz-drill-url` directly in the SVG map file.
-- Using the Map Editor: by selecting in the [Area](../../features/map-editor/edit-map.md#area) section the **Drill To** tab, providing an URL for the child map.
-- Using AutoFetch: automatically fetches and links child maps based on specific settings. (Refer to the [AutoFetch](../../features/drill-mode.md#auto-fetch-mode) for more details.)
+- **Manually:** by setting the custom attribute `data-okviz-drill-url` directly in the SVG map file.
+- **Using the Map Editor:** by selecting in the [Area](../../features/map-editor/edit-map.md#area) section the **Drill To** tab, providing an URL for the child map.
+- **Using AutoFetch:** automatically fetches and links child maps based on specific settings. (Refer to the [AutoFetch](../../features/drill-mode.md#auto-fetch-mode) for more details.)
 
 ## Relationship Between Drill Paths and Child Maps
 

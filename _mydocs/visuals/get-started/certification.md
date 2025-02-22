@@ -55,7 +55,7 @@ Here are the main pros and cons of certified visuals compared to uncertified one
     - The updates are applied automatically, which can lead to unexpected changes in visuals behavior or report design without prior notice.
 
 - **❌ Update Latency**  
-    - The certification and deployment process takes up to 4 weeks, and it must be repeated on every visual update, so fixes can take a long time to be available to users.
+    - The certification and deployment **process takes up to 4 weeks**, and it must be repeated on every visual update, so fixes can take a long time to be available to users.
     - Version rollbacks (which are useful in case of regressions) are not immediate: they require 1 week to take effect.
 
 ### Uncertified Visuals

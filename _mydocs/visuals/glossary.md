@@ -3,15 +3,12 @@ layout:             page
 title:              Glossary
 published:          true
 date:               2024-05-12
-modified:           2024-11-28
+modified:           2025-02-22
 order:              /{99}
 ---
 
 This glossary contains definitions of uncommon terms used in this documentation or Power BI in general.
-<todo>
-Add these entries:
-    - Drilldown
-</todo>
+
 ## AppSource
 
 AppSource is Microsoft's marketplace for business applications, including Power BI visuals. You can find and install custom visuals from AppSource directly into your Power BI reports.
@@ -28,6 +25,12 @@ Microsoft's certification program for Power BI visuals guarantees that custom vi
 ## Data Point
 
 In Power BI, a "data point" refers to an individual value or item of data extracted from your dataset, represented in various forms across reports and visualizations. These data points are integral to visuals, where each point might represent a specific metric like daily sales or customer counts.
+
+## Drill Mode, Drill Down and Up
+
+Drill mode is a feature of Power BI that allows you to navigate through the data hierarchy of a visual. When the Drill Mode is enabled, Power BI provides a set of controls that allow you to drill down or up in the data hierarchy. For more information, see [Drill Mode](https://learn.microsoft.com/en-us/power-bi/consumer/end-user-drill).
+
+<img src="images/drill-controls.png" width="200">
 
 ## Field Well
 
