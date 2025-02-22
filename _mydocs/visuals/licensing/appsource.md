@@ -33,7 +33,7 @@ Here is an overview of the process required to obtain licenses for an OKVIZ visu
 
 3. Choose the plan that bets fits you requirements and press ***Next***.
 
-    <img src="images/aa-checkout.png" width="750">
+    <img src="images/as-checkout.png" width="750">
 
 4. Choose the billing terms, recurring option and the exact number of users to license.
 
