@@ -3,7 +3,7 @@ layout:             page
 title:              Color
 published:          true
 date:               2024-09-14
-modified:           2024-11-30
+modified:           2025-02-24
 order:              /synoptic-panel/options/areas/color
 ---
 
@@ -37,3 +37,9 @@ Select the color to use for matched areas background when the *Color* option is 
 **Default value:** 0%
 
 The transparency of the matched areas. The value ranges from 0% (completely opaque) to 100% (completely transparent).
+
+## Apply Color To
+
+**Default value:** Fill
+
+Apply the selected color to the fill or stroke of the matched areas.
