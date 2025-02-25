@@ -3,7 +3,7 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2024-05-10
-modified:           2025-02-24
+modified:           2025-02-25
 order:              /synoptic-panel/{99}
 toc_h_max:          2
 ---
@@ -18,6 +18,7 @@ Synoptic Panel uses **Power BI Custom Visuals API v5.11.0**.
 ### Improvements
 - Add [Apply To](./options/areas/color-matched.md) options for area colors
 - Add [Allow Empty Matched Area Selection](./options/advanced-options/misc.md#allow-empty-matched-area-selection) option 
+- Improve Auto-Fetch feature
 
 ## v2.2.9
 **Released:** 2025-02-21

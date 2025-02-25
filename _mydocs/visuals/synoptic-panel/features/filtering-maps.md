@@ -3,7 +3,7 @@ layout:             page
 title:              Filtering Maps
 published:          true
 date:               2024-05-10
-modified:           2025-02-05
+modified:           2025-02-25
 order:              /synoptic-panel/features/filtering-maps
 next_reading:       true
 ---
@@ -112,8 +112,8 @@ Another way to change maps based on a filter is using the **Map URLs** field wel
 Unfortunately, since the Map URLs feature causes a data aggregation on the client side, some limitations apply:
 - Drill mode is disabled
 - Conditional formatting is disabled. Instead, you can use the OKVIZ color rules, but these are limited compared to the built-in Power BI conditional formatting. For more information, see the [Dynamic Areas Colors](dynamic-colors.md) section.
-- Auto-fetching is disabled
-- The map selector is disabled
+- Auto-Fetch is disabled
+- Map Selector is disabled
 
 ## Single Data Point Maps
 

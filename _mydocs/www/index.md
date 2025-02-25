@@ -3,8 +3,7 @@ layout:         page
 title:          OKVIZ Website
 menu_title:     Website
 published:      true
-date:           2024-10-04
-modified:       2024-10-04
+no_date:        true
 order:          /website
 next_reading:   true
 ---

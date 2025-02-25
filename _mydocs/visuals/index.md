@@ -3,8 +3,7 @@ layout:         page
 title:          OKVIZ Visuals for Power BI
 menu_title:     Visuals for Power BI 
 published:      true
-date:           2022-05-04
-modified:       2025-02-21
+no_date:        true
 order:          /visuals
 next_reading:   true
 ---

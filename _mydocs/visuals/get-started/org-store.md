@@ -1,15 +1,15 @@
 ---
 layout:             page
-title:              Power BI Organizational Store
+title:              Power BI Organizational Visuals Store
 menu_title:         Org Store
 published:          true
 date:               2021-12-21
-modified:           2022-07-22
+modified:           2025-02-25
 order:              /01/04
 toc:                false
 ---
 
-The Power BI Organizational Store is the best way to share custom visuals within your organization. This is especially useful for custom visuals not available in the public marketplace (AppSource). The Org Store is automatically included in your Power BI Pro license and the visuals stored there can be used both from Power BI Desktop and service.
+The Power BI Organizational Visuals store (Org Store) is the best way to share custom visuals within your organization. This is especially useful for custom visuals not available in the public marketplace (AppSource). The Org Store is automatically included in your Power BI Pro license and the visuals stored there can be used both from Power BI Desktop and service.
 
 <img src="images/org-store.png">
 

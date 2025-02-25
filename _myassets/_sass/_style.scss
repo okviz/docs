@@ -16,3 +16,16 @@ table {
     border-width: 2px !important;
     padding:6px 10px !important;
 }
+
+.front-site {
+    h2 {
+        border: none;
+    }
+    .visual-cards {
+        margin-bottom: 40px;
+        .card {
+            flex: 0 1 38%;
+        }
+    }
+
+}

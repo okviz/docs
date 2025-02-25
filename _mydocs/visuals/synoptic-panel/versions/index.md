@@ -36,6 +36,8 @@ Synoptic Panel is available in three different versions:
     - **Licensed with OKVIZ license**
         - No features limitations.
 
+    > [Download and try Synoptic Panel v2](https://okviz.com/synoptic-panel/) from our website.
+
 - **Synoptic Panel Lite**: A simplified version of the v2 that offers a subset of the features available in the full version. **This version is certified by Microsoft** since it doesn't connect to any external service.
 
     *Limitations*:
@@ -43,6 +45,8 @@ Synoptic Panel is available in three different versions:
     - No Power BI Embedded (Publish To Web, PaaS embed) / Report Server / National Clouds, since the AppSource licensing model doesn't support these scenarios.
     - No [My Storage](../features/my-storage.md) support.
     - No support for remote maps.
+
+    > [Download Synoptic Panel Lite](https://appsource.microsoft.com/en-us/product/power-bi-visuals/okvizcorp1634637213047.synopticpanelbyokviz-lite) from AppSource.
 
 
 ### Features Comparison

@@ -3,7 +3,7 @@ layout:             page
 title:              Creating SVG Files
 published:          true
 date:               2024-05-26
-modified:           2024-09-13
+modified:           2025-02-25
 order:              /synoptic-panel/concepts/maps/02
 next_reading:       true
 ---
@@ -46,7 +46,7 @@ Since SVG files are very similar to HTML, you can edit them with any text editor
 
 Textual editing is **not necessary** but could be useful in the following cases:
 
-- Enable the [Auto-Fetch mode](../../features/drill-mode.md#auto-fetch-mode).
+- Enable [Auto-Fetch](../../features/auto-fetch.md).
 - Forcing the binding of an element of your map to a specific data point, regardless of its id. See more on [Data Binding](../data-binding.md).
 - Link an area to a remote map, so to enable users to switch between different maps with drill-down actions. [Drill Mode](../../features/drill-mode.md) is required.
 - Add a custom style to an element bypassing the visual settings. See more on [Custom Attributes](svg-format.md#custom-attributes).

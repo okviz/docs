@@ -18,6 +18,4 @@ It includes unique features like:
 
 <img src="images/calendar-pro.png" width="600" class="naked" alt="Calendar pro">
 
-Discover more on [okviz.com/calendar-pro](https://okviz.com/calendar-pro)
-
-> [Download and try Calendar Pro](https://appsource.microsoft.com/en-US/product/power-bi-visuals/okvizcorp1634637213047.calendarprobyokviz) from the Microsoft AppSource.
+> [Download and try Calendar Pro](https://okviz.com/calendar-pro/) from our website.

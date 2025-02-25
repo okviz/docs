@@ -5,7 +5,6 @@ published:          true
 date:               2024-05-10
 modified:           2025-02-05
 order:              /synoptic-panel/features/drill-mode
-next_reading:       true
 ---
 
 The Drill Mode is a feature of Power BI that allows you to navigate through the data hierarchy of a visual. When the Drill Mode is enabled, Power BI provides a set of controls that allow you to drill down or up in the data hierarchy. See more in the [official documentation](https://learn.microsoft.com/en-us/power-bi/consumer/end-user-drill).
@@ -106,27 +105,19 @@ Synoptic Panel offers some advanced options to control the behavior of the Drill
 - [Category Level Maps](./../options/drill-behavior/category-level-maps.md)
 - [Aggregate on Expand](./../options/drill-behavior/aggregate-on-expand.md)
 
+## Child Maps
 
-## Auto-Fetch Mode
+Child Maps are maps that are not manually imported in the visual but are **fetched automatically** when you drill down on a specific area with a special attribute or that satisfies the Auto-Fetch conditions. 
 
-The Auto-Fetch mode is an advanced feature that enables Synoptic Panel to automatically retrieve [Child Maps](./../concepts/maps/child-maps.md) based on ***Matched*** areas in a remote map. This functionality streamlines the process of handling hierarchical maps by dynamically loading child maps without manual import.
+You can setup child maps in three ways:
 
-When a remote map is loaded, Synoptic Panel checks each matched area (i.e., areas that successfully bind to a data point) and attempts to fetch a corresponding child map. The expected file name for each child map is the same as the matched area’s data point id, and it is assumed to be located at the same base URL as the parent map.
+- **Manually:** by adding the custom attribute `data-okviz-drill-url` to any area directly in the SVG map file. This attribute must contain the URL of a child map to link.
 
-For example, if a remote map is loaded from: 
+- **Using the Map Editor:** by selecting the **Drill To** property of an area and providing an URL for the child map.
 
-`https://example.com/maps/main.svg` 
+    <img src="images/drill-to.png" width="300">
 
-and a matched area has a data point id of `sector1`, Synoptic Panel will attempt to fetch the child map from: 
+- **Using AutoFetch (Remote Maps only):** by enabling Auto-Fetch and naming the child map with the id of the areas that should be linked. 
+See [AutoFetch](auto-fetch.md) for more details.
 
-`https://example.com/maps/sector1.svg`.
-
-If the file exists and is a valid SVG map, it will be automatically used as the child map for that area. If no such file is found, no additional map will be loaded.
-
-Using the Auto-Fetch mode provides several benefits:
-
-- **Automated Map Hierarchy Handling**: No need to manually import each level of the hierarchy.
-- **Efficient Navigation**: Seamless transitions between different levels of the dataset.
-- **Dynamic Map Loading**: Only necessary maps are fetched, optimizing performance.
-
-
+> Even though child maps are not directly tied to a specific drill path, they will no longer appear in the visual or the editor once their parent map is deleted. Also, child maps cannot be deleted individually. To remove a child map, you must delete its parent map or manually remove the attribute linking it to the parent map, either using the Map Editor or by editing the SVG code.

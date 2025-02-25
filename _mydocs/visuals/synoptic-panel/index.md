@@ -15,12 +15,12 @@ next_reading:       true
 
 Synoptic Panel is available in three different versions:
 
-- **Synoptic Panel v1**: The original version of the visual which is now deprecated.
-
 - **Synoptic Panel v2**: The latest and most advanced version of the visual.
 
 - **Synoptic Panel Lite**: A simplified, limited version of the v2 which is certified by Microsoft.
 
-For more information about the different versions, see the [Versions page](versions/index.md).
+- **Synoptic Panel v1**: The original version of the visual which is now deprecated.
+
+Learn more on the [Versions page](versions/index.md).
 
 >> **IMPORTANT**: The documentation on this site refers to the latest version of Synoptic Panel (v2) unless otherwise specified. If you are still using the original version (v1), we recommend upgrading to the latest version to take advantage of the new features and improvements.
