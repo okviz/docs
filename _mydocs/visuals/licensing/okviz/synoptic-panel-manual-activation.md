@@ -4,7 +4,7 @@ title:              Synoptic Panel Manual Activation
 menu_title:         Synoptic Panel Activation
 published:          true
 date:               2025-02-22
-modified:           2025-02-22
+modified:           2025-02-25
 order:              /licensing/okviz/synoptic-panel-manual-activation
 ---
 
@@ -20,7 +20,7 @@ If you use Synoptic Panel from AppSource, you have opted for a [hybrid licensing
 
     <img src="images/entra-consent-screen2.png" width="350">
 
-    >> The Entra token could be disabled in your organization. If you encounter issues with the authorization or you don't see the dialog, please contact your tenant administrator.
+    >> The Entra token could be disabled in your organization. If you encounter issues with the authorization or you don't see the dialog, please contact your tenant administrator. More info on [Grant tenant-wide admin consent to an application](https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/grant-admin-consent).
 
 3. Click the **Activate License** button in the visual properties to open the license activation dialog.
 
