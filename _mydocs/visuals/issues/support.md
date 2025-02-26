@@ -3,7 +3,7 @@ layout:             page
 title:              Support
 published:          true
 date:               2021-12-03
-modified:           2025-02-21
+modified:           2025-02-26
 order:              /03/03
 ---
 OKVIZ offers direct support to users who have problems with premium visuals and provides a dedicated forum for assistance with free visuals.
@@ -35,23 +35,42 @@ For issues with **premium visuals**, use a dedicated repository on Github:
 
 ### Diagnostic Data
 
-In some cases, when, for example, you cannot share reports with us and cannot reproduce the problem locally with dummy data, we may ask you to send us visual diagnostic data. To do so:
+In certain situations, such as when you are unable to share reports with us and cannot replicate the issue locally using dummy data, we may request visual diagnostic data from you.
 
-1. Open your report with [Power BI service](https://app.powerbi.com)
+You can collect this data in two ways:
 
-2. Click the ***About*** settings section of the visual and activate the ***Diagnostics*** toggle.
+- **Using the inline console** (available in some visuals)
 
-    <img src="images/diagnostics.png" width="200">
+    1. Open the visual settings, navigate to the ***About*** section, and activate the ***Show Diagnostics*** toggle. If the visual has an ***Inline Console*** option, activate it too.
 
-3. Open the browser console panel - With Chrome you can just press Ctrl + Shift + J (Cmd + Option + J on Mac);  alternatively, you can use the top right menu in the browser window, select the option ***More Tools***, then ***Developer Tools*** and click the ***Console*** tab.
+        <img src="images/diagnostics-inline.png" width="250">
 
-4. Be sure to clear all filters from the console by clicking the drop-down menu next to the filter input box.
+    2. Reproduce the issue in your report.
 
-5. Right-click on the empty space of the console panel and choose **Save as...**
+    3. Click the ***Export*** button in the inline console to save the log to a file.
 
-    <img src="images/save-console.png" width="650">
+        <img src="images/inline-console.png" width="600">
 
-6. Take a screenshot of the console and [send it us](mailto:support@okviz.com) along with the file you just saved on your system.
+    4. [Send the file to us](mailto:support@okviz.com) along with a detailed description of the issue.
+
+
+- **Using the browser console**
+
+    1. Open your report with [Power BI service](https://app.powerbi.com)
+
+    2. Open the visual settings, navigate to the ***About*** section, and activate the ***Show Diagnostics*** toggle.
+
+    <img src="images/diagnostics.png" width="250">
+
+    3. Open the browser console panel - With Chrome you can just press Ctrl + Shift + J (Cmd + Option + J on Mac);  alternatively, you can use the top right menu in the browser window, select the option ***More Tools***, then ***Developer Tools*** and click the ***Console*** tab.
+
+    4. Be sure to clear all filters from the console by clicking the drop-down menu next to the filter input box.
+
+    5. Right-click on the empty space of the console panel and choose **Save as...**
+
+        <img src="images/save-console.png" width="650">
+
+    6. Take a screenshot of the console and [send it us](mailto:support@okviz.com) along with the file you just saved on your system.
 
 
 ### Microsoft Support
