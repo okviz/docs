@@ -3,7 +3,7 @@ layout:         page
 title:          About
 published:      true
 date:           2022-07-07
-modified:   	2025-02-22
+modified:   	2025-02-27
 order:          /bullet-chart/options/about
 internal:       about, name, version, license, diagnostics
 toc:            false
@@ -24,3 +24,11 @@ If selected, this option logs significant information and errors in the script c
 <img src="images/about-diagnostics.png">
 
 > **NOTE**: This could affect the performance of your report.
+
+
+## Inline Console
+**Default value:** Off
+
+If enabled, this option allows Bullet Chart to display a console in the visual interface.
+
+> This option is not available in Power BI Desktop, where the inline console is enabled by default.

@@ -3,12 +3,18 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2022-07-15
-modified:           2025-02-20
+modified:           2025-02-27
 order:              /bullet-chart/{99}
 toc_h_max:            2
 ---
 This page contains a quick summary of versions and notable changes of Bullet Chart.  
 Bullet Chart uses **Power BI Custom Visuals API v5.11.0**.
+
+# v2.3.8
+**Released:** 2025-02-27
+
+### Improvements
+- Add [inline console](./options/about/index.md#inline-console) for diagnostics
 
 ## v2.3.7
 **Released:** 2025-02-20

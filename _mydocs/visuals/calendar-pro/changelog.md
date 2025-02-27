@@ -3,7 +3,7 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2022-07-17
-modified:           2025-02-20
+modified:           2025-02-27
 order:              /calendar-pro/{99}
 toc_h_max:            2
 ---
@@ -11,10 +11,11 @@ This page contains a quick summary of versions and notable changes of Calendar P
 Smart Filter Pro uses **Power BI Custom Visuals API v5.11.0**.
 
 ## v1.1.0
-**Released:** 2025-02-25
+**Released:** 2025-02-27
 
 ### Improvements
 - Add new [Event Colors](./fields/event-colors.md) field well
+- Add [inline console](./options/about/index.md#inline-console) for diagnostics
 
 ## v1.0.10
 **Released:** 2025-02-20

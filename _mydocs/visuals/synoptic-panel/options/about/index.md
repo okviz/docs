@@ -26,4 +26,4 @@ If enabled, this option allows Synoptic Panel to log significant information and
 
 If enabled, this option allows Synoptic Panel to display a console in the visual interface.
 
-> This option is not available in Power BI Desktop, where is enabled by default.
+> This option is not available in Power BI Desktop, where the inline console is enabled by default.

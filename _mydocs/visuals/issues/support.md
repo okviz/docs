@@ -49,7 +49,7 @@ You can collect this data in two ways:
 
     3. Click the ***Export*** button in the inline console to save the log to a file.
 
-        <img src="images/inline-console.png" width="600">
+        <img src="images/export-inline-console.png" width="500">
 
     4. [Send the file to us](mailto:support@okviz.com) along with a detailed description of the issue.
 
