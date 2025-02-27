@@ -3,7 +3,7 @@ layout:             page
 title:              Matching
 published:          true
 date:               2021-12-16
-modified:           2021-12-17
+modified:           2025-02-27
 toc:                false
 order:              /smart-filter-pro/options/mode/matching
 internal:           searchCondition
@@ -17,14 +17,16 @@ This option allows you to define how the search is performed with the Search mod
 
 You can choose between: 
 - [Exact Match](#exact-match)
-- [Contains/Wildcards](#contains/wildcards)
+- [Contains/Wildcards](#containswildcards)
+- [Contains](#contains)
+- [Starts With](#starts-with)
 - [Interactive](#interactive)
 
 This feature is similar to the [Default Condition for Text](default-text-condition.md) of Filter mode, but introduces fundamental differences. 
 
 ## Exact Match
 
-Let us say you want to filter with the Audio category. If you type `audio` and the Matching value is chosen as ***Exact match***, then the results will be filtered displaying category that is exactly equal to ***audio***.
+Let us say you want to filter with the Audio category. If you type `audio` and the Matching value is chosen as ***Exact Match***, then the results will be filtered displaying category that is exactly equal to ***audio***.
 
 > Note that the search is always case insensitive.
 
@@ -32,11 +34,19 @@ Let us say you want to filter with the Audio category. If you type `audio` and t
 
 ## Contains/Wildcards
 
-If you choose ***Contains/wildcards*** as the Matching value, then you can specify any keyword to have items containing that keyword, or even wildcards can be applied explicitly.
+If you choose ***Contains/Wildcards*** as the Matching value, then you can specify any keyword to have items containing that keyword, or even wildcards can be applied explicitly.
 
 <img src="images/matching-2.png" width="700">
 
 For instance, in the above example where the keyword `audio` is specified in the search box, you will see all the categories containing ***audio***, including the category ***Music, Movies, and Audio Books***. 
+
+## Contains
+
+Like the previous option, ***Contains*** allows you to specify any keyword to have items containing that keyword. However, **wildcards are not allowed**.
+
+## Starts With
+
+If you choose ***Starts With*** as the Matching value, then you can specify any keyword to have items starting with that keyword.
 
 ## Interactive
 

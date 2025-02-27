@@ -3,12 +3,24 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2018-06-01
-modified:           2025-02-19
+modified:           2025-02-27
 order:              /smart-filter-pro/{99}
 toc_h_max:            2
 ---
 This page contains a quick summary of versions and notable changes of Smart Filter Pro.  
 Smart Filter Pro uses **Power BI Custom Visuals API v1.13.0** - compatible with Power BI Desktop July 2018 and later versions.
+
+## v2.3.5
+**Released:** 2025-02-27
+
+### Improvements
+- Add the ability to force ***Contains*** (without wildcards) and ***Starts With*** as search behaviors in Search mode.
+
+## v2.3.4
+**Released:** 2025-02-26
+
+### Bug Fixes
+- Minor fixes
 
 ## v2.3.3
 **Released:** 2025-02-19
