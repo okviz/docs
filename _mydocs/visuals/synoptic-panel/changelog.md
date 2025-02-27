@@ -3,7 +3,7 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2024-05-10
-modified:           2025-02-26
+modified:           2025-02-27
 order:              /synoptic-panel/{99}
 toc_h_max:          2
 ---
@@ -11,6 +11,12 @@ This page contains a quick summary of versions and notable changes of Synoptic P
 Synoptic Panel uses **Power BI Custom Visuals API v5.11.0**.
 
 > **NOTE:** Synoptic Panel Lite is a subset of Synoptic Panel with limited features. Both versions share the same codebase and changelog.
+
+## v2.3.1
+**Released:** 2025-02-27
+
+### Improvements
+- Minor changes
 
 ## v2.3.0
 **Released:** 2025-02-26
