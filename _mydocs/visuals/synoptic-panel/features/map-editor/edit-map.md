@@ -74,7 +74,7 @@ This is the default value. Selecting this option means that selected area will k
         - By default, the field is set to ”(Auto)”, meaning that if the corresponding SVG element contains a `<title>` tag, its content will automatically be used as the label.
 	    - If no `<title>` tag is present, you can manually input a custom value to serve as the label for the area.
 
-- **Drill To**: here you can insert the URL of a map that must be loaded when the user drill down on this area. This means basically that you are adding a [Child Map](./../../concepts/maps/child-maps.md) to the current map, and the user will be able to navigate to it by clicking on the area.
+- **Drill To**: here you can insert the URL of a map that must be loaded when the user drill down on this area.
     
     <img src="./images/edit-drill-to.png" width="400">
 

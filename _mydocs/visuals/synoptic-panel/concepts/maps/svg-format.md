@@ -3,7 +3,7 @@ layout:             page
 title:              SVG Format
 published:          true
 date:               2024-05-10
-modified:           2025-02-25
+modified:           2025-02-28
 order:              /synoptic-panel/concepts/maps/01
 next_reading:       true
 ---

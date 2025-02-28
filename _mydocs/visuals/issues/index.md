@@ -51,4 +51,4 @@ Visuals installed from OKVIZ must be updated manually by the user in every repor
 
 ### Rollback
 
-Users can download a previous version (without regression bugs) of the visual directly from the their [account dashboard](https://okvz.com/account/) and install it manually in their reports.
+Users can download a previous version (without regression bugs) of the visual directly from the their [account dashboard](https://okviz.com/account/) and install it manually in their reports.
