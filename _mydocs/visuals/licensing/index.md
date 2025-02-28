@@ -1,9 +1,10 @@
 ---
 layout:             page
-title:              Licensing
+title:              Licensing Overview
+menu_title:         Licensing
 published:          true
 date:               2024-08-14
-modified:           2025-02-22
+modified:           2025-02-28
 order:              /04
 ---
 
