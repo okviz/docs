@@ -10,4 +10,4 @@ Smart Filter is a premium visual that requires a license to use.
 
 Available licensing options:
 
-- [**OKVIZ Licensing**](../licensing/index.md)
+- [**OKVIZ Licensing**](../licensing/okviz/index.md)
