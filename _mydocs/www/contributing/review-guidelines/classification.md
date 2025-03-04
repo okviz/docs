@@ -4,7 +4,7 @@ title:          Visual Classification
 menu_title:     Classification
 published:      true
 date:           2024-10-08
-modified:       2024-10-22
+modified:       2025-03-04
 order:          /website/contributing/review-guidelines/classification
 ---
 
@@ -109,6 +109,7 @@ Display data in a grid format. Components include rows, columns, and cells.
 - Matrix
 - Table
 - Heatmap
+- Writeback
 
 ### Temporal Charts
 

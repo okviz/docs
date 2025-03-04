@@ -3,7 +3,7 @@ layout:         page
 title:          Rating System
 published:      true
 date:           2024-10-04
-modified:       2024-10-19
+modified:       2025-03-04
 order:          /website/contributing/review-guidelines/rating-system
 ---
 
@@ -58,8 +58,8 @@ While you won't need to consider weights in your evaluation directly, please be 
 
 Please use our latest checklist to evaluate a visual. For each feature, select the appropriate option based on your assessment.
 
-**Version**: 2.1.2   
-**Date**: 2025-01-09
+**Version**: 2.1.3   
+**Date**: 2025-03-04
 
 <a href="files/okviz-rating-checklist.xlsm" class="icon-download">Download Rating Checklist (.xlsm)</a>
 
