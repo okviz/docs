@@ -3,7 +3,7 @@ layout:             page
 title:              Certification
 published:          true
 date:               2021-11-17
-modified:           2025-02-21
+modified:           2025-03-07
 order:              /01/05
 ---
 
@@ -25,7 +25,7 @@ The certification guarantees that the visual meets certain requirements like:
 
 The certification is optional; vendors do not need to apply it to their visuals for publication in AppSource.
 
->> **Non-certified Power BI visuals are NOT automatically unsafe.** They may not have been certified for various reasons, such as using proprietary licensing systems or allowing users to use remote resources.
+>> **Uncertified Power BI visuals are NOT automatically unsafe.** They may not have been certified for various reasons, such as using proprietary licensing systems or allowing users to use remote resources.
 
 ## Pros and Cons
 
