@@ -60,8 +60,6 @@ Here are the main pros and cons of certified visuals compared to uncertified one
 
 ### Uncertified Visuals
 
-> **NOTE:** The following pros and cons consider cases where uncertified visuals are installed from the vendor’s website. Since uncertified visuals can also be published on AppSource, some of the cons—particularly those related to the update process—may not apply.
-
 - **Vendor Trust**  
     - You must rely on the custom visuals vendor’s commitment to security and reliability.
 
@@ -77,6 +75,7 @@ Here are the main pros and cons of certified visuals compared to uncertified one
 - **✅ Version Control**  
     - Organizations can decide when to update visuals or roll back to a previous version, offering better management of potential issues and regressions.
 
+> **NOTE:** The above pros and cons consider cases where uncertified visuals are installed from the vendor’s website. Since uncertified visuals can also be published on AppSource, some of the cons—particularly those related to the update process—may not apply.
 
 In summary:
 
