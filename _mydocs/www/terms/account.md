@@ -4,7 +4,7 @@ title:              Account Policy
 published:          true
 toc_h_max:          2
 date:               2025-02-08
-modified:           2025-02-08
+modified:           2025-03-07
 order:              /legal/01
 pdf:                true
 ---
@@ -28,7 +28,7 @@ This Account Policy (“Policy”) sets forth the rules and conditions under whi
 
 ## 4. Account Deletion
 
-- **User-Initiated Deletion:** You may request that your account be deleted at any time by contacting our support team at [support@okviz.com](mailto:support@okviz.com?subject=Delete%20Account). We will process such requests promptly, subject to any outstanding obligations.
+- **User-Initiated Deletion:** You may request that your account be deleted at any time by contacting our support team at [info@okviz.com](mailto:info@okviz.com?subject=Delete%20Account). We will process such requests promptly, subject to any outstanding obligations.
 - **Data Retention:** Upon deletion, we will remove personal information from your account in accordance with our [Privacy Policy](./privacy.md). However, some information may be retained for legal or administrative reasons as described therein.
 
 
@@ -67,4 +67,4 @@ This Account Policy (“Policy”) sets forth the rules and conditions under whi
 
 ## 10. Contact Information
 
-If you have any questions or concerns regarding this Account Policy or need assistance with your account, please contact us at [support@okviz.com](mailto:support@okviz.com?Account%20Policy) 
+If you have any questions or concerns regarding this Account Policy or need assistance with your account, please contact us at [info@okviz.com](mailto:info@okviz.com?subject=Account%20Policy) 

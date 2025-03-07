@@ -4,7 +4,7 @@ title:              Licensing Overview
 menu_title:         Licensing
 published:          true
 date:               2024-08-14
-modified:           2025-02-28
+modified:           2025-03-07
 order:              /04
 ---
 
@@ -124,7 +124,7 @@ Choosing the right license depends on your specific needs:
 - **Hybrid Licensing (Smart Filter Pro/Synoptic Panel only)**  
   Choose this option if you want the ease of AppSource distribution combined with OKVIZ’s direct license management. While it offers a convenient installation process, keep in mind that it inherits AppSource’s limitations in platform support and version control.
 
-If you need further guidance or have additional questions, please [contact our support team](mailto:support@okviz.com).
+If you need further guidance or have additional questions, please [contact our administrative support team](mailto:info@okviz.com).
 
 ## Purchasing and Activating Your License
 

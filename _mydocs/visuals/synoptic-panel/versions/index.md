@@ -3,9 +3,8 @@ layout:             page
 title:              Versions
 published:          true
 date:               2024-09-10
-modified:           2024-09-10
+modified:           2025-03-07
 order:              /synoptic-panel/00
-next_reading:       true
 ---
 Synoptic Panel is available in three different versions:
 
@@ -14,7 +13,7 @@ Synoptic Panel is available in three different versions:
 
 - **Synoptic Panel v1**: The original version of the visual (released in 2015), which is still available for download and use for a limited time.
 
-    >> This version is no longer supported and will be discontinued in the next future.
+    >> **IMPORTANT:** This version is deprecated. Find more information in the [v1 - Legacy](./v1-legacy.md) page.
 
 - **Synoptic Panel v2**: The latest and most advanced version of the visual, which replaces the previous legacy version. This version has been rewritten starting from scratch in 2024 to take advantage of the latest Power BI APIs and to provide a more robust and flexible solution, including new features and improvements.
 

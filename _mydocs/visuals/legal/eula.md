@@ -4,7 +4,7 @@ title:              End User License Agreement
 menu_title:         EULA
 published:          true
 date:               2019-01-15
-modified:           2024-12-09
+modified:           2025-03-07
 toc_h_max:          2
 order:              /legal/eula
 pdf:                true
@@ -144,13 +144,13 @@ It is the licensee’s responsibility to ensure that the chosen licensing model 
 
 **9.6** The amount charged on the next billing cycle will be automatically updated to reflect any changes to the subscription, including upgrades, downgrades, or the addition or subtraction of users. Subscription changes, including downgrades, may result in loss of access to Content, features, or an increase or reduction in the amount of available capacity for Content provided by the Service.
 
-**9.7** All prices are subject to change upon notice. Such notice may be provided by an e-mail message to the Administrator, via the OKVIZ website, or in the form of an announcement on the Service. OKVIZ has different pricing tiers for certain volume accounts, or for accounts embedded on websites. Please contact OKVIZ at support@okviz.com for more information on volume pricing or embedded pricing.
+**9.7** All prices are subject to change upon notice. Such notice may be provided by an e-mail message to the Administrator, via the OKVIZ website, or in the form of an announcement on the Service. OKVIZ has different pricing tiers for certain volume accounts, or for accounts embedded on websites. Please contact OKVIZ at [info@okviz.com](mailto:info@okviz.com) for more information on volume pricing or embedded pricing.
 
 **9.8** Subscriber is responsible for paying all taxes associated with the subscription to the Service. If OKVIZ has the legal obligation to pay or collect taxes for which Subscriber is responsible under this section, the appropriate amount shall be invoiced to and paid by Subscriber, unless Subscriber provides OKVIZ with a valid tax exemption certificate authorized by the appropriate taxing authority.
 
 **9.9** Any and all payments by or on account of the compensation payable under this Agreement shall be made free and clear of and without deduction or withholding for any taxes. If the Subscriber is required to deduct or withhold any taxes from such payments, then the sum payable shall be increased as necessary so that, after making all required deductions or withholdings, OKVIZ receives an amount equal to the sum it would have received had no such deduction or withholding been made.
 
-**9.10** Any payment not received from Subsciber by the due date may accrue, at OKVIZ’s discretion, as late charges at the rate of one and one-half percent (1.5%) of the outstanding balance per month, or at the maximum rate permitted by law, whichever is lower, from the date such payment was due until the date paid. Such late charge shall also include, at OKVIZ’s discretion, its reasonable fees to collect such non-payment.
+**9.10** Any payment not received from Subscriber by the due date may accrue, at OKVIZ’s discretion, as late charges at the rate of one and one-half percent (1.5%) of the outstanding balance per month, or at the maximum rate permitted by law, whichever is lower, from the date such payment was due until the date paid. Such late charge shall also include, at OKVIZ’s discretion, its reasonable fees to collect such non-payment.
 
 ## 10. Cancellation and Termination
 
@@ -184,7 +184,7 @@ It is the licensee’s responsibility to ensure that the chosen licensing model 
 
 ## 14. Miscellaneous
 
-**14.1** Technical support is available to Authorized Users with active subscriptions, and is available by email at support@okviz.com. Such technical support is only available to such Authorized Users who have otherwise complied with this Agreement and have not modified any code of the Service. For active paid subscriptions, OKVIZ endeavors to provide email support by the next business day. For errors or bugs caused by OKVIZ and not by a third-party or integration with a third-party, OKVIZ endeavors to resolve such error or bug within five (5) business days. OKVIZ’s failure to respond, address, or resolve any such issue within the foregoing timeframes shall not be a basis for any claim against OKVIZ; and in any event, OKVIZ’s liability is subject to the limits in Section 11.2.
+**14.1** Technical support is available to Authorized Users with active subscriptions, and is available by email at [support@okviz.com](mailto:support@okviz.com). Such technical support is only available to such Authorized Users who have otherwise complied with this Agreement and have not modified any code of the Service. For active paid subscriptions, OKVIZ endeavors to provide email support by the next business day. For errors or bugs caused by OKVIZ and not by a third-party or integration with a third-party, OKVIZ endeavors to resolve such error or bug within five (5) business days. OKVIZ’s failure to respond, address, or resolve any such issue within the foregoing timeframes shall not be a basis for any claim against OKVIZ; and in any event, OKVIZ’s liability is subject to the limits in Section 11.2.
 
 **14.2** Subscriber acknowledges and agrees that OKVIZ may use third party vendors and hosting partners to provide the necessary hardware, software, networking, storage, and related technology required to run the Service.
 
@@ -208,6 +208,10 @@ It is the licensee’s responsibility to ensure that the chosen licensing model 
 
 
 ## Changes to this Agreement
+
+### 2025-03-07
+
+- We updated the email address for contacting OKVIZ support regarding non-technical issues.
 
 ### 2025-02-13
 

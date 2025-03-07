@@ -5,7 +5,7 @@ menu_title:         Privacy Policy
 published:          true
 toc_h_max:          2
 date:               2024-12-09
-modified:           2024-12-09
+modified:           2024-03-07
 order:              /legal/privacy-policy
 pdf:                true
 ---
@@ -13,7 +13,7 @@ pdf:                true
 This document explains how OKVIZ Corp. and its affiliates (“Company,” “we,” “us,” or “our”) use the data you provide through our Custom Visuals for Microsoft Power BI (“Custom Visual”) distributed via Microsoft AppSource or provided privately. Please note that this Privacy Policy only applies to our Custom Visuals. Our website and other online services may be subject to a separate privacy policy. By using the Custom Visual or submitting information through it (directly or indirectly), you agree that we may process the data you provide in accordance with this Privacy Policy.
 
 ## Data Controller and Owner 
-OKVIZ Corp. – [support@okviz.com](mailto:support@okviz.com])  
+OKVIZ Corp. – [info@okviz.com](mailto:info@okviz.com])  
 5348 Vegas Drive - Las Vegas, NV 89108
 
 ## Usage of Your Data by Company
@@ -73,13 +73,13 @@ The Custom Visual or related documentation may contain links to external sites. 
 
 We will not retain your data longer than necessary to fulfill the purposes for which it was collected or as required by applicable laws. If no statutory obligation exists, we will delete your data if you request us to do so. In such cases, certain services or functionalities may become limited or unavailable.
 
-If you have questions about data retention or wish to have your data deleted, please contact us at [support@okviz.com](mailto:support@okviz.com]).
+If you have questions about data retention or wish to have your data deleted, please contact us at [info@okviz.com](mailto:info@okviz.com]).
 
 ## Contacting You
 
 We may contact you by email, SMS, phone, or other methods if you provide the necessary contact details and do not opt out of such communications. If you choose to give us your email address, we will communicate with you via email but will not share your email address outside Company and its affiliates, except as required for our business relationship or for registering you for third-party services at your request.
 
-You can choose not to receive marketing emails at any time by following the unsubscribe instructions or contacting us at [support@okviz.com](mailto:support@okviz.com]). However, this will not affect emails necessary to perform our business relationship or to comply with legal obligations.
+You can choose not to receive marketing emails at any time by following the unsubscribe instructions or contacting us at [info@okviz.com](mailto:info@okviz.com]). However, this will not affect emails necessary to perform our business relationship or to comply with legal obligations.
 
 ### Opt-Out
 
@@ -88,3 +88,9 @@ For marketing-related communications, we will only provide such information afte
 ---
 
 **By using the Custom Visual, you acknowledge and accept this Privacy Policy.** If you do not agree with this Privacy Policy, please refrain from using the Custom Visual.
+
+## Changes to this Policy
+
+### 2025-03-07
+
+- We updated the email address for contacting OKVIZ support.

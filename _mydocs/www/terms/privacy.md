@@ -4,7 +4,7 @@ title:              Privacy Policy
 published:          true
 toc_h_max:          2
 date:               2024-12-31
-modified:           2025-02-12
+modified:           2025-03-07
 order:              /legal/02
 ---
 
@@ -15,9 +15,8 @@ This Privacy Policy explains how this Application collects, uses, processes, and
 ## Owner and Data Controller
 
 **OKVIZ Corp.**  
-Email: [support@okviz.com](mailto:support@okviz.com)  
+Email: [info@okviz.com](mailto:info@okviz.com)  
 Address: 5348 Vegas Drive, Las Vegas, NV 89108
-
 
 
 ## Types of Data Collected
@@ -608,3 +607,9 @@ Any technology (e.g., Cookies, unique identifiers, web beacons, embedded scripts
 This Privacy Statement has been prepared in accordance with provisions from multiple legislations.
 
 This Privacy Policy applies solely to this Application unless otherwise stated.
+
+## Changes to this Policy
+
+### 2025-03-07
+
+- We updated the email address for contacting OKVIZ support.

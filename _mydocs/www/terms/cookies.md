@@ -4,7 +4,7 @@ title:              Cookie Policy
 published:          true
 toc_h_max:          2
 date:               2024-12-31
-modified:           2025-02-12
+modified:           2025-03-07
 order:              /legal/03
 ---
 
@@ -85,7 +85,7 @@ While you are free to block Trackers, please note that doing so may affect certa
 ## Owner and Data Controller
 
 **OKVIZ Corp.**  
-Email: [support@okviz.com](mailto:support@okviz.com)  
+Email: [info@okviz.com](mailto:info@okviz.com)  
 Address: 5348 Vegas Drive, Las Vegas, NV 89108
 
 Because we cannot fully control the use of third-party Trackers on this Application, any references to such Trackers are provided for informational purposes only. For complete details, please refer to the privacy policies of the respective third-party services listed in this document. Due to the complexity of tracking technologies, if you need further information on how these are used, please contact the Owner.
@@ -141,3 +141,9 @@ A Tracker refers to any technology—for example, Cookies, unique identifiers, w
 #### Legal Information
 
 This privacy statement has been prepared based on provisions from multiple legislations. This privacy policy relates solely to this Application, unless stated otherwise.
+
+## Changes to this Policy
+
+### 2025-03-07
+
+- We updated the email address for contacting OKVIZ support.

@@ -5,7 +5,7 @@ menu_title:         Refund Policy
 published:          true
 toc_h_max:          2
 date:               2024-12-31
-modified:           2025-02-08
+modified:           2025-03-07
 order:              /legal/05
 pdf:                true
 ---
@@ -30,4 +30,4 @@ The refunds for purchases made from third party marketplaces, retailers, and res
 If you have purchased an automatically renewing Subscription on our Websites and would like to stop it from automatically renewing, you can do so at any time by contacting us. Canceled Subscriptions will not be refunded for the unused part of the ongoing Service period.
 
 ## 7. Contact Information
-Contact us at [support@okviz.com](mailto:support@okviz.com?subject=Refund%20Policy) for questions related to refunds and returns.
+Contact us at [info@okviz.com](mailto:info@okviz.com?subject=Refund%20Policy) for questions related to refunds and returns.
