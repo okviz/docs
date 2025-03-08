@@ -3,7 +3,7 @@ layout:             page
 title:              Security & Privacy
 published:          true
 date:               2024-05-10
-modified:           2024-10-05
+modified:           2025-03-08
 order:              /synoptic-panel/{96}
 ---
 Synoptic Panel uses the latest technologies available and is updated regularly. It does not contain malicious or unsafe code.
@@ -81,4 +81,4 @@ No data is sent over the Internet or collected by OKVIZ.
 
 ## Synoptic Panel v1
 
-This version is no longer supported and is not recommended for use since it won't receive any updates or bug fixes.
+This version is no longer supported and is not recommended for use since it won't receive any updates or bug fixes. More information is available in the [Deprecated (v1)](../versions/deprecated.md) page.
