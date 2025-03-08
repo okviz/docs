@@ -18,18 +18,19 @@ We have rewritten Synoptic Panel from scratch to take advantage of the latest Po
 By deprecating v1, we can focus on enhancing the new version and providing a better user experience for our customers.
 
 ## How to Identify v1
+You can determine the version of Synoptic Panel you are using by examining its icon and settings. If you notice the following icon or see version `1.5.0` in the About section, you are using v1.
 
-You can identify the version of Synoptic Panel you are using by checking the visual settings. If you see the following version in the About section, you are using v1:
+<img src="images/v1-toolbar.png" width="100">
 
 <img src="images/v1-about.png" width="200">
 
-Also, the visual will display a warning message indicating that the visual is unsupported. 
+Also, the visual will display a warning icon with a message indicating that the visual is unsupported. 
 
 <img src="images/deprecated1.png" width="500">
 
 <img src="images/deprecated2.png">
 
-> Note: The alert icon is visible only in Power BI Desktop and Power BI Service (powerbi.com) in Editing View when you hover over or select the visual. **If you do not see the alert icon, it does not necessarily mean you are not using the deprecated version.**
+> Note: The warning icon is visible only in Power BI Desktop and Power BI Service (powerbi.com) in Editing View when you hover over or select the visual. **If you do not see the warning, it does not necessarily mean you are not using the deprecated version.**
 
 ## What Happens Before Retirement
 
@@ -37,7 +38,7 @@ Until the retirement date, which is set for **{{ page.retirement_date }}**, you 
 
 ## What Happens After Retirement
 
-After the retirement date, Synoptic Panel v1 will no longer work in your reports and you will see messages indicating that the visual is not available. 
+After the retirement date, which is set for **{{ page.retirement_date }}**, Synoptic Panel v1 will no longer work in your reports and you will see messages indicating that the visual is not available. 
 
 
 ## How to Migrate to v2
