@@ -3,7 +3,7 @@ layout:             page
 title:              Filter Mode
 published:          true
 date:               2021-12-09
-modified:           2022-07-19
+modified:           2025-03-13
 order:              /smart-filter-pro/features/filter-mode
 toc_h_max:            3
 internal:           filter
@@ -53,6 +53,9 @@ The syntax for querying text fields includes rules for the most common uses:
     - `a??io` returns values starting with ***a***, followed by two characters and ending with ***io***.
 
     <img src="images/filter-mode-2.png" width="350">
+
+    >> **IMPORTANT**: You cannot search more than **120 keywords** in contains mode.
+
 - #### Exact match {#exact}
     You can perform an exact match search without using any special characters if the [Default Condition for Text](../options/mode/default-text-condition.md) is set to ***Equal to***, otherwise you need to enclose your keyword in double quotes.
 
@@ -75,7 +78,7 @@ The syntax for querying text fields includes rules for the most common uses:
    
    <img src="images/filter-mode-4.png" width="350">
 
-    > The Not condition is quite limited - **you cannot add more than 20 keywords with Not** in the same query.
+    >> **IMPORTANT**: You cannot add more than **20 keywords** with Not in the same query.
 
 ### Date Search
 
