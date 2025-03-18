@@ -4,7 +4,7 @@ title:              Cookie Policy
 published:          true
 toc_h_max:          2
 date:               2024-12-31
-modified:           2025-03-07
+modified:           2025-03-18
 order:              /legal/03
 ---
 
@@ -75,7 +75,7 @@ For example, you can find information on managing Cookies in common browsers at 
 - [Brave](https://support.brave.com/hc/en-us/articles/360022806212-How-do-I-use-Shields-while-browsing)
 - [Opera](https://help.opera.com/en/latest/web-preferences/#cookies)
 
-You may also manage certain categories of Trackers on mobile apps by adjusting your device’s advertising or tracking settings.
+You may also manage certain categories of Trackers on mobile apps by adjusting your device's advertising or tracking settings.
 
 #### Consequences of Denying the Use of Trackers
 
@@ -85,7 +85,7 @@ While you are free to block Trackers, please note that doing so may affect certa
 ## Owner and Data Controller
 
 **OKVIZ Corp.**  
-Email: [info@okviz.com](mailto:info@okviz.com)  
+Email: [backoffice@okviz.com](mailto:backoffice@okviz.com)  
 Address: 5348 Vegas Drive, Las Vegas, NV 89108
 
 Because we cannot fully control the use of third-party Trackers on this Application, any references to such Trackers are provided for informational purposes only. For complete details, please refer to the privacy policies of the respective third-party services listed in this document. Due to the complexity of tracking technologies, if you need further information on how these are used, please contact the Owner.
@@ -108,7 +108,7 @@ Information automatically collected through this Application (or via third-party
 - Browser and operating system details,
 - Time details per visit (e.g., time spent on each page),
 - Navigation paths (the sequence of pages visited), and
-- Other parameters regarding your device’s operating system or IT environment.
+- Other parameters regarding your device's operating system or IT environment.
 
 ### User
 The individual using this Application who, unless otherwise specified, is the Data Subject.
@@ -144,6 +144,6 @@ This privacy statement has been prepared based on provisions from multiple legis
 
 ## Changes to this Policy
 
-### 2025-03-07
+### 2025-03-18
 
 - We updated the email address for contacting OKVIZ support.

@@ -9,7 +9,7 @@ web_url: https://okviz.com
 # Privacy URL - It's added to the website footer
 privacy_url: https://docs.okviz.com/www/terms/privacy
 
-# GitHub URL - Leave blank if you don't want to display links to GitHub repo
+# GitHub URL - Leave blank if you don't want to display links to GitHub repo
 github_url:
 
 # Header quick link - This is usually a quick link to the service/product

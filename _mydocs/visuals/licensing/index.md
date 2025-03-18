@@ -4,7 +4,7 @@ title:              Licensing Overview
 menu_title:         Licensing
 published:          true
 date:               2024-08-14
-modified:           2025-03-07
+modified:           2025-03-18
 order:              /04
 ---
 
@@ -37,7 +37,7 @@ When you purchase a license from [AppSource](https://appsource.microsoft.com/en-
     The license is managed entirely by Microsoft. As a result, any administrative issues related to license assignment must be handled by Microsoft support. If you experience problems, you will need to contact Microsoft and open a support ticket with them.
 
 - **Per-User Licensing**  
-    Licenses are sold on a per-user basis. This means that after purchasing a set number of licenses, your organization’s administrator must assign each license individually to every user who will access the reports containing the visual.  
+    Licenses are sold on a per-user basis. This means that after purchasing a set number of licenses, your organization's administrator must assign each license individually to every user who will access the reports containing the visual.  
 
 - **Assignment Procedure**  
     License assignment is performed through the Microsoft Office 365 admin portal. Once assigned, the user can access the visual in any report without further action. [Licenses can be also assigned to groups](https://learn.microsoft.com/en-us/entra/identity/users/licensing-admin-center), which simplifies the process for large organizations.
@@ -116,15 +116,15 @@ This hybrid approach can be a compelling option for users who appreciate the con
 Choosing the right license depends on your specific needs:
 
 - **AppSource Licensing**  
-  Use this option if you prefer a Microsoft-managed system with per-user assignment via Office 365. It’s best if you’re comfortable with automatic updates (with no rollback option) and need Microsoft certification. Note that this option is limited to authenticated scenarios and doesn’t support offline use.
+  Use this option if you prefer a Microsoft-managed system with per-user assignment via Office 365. It's best if you're comfortable with automatic updates (with no rollback option) and need Microsoft certification. Note that this option is limited to authenticated scenarios and doesn't support offline use.
 
 - **OKVIZ Licensing**  
   This is ideal if you want direct support from OKVIZ and full control over visual version updates (including the ability to roll back). It works across all Power BI platforms and supports offline use. However, visuals licensed via OKVIZ are not certified by Microsoft.
 
 - **Hybrid Licensing (Smart Filter Pro/Synoptic Panel only)**  
-  Choose this option if you want the ease of AppSource distribution combined with OKVIZ’s direct license management. While it offers a convenient installation process, keep in mind that it inherits AppSource’s limitations in platform support and version control.
+  Choose this option if you want the ease of AppSource distribution combined with OKVIZ's direct license management. While it offers a convenient installation process, keep in mind that it inherits AppSource's limitations in platform support and version control.
 
-If you need further guidance or have additional questions, please [contact our administrative support team](mailto:info@okviz.com).
+If you need further guidance or have additional questions, please [contact our administrative support team](mailto:backoffice@okviz.com).
 
 ## Purchasing and Activating Your License
 

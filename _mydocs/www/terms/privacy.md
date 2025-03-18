@@ -4,7 +4,7 @@ title:              Privacy Policy
 published:          true
 toc_h_max:          2
 date:               2024-12-31
-modified:           2025-03-07
+modified:           2025-03-18
 order:              /legal/02
 ---
 
@@ -15,7 +15,7 @@ This Privacy Policy explains how this Application collects, uses, processes, and
 ## Owner and Data Controller
 
 **OKVIZ Corp.**  
-Email: [info@okviz.com](mailto:info@okviz.com)  
+Email: [backoffice@okviz.com](mailto:backoffice@okviz.com)  
 Address: 5348 Vegas Drive, Las Vegas, NV 89108
 
 
@@ -37,7 +37,7 @@ Detailed information on each type of Personal Data collected is provided in the 
 - **Direct Provision:** You may provide Personal Data voluntarily.
 - **Automatic Collection:** Usage Data is collected automatically when you use this Application.
 
-Unless specified otherwise, all Data requested is mandatory. Failing to provide the required Data may prevent us from delivering our services. When certain data is optional, you may choose not to provide it without affecting the Service’s functionality. If you are unsure which data is mandatory, please contact the Owner.
+Unless specified otherwise, all Data requested is mandatory. Failing to provide the required Data may prevent us from delivering our services. When certain data is optional, you may choose not to provide it without affecting the Service's functionality. If you are unsure which data is mandatory, please contact the Owner.
 
 **Important:** You are solely responsible for any third-party Personal Data that you obtain, publish, or share through this Application.
 
@@ -53,7 +53,7 @@ Unless specified otherwise, all Data requested is mandatory. Failing to provide 
 
 ### Place of Processing
 
-- Your Data is processed at the Owner’s operating offices and at any other locations where the processing parties are located.
+- Your Data is processed at the Owner's operating offices and at any other locations where the processing parties are located.
 - Depending on your location, your Data may be transferred to a country other than your own. For more details on the place of processing for such transfers, please refer to the relevant section of this Policy.
 
 ### Retention Period
@@ -103,13 +103,13 @@ These services monitor and analyze web traffic and user behavior.
 
 #### Google Analytics (Google LLC)
 - **Data Processed:** Cookies; Usage Data.
-- **Place of Processing:** United States – <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a> – <a href="https://tools.google.com/dlpage/gaoptout">Opt out</a>.
+- **Place of Processing:** United States - <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a> - <a href="https://tools.google.com/dlpage/gaoptout">Opt out</a>.
 - **CCPA Category:** internet or other electronic network activity information.
 - **This Processing Constitutes:** a Sale in California.
 
 #### YouTube Analytics and Reporting API (Google LLC)
 - **Data Processed:** Usage Data.
-- **Place of Processing:** United States – <a href="http://www.google.com/policies/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a> – <a href="https://security.google.com/settings/security/permissions">Opt out</a>.
+- **Place of Processing:** United States - <a href="http://www.google.com/policies/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a> - <a href="https://security.google.com/settings/security/permissions">Opt out</a>.
 - **CCPA Category:** internet or other electronic network activity information.
 - **This Processing Constitutes:** a Sale in California.
 - **Additional Note:** Data may be used to support interest-based advertising. You can opt out via your device settings or the <a href="http://optout.networkadvertising.org/?c=1">Network Advertising Initiative opt-out page</a>.
@@ -155,33 +155,33 @@ This service allows the Owner to back up the Application (including source code,
 This service allows you to view and interact with content hosted on external platforms.
 
 #### Adobe Fonts (Adobe Systems Incorporated)
-- **Data Processed:** Usage Data; various types of Data as specified in the service’s privacy policy.
-- **Place of Processing:** United States – <a href="https://www.adobe.com/privacy/policies/adobe-fonts.html" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
+- **Data Processed:** Usage Data; various types of Data as specified in the service's privacy policy.
+- **Place of Processing:** United States - <a href="https://www.adobe.com/privacy/policies/adobe-fonts.html" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
 - **CCPA Category:** identifiers; internet or other electronic network activity information.
 - **This Processing Constitutes:** a Sale in California.
 
 #### Google Fonts (Google LLC)
-- **Data Processed:** Usage Data; various types of Data as specified in the service’s privacy policy.
-- **Place of Processing:** United States – <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
+- **Data Processed:** Usage Data; various types of Data as specified in the service's privacy policy.
+- **Place of Processing:** United States - <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
 - **CCPA Category:** identifiers; internet or other electronic network activity information.
 - **This Processing Constitutes:** a Sale in California.
 
 #### YouTube IFrame Player (Google LLC)
 - **Data Processed:** Usage Data.
-- **Place of Processing:** United States – <a href="http://www.google.com/policies/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a> – <a href="https://security.google.com/settings/security/permissions">Opt out</a>.
+- **Place of Processing:** United States - <a href="http://www.google.com/policies/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a> - <a href="https://security.google.com/settings/security/permissions">Opt out</a>.
 - **CCPA Category:** internet or other electronic network activity information.
 - **This Processing Constitutes:** a Sale in California.
-- **Additional Note:** As with YouTube Analytics, you can restrict data collection via Google’s security settings.
+- **Additional Note:** As with YouTube Analytics, you can restrict data collection via Google's security settings.
 
 #### YouTube Video Widget (Google LLC)
 - **Data Processed:** Trackers; Usage Data.
-- **Place of Processing:** United States – <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
+- **Place of Processing:** United States - <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
 - **CCPA Category:** internet or other electronic network activity information.
 - **This Processing Constitutes:** a Sale in California.
 
 #### Vimeo Video (Vimeo, LLC)
 - **Data Processed:** Trackers; Usage Data.
-- **Place of Processing:** United States – <a href="https://vimeo.com/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
+- **Place of Processing:** United States - <a href="https://vimeo.com/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
 - **CCPA Category:** internet or other electronic network activity information.
 - **This Processing Constitutes:** a Sale in California.
 
@@ -191,24 +191,24 @@ This service allows you to view and interact with content hosted on external pla
 Unless stated otherwise, payments (via credit card, bank transfer, etc.) are processed by external payment service providers. You provide your payment details directly to these providers; the Application only receives a confirmation of payment.
 
 #### Stripe (Stripe, Inc.)
-- **Data Processed:** Various types of Data as specified in the service’s privacy policy.
-- **Place of Processing:** United States – <a href="https://stripe.com/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
+- **Data Processed:** Various types of Data as specified in the service's privacy policy.
+- **Place of Processing:** United States - <a href="https://stripe.com/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
 - **CCPA Category:** identifiers.
 
 #### PayPal (PayPal Inc.)
-- **Data Processed:** Various types of Data as specified in the service’s privacy policy.
-- **Place of Processing:** See the PayPal – <a href="https://www.paypal.com/webapps/mpp/ua/privacy-full%20" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
+- **Data Processed:** Various types of Data as specified in the service's privacy policy.
+- **Place of Processing:** See the PayPal - <a href="https://www.paypal.com/webapps/mpp/ua/privacy-full%20" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
 - **CCPA Category:** identifiers.
 - **This Processing Constitutes:** a Sale in Virginia, Colorado, Connecticut, Utah, Texas, Oregon, Nevada, Delaware, Iowa, New Hampshire, New Jersey, Nebraska, and Montana.
 
 
 ### Hosting and Backend Infrastructure
 
-This service hosts Data and files necessary for the Application’s operation and supports its features.
+This service hosts Data and files necessary for the Application's operation and supports its features.
 
 #### Microsoft Azure (Microsoft Corporation)
-- **Data Processed:** Various types of Data as specified in the service’s privacy policy.
-- **Place of Processing:** United States, Australia, Netherlands – <a href="https://privacy.microsoft.com/PrivacyStatement" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
+- **Data Processed:** Various types of Data as specified in the service's privacy policy.
+- **Place of Processing:** United States, Australia, Netherlands - <a href="https://privacy.microsoft.com/PrivacyStatement" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
 - **CCPA Category:** identifiers.
 
 
@@ -217,8 +217,8 @@ This service hosts Data and files necessary for the Application’s operation an
 This service manages our database of contact information (e.g., email addresses, phone numbers) and may track when you view or interact with messages.
 
 #### SparkPost (Message Systems, Inc.)
-- **Data Processed:** email address; various types of Data as specified in the service’s privacy policy.
-- **Place of Processing:** United States – <a href="https://www.sparkpost.com/policies/privacy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
+- **Data Processed:** email address; various types of Data as specified in the service's privacy policy.
+- **Place of Processing:** United States - <a href="https://www.sparkpost.com/policies/privacy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
 - **CCPA Category:** identifiers.
 - **This Processing Constitutes:** a Sale in California and a Sharing in California.
 
@@ -238,9 +238,9 @@ This service analyzes Application traffic—which may include your Personal Data
 
 #### Google reCAPTCHA
 - **Description:** A SPAM protection service provided by Google LLC (or Google Ireland Limited, depending on our data processing setup).  
-- **Legal References:** Use is subject to Google’s <a href="https://www.google.com/policies/privacy/">privacy policy</a> and <a href="https://www.google.com/intl/en/policies/terms/">terms of use</a>. Consult Google’s partner policy for details.
+- **Legal References:** Use is subject to Google's <a href="https://www.google.com/policies/privacy/">privacy policy</a> and <a href="https://www.google.com/intl/en/policies/terms/">terms of use</a>. Consult Google's partner policy for details.
 - **Data Processed:** answers to questions; clicks; keypress events; motion sensor events; mouse movements; scroll position; touch events; Trackers; Usage Data.
-- **Place of Processing:** United States, Ireland – <a href="https://business.safety.google/privacy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
+- **Place of Processing:** United States, Ireland - <a href="https://business.safety.google/privacy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
 - **CCPA Category:** internet or other electronic network activity information; inferences drawn from other personal information.
 
 
@@ -345,7 +345,7 @@ You may exercise these rights by contacting the Owner as described above.
 
 ## Additional Information for Users in Brazil
 
-This section supplements the rest of this Privacy Policy and is provided by the entity operating this Application (and, if applicable, its parent, subsidiaries, and affiliates—referred to collectively as “we”, “us”, “our”). It applies to all Brazilian users under the Lei Geral de Proteção de Dados (LGPD) and supersedes any conflicting provisions. In this section, the term “personal information” is used as defined in the LGPD.
+This section supplements the rest of this Privacy Policy and is provided by the entity operating this Application (and, if applicable, its parent, subsidiaries, and affiliates—referred to collectively as "we", "us", "our"). It applies to all Brazilian users under the Lei Geral de Proteção de Dados (LGPD) and supersedes any conflicting provisions. In this section, the term "personal information" is used as defined in the LGPD.
 
 ### Grounds for Processing Your Personal Information (Brazil)
 
@@ -357,7 +357,7 @@ We process your personal information only if one of the following legal bases ap
 - Studies conducted by research entities (preferably using anonymized personal information).
 - The execution of a contract or pre-contractual procedures in which you are a party.
 - The exercise of our rights in judicial, administrative, or arbitration procedures.
-- Protection of your or a third party’s life or physical safety.
+- Protection of your or a third party's life or physical safety.
 - Protection of health (in procedures carried out by health entities or professionals).
 - Our legitimate interests, provided your fundamental rights and liberties do not prevail.
 - Credit protection.
@@ -407,7 +407,7 @@ If you request rectification, deletion, anonymization, or blocking of your perso
 We may transfer your personal information outside Brazil in the following cases:
 
 - When necessary for international legal cooperation between public intelligence, investigation, and prosecution bodies.
-- When necessary to protect your or a third party’s life or physical safety.
+- When necessary to protect your or a third party's life or physical safety.
 - When authorized by the ANPD.
 - When resulting from an international cooperation agreement.
 - When necessary for executing public policy or a legal public service obligation.
@@ -417,7 +417,7 @@ We may transfer your personal information outside Brazil in the following cases:
 
 ## Additional Information for Users in the United States
 
-This section supplements the Privacy Policy and is provided by the business operating this Application (and, if applicable, its parent, subsidiaries, and affiliates—collectively “we”, “us”, “our”). It applies to all users who are residents of the following states:  
+This section supplements the Privacy Policy and is provided by the business operating this Application (and, if applicable, its parent, subsidiaries, and affiliates—collectively "we", "us", "our"). It applies to all users who are residents of the following states:  
 California, Virginia, Colorado, Connecticut, Utah, Texas, Oregon, Nevada, Delaware, Iowa, New Hampshire, New Jersey, Nebraska, and Montana. For these users, this information supersedes any conflicting provisions in the Policy.
 
 In this section, the terms **Personal Information** and **Sensitive Personal Information** are used.
@@ -456,7 +456,7 @@ This Notice at Collection informs you of the categories of Personal Information 
 #### Inferences Drawn from Other Personal Information
 For definitions of these concepts, please refer to the **Definitions and Legal References** section.
 
-For more on your rights—especially regarding opting out or limiting the use of your sensitive personal information (the “Limit the Use of My Sensitive Personal Information” option)—please see the [Your Privacy Rights Under US State Laws](#your-privacy-rights-under-us-state-laws) section.
+For more on your rights—especially regarding opting out or limiting the use of your sensitive personal information (the "Limit the Use of My Sensitive Personal Information" option)—please see the [Your Privacy Rights Under US State Laws](#your-privacy-rights-under-us-state-laws) section.
 
 For additional details on the collection of Personal Information, please review the [Detailed Information on the Processing of Personal Data](#detailed-information-on-the-processing-of-personal-data) section.
 
@@ -565,7 +565,7 @@ Information automatically collected through this Application (or third-party ser
 - Browser and operating system details,
 - Time details per visit (e.g., time spent on each page),
 - Navigation paths (the sequence of pages visited),
-- Other parameters about your device’s operating system or IT environment.
+- Other parameters about your device's operating system or IT environment.
 
 **User:**  
 The individual using this Application who, unless otherwise specified, is the Data Subject.
@@ -610,6 +610,6 @@ This Privacy Policy applies solely to this Application unless otherwise stated.
 
 ## Changes to this Policy
 
-### 2025-03-07
+### 2025-03-18
 
 - We updated the email address for contacting OKVIZ support.

@@ -4,14 +4,14 @@ title:              Account Policy
 published:          true
 toc_h_max:          2
 date:               2025-02-08
-modified:           2025-03-07
+modified:           2025-03-18
 order:              /legal/01
 pdf:                true
 ---
 
 ## 1. Overview
 
-This Account Policy (“Policy”) sets forth the rules and conditions under which you (“User” or “you”) may create, maintain, and, if desired, delete your account on our website (“Site”). By registering an account, you agree to comply with this Policy as well as with our website’s Terms of Use and any specific End-User License Agreements (“EULAs”) applicable to products and services offered on the Site.
+This Account Policy ("Policy") sets forth the rules and conditions under which you ("User" or "you") may create, maintain, and, if desired, delete your account on our website ("Site"). By registering an account, you agree to comply with this Policy as well as with our website's Terms of Use and any specific End-User License Agreements ("EULAs") applicable to products and services offered on the Site.
 
 
 ## 2. Personal, Non-Transferable Accounts
@@ -28,7 +28,7 @@ This Account Policy (“Policy”) sets forth the rules and conditions under whi
 
 ## 4. Account Deletion
 
-- **User-Initiated Deletion:** You may request that your account be deleted at any time by contacting our support team at [info@okviz.com](mailto:info@okviz.com?subject=Delete%20Account). We will process such requests promptly, subject to any outstanding obligations.
+- **User-Initiated Deletion:** You may request that your account be deleted at any time by contacting our support team at [backoffice@okviz.com](mailto:backoffice@okviz.com?subject=Delete%20Account). We will process such requests promptly, subject to any outstanding obligations.
 - **Data Retention:** Upon deletion, we will remove personal information from your account in accordance with our [Privacy Policy](./privacy.md). However, some information may be retained for legal or administrative reasons as described therein.
 
 
@@ -41,14 +41,14 @@ This Account Policy (“Policy”) sets forth the rules and conditions under whi
 
 ## 6. Termination of Accounts
 
-- **For Breach of Terms:** We reserve the right to suspend or permanently terminate your account immediately and without notice if you breach this Policy, our website’s Terms of Use, or any product-specific EULA.
+- **For Breach of Terms:** We reserve the right to suspend or permanently terminate your account immediately and without notice if you breach this Policy, our website's Terms of Use, or any product-specific EULA.
 - **At Our Discretion:** Even in the absence of a breach, we may suspend or terminate your account if we determine, in our sole discretion, that such action is necessary to maintain the security, integrity, or performance of the Site or our services.
 - **Effect of Termination:** Upon termination, your right to access and use the Site will cease immediately. We will not be liable for any losses or damages that may result from such termination.
 
 
 ## 7. Disclaimer and Limitation of Liability
 
-- **Service Provided “As Is”:** All account-related services are provided on an “as is” basis without warranties of any kind, whether express or implied.
+- **Service Provided "As Is":** All account-related services are provided on an "as is" basis without warranties of any kind, whether express or implied.
 - **Limitation of Liability:** In no event shall we be liable for any direct, indirect, incidental, consequential, or special damages arising from your use or inability to use your account, even if advised of the possibility of such damages.
 - **No Guarantee of Uninterrupted Service:** While we strive to ensure continuous access to our services, we do not guarantee uninterrupted or error-free operation of your account or any part thereof.
 
@@ -67,4 +67,4 @@ This Account Policy (“Policy”) sets forth the rules and conditions under whi
 
 ## 10. Contact Information
 
-If you have any questions or concerns regarding this Account Policy or need assistance with your account, please contact us at [info@okviz.com](mailto:info@okviz.com?subject=Account%20Policy) 
+If you have any questions or concerns regarding this Account Policy or need assistance with your account, please contact us at [backoffice@okviz.com](mailto:backoffice@okviz.com?subject=Account%20Policy) 

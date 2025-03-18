@@ -3,7 +3,7 @@ layout:             page
 title:              Importing Maps
 published:          true
 date:               2024-05-26
-modified:           2025-02-21
+modified:           2025-03-18
 order:              /synoptic-panel/features/importing
 ---
 
@@ -77,6 +77,7 @@ Here is a list of some popular cloud services and their availability:
 |---------------|---------------|
 | Github        |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅|
 | OneDrive      |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❌|
+| SharePoint    |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❌|
 | Google Drive  |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❌|
 | Dropbox       |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❌|
 

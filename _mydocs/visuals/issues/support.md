@@ -3,7 +3,7 @@ layout:             page
 title:              Support
 published:          true
 date:               2021-12-03
-modified:           2025-03-07
+modified:           2025-03-18
 order:              /03/03
 ---
 OKVIZ offers direct support to users who have problems with premium visuals and provides a dedicated forum for assistance with free visuals.
@@ -86,4 +86,4 @@ In such cases, it is best to open a support ticket with Microsoft:
 
 ## Non-Technical Issues
 
-For non-technical issues, please contact us at [info@okviz.com](mailto:info@okviz.com)
+For non-technical issues, please contact us at [backoffice@okviz.com](mailto:backoffice@okviz.com)
