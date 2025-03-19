@@ -22,7 +22,7 @@ When enabled, the My Storage Edit Key is saved inside the report properties and 
 
 **Default value:** (Empty)
 
-Encryption key used to encrypt/decrypt maps on your My Storage. This key is required if My Storage was encrypted during the [setup process](../../features/my-storage.md#setup-my-storage) Without this key, it will not be possible to access previously stored maps or upload new maps to My Storage.
+Encryption key used to encrypt/decrypt maps on My Storage. This key is required if My Storage was encrypted during the [setup process](../../features/my-storage.md#setup-my-storage). Without this key, it will not be possible to access previously stored maps or upload new maps to My Storage.
 
 <img src="images/encryption-key.png" width="400">
 
