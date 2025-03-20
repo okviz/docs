@@ -3,11 +3,11 @@ layout:             page
 title:              Color (Unbound)
 published:          true
 date:               2024-09-14
-modified:           2025-02-24
+modified:           2025-03-20
 order:              /synoptic-panel/options/areas/color-unbound
 ---
 
-Define the appearance of the unbound elements in the visual. 
+Define the appearance of the unbound elements in the visual.
 
 > Note that unbound elements are elements that were deliberately excluded from the data binding process through a custom attribute in the SVG file or through the data binding configuration. See [Data Binding](../../concepts/data-binding.md#unbinding-areas) for more information.
 
@@ -15,7 +15,7 @@ Define the appearance of the unbound elements in the visual.
 
 **Default value:** Original
 
-Select a single color to use for unbound elements background. 
+Select a single color to use for unbound elements background.
 
 Available options:
 
@@ -40,4 +40,7 @@ The transparency of the unbound elements. The value ranges from 0% (completely o
 
 **Default value:** Fill
 
-Apply the selected color to the fill or stroke of the matched areas.
+Select whether to apply the selected color to:
+
+- **Fill**: The fill of the unbound areas. Outline of the unbound areas will follow the [Outline](./outline.md) settings.
+- **Outline**: The outline (stroke) of unbound areas. When select this option, the [Outline](./outline.md) settings will be ignored for unbound areas.

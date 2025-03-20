@@ -3,11 +3,11 @@ layout:             page
 title:              Color (Unmatched)
 published:          true
 date:               2024-09-14
-modified:           2025-02-24
+modified:           2025-03-20
 order:              /synoptic-panel/options/areas/color-unmatched
 ---
 
-Define the appearance of the unmatched elements in the visual. 
+Define the appearance of the unmatched elements in the visual.
 
 > Note that unmatched elements are the elements that are not associated with a data point in the dataset. See [Data Binding](../../concepts/data-binding.md) for more information.
 
@@ -15,7 +15,7 @@ Define the appearance of the unmatched elements in the visual.
 
 **Default value:** Original
 
-Select a single color to use for unmatched elements background. 
+Select a single color to use for unmatched elements background.
 
 Available options:
 
@@ -40,4 +40,7 @@ The transparency of the unmatched elements. The value ranges from 0% (completely
 
 **Default value:** Fill
 
-Apply the selected color to the fill or stroke of the matched areas.
+Select whether to apply the selected color to:
+
+- **Fill**: The fill of the unmatched areas. Outline of the unmatched areas will follow the [Outline](./outline.md) settings.
+- **Outline**: The outline (stroke) of unmatched areas. When select this option, the [Outline](./outline.md) settings will be ignored for unmatched areas.
