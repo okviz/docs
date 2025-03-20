@@ -16,9 +16,9 @@ These types of versions are almost identical to published versions, but with som
 
 * ### Uncertified
 
-    Preview versions cannot be certified ([Certification](../get-started/certification.md)). This does not mean that we steal your data or that they contain unsafe code, but just that, since we want to distribute them before the Microsoft certification process, they do not have enough time to complete it. Indeed, **we send the same version to Microsoft at the exact time we release it as a preview.**
+    Preview versions cannot be certified ([Certification](../certification.md)). This does not mean that we steal your data or that they contain unsafe code, but just that, since we want to distribute them before the Microsoft certification process, they do not have enough time to complete it. Indeed, **we send the same version to Microsoft at the exact time we release it as a preview.**
 
-    > Check if uncertified visuals are allowed in your tenant here: [Enabled Uncertified Visuals](../get-started/certification.md#enabled-uncertified-visuals)
+    > Check if uncertified visuals are allowed in your tenant here: [Enabled Uncertified Visuals](../certification.md#enabled-uncertified-visuals)
 
 * ### Expiration
 

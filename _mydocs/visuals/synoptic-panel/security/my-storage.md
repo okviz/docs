@@ -14,6 +14,16 @@ My Storage is a feature of the Synoptic Panel designed to provide secure and con
 
 Your data is stored on Microsoft Azure servers in the region you select at the time of license activation (e.g., North US, West Europe, East Australia). As a globally recognized cloud platform, Azure provides robust physical and network-level security measures, ensuring a secure foundation for storing your maps and associated metadata.
 
+### Audit Process
+
+Our backend infrastructure is regularly audited by **Aikido Security** to ensure it meets the highest security standards. This audit process includes checks for compliance with industry standards and regulations, such as ISO 27001, HIPAA, and GDPR.
+
+<a href="https://app.aikido.dev/audit-report/external/0p1vf4b2uv0xwQIZw0YOJ24l/request" target="_blank">
+    <img src="https://app.aikido.dev/assets/badges/label-only-light-theme.svg" alt="Aikido Security Audit Report" height="40" class="naked nozoom" />    
+</a>
+
+You can [request our latest Aikido Security report here](https://app.aikido.dev/audit-report/external/0p1vf4b2uv0xwQIZw0YOJ24l/request).
+
 ## Access Controls and URLs
 
 ### Private Storage Access
@@ -32,7 +42,7 @@ To access a particular map, a user or the Synoptic Panel visual needs:
    The Synoptic Panel visual stores a read key that is required to retrieve the maps on the user's storage. Without this read key, simply knowing the URL is insufficient.
 
 3. **Nonce (Temporary Code):**  
-   When the visual requests the map, it generates a temporary, single-use code (nonce). The server requires this nonce to deliver the requested map. This prevents someone from simply putting the URL into a browser’s address bar to view the map, as a valid nonce is needed from within the visual’s runtime environment.
+   When the visual requests the map, it generates a temporary, single-use code (nonce). The server requires this nonce to deliver the requested map. This prevents someone from simply putting the URL into a browser's address bar to view the map, as a valid nonce is needed from within the visual's runtime environment.
 
 ## Edit Key for Administration
 
@@ -60,7 +70,7 @@ My Storage offers an optional encryption feature for further security:
 ## Limitations and Considerations
 
 - **Front-End Security Limitations:**  
-  The Synoptic Panel visual runs in a web environment. A highly skilled, malicious user may attempt to analyze and modify the visual’s source code, potentially retrieving read keys or nonces. While the security measures discussed here provide robust deterrents and safeguards, they cannot offer a 100% hack-proof guarantee.
+  The Synoptic Panel visual runs in a web environment. A highly skilled, malicious user may attempt to analyze and modify the visual's source code, potentially retrieving read keys or nonces. While the security measures discussed here provide robust deterrents and safeguards, they cannot offer a 100% hack-proof guarantee.
 
 - **Best Practices:**  
   - Avoid publishing your reports with My Storage maps publicly on the internet if security is a concern.  
@@ -69,7 +79,7 @@ My Storage offers an optional encryption feature for further security:
 
 ## Conclusion
 
-My Storage’s security model relies on a layered approach:
+My Storage's security model relies on a layered approach:
 
 - Protected backend infrastructure on Microsoft Azure.
 - Obfuscated, GUID-based resource URLs.

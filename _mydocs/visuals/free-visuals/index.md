@@ -4,7 +4,7 @@ title:              Free Visuals
 menu_title:         – Free Visuals
 published:          true
 date:               2022-07-13
-modified:           2025-02-22
+modified:           2025-03-20
 order:              /{50}
 ---
 
@@ -12,7 +12,6 @@ OKVIZ has released and maintains several custom visuals for Power BI available f
 
 - [Candlestick](https://okviz.com/candlestick/)
 - [Card with States](https://okviz.com/card-with-states/)
-- [Dot Plot](https://okviz.com/dot-plot/)
 - [Smart Filter (Free)](https://okviz.com/smart-filter/)
 - [Sparkline](https://okviz.com/sparkline/)
 
@@ -22,9 +21,9 @@ None of these visuals send your data over the Internet or collect your use. You 
 
 ## Certification
 
-**All of our free visuals are certified by Microsoft** ([What's certification?](../get-started/certification.md)), meaning they have reviewed our source code and continue to do so with each update to ensure it is free from malware and does not compromise your data.
+**All of our free visuals are certified by Microsoft** ([What's certification?](../certification.md)), meaning they have reviewed our source code and continue to do so with each update to ensure it is free from malware and does not compromise your data.
 
-<img src="../get-started/images/certified.svg" width="190">
+<img src="../images/certified.svg" width="190" class="nozoom">
 
 
 ## Bug Report

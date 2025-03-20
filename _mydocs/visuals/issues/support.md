@@ -23,7 +23,7 @@ To report a bug with OKVIZ visuals, please follow the directions below:
 ### Issues Pages
 
 For issues with **free visuals**, use this repository on Github:
-- Candlestick, Card with States, Dot Plot, Smart Filter (Free), and Sparkline:  
+- Candlestick, Card with States, Smart Filter (Free), and Sparkline:  
 [github.com/okviz/free-visuals/issues](https://github.com/okviz/free-visuals/issues)
 
 

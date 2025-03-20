@@ -40,7 +40,7 @@ By using the Org Store, you are in control of any update. Indeed, if there is a 
 
 Unfortunately, **this is only true for private, uncertified visuals.** This is because a visual must be reviewed, approved and released in AppSource to be certified, which brings us back to the 3-week process.
 
-> Find out more on certification here: [Certification](../get-started/certification.md)
+> Find out more on certification here: [Certification](../certification.md)
 
 ## How to Manage Visuals in the Org Store
 

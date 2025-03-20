@@ -19,7 +19,7 @@ Binding is the process of connecting a column of data or a measure from your dat
 
 ## Certification
 
-Microsoft's certification program for Power BI visuals guarantees that custom visuals do not contain malware code, do not call external services, do not store underlying data, and adheres to coding standards. See also [Certification](./get-started/certification.md).
+Microsoft's certification program for Power BI visuals guarantees that custom visuals do not contain malware code, do not call external services, do not store underlying data, and adheres to coding standards. See also [Certification](./certification.md).
 
 
 ## Data Point

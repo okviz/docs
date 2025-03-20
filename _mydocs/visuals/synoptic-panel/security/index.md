@@ -3,7 +3,7 @@ layout:             page
 title:              Security & Privacy
 published:          true
 date:               2024-05-10
-modified:           2025-03-08
+modified:           2025-03-20
 order:              /synoptic-panel/{96}
 ---
 Synoptic Panel uses the latest technologies available and is updated regularly. It does not contain malicious or unsafe code.
@@ -14,17 +14,27 @@ According to the version of the visual you are using, there are some differences
 
 ### Certification
 
-The [Power BI certification program](../../get-started/certification.md) guarantees that custom visuals are safe.
+The **Microsoft Certification Program** ensures that custom visuals are safe, up-to-date, and reliable, but it has some limitations. Please refer to the [Certification Pros and Cons](../certification.md) page for more information.
 
 **Most of OKVIZ visuals are certified, but not Synoptic Panel.**
 
 How come? Does it mean that Synoptic Panel is not safe or we want to keep our source code private due to the use of malicious functions? Absolutely no. Synoptic Panel is not certified for just a couple of reasons:
 
-1. **We use a proprietary licensing system** that requires the visual to call an external service, which is prohibited by certification requirements.
+1. **We allow users to use remote maps** (either from the Internet, from their private hosting or from our provided storage - My Storage); unfortunately, this is not allowed by the certification requirements. 
 
-2. **We allow users to use remote maps** (either from the Internet, from their private hosting or from our provided storage); unfortunately, this is not allowed by the certification requirements. 
+2. **We support Power BI Report Server, Power BI Embedded, Publish to Web, and National Clouds**. These platforms are not supported by paid certified visuals because they require third-party licensing systems that are not compatible with the certification requirements.
 
 >> Note that Synoptic Panel can also display maps stored locally, but since this option can cause performance issues depending on the size of the maps, [we do not recommend it](../concepts/best-practices.md) for large maps. As a result, we are committed to providing the best possible experience for our users, which is why we have chosen to allow remote maps.
+
+### Audit Process
+
+We understand that the lack of certification can raise concerns about the security of your data. For this reason, we submit Synoptic Panel to a security audit process on every update. This process is performed by a third-party company, **Aikido Security**, that specializes in security audits for software.
+
+<a href="https://app.aikido.dev/audit-report/external/0p1vf4b2uv0xwQIZw0YOJ24l/request" target="_blank">
+    <img src="https://app.aikido.dev/assets/badges/label-only-light-theme.svg" alt="Aikido Security Audit Report" height="40" class="naked nozoom" />    
+</a>
+
+You can [request our latest Aikido Security report here](https://app.aikido.dev/audit-report/external/0p1vf4b2uv0xwQIZw0YOJ24l/request).
 
 ### Data Sent over the Internet
 
@@ -37,7 +47,7 @@ During this communication, the visual sends and logs the following data:
 - **Timestamp**: The date and time when the visual is used.
 - **Visual Version**: The version of the visual that is used.
 
-(In case you activated the visual through AppSource)
+(In case you are using the [Hybrid Licensing Model](../../licensing/index.md#a-third-option-hybrid-licensing))
 - **Entra Tenant ID**: The ID of the tenant where the visual is used.
 - **Entra User ID**: The ID of the user who is using the visual.
 
@@ -72,8 +82,7 @@ Synoptic Panel Lite is available from the AppSource marketplace only and it does
 
 ### Certification
 
-Synoptic Panel Lite is [certified by Microsoft](../../get-started/certification.md).
-
+Synoptic Panel Lite is [certified by Microsoft](../../certification.md).
 
 ### Data Sent over the Internet
 
