@@ -12,6 +12,19 @@ Synoptic Panel uses **Power BI Custom Visuals API v5.11.0**.
 
 > **NOTE:** Synoptic Panel Lite is a subset of Synoptic Panel with limited features. Both versions share the same codebase and changelog.
 
+## v2.3.3
+
+**Released:** 2025-03-21
+
+**New Features:**
+
+- Add the ability to export My Storage URLs and use them with Map URLs field
+- Add the [outline color option](./options/areas/outline.md) for map areas
+
+**Bug Fixes:**
+
+- Fix a problem with the custom legend when the items name contains spaces [#41](https://github.com/okviz/synoptic-panel-issues/issues/41)
+
 ## v2.3.2
 
 **Released:** 2025-03-17

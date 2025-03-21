@@ -8,6 +8,7 @@ order:              /synoptic-panel/options/areas/outline
 ---
 
 Define the appearance of area outlines in the visual.
+
 This option will be applied to all areas in the visual. However, each area type — *Matched*, *Unmatched*, and *Unbound* — has a separate setting in the [Apply Color To](./color-matched.md#apply-color-to) option, which determines whether the fill color is applied to the *Fill* or to the *Outline* (stroke) of that area.
 
 If *Apply Color To* is set to *Outline* for a specific area type, then the global *Outline* settings will be ignored for that area type. For example, if *Matched* areas use *Apply Color To: Outline*, while *Unmatched* areas use *Apply Color To: Fill*, then the *Matched* areas will follow the color settings from *Apply Color To*, while *Unmatched* areas will follow the settings in the *Outline* section. Since the *Outline* settings apply globally, *Apply Color To: Outline* always takes precedence over them for the selected area types.
