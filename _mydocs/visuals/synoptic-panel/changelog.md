@@ -3,7 +3,7 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2024-05-10
-modified:           2025-03-17
+modified:           2025-03-21
 order:              /synoptic-panel/{99}
 toc_h_max:          2
 ---
@@ -13,157 +13,199 @@ Synoptic Panel uses **Power BI Custom Visuals API v5.11.0**.
 > **NOTE:** Synoptic Panel Lite is a subset of Synoptic Panel with limited features. Both versions share the same codebase and changelog.
 
 ## v2.3.2
+
 **Released:** 2025-03-17
 
-### Improvements
+**Improvements:**
+
 - Allow to scale the UI elements to match the report zoom level through the [Scale UI Elements](./options/accessibility/index.md#scale-ui-elements) option
 
 ## v2.3.1
+
 **Released:** 2025-02-27
 
-### Improvements
+**Improvements:**
+
 - Minor changes
 
 ## v2.3.0
+
 **Released:** 2025-02-26
 
-### Improvements
+**Improvements:**
+
 - Add [Apply To](./options/areas/color-matched.md) options for area colors
 - Add [Allow Empty Matched Area Selection](./options/advanced-options/misc.md#allow-empty-matched-area-selection) option 
 - Improve Auto-Fetch feature
 - Add [inline console](./options/about/index.md#inline-console) for diagnostics
 
 ## v2.2.9
+
 **Released:** 2025-02-21
 
-### Bug Fixes
+**Bug Fixes:**
+
 - Minor fixes on license messages
 
 ## v2.2.8
+
 **Released:** 2025-02-20
 
-### Bug Fixes
+**Bug Fixes:**
+
 - Fix features check with free and trial licenses
 
 ## v2.2.7
+
 **Released:** 2025-02-13
 
-### Improvements
+**Improvements:**
+
 - Improve license dialog
 - Add support for feature flags
 
-### Bug Fixes
+**Bug Fixes:**
+
 - Fix category labels with custom text
 - Fix auto-match with SVG elements with special characters
 
 ## v2.2.6
+
 **Released:** 2025-01-22
 
-### Improvements
+**Improvements:**
+
 - Bump version
 - Minor changes
 
 ## v2.2.5
+
 **Released:** 2025-01-16
 
-### Bug Fixes
+**Bug Fixes:**
+
 - Fix SVG embedded images optimization for large images
 - Improve license check for My Storage
 - Better null handling for custom labels
 
 ## v2.2.4
+
 **Released:** 2025-01-08
 
-### Bug Fixes
+**Bug Fixes:**
+
 - Fix flashing maps with Map URLs field
 
 ## v2.2.3
+
 **Released:** 2025-01-07
 
-### Bug Fixes
+**Bug Fixes:**
+
 - Fix uploading new maps to My Storage
 
-### Improvements
+**Improvements:**
+
 - Minor changes
 - Allow color filling for SVG unclosed paths
 
 ## v2.2.2
+
 **Released:** 2024-12-30
 
-### Improvements
+**Improvements:**
+
 - Improve label designer
 - Minor changes
 
 ## v2.2.1
+
 **Released:** 2024-12-26
 
-### New Features
+**New Features:**
+
 - Automatically optimize images embedded in SVGs
 - Add [placeholder customizations](./options/appearance/map-placeholder.md)
 - Allow to include/exclude specific SVG elements from matching
 - Allow to replace files in My Storage
 
-### Bug Fixes
+**Bug Fixes:**
+
 - Fix maps sorting with Map URLs field
 - Fix frozen labels 
 - Fix hidden labels not being hidden in some cases
 - Apply "Unselected" accessibility options also to highlighted elements
 
-### Improvements
+**Improvements:**
+
 - Improve SVG editor
 - Improve memory usage
 - Rename `Limits` to `Performance` in [settings](./options/advanced-options/performance.md)
 - Add limits of 100 items in the maps dropdown
 
 ## v2.2.0
+
 **Released:** 2024-12-09
 
-### New Features
+**New Features:**
+
 - Add integration with My Storage
 - Add Legend Manager
 
 ## v2.1.3 - Beta
+
 **Released:** 2024-12-01
 
-### New Features
+**New Features:**
+
 - Add `Legend` field
 
-### Improvements
+**Improvements:**
+
 - Improve legend position
 
-# v2.1.2 - Beta
+## v2.1.2 - Beta
+
 **Released:** 2024-11-29
 
-### New Features
+**New Features:**
+
 - Add Label Designer
 
-### Improvements
+**Improvements:**
+
 - Several improvements in labels including custom text syntax, word wrap, and more
 
 ## v2.1.1 - Beta
+
 **Released:** 2024-10-08
 
-### New Features
+**New Features:**
+
 - Allow labels to be dragged
 
 ### Removed
+
 - Remove label placeholder feature
 
 ## v2.1.0 - Beta
+
 **Released:** 2024-08-30
 
-### New Features
+**New Features:**
+
 - Add Maps Manager
 - Add Map URLs field well
 - Add legend
 - Add drill behavior
 
-### Improvements
+**Improvements:**
+
 - Improve Map Editor
 - Several improvements in several areas
 
-
 ## v2.0.0 - Beta
+
 **Released:** 2024-05-30
 
 Initial private beta release of the new version of Synoptic Panel.

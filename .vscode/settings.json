@@ -1,5 +1,10 @@
 {
     "markdown.styles": [
         "_vscode.css"
-    ]
+    ],
+    "markdownlint.config": {
+        "MD033": false,
+        "MD036": false,
+        "MD045": false
+    }
 }

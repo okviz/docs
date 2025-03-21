@@ -26,10 +26,5 @@
 			"Sparkline",
 			"Treemap"
 		]
-	},
-	"extensions": {
-		"recommendations": [
-			"streetsidesoftware.code-spell-checker"
-		]
 	}
 }
