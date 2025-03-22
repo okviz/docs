@@ -1,16 +1,20 @@
 ---
 layout:             page
-title:              Certification
+title:              Microsoft Certification
+menu_title:         Certification
 published:          true
 date:               2021-11-17
-modified:           2025-03-20
+modified:           2025-03-22
 order:              /035
 ---
 
 Custom visuals, like any other software, can contain malware code and steal data.
-To make Power BI users more secure, Microsoft set up a certification program for visuals developed by third-party vendors, such as OKVIZ.   
+To make Power BI users more secure, Microsoft set up a certification program for visuals developed by third-party vendors, such as OKVIZ.  
 
-<img src="images/certified.svg" width="190" class="nozoom">
+<figure>
+    <img src="images/certified.svg" width="190" class="nozoom">
+    <figcaption>Microsoft Certified badge</figcaption>
+</figure>
 
 The certification guarantees that the visual meets certain requirements like:
 
@@ -36,50 +40,50 @@ Here are the main pros and cons of certified visuals compared to uncertified one
 ### Certified Visuals
 
 - **✅ Microsoft-Guaranteed Security**  
-    - Certified visuals code is reviewed by Microsoft to ensure it is free from malicious elements and vulnerabilities.
+  - Certified visuals code is reviewed by Microsoft to ensure it is free from malicious elements and vulnerabilities.
 
 - **✅ Exporting Support**  
-    - Certified visuals can be included in email subscriptions and exported to PDF/Power Point.
+  - Certified visuals can be included in email subscriptions and exported to PDF/Power Point.
 
 - **✅ Sandbox Environment**
-    - Certified visuals cannot call external services, ensuring that your data is not sent anywhere.
+  - Certified visuals cannot call external services, ensuring that your data is not sent anywhere.
 
 - **❌ Sandbox Environment**
-    - This limitation can prevent the legitimate use of some features, like accessing remote resources essential for the visual's functionality.
+  - This limitation can prevent the legitimate use of some features, like accessing remote resources essential for the visual's functionality.
 
 - **✅ Automatic Updates**  
-    - Updates are automatically applied to all users, ensuring that everyone is using the latest version.
+  - Updates are automatically applied to all users, ensuring that everyone is using the latest version.
 
 - **❌ Automatic Updates**  
-    - There is only one global version of a certified visual for all Power BI users, which cannot be frozen or managed individually.
-    - The updates are applied automatically, which can lead to unexpected changes in visuals behavior or report design without prior notice.
+  - There is only one global version of a certified visual for all Power BI users, which cannot be frozen or managed individually.
+  - The updates are applied automatically, which can lead to unexpected changes in visuals behavior or report design without prior notice.
 
 - **❌ Update Latency**  
-    - The certification and deployment **process takes up to 4 weeks**, and it must be repeated on every visual update, so fixes can take a long time to be available to users.
-    - Version rollbacks (which are useful in case of regressions) are not immediate: they require 1 week to take effect.
+  - The certification and deployment **process takes up to 4 weeks**, and it must be repeated on every visual update, so fixes can take a long time to be available to users.
+  - Version rollbacks (which are useful in case of regressions) are not immediate: they require 1 week to take effect.
 
 - **❌ Platform Support for Paid Visuals**  
-    - Certified visuals that requires a paid license can only use the [AppSource licensing model](./licensing/index.md), which does not support Power BI Report Server, Power BI Embedded, Publish to Web, and National Clouds.
+  - Certified visuals that requires a paid license can only use the [AppSource licensing model](./licensing/index.md), which does not support Power BI Report Server, Power BI Embedded, Publish to Web, and National Clouds.
 
 ### Uncertified Visuals
 
 - **Vendor Trust**  
-    - You must rely on the custom visuals vendor's commitment to security and reliability. [See our audit process](#audit-process) for uncertified visuals.
+  - You must rely on the custom visuals vendor's commitment to security and reliability. [See our audit process](#audit-process) for uncertified visuals.
 
 - **❌ Exporting Support**
-    - Uncertified visual do not support email subscriptions or export to PDF/Power Point.
+  - Uncertified visual do not support email subscriptions or export to PDF/Power Point.
 
 - **✅ No Limitations**
-    - Uncertified visuals can access remote resources, which can be essential for some features.
+  - Uncertified visuals can access remote resources, which can be essential for some features.
 
 - **✅ Faster Updates**
-    - Custom visual vendors can roll out updates immediately upon release, bypassing the delay of Microsoft's certification process.
+  - Custom visual vendors can roll out updates immediately upon release, bypassing the delay of Microsoft's certification process.
 
 - **✅ Version Control**  
-    - Organizations can decide when to update visuals or roll back to a previous version, offering better management of potential issues and regressions.
+  - Organizations can decide when to update visuals or roll back to a previous version, offering better management of potential issues and regressions.
 
 - **✅ No Platform Limitations**  
-    - Uncertified visuals can be used with any Power BI platform, including Power BI Report Server, Power BI Embedded, Publish to Web, and National Clouds.  
+  - Uncertified visuals can be used with any Power BI platform, including Power BI Report Server, Power BI Embedded, Publish to Web, and National Clouds.  
 
 > **NOTE:** The above pros and cons consider cases where uncertified visuals are installed from the vendor's website. Since uncertified visuals can also be published on AppSource, some of the cons—particularly those related to the update process—may not apply.
 
@@ -93,7 +97,6 @@ In summary:
 
 - **Paid Certified visuals don't support all Power BI platforms.**  
    If you need to use Power BI Report Server, Power BI Embedded, Publish to Web, or National Clouds, you may need to consider uncertified visuals.
-
 
 ## OKVIZ Certified Visuals
 
@@ -118,10 +121,10 @@ These visuals, instead, are not certified:
 
 ## Audit Process
 
-We regularly have our (certified and uncertified) visuals code and infrastructure audited by **Aikido Security**, an external security service. This ongoing process ensures our visuals follow best practices and remain free of malicious code. 
+We regularly have our (certified and uncertified) visuals code and infrastructure audited by **Aikido Security**, an external security service. This ongoing process ensures our visuals follow best practices and remain free of malicious code.
 
 <a href="https://app.aikido.dev/audit-report/external/0p1vf4b2uv0xwQIZw0YOJ24l/request" target="_blank">
-    <img src="https://app.aikido.dev/assets/badges/label-only-light-theme.svg" alt="Aikido Security Audit Report" height="40" class="naked nozoom" />    
+    <img src="https://app.aikido.dev/assets/badges/label-only-light-theme.svg" alt="Aikido Security Audit Report" height="40" class="naked nozoom" />  
 </a>
 
 The auditing includes:
