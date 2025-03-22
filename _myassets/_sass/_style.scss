@@ -25,6 +25,10 @@ table {
         margin-bottom: 40px;
         .card {
             flex: 0 1 38%;
+
+            .card-image img {
+                background: #fff;
+            }
         }
     }
 
