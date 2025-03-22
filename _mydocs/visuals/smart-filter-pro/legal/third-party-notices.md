@@ -20,7 +20,7 @@ For third-party components licensed under open-source licenses with source code 
 - [Microsoft Power BI Custom Visuals TypeUtils](https://www.npmjs.com/package/powerbi-visuals-utils-typeutils)
 - [Microsoft Power BI Custom Visuals SVGUtils](https://www.npmjs.com/package/powerbi-visuals-utils-svgutils)
 - [Microsoft Power BI Custom Visuals FormattingUtils](https://www.npmjs.com/package/powerbi-visuals-utils-formattingutils)
-- [Microsoft Power BI Custom Visuals Formatting Model Utils](https://www.npmjs.com/package/powerbi-visuals-utils-formattingutils) 
+- [Microsoft Power BI Custom Visuals Formatting Model Utils](https://www.npmjs.com/package/powerbi-visuals-utils-formattingutils)
 - [Microsoft Power BI Custom Visuals InteractivityUtils](https://www.npmjs.com/package/powerbi-visuals-utils-interactivityutils)
 - [jQuery](https://www.npmjs.com/package/jquery)
 - [D3.js](https://www.npmjs.com/package/d3)

@@ -3,7 +3,7 @@ layout:             page
 title:              Third-Party Notices
 published:          true
 date:               2024-12-09
-modified:           2025-03-19
+modified:           2025-03-22
 order:              /bullet-chart/legal/third-party-notices
 ---
 Bullet Chart incorporates third-party components from the projects listed below. The original copyright notices and the licenses under which OKVIZ Corp. received such third-party components are set forth below for informational purposes. OKVIZ Corp. licenses these third-party components to you under the [OKVIZ Visuals Terms and Conditions](../../legal/eula.md); however, any third-party components received under open-source licenses that require such components to remain under their original license are provided to you by OKVIZ Corp under their original license. OKVIZ Corp. reserves all other rights not expressly granted herein, whether by implication, estoppel, or otherwise.
@@ -20,7 +20,7 @@ For third-party components licensed under open-source licenses with source code 
 - [Microsoft Power BI Custom Visuals TypeUtils](https://www.npmjs.com/package/powerbi-visuals-utils-typeutils)
 - [Microsoft Power BI Custom Visuals SVGUtils](https://www.npmjs.com/package/powerbi-visuals-utils-svgutils)
 - [Microsoft Power BI Custom Visuals FormattingUtils](https://www.npmjs.com/package/)
-- [Microsoft Power BI Custom Visuals Formatting Model Utils](https://www.npmjs.com/package/powerbi-visuals-utils-formattingutils) 
+- [Microsoft Power BI Custom Visuals Formatting Model Utils](https://www.npmjs.com/package/powerbi-visuals-utils-formattingutils)
 - [Microsoft Power BI Custom Visuals InteractivityUtils](https://www.npmjs.com/package/powerbi-visuals-utils-interactivityutils)
 - [D3.js](https://www.npmjs.com/package/d3)
 - [fast-deep-equal](https://www.npmjs.com/package/fast-deep-equal)

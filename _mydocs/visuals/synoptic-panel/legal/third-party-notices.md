@@ -3,7 +3,7 @@ layout:             page
 title:              Third-Party Notices
 published:          true
 date:               2024-12-09
-modified:           2025-03-19
+modified:           2025-03-22
 order:              /synoptic-panel/legal/third-party-notices
 ---
 Synoptic Panel incorporates third-party components from the projects listed below. The original copyright notices and the licenses under which OKVIZ Corp. received such third-party components are set forth below for informational purposes. OKVIZ Corp. licenses these third-party components to you under the [OKVIZ Visuals Terms and Conditions](../../legal/eula.md); however, any third-party components received under open-source licenses that require such components to remain under their original license are provided to you by OKVIZ Corp under their original license. OKVIZ Corp. reserves all other rights not expressly granted herein, whether by implication, estoppel, or otherwise.
@@ -20,7 +20,7 @@ For third-party components licensed under open-source licenses with source code 
 - [Microsoft Power BI Custom Visuals TypeUtils](https://www.npmjs.com/package/powerbi-visuals-utils-typeutils)
 - [Microsoft Power BI Custom Visuals SVGUtils](https://www.npmjs.com/package/powerbi-visuals-utils-svgutils)
 - [Microsoft Power BI Custom Visuals FormattingUtils](https://www.npmjs.com/package/)
-- [Microsoft Power BI Custom Visuals Formatting Model Utils](https://www.npmjs.com/package/powerbi-visuals-utils-formattingutils) 
+- [Microsoft Power BI Custom Visuals Formatting Model Utils](https://www.npmjs.com/package/powerbi-visuals-utils-formattingutils)
 - [Microsoft Power BI Custom Visuals InteractivityUtils](https://www.npmjs.com/package/powerbi-visuals-utils-interactivityutils)
 - [D3.js](https://www.npmjs.com/package/d3)
 - [fast-deep-equal](https://www.npmjs.com/package/fast-deep-equal)
@@ -34,7 +34,6 @@ For third-party components licensed under open-source licenses with source code 
 - [pako](https://www.npmjs.com/package/pako)
 - [selecto](https://www.npmjs.com/package/selecto)
 - [Split Grid](https://www.npmjs.com/package/split-grid)
-- [js-beautify](https://www.npmjs.com/package/js-beautify)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -50,18 +49,18 @@ Permission to use, copy, modify, and/or distribute this software for any purpose
 
 THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
-## Components under the Apache 2.0 license 
+## Components under the Apache 2.0 license
 
 - [DOMPurify](https://www.npmjs.com/package/dompurify)
 
-Apache License
-Version 2.0, January 2004
-http://www.apache.org/licenses/
+Apache License  
+Version 2.0, January 2004  
+<http://www.apache.org/licenses/>
 
 TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
 1. Definitions.
-    
+
     "License" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.
 
     "Licensor" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.
