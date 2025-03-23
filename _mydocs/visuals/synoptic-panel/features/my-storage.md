@@ -8,7 +8,7 @@ order:              /synoptic-panel/features/my-storage
 next_reading:       true
 ---
 
-My Storage is an exclusive feature of Synoptic Panel that provides an online storage space to upload, store, and manage SVG maps for use within Synoptic Panel. 
+My Storage is an exclusive feature of Synoptic Panel that provides an online storage space to upload, store, and manage SVG maps for use within Synoptic Panel.
 
 >> This feature is **not available** with:
 - Synoptic Panel with an AppSource license
@@ -33,7 +33,7 @@ To display a map stored in My Storage in Synoptic Panel, you must first:
 - [Choose or upload a map to My Storage](#browsing-my-storage).
 - Connect the map to the visual.
 
-After a map has been connected to the visual, it is available to all users of the report wihout any additional authentication. However, to setup, manage and browse the maps stored in your storage, you need an additional key, the [Edit Key](#edit-key).
+After a map has been connected to the visual, it is available to all users of the report without any additional authentication. However, to setup, manage and browse the maps stored in your storage, you need an additional key, the [Edit Key](#edit-key).
 
 ## Setup My Storage
 
@@ -43,14 +43,13 @@ The first time you access My Storage, you will be prompted to set up your storag
 
 ### Encryption (Optional)
 
-My Storage offers an optional encryption feature to enhance the security of your maps. When enabled, all maps uploaded to My Storage are encrypted using a single encryption key. 
+My Storage offers an optional encryption feature to enhance the security of your maps. When enabled, all maps uploaded to My Storage are encrypted using a single encryption key.
 
 Note that:
 
 - The encryption can be only set during the initial setup of My Storage. If you choose not to enable encryption at this stage, you cannot enable it later automatically unless you contact support.
 - The encryption key is not stored on the server, so it must be provided each time you access the maps in the visual, but you can save it in the [Encryption Key property](../options/my-storage/keys.md#encryption-key) for convenience.
 - If you lose the encryption key, **you will not be able to decrypt the maps and we are not able to recover it**. Make sure to store it securely within your organization.
-
 
 ## Browsing My Storage
 
@@ -143,11 +142,11 @@ Each map in My Storage can be protected with a password. This feature ensures th
 
 You can protect a map as follows:
 
-1.	Open the My Storage window and select the map you wish to protect.
-2.	Click the ***Protect*** option from the map’s contextual menu (accessible via the three-dot menu).
-3.	Enter and confirm the desired password.
+1. Open the My Storage window and select the map you wish to protect.
+2. Click the ***Protect*** option from the map's contextual menu (accessible via the three-dot menu).
+3. Enter and confirm the desired password.
 
-It is possible to update or remove the password at any time. To do so, just select ***Unprotect*** or ***Change Password*** from the map’s contextual menu and confirm the action, providing the current password.
+It is possible to update or remove the password at any time. To do so, just select ***Unprotect*** or ***Change Password*** from the map's contextual menu and confirm the action, providing the current password.
 
 <video src="./images/my-storage-add-protection.mp4" autoplay loop muted></video>  
 
@@ -156,3 +155,7 @@ It is possible to update or remove the password at any time. To do so, just sele
 - Password protection does not restrict the ability to view or use the map in read-only mode.
 - Users can open the map in the Map Editor even without the password. However, they cannot save changes directly to the original My Storage map.
 - Users can save a local copy of a protected map and eventually upload it to My Storage as a new map.
+
+### Export Maps URLs
+
+<todo visible>Explain how to export My Storage maps URLs to use with "Map URLs" field well.</todo>

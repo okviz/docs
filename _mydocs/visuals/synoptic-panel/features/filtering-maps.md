@@ -107,7 +107,7 @@ Another way to change maps based on a filter is using the **Map URLs** field wel
 
 <video src="images/map-url-filtering.mp4" autoplay loop muted ></video>
 
->> **IMPORTANT**: The URLs must be publicly accessible, as the visual will load the maps directly from the web using the client browser. See the [Remote Maps Requirements](./importing/remote-maps-requirements.md) section for more information.
+>> **IMPORTANT**: The URLs must be publicly accessible, as the visual will load the maps directly from the web using the client browser. See the [Hosting Requirements](./importing/hosting-requirements.md) section for more information.
 
 Unfortunately, since the Map URLs feature causes a data aggregation on the client side, some limitations apply:
 

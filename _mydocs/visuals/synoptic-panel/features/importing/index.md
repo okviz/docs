@@ -14,10 +14,10 @@ You can import various type of maps in Synoptic Panel. Depending on map type, th
 
 There are different sources from which you can import maps:
 
-- [Local Computer](#local-maps)
-- [Remote Website](#remote-maps)
-- [My Storage](#my-storage-maps)
-- ["Map URLs" Column](#map-urls-column)
+- [Local Maps](#local-maps): maps from your computer
+- [Remote Maps](#remote-maps): maps from remote websites
+- [My Storage Maps](#my-storage-maps): maps stored in your My Storage
+- [Map URLs Column](#map-urls-column): maps from a column containing URLs
 
 >> **NOTE**: Only [Synoptic Panel with an OKVIZ license](../../licensing/index.md) supports remote maps, My Storage maps, and map URLs from a column. Synoptic Panel Lite supports local maps only.
 
@@ -58,7 +58,7 @@ To import maps located on your computer into Synoptic Panel, follow these steps:
 
 ### Remote Maps
 
-To import a remote map into Synoptic Panel, follow these steps:
+To load a remote map into Synoptic Panel, follow these steps:
 
 1. Click ***+ Add Map*** and select the ***Remote Map*** element.
 
@@ -70,11 +70,11 @@ To import a remote map into Synoptic Panel, follow these steps:
 
     <img src="images/remote-map-url.png" width="350">
 
-> **IMPORTANT**: Remote maps must satisfy specific requirements to be imported into Synoptic Panel. Check the [Remote Maps Requirements](./remote-maps-requirements.md) section for more information.
+>> **IMPORTANT**: Remote maps must satisfy specific requirements to be imported into Synoptic Panel. Check the [Hosting Requirements](./hosting-requirements.md) section for more information.
 
-#### Import Multiple Maps from a JSON File
+#### Adding Multiple Maps from a JSON File
 
-For adding multiple URLs at once, you can import a JSON file containing a list of maps. This is useful when you have a large number of maps to import.
+For adding multiple URLs at once, you can import a JSON file containing a list of maps along with their properties.
 
 1. Click ***+ Add Map*** and select the ***Import URLs*** element.
 
@@ -117,7 +117,9 @@ For adding multiple URLs at once, you can import a JSON file containing a list o
 
 ### My Storage Maps
 
-To import map from [My Storage](../../features/my-storage.md) into Synoptic Panel, follow these steps:
+My Storage is a feature that gives a limited amount of storage space on OKIVIZ servers to store maps that can be used in Synoptic Panel. For more information, see the [My Storage](../../features/my-storage.md) section.
+
+To load a map from My Storage, follow these steps:
 
 1. Click ***+ Add Map*** and select the ***My Storage Map*** element.
 
@@ -129,9 +131,17 @@ To import map from [My Storage](../../features/my-storage.md) into Synoptic Pane
 
 ### Map URLs Column
 
-<todo visible>Explanation of how to use remote maps from a data colum.</todo>
+Maps can also be loaded from a remote hosting using a column containing the URLs of the maps. This is useful when you want to switch between maps based on a specific column value, as specified in the [Filtering Maps](../../features/filtering-maps.md#map-urls-column) section.
 
-> **IMPORTANT**: Map URLs must satisfy specific requirements to be loaded into Synoptic Panel. Check the [Remote Maps Requirements](./remote-maps-requirements.md) section for more information.
+To load maps from a column, follow these steps:
+
+1. Prepare a dataset with a column containing the URLs of SVG files, or the URLs of the maps stored in My Storage ([see more here](./maps-from-my-storage.md)).
+
+2. Bind the column to the ***Map URLs*** field well.
+
+    <img src="images/map-urls.png" width="200">
+
+> **IMPORTANT**: Map URLs must satisfy specific requirements to be loaded into Synoptic Panel. Check the [Hosting Requirements](./hosting-requirements.md) section for more information.
 
 ## Replace a Map
 
@@ -159,6 +169,12 @@ When replacing a map, there are some considerations to keep in mind to avoid pot
     - **Avoid Auto Id Dependency**: If your original map relied on Auto Ids, be cautious when updating the SVG. Removing or reordering shapes can disrupt the Id sequence and cause bindings to break.
     - **Incremental Changes**: When modifying an SVG, avoid introducing or removing shapes that could shift the order of automatically generated Ids. Instead, preserve the structure and sequence of the original map.
 
-## Size Limitations
+## Memory Considerations
+
+Memory usage should be considered when importing maps into Synoptic Panel:
+
+- When importing a local map, the file is embedded within the Power BI report, increasing the report's size and potentially affecting performance.
+
+- Remote maps and My Storage maps, instead, are loaded dynamically from the web the first time they are accessed, but they still consume the browser memory, so having maps with large file sizes can slow down the report.
 
 To avoid performance issues, there are some limitations on the size of the maps that can be imported into Synoptic Panel - check [Maps Limits](../../concepts/best-practices.md#performance--limits) for more information.
