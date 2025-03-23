@@ -3,7 +3,7 @@ layout:             page
 title:              Get Started
 published:          true
 date:               2024-05-10
-modified:           2024-05-30
+modified:           2025-03-23
 order:              /synoptic-panel/01
 
 ---
@@ -39,7 +39,7 @@ In this section, you will learn how to install and use Synoptic Panel in a Power
 
     <img src="images/big-add-maps.png" width="265">
 
-6. You can choose the map from [different locations](../features/importing.md). For this time, click on ***Local Map(s)*** to select an SVG image from your local computer.
+6. You can choose the map from [different locations](../features/importing/index.md). For this time, click on ***Local Map(s)*** to select an SVG image from your local computer.
 
     > Don't have a map yet? Download a sample one from our [maps repo on Github](https://github.com/okviz/synoptic-panel-maps).
 

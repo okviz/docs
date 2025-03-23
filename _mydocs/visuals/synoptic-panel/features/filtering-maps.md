@@ -3,7 +3,7 @@ layout:             page
 title:              Filtering Maps
 published:          true
 date:               2024-05-10
-modified:           2025-02-25
+modified:           2025-03-23
 order:              /synoptic-panel/features/filtering-maps
 next_reading:       true
 ---
@@ -12,11 +12,11 @@ Synoptic Panel allows you to change maps using a report filter or a custom selec
 
 Synoptic Panel provides different ways to obtain this behavior:
 
-- **Map Selector**: Set a special DAX measure to select the map to display.
-- **Map URLs**: Bound a column containing map URLs to display.
-- **Single Data Point Maps**: Assign a map to each data point in the data.
+- [Map Selector](#map-selector): Set a special DAX measure to select the map to display.
+- [Map URLs Column](#map-urls-column): Bound a column containing map URLs to display.
+- [Single Data Point Maps](#single-data-point-maps): Assign a map to each data point in the data.
 
-It worth mentioning that you can also use the drill mode to programmatically change maps, also if in a different way. When you enable the drill mode, you can assign different maps to each level in the hierarchy. See more in the [Drill Mode](drill-mode.md) section. 
+It worth mentioning that you can also use the drill mode to programmatically change maps, also if in a different way. When you enable the drill mode, you can assign different maps to each level in the hierarchy. See more in the [Drill Mode](drill-mode.md) section.
 
 ## Map Selector
 
@@ -26,7 +26,7 @@ Synoptic Panel accepts a DAX measure in the **Map Selector** field well.
 
 This measure should return a string consisting in the concatenation of reference values that will be associated to the maps you want to display. Internally, this string is split into individual references, using a [separator character](../options/advanced-options/map-selector.md#separator) as defined in the visual settings.
 
-For each map imported into Synoptic Panel, you can assign one of the references from the map selector using the [Map Editor](../features/map-editor/edit-map.md#map), or directly in the JSON file when [importing multiple remote maps](importing.md). 
+For each map imported into Synoptic Panel, you can assign one of the references from the map selector using the [Map Editor](../features/map-editor/edit-map.md#map), or directly in the JSON file when [importing multiple remote maps](./importing/index.md#import-multiple-maps-from-a-json-file).
 
 When the map selector measure returns a reference that matches one of the references assigned to the maps, the visual will display the corresponding map. If the measure returns a reference that doesn't match any of the maps, the visual will display a warning message.
 
@@ -76,7 +76,7 @@ SelectedOffices =
 In this example, the measure returns a string with the names of the offices currently selected, separated by the character <span style="font-size:20px">✄</span>. Depending on your needs, you can replace the `ALLSELECTED` function with others, such as `VALUES`, to adjust how the map selector measure interacts with the context.
 
 Remember to modify the table and column names according to your dataset.
->> **IMPORTANT**: The separator character must be the same as the one defined in the visual setting [Map Selector Separator](../options/advanced-options/map-selector.md#separator). 
+>> **IMPORTANT**: The separator character must be the same as the one defined in the visual setting [Map Selector Separator](../options/advanced-options/map-selector.md#separator).
 
 ### Assigning References to Maps
 
@@ -101,15 +101,16 @@ Repeat these steps for each map you want to associate with a reference.
 
 After assigning the references, the visual will display the corresponding map when the map selector measure returns a matching reference.
 
-## Map URLs
+## Map URLs Column
 
-Another way to change maps based on a filter is using the **Map URLs** field well. This role allows you to bind a column containing map URLs to the visual. When the column is bound, the visual will display the map associated with the URL in the column according to the current filter.
+Another way to change maps based on a filter is using the **Map URLs** field well, which allows you to connect one column to add multiple remote URLs maps to the visual. When the column is bound, the visual will display the map associated with the URL in the column according to the current filter.
 
 <video src="images/map-url-filtering.mp4" autoplay loop muted ></video>
 
->> **IMPORTANT**: The URLs must be publicly accessible, as the visual will load the maps directly from the web using the client browser. See the [Importing Maps](importing.md) section for more information.
+>> **IMPORTANT**: The URLs must be publicly accessible, as the visual will load the maps directly from the web using the client browser. See the [Remote Maps Requirements](./importing/remote-maps-requirements.md) section for more information.
 
 Unfortunately, since the Map URLs feature causes a data aggregation on the client side, some limitations apply:
+
 - Drill mode is disabled
 - Conditional formatting is disabled. Instead, you can use the OKVIZ color rules, but these are limited compared to the built-in Power BI conditional formatting. For more information, see the [Dynamic Areas Colors](dynamic-colors.md) section.
 - Auto-Fetch is disabled

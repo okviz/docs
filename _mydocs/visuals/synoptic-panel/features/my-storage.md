@@ -3,7 +3,7 @@ layout:             page
 title:              My Storage
 published:          true
 date:               2024-05-10
-modified:           2025-02-20
+modified:           2025-03-23
 order:              /synoptic-panel/features/my-storage
 next_reading:       true
 ---
@@ -54,7 +54,7 @@ Note that:
 
 ## Browsing My Storage
 
-To access and browse My Storage, click the ***+ Add Map*** button and select the ***My Storage Map*** element, as specified in the [Importing My Storage Maps](../features/importing.md#import-my-storage-maps) section.
+To access and browse My Storage, click the ***+ Add Map*** button and select the ***My Storage Map*** element, as specified in the [Importing My Storage Maps](../features/importing/index.md#my-storage-maps) section.
 
 >> This operation is available only to users with the **Edit Key**, a key provided when you purchase a Synoptic Panel license and that can be retrieved from your account dashboard on [okviz.com](https://okviz.com/account/).
 

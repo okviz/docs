@@ -182,7 +182,7 @@ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH RE
   - <https://en.wikipedia.org/wiki/Vesak#Dates_of_observance>
   - <https://en.wikipedia.org/wiki/Washington%27s_Birthday>
   - <https://es.m.wikipedia.org/wiki/Calendario_laboral>
-  - <https://es.wikipedia.org/wiki/Anexo:Dís_festivos_en_Colombia>
+  - https://es.wikipedia.org/wiki/Anexo:Dís_festivos_en_Colombia
   - <https://es.wikipedia.org/wiki/Anexo:Festividades_y_celebraciones#Panam.C3.A1>
   - <https://es.wikipedia.org/wiki/Guinea_Ecuatorial>
   - <https://fr.wikipedia.org/wiki/B%C3%A9nin#F%C3%AAtes_et_jours_f%C3%A9ri%C3%A9s>

@@ -4,7 +4,7 @@ title:              OKVIZ Licensing
 menu_title:         OKVIZ
 published:          true
 date:               2025-02-22
-modified:           2025-02-22
+modified:           2025-03-23
 order:              /licensing/okviz
 ---
 
@@ -47,6 +47,8 @@ You can purchase OKVIZ licenses directly from the [OKVIZ website](https://okviz.
 3. Complete the checkout by providing a valid payment method and confirming the purchase.
 
 4. You will receive an email with the licensed visual file and instructions on how to import it in your Power BI reports.
+
+<a id="enable-entra-token"></a>
 
 ## Activate Licenses
 

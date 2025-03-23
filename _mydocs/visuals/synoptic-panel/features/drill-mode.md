@@ -3,7 +3,7 @@ layout:             page
 title:              Drill Mode
 published:          true
 date:               2024-05-10
-modified:           2025-02-05
+modified:           2025-03-23
 order:              /synoptic-panel/features/drill-mode
 ---
 
@@ -48,7 +48,7 @@ When you enable Drill Mode, you can assign different maps to each level in the h
 
 To do this, simply go down to the desired level and import the maps. The visual will remember the maps for that level and display them when you navigate there.
 
-Unfortunately, due to the way Power BI works, there is no other way to assign maps to different levels. The only exception is when you [import multiple maps](importing.md) at once using a configuration file. In this case, you can assign maps to different levels by providing the **Drill Path**, but it is a more advanced feature that requires some knowledge of the path structure (see below).
+Unfortunately, due to the way Power BI works, there is no other way to assign maps to different levels. The only exception is when you [import multiple maps](./importing/index.md#import-multiple-maps-from-a-json-file) at once using a configuration file. In this case, you can assign maps to different levels by providing the **Drill Path**, but it is a more advanced feature that requires some knowledge of the path structure (see below).
 
 ## The Drill Path
 

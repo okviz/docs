@@ -3,6 +3,9 @@
         "_vscode.css"
     ],
     "markdownlint.config": {
+        "MD007": {
+            "indent": 4
+        },
         "MD033": false,
         "MD036": false,
         "MD045": false
