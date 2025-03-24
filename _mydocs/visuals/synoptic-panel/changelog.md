@@ -3,7 +3,7 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2024-05-10
-modified:           2025-03-21
+modified:           2025-03-24
 order:              /synoptic-panel/{99}
 toc_h_max:          2
 ---
@@ -18,7 +18,7 @@ Synoptic Panel uses **Power BI Custom Visuals API v5.11.0**.
 
 **Bug Fixes:**
 
-- Fix a problem with some special characters blocking visual rendering
+- Fix a problem with some special characters blocking visual rendering [#42](https://github.com/okviz/synoptic-panel-issues/issues/42)
 
 ## v2.3.3
 
@@ -26,7 +26,7 @@ Synoptic Panel uses **Power BI Custom Visuals API v5.11.0**.
 
 **New Features:**
 
-- Add the ability to export My Storage URLs and use them with Map URLs field
+- Add the ability to export My Storage map URLs and [use them with Map URLs](./features/importing/maps-from-my-storage.md) field well
 - Add the [outline color option](./options/areas/outline.md) for map areas
 
 **Bug Fixes:**
