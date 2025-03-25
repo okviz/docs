@@ -3,7 +3,7 @@ layout:             page
 title:              My Storage
 published:          true
 date:               2024-05-10
-modified:           2025-03-23
+modified:           2025-03-25
 order:              /synoptic-panel/features/my-storage
 next_reading:       true
 ---
@@ -77,10 +77,9 @@ My Storage browser interface is divided into tree main sections:
 
 <video src="./images/my-storage-layout.mp4" autoplay loop muted></video>
 
-
 - **Map List** (Left Pane):
 
-    This section displays the list of all maps stored. You can browse through the list and select one or more maps to be associated with the current [Drill Path](./drill-mode.md#the-drill-path). Each map can be previewed, renamed, replaced, protected or deleted directly from the list. 
+    This section displays the list of all maps stored. You can browse through the list and select one or more maps to be associated with the current [Drill Path](./drill-mode.md#the-drill-path). Each map can be previewed, renamed, replaced, protected or deleted directly from the list.
 
     <img src="./images/my-storage-map-menu.png" width="400">
 
@@ -108,11 +107,11 @@ Uploading maps means selecting one or more local files from your machine and sav
 
 Upload maps as follows:
 
-1.  If My Storage is empty(i.e., no maps have been uploaded yet), click the ***Upload*** button in the center of the screen, otherwise, the button is located at the bottom of the ***Map List*** pane.
+1. If My Storage is empty(i.e., no maps have been uploaded yet), click the ***Upload*** button in the center of the screen, otherwise, the button is located at the bottom of the ***Map List*** pane.
 
     <img src="./images/my-storage-upload-btn-empty.png" width="300">
 
-2.	Select the local files you want to upload from your machine.
+2. Select the local files you want to upload from your machine.
 
 #### Upload Limitations
 
@@ -124,13 +123,13 @@ Upload maps as follows:
 
 To connect a map to the current [Drill Path](./drill-mode.md#the-drill-path) within the visual:
 
-1.  **Upload the Map**: the map must first be [uploaded to My Storage](#upload-maps).
+1. **Upload the Map**: the map must first be [uploaded to My Storage](#upload-maps).
 
-2.	**Select the Map**: use the checkbox next to the map name in the list to select the map you want to connect.
+2. **Select the Map**: use the checkbox next to the map name in the list to select the map you want to connect.
     - Multiple maps can be selected by checking multiple checkboxes.
     - To select all maps in the list, use the ***Select All*** element at the top of the list.
 
-3.	**Add the Selected Maps**: click the ***Add Selected*** button to connect the selected maps to the current [Drill Path](./drill-mode.md#the-drill-path) in the visual.
+3. **Add the Selected Maps**: click the ***Add Selected*** button to connect the selected maps to the current [Drill Path](./drill-mode.md#the-drill-path) in the visual.
 
 Maps that are already connected to the current Drill Path will appear grayed out and cannot be selected again.
 
@@ -158,4 +157,25 @@ It is possible to update or remove the password at any time. To do so, just sele
 
 ### Export Maps URLs
 
-<todo visible>Explain how to export My Storage maps URLs to use with "Map URLs" field well.</todo>
+You can [use Map URLs from My Storage](../features/importing/maps-from-my-storage.md) by exporting them and adding them to your URLs dataset column.
+
+To access My Storage while using the [Map URLs](../fields/map-urls.md) field, click the *My Storage icon* next to the map selection dropdown.
+
+<img src="./images/access-my-storage-with-map-urls.png" width="400">
+
+Once you access My Storage, you can:
+
+1. **Copy a Single Map URL**
+
+- Click the context menu of the desired map.
+- Select *Copy URL* to copy it to the clipboard.
+- You can then manually paste it into your URLs dataset column.
+
+    <img src="./images/my-storage-copy-map-url.png">
+
+2. **Export Multiple Map URLs as a CSV File**
+
+- Select the maps by checking the checkboxes next to their names.
+- Click the *Export URLs* button. This will close the dialog and download a CSV file containing the exported URLs.
+
+    <img src="./images/my-storage-export-urls.png">
