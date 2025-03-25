@@ -4,7 +4,7 @@ title:              OKVIZ Licensing
 menu_title:         OKVIZ
 published:          true
 date:               2025-02-22
-modified:           2025-03-23
+modified:           2025-03-25
 order:              /licensing/okviz
 ---
 
@@ -54,7 +54,7 @@ You can purchase OKVIZ licenses directly from the [OKVIZ website](https://okviz.
 
 **For the majority of OKVIZ visuals, activation is not required.** The visual file you receive (via email or from your account dashboard) is already licensed and ready to use.
 
-For specific visuals that support a [hybrid licensing](index.md#a-third-option-hybrid-licensing) model, the visual can installed from AppSource, but the OKVIZ license must be activated manually:
+For specific visuals that support a [hybrid licensing](../index.md#a-third-option-hybrid-licensing) model, the visual can installed from AppSource, but the OKVIZ license must be activated manually:
 
 - [Smart Filter Pro Manual Activation](smart-filter-pro-manual-activation.md)
 - [Synoptic Panel Manual Activation](synoptic-panel-manual-activation.md)
