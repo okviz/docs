@@ -3,14 +3,14 @@ layout:             page
 title:              Toolbars
 published:          true
 date:               2025-01-21
-modified:           2025-01-29
+modified:           2025-03-26
 order:              /synoptic-panel/features/toolbars
 next_reading:       true
 ---
 
 In Synoptic Panel, two distinct ***Toolbars*** are available to enhance the usability and customization of the visual:
 
-<img src="./images/toolbars.png" width="600" class="naked">
+<img src="images/toolbars.png" width="600" class="naked">
 
 1. **Top Toolbar**: positioned in the top-left corner of the visual, visible only in ***Edit View***.
 
@@ -20,7 +20,7 @@ In Synoptic Panel, two distinct ***Toolbars*** are available to enhance the usab
 
 The **Top Toolbar** allows users to manage and configure the visual’s structure. This toolbar is only displayed in Edit Mode and contains the following elements:
 
-<img src="./images/top-toolbar.png" class="naked">
+<img src="images/top-toolbar.png" class="naked" width="350">
 
 - ***Map Dropdown***(1): displays a list of all maps within the current drill path. You can use this dropdown to quickly switch between maps.
 - ***Edit Icon*** (2): opens the [Map Editor](./map-editor/index.md) , where you can manage and edit maps.
@@ -31,7 +31,7 @@ The **Top Toolbar** allows users to manage and configure the visual’s structur
 
 The ***Bottom Toolbar*** focuses on user interaction with the visual, enabling dynamic adjustments to the map’s appearance and behavior. It is located at the bottom of the visual and includes the following controls:
 
-<img src="./images/bottom-toolbar.png" class="naked">
+<img src="images/bottom-toolbar.png" class="naked" width="350">
 
 **Zoom Controls**
 - ***Zoom In***(1): Magnifies the map for a closer view.

@@ -18,7 +18,7 @@ To activate the legend:
 
 Once enabled, the legend will appear within the visual, and you can begin customizing it. You can also connect a column from your dataset to the [Legend field well](./../fields/legend.md) to display the corresponding values.
 
-<video src="./images/enable-legend.mp4" autoplay loop muted></video>
+<video src="images/enable-legend.mp4" autoplay loop muted></video>
 
 ## Customizing Legend
 
@@ -29,7 +29,7 @@ In Synoptic Panel, each element of the legend can be customized extensively to m
 
 ### Legend Editor
 
-<video src="./images/legend-editor.mp4" autoplay loop muted></video>
+<video src="images/legend-editor.mp4" autoplay loop muted></video>
 
 When accessing the **Legend Editor** you gain full control over its elements. Within the dialog, you can:
 

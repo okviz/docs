@@ -17,7 +17,7 @@ Label customizations are map-specific. Therefore, any settings applied within th
 
 To access the Label Designer, click on its icon <img src="images/label-designer-icon.png" width="25" class="nomargin"> located within the [Top Toolbar](toolbars.md#top-toolbar) at the top-left of the visual and the system transitions into Power BI Focus Mode.
 
-<video src="./images/label-designer.mp4" style="clip-path:inset(2px 0 0 2px)" autoplay loop muted></video>
+<video src="images/label-designer.mp4" style="clip-path:inset(2px 0 0 2px)" autoplay loop muted></video>
 
 Label Designer offers drag-and-drop functionality, allowing you to easily position labels on the map. You can also adjust the size of a label by dragging one of its corners, and rotate it by dragging the small circle located above the label. Alignment guides are also provided, enabling you to align labels quickly and intuitively for a polished and organized layout.
 

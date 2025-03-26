@@ -10,14 +10,14 @@ next_reading:       true
 
 The Map Editor interface is designed for intuitive navigation and interaction, with two main sections: the ***Map List*** on the left and the ***Map Preview*** on the right.
 
-<video src="./images/map-editor-interface.mp4" autoplay loop muted></video>
+<video src="images/map-editor-interface.mp4" autoplay loop muted></video>
 ## Map List
 
 This pane displays a list of maps currently loaded in the visual and connected to the current [Drill Path](../../features/drill-mode.md#the-drill-path) shown at the top of the panel (e.g., ***Category > Sector*** in the provided example). To see and manage all maps connected to the visual in other Drill Paths you can use the [Map Manager](../map-manager.md).
 
 **Map**
 
-<img src="./images/map-list-element.png" width="400">
+<img src="images/map-list-element.png" width="400">
 
 Each element in the list includes:
 - **Drag Icon**(1): Allows you to reorder the maps by dragging and dropping them.
@@ -33,14 +33,14 @@ Each element in the list includes:
 
     > Note that the order of the maps in the list will determine the order in which they are displayed in the map dropdown list in the visual.
 
-<video src="./images/map-editor-features.mp4" autoplay loop muted></video>
+<video src="images/map-editor-features.mp4" autoplay loop muted></video>
 
 ## Map Preview
 
 This section provides useful information and a visual preview of the currently selected map.
 The map is displayed in the center of the pane while in the corners you can find some useful information and tools.
 
-<img src="./images/map-preview.png">
+<img src="images/map-preview.png">
 
 **Main Detail** - Top-Left
 

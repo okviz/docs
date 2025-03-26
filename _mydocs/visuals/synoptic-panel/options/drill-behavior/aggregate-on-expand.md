@@ -53,13 +53,13 @@ Consider the following dataset with a hierarchy of ***Category → Sector***:
         <td colspan="2" style="text-align:center;" >......</td>
     </tr>
 </table>
- <img src="./images/catergories-field-2-levels.png" style="width:300px; align-self:center;" >
+ <img src="images/catergories-field-2-levels.png" style="width:300px; align-self:center;" >
 </div>
 
 When the option is ***Enabled***, data points are aggregated, meaning only the values corresponding to the deepest level of the hierarchy navigated are received and displayed. This allows for a simplified representation where only the relevant category at the current level is shown. So if you expand the hierarchy to the ***Sector*** level, only the values for the sectors are displayed.
 
 <figure>
-    <img src="./images/aggregate-on-expand-enabled.png" >
+    <img src="images/aggregate-on-expand-enabled.png" >
     <figcaption>
         Data Points: 306; 202; 203; 305; 307; 204; 205 ...
     </figcaption>
@@ -68,7 +68,7 @@ When the option is ***Enabled***, data points are aggregated, meaning only the v
 When the option is ***Disabled***, data points are not aggregated, meaning each data point includes the full hierarchical path, containing the names of all parent categories up to the top level. As a result, every data point retains its full path in the dataset.
 
 <figure>
-    <img src="./images/aggregate-on-expand-disabled.png" >
+    <img src="images/aggregate-on-expand-disabled.png" >
     <figcaption>
         Data Points: Best \ 306; Economy \ 202; Economy \ 203; Premium \ 305; Premium \ 307; Regular \ 204; Regular \ 205 ...
     </figcaption>

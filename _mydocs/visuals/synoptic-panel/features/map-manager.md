@@ -10,7 +10,7 @@ next_reading:       true
 
 The Maps Manager provides an overview of **all the maps connected to the visual** and their associated [Drill Paths](./drill-mode.md#the-drill-path) It is a powerful tool to manage maps efficiently and offers functionality for organizing, previewing, and editing connections between maps and drill paths.
 
-<video src="./images/map-manager.mp4" autoplay loop muted></video>
+<video src="images/map-manager.mp4" autoplay loop muted></video>
 
 The Maps Manager interface is visually similar to the [Map Editor](./map-editor/layout.md) and is divided into two main sections:
 
@@ -31,7 +31,7 @@ This pane displays a hierarchical view of all Drill Paths to which maps are conn
 This section provides useful information and a visual preview of the currently selected map.
 The map is displayed in the center of the pane while in the corners you can find some useful information and tools.
 
-<img src="./images/map-manager-map-preview.png" width="600">
+<img src="images/map-manager-map-preview.png" width="600">
 
 **Main Detail** (Top-Left)
 

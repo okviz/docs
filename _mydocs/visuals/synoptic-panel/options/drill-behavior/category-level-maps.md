@@ -66,12 +66,12 @@ Consider the following dataset with a hierarchy of ***Category → Sector → Se
         <td colspan="3" style="text-align:center;" >......</td>
     </tr>
 </table>
- <img src="./images/categories-field-3-levels.png" style="width:300px; align-self:center;" >
+ <img src="images/categories-field-3-levels.png" style="width:300px; align-self:center;" >
 </div>
 
 You are currently at the ***Category*** level. You click on an area of the map corresponding to ***Economy***.
 
- <img src="./images/category-level-maps-drill-on-economy.png">
+ <img src="images/category-level-maps-drill-on-economy.png">
 
 The drill-down is performed with the following scenarios:
 
@@ -83,7 +83,7 @@ The drill-down is performed with the following scenarios:
 
     This is the default behavior, which allows you have ***separate maps for each data point***.
 
-    <img src="./images/category-level-maps-off.png">
+    <img src="images/category-level-maps-off.png">
 
 1. **Category Level Maps Enabled**
 
@@ -93,4 +93,4 @@ The drill-down is performed with the following scenarios:
 
     This is beneficial if you prefer to highlight selected data points within the ***category level map***.
 
-    <img src="./images/category-level-maps-on.png">
+    <img src="images/category-level-maps-on.png">
