@@ -54,7 +54,9 @@ Note that:
 
 ## Browsing My Storage
 
-To access and browse My Storage, click the ***+ Add Map*** button and select the ***My Storage Map*** element, as specified in the [Importing My Storage Maps](../features/importing/index.md#my-storage-maps) section.
+To access and browse My Storage, click the ***+ Add Map*** button and select the ***My Storage Map*** element.
+
+<img src="importing/images/import-my-storage.png" width="250">
 
 In case you are using the [Map URLs](../features/filtering-maps.md#map-urls-column) feature, you can access My Storage by clicking the dedicated button next to the map selection dropdown.
 
@@ -164,13 +166,13 @@ To connect a map from My Storage to the current [Drill Path](./drill-mode.md#the
 
 > Maps that are already connected to the current Drill Path will appear grayed out and cannot be selected again.
 
-## Export Maps URLs
+## URLs of My Storage Maps
 
 Maps stored in My Storage are accessible via unique URLs. These URLs can be exported as a CSV file for use with the [Map URLs feature](../features/importing/maps-from-my-storage.md) in Synoptic Panel.
 
 >> **IMPORTANT**: The URLs of My Storage maps are not predictable and cannot be directly accessed via the browser's address bar. They are intended for use exclusively within Synoptic Panel. However, this is not a security feature—since the URLs are not encrypted, a determined user might still find a way to access them. Use caution when sharing these URLs.
 
-To export the URLs of maps stored in My Storage:
+To export the URLs of maps stored in My Storage you can:
 
 - **Copy a Single Map URL**
 
@@ -178,13 +180,13 @@ To export the URLs of maps stored in My Storage:
     - Select ***Copy URL*** to copy it to the clipboard.
     - You can then manually paste it into your URLs dataset column.
 
-    <img src="images/my-storage-copy-map-url.png">
+    <img src="images/my-storage-copy-map-url.png" width="400">
 
 - **Export Multiple Map URLs as a CSV File**
 
     - Select the maps by checking the checkboxes next to their names.
     - Click the ***Export URLs*** button. This will close the dialog and download a CSV file containing the exported URLs.
 
-    <img src="images/my-storage-export-urls.png">
+    <img src="images/my-storage-export-urls.png" width="600">
 
-Read more about using these URLs here: [Use Map URLs from My Storage](../features/importing/maps-from-my-storage.md).
+Read more about using these URLs here: [Use Map URLs from My Storage](../features/importing/maps-from-my-storage.md)

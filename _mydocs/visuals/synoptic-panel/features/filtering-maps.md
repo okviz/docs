@@ -116,6 +116,10 @@ Unfortunately, since the Map URLs feature causes a data aggregation on the clien
 - Auto-Fetch is disabled
 - Map Selector is disabled
 
+> **EXAMPLES**:
+- [Load Maps from GitHub](./importing/maps-from-github.md)
+- [Use Map URLs from My Storage](./importing/maps-from-my-storage.md)
+
 ## Single Data Point Maps
 
 Synoptic Panel allows you to assign a map to each data point in the dataset. Since this behavior is strictly connected to the [Drill Mode](drill-mode.md), the options to control it are placed in the **Drill Behavior** section of the visual.

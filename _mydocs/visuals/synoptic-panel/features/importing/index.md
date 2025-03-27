@@ -29,16 +29,17 @@ First of all, connect the visual to the report if you have not done so already. 
 
 There are two ways to load maps into Synoptic Panel, depending on the current condition of the visual:
 
-- **The visual has no maps connected or there are no maps connected to the current drill path**.
-    You can directly click the ***Add Map*** button within the visual and choose the type of map you want to import. 
-    When no maps are connected, the button is located at the center of the visual, otherwise it is in the top-left corner.
+- **If the visual has no maps or there are no maps on the current drill path**.
+
+    You can directly click the ***Add Map*** button within the visual and choose the type of map you want to import. When no maps are connected, the button is located at the center of the visual, otherwise it is in the top-left corner.
 
     <img src="images/add-map-no-maps.png" width="400">
 
-- **The current drill path already has a map connected**. 
-    You need to click on ***Edit icon*** <img src="images/pencil-icon.png" width="25" class="nomargin"> in the visual [Toolbar](../../features/toolbars.md#top-toolbar), which will open the [Map Editor](../map-editor/index.md). In the Map Editor, you can click the ***+ Add*** button and choose the type of map you want to import. 
+- **If the current drill path already has a map connected**.
 
-    <img src="images/add-map-map-editor-icon.png" width="400">
+    You need to click on ***Edit icon*** in the visual toolbar, which will open the [Map Editor](../map-editor/index.md). In the Map Editor, you can click the ***+ Add*** button and choose the type of map you want to import.
+
+    <img src="images/map-editor-button.png" width="500">
 
 ## Importing Maps
 

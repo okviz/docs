@@ -4,7 +4,7 @@ title:              Hosting Requirements for Maps
 menu_title:         Hosting Requirements
 published:          true
 date:               2025-03-23
-modified:           2025-03-23
+modified:           2025-03-26
 order:              /synoptic-panel/features/importing/01
 ---
 
@@ -33,8 +33,8 @@ Here are some popular cloud services and their availability to setup CORS for Sy
 
 | Service       | Availability  | Help |
 |---------------|---------------|------|
-| [My Storage](../../features/my-storage.md)    |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅|[How to Connect](./maps-from-my-storage.md)|
-| GitHub        |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅|[How to Connect](./maps-from-github.md)|
+| [My Storage](../../features/my-storage.md)    |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅|[Tutorial](./maps-from-my-storage.md)|
+| GitHub        |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅|[Tutorial](./maps-from-github.md)|
 | Azure Static Web Apps |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅|Setup CORS on `staticwebapp.config.json`|
 | AWS S3 + CloudFront |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅|Setup CORS on S3 bucket policy|
 | Firebase Hosting |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅|Setup CORS on `firebase.json`|
