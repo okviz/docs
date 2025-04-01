@@ -4,7 +4,7 @@ title:              Power BI Organizational Visuals Store
 menu_title:         Org Store
 published:          true
 date:               2021-12-21
-modified:           2025-02-25
+modified:           2025-04-01
 order:              /01/04
 toc:                false
 ---
@@ -18,9 +18,7 @@ The Power BI Organizational Visuals store (Org Store) is the best way to share c
 There are two main benefits in using the Org Store:
 
 - [Automatic Updates](#automatic-updates)
-- [Timely Support for Private Visuals](#timely-support-for-private-visuals)
-
-
+- [Timely Support for Non-AppSource Visuals](#timely-support-for-non-appsource-visuals)
 
 ## Automatic Updates
 
@@ -32,18 +30,17 @@ By storing custom visuals in the Org Store, you can import custom visuals from t
 
 The Org Store can also be used with visuals from AppSource. In this case, the benefits are less obvious, as every visual from AppSource is already automatically updated in every report. Actually, the Org Store gives Power BI administrators the ability to decide when to update and test new versions before deployment.
 
-## Timely Support for Private Visuals
+## Timely Support for Non-AppSource Visuals
 
-Releasing custom visuals to AppSource requires a Microsoft review process that typically takes up to 3 weeks. This is good for checking regressions, but not so good for existing bug fixes that may be urgent for a specific report.
+Releasing custom visuals to AppSource requires a Microsoft review process that typically takes 3/4 weeks. This is good for checking regressions, but not so good for existing bug fixes that may be urgent for a specific report.
 
 By using the Org Store, you are in control of any update. Indeed, if there is a critical bug in one of the visuals you are using, you can quickly apply a patch to every report on the very day the update is available. This way, you are not dependent on Microsoft’s timeline for releasing the custom visual on to the marketplace.
 
-Unfortunately, **this is only true for private, uncertified visuals.** This is because a visual must be reviewed, approved and released in AppSource to be certified, which brings us back to the 3-week process.
+Unfortunately, this **only applies to visuals that are not available on AppSource, and therefore also to uncertified visuals** (since certification requires publishing on AppSource).
 
-> Find out more on certification here: [Certification](../certification.md)
+> Find out more here: [Pros and Cons of Certified Visuals](../certification.md)
 
 ## How to Manage Visuals in the Org Store
-
 
 The installation of custom visuals in the Org Store is described here: [Installing from the Org Store](installation.md#from-the-org-store)
 

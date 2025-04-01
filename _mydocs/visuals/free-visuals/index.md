@@ -4,7 +4,7 @@ title:              Free Visuals
 menu_title:         – Free Visuals
 published:          true
 date:               2022-07-13
-modified:           2025-03-20
+modified:           2025-04-01
 order:              /{50}
 ---
 
@@ -25,14 +25,13 @@ None of these visuals send your data over the Internet or collect your use. You 
 
 <img src="../images/certified.svg" width="190" class="nozoom">
 
-
 ## Bug Report
 
 For any issues with these visuals, please visit the [Support page](../issues/support.md).
 
 ## Third-Party Notices
 
-All the third-party components used in these visuals are under the MIT License.
+All the third-party components used in these visuals are under the [MIT License](https://opensource.org/license/mit).
 
 ## Terms of Use
 
