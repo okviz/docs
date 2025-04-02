@@ -3,7 +3,7 @@ layout:             page
 title:              Common Issues
 published:          true
 date:               2021-12-17
-modified:           2022-07-14
+modified:           2025-04-02
 toc:                false
 order:              /03/02
 ---
@@ -40,14 +40,6 @@ Here are some of the most common errors you can run into with Power BI and custo
 - **We can't display this visual because a measure is used in cross highlighting. Please remove the measure or cross highlight.**
 
     This usually affect ***Smart Filter Pro***. This error occurs when you enable [Consolidate Fields](../smart-filter-pro/options/mode/consolidate-fields.md) and change the logical operator to ***OR***. Unfortunately, Power BI doesn't support filtering different fields in OR.
-
-- **AADSTS500011: The resource principal named https://api.okviz.com was not found in the tenant named xxx.**
-
-    <img src="images/error-entra-id.png" width="600">
-
-    This error occurs when attempting to activate an OKVIZ license for a visual downloaded from AppSource, but the OKVIZ app has not been approved by your administrator or your organization has disabled third-party access to Entra ID.
-
-    OKVIZ licensing requires access to the Entra ID API to activate the license on your tenant, but only when using the [hybrid licensing model](../licensing/index.md#a-third-option-hybrid-licensing). If this applies, contact your administrator and follow the instructions in the [Grant tenant-wide admin consent to an application](https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/grant-admin-consent?pivots=portal) page.
 
 &nbsp;
 

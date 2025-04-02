@@ -1,14 +1,13 @@
 ---
 layout:             page
-title:              Smart Filter Pro Manual Activation
-menu_title:         Smart Filter Pro Activation
+title:              Licensee Activation
 published:          true
 date:               2025-02-22
-modified:           2025-02-22
-order:              /licensing/okviz/smart-filter-pro-manual-activation
+modified:           2025-04-02
+order:              /licensing/okviz/licensee-activation
 ---
 
-If you use Smart Filter Pro from AppSource, you have opted for a [hybrid licensing](../index.md#a-third-option-hybrid-licensing) model which requires manual activation of the OKVIZ license.
+If you use Smart Filter Pro from AppSource, you have opted for a [hybrid licensing](../index.md#a-third-option-hybrid-licensing) model which requires manual activation of the OKVIZ license with the licensee information.
 
 ## Activation Steps
 

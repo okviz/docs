@@ -56,8 +56,8 @@ You can purchase OKVIZ licenses directly from the [OKVIZ website](https://okviz.
 
 For specific visuals that support a [hybrid licensing](../index.md#a-third-option-hybrid-licensing) model, the visual can installed from AppSource, but the OKVIZ license must be activated manually:
 
-- [Smart Filter Pro Manual Activation](smart-filter-pro-manual-activation.md)
-- [Synoptic Panel Manual Activation](synoptic-panel-manual-activation.md)
+- Smart Filter Pro: [Licensee Activation](licensee-activation.md)
+- Synoptic Panel: [Entra Activation](entra-activation.md)
 
 ## Upgrade Licenses
 
