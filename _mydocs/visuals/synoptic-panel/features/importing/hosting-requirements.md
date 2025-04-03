@@ -4,7 +4,7 @@ title:              Hosting Requirements for Maps
 menu_title:         Hosting Requirements
 published:          true
 date:               2025-03-23
-modified:           2025-03-26
+modified:           2025-04-03
 order:              /synoptic-panel/features/importing/01
 ---
 
@@ -25,7 +25,7 @@ Now, if the visual needs to load a map from an online service, your browser sees
 
 This security rule is called CORS, short for [Cross-Origin Resource Sharing](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS), and can be setup to allow specific origins to access the service.
 
-In our case, **the visual runs in the browser and has no origin of its own**—it's just your browser trying to reach out. For this particular case, the CORS rule must be set more permissively to allow any origin to access the service, which is not common in most cloud services.
+In our case, **the visual can run various platforms—such as Power BI Desktop, powerbi.com, or be embedded in any website—it may originate from any domain.** Therefore, CORS must be configured to allow requests from all origins, which is uncommon for most cloud services.
 
 ## Popular Hosting Services
 
