@@ -5,7 +5,7 @@ published:          true
 toc_h_max:          2
 date:               2024-12-31
 modified:           2025-03-18
-order:              /legal/03
+order:              /terms/03
 ---
 
 This document explains the technologies used by this Application to achieve the purposes described below. These technologies allow the Owner to access and store information (for example, by using a Cookie) or use resources (for example, by running a script) on your device while you interact with this Application.

@@ -6,7 +6,7 @@ published:          true
 toc_h_max:          2
 date:               2024-12-31
 modified:           2025-03-18
-order:              /legal/04
+order:              /terms/04
 pdf:                true
 ---
 

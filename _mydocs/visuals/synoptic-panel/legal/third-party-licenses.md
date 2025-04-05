@@ -1,10 +1,10 @@
 ---
 layout:             page
-title:              Third-Party Notices
+title:              Third-Party Licenses
 published:          true
 date:               2024-12-09
 modified:           2025-03-22
-order:              /synoptic-panel/legal/third-party-notices
+order:              /synoptic-panel/legal/third-party-licenses
 ---
 Synoptic Panel incorporates third-party components from the projects listed below. The original copyright notices and the licenses under which OKVIZ Corp. received such third-party components are set forth below for informational purposes. OKVIZ Corp. licenses these third-party components to you under the [OKVIZ Visuals Terms and Conditions](../../legal/eula.md); however, any third-party components received under open-source licenses that require such components to remain under their original license are provided to you by OKVIZ Corp under their original license. OKVIZ Corp. reserves all other rights not expressly granted herein, whether by implication, estoppel, or otherwise.
 

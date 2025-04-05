@@ -9,6 +9,9 @@ web_url: https://okviz.com
 # Privacy URL - It's added to the website footer
 privacy_url: https://docs.okviz.com/www/terms/privacy
 
+# Terms URL - It's added to the website footer
+terms_url: https://docs.okviz.com/www/terms
+
 # GitHub URL - Leave blank if you don't want to display links to GitHub repo
 github_url:
 

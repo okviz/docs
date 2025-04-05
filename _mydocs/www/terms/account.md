@@ -5,7 +5,7 @@ published:          true
 toc_h_max:          2
 date:               2025-02-08
 modified:           2025-03-18
-order:              /legal/01
+order:              /terms/01
 pdf:                true
 ---
 
