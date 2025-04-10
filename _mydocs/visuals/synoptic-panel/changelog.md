@@ -3,7 +3,7 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2024-05-10
-modified:           2025-03-26
+modified:           2025-04-10
 order:              /synoptic-panel/{99}
 toc_h_max:          2
 ---
@@ -11,6 +11,25 @@ This page contains a quick summary of versions and notable changes of Synoptic P
 Synoptic Panel uses **Power BI Custom Visuals API v5.11.0**.
 
 > **NOTE:** Synoptic Panel Lite is a subset of Synoptic Panel with limited features. Both versions share the same codebase and changelog.
+
+## v2.3.6
+
+**Released:** 2025-04-10
+
+**New Features:**
+
+- Add [Outline customization settings](./options/areas/color-matched.md#outline) per area type 
+- Add [Search Map](./features/search-map.md) feature
+- Add [Cache Setting for Remote Maps](./options/advanced-options/cache.md#remote-maps)
+
+**Improvements:**
+
+- Minor changes
+
+**Removed:**
+
+- Remove *Apply Color To* from area's color settings
+- Remove global *Outline* settings
 
 ## v2.3.5
 
