@@ -12,9 +12,9 @@ Legend in Synoptic Panel is a powerful feature that provides an intuitive way to
 ## Enabling Legend
 
 To activate the legend:
-1.	Navigate to the Visual Options in Power BI.
-2.	Locate the [Legend](./../options/legend/index.md) section.
-3.	Toggle the switch to enable the legend.
+1. Navigate to the Visual Options in Power BI.
+2. Locate the [Legend](./../options/legend/index.md) section.
+3. Toggle the switch to enable the legend.
 
 Once enabled, the legend will appear within the visual, and you can begin customizing it. You can also connect a column from your dataset to the [Legend field well](./../fields/legend.md) to display the corresponding values.
 
