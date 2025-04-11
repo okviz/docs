@@ -1,9 +1,9 @@
 ---
 layout:             page
 title:              Cache
-published:          false
-date:               2025-04-10
-modified:           2025-04-10
+published:          true
+date:               2025-04-11
+modified:           2025-04-11
 order:              /synoptic-panel/options/advanced-options/cache
 ---
 
