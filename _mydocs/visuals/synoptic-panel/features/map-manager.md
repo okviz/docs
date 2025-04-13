@@ -40,7 +40,7 @@ Here are displayed the following key details (in order from top to bottom):
 - ***Map Source***(2): the source of the selected map, which varies depending on the type of map:
 	- For local maps, the source displays the file name that originated the map (e.g. my-file.svg).
 	- For remote maps, the source shows the URL where the map is hosted.
-	- For MyStorage maps, the source displays the map’s unique ID in the storage system.
+	- For My Storage maps, the source displays the map’s unique ID in the storage system.
 - ***Map Author***(3) - if available: Displays the author of the map.
 
 **Additional Information** (Bottom-Left)

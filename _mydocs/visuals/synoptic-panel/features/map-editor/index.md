@@ -3,7 +3,7 @@ layout:             page
 title:              Map Editor
 published:          true
 date:               2024-05-10
-modified:           2025-03-23
+modified:           2025-04-13
 order:              /synoptic-panel/features/map-editor
 next_reading:       true
 ---
@@ -15,4 +15,4 @@ When [Importing Maps](./../importing/index.md) directly from visual by click on 
 
 If you already have a map loaded in the visual, you can open the Map Editor by clicking on the ***Edit icon*** <img src="images/pencil-icon.png" width="25" class="nomargin"> in the visual [Toolbar](./../toolbars.md).
 
-> Map Editor is available only in the ***Editing View***. If you are in ***Reading View***, you need to switch to ***Editing Mode*** to access the Map Editor. Moreover, it is not available if you are using the [Map URLs field well](./../../fields/map-urls.md).
+> Map Editor is available only in the ***Editing View***, if you are not using the [Map URLs field well](./../../fields/map-urls.md).
