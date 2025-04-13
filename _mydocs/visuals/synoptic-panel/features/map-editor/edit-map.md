@@ -3,7 +3,7 @@ layout:             page
 title:              Edit Map
 published:          true
 date:               2025-01-13
-modified:           2025-01-29
+modified:           2025-04-13
 order:              /synoptic-panel/features/map-editor/edit-map
 next_reading:       true
 ---
@@ -96,14 +96,10 @@ If this option is selected, the selected area will be treated as a hyperlink and
 
 The header section contains the following elements:
 
-- ***Maps***(1): button to go back to the Map List.
-- ***Map Title***(2): the name of the map currently edited.
-- ***Metadata***(3): button to edit the following map information:
-    - **Author**: the author of the map.
-    - **Attribution**: attribution or copyright information for the map.
-- ***Export***(4): button to export the map as a file in the format:
-    - **Map (XML/SVG)**: the map will be exported as XML file containing only the original SVG code.
-    - **Map with Binding**: the map will be exported as a JSON file containing the SVG code and all maps and data binding information.
+1. **Maps**: to go back to the Map List.
+2. **Map Title**: the name of the map currently edited.
+3. **Metadata**: to edit the map author and attribution information.
+4. **Export**: to export the map as SVG or JSON file. For more information, see the [Exporting](../exporting.md#exporting-maps-to-svg-or-json) section.
 
 ## Save Changes
 
