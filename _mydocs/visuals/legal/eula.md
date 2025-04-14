@@ -132,7 +132,7 @@ It is the licensee's responsibility to ensure that the chosen licensing model ad
 
 ## 9. Payment, Refunds and Subscription Changes
 
-**9.1** Subscribers with paid subscriptions will provide OKVIZ with a valid credit card, and complete and accurate billing and contact information for payment of the applicable subscription fees. This information includes your legal company name, street address, e-mail address, and name and telephone number of an authorized billing contact or Administrator. You will update this information within thirty (30) days of any change to it. If the contact information you have provided expires, or false or fraudulent, OKVIZ reserves the right to suspend or terminate your access to the Services in addition to any other legal remedies. OKVIZ intends to provide a sixty (60) day grace period for subscriptions that merely expire before taking action to terminate any account.
+**9.1** Subscribers with paid subscriptions will provide OKVIZ with a valid credit card, and complete and accurate billing and contact information for payment of the applicable subscription fees. This information includes your legal company name, street address, e-mail address, and name and telephone number of an authorized billing contact or Administrator. You will update this information within thirty (30) days of any change to it. If the contact information you have provided expires, or false or fraudulent, OKVIZ reserves the right to suspend or terminate your access to the Services in addition to any other legal remedies. OKVIZ intends to provide a thirty (30) day grace period for subscriptions that merely expire before taking action to terminate any account.
 
 **9.2** All subscription fees are exclusive of all federal, state, provincial, municipal, V.A.T., or other taxes which Subscribers agree to pay based on where the Subscriber is primarily domiciled. In addition to any fees, the Subscriber may still incur charges incidental to using the Service, for example, charges for Internet access, data roaming, and other data transmission charges.
 
@@ -206,8 +206,11 @@ It is the licensee's responsibility to ensure that the chosen licensing model ad
 
 **14.11** Governing Law and Venue. This Agreement and your relationship with OKVIZ shall be governed exclusively by, and will be enforced, construed, and interpreted exclusively in accordance with, the laws applicable in the State of Delaware, United States and shall be considered to have been made and accepted in the State of Delaware, United States, without regard to its conflict of law provisions. All disputes under this Agreement will be resolved by the courts of State of Delaware and Subscribers consent to the jurisdiction of and venue in such courts and waive any objection as to inconvenient forum. In any action or proceeding to enforce rights under this Agreement, the prevailing party shall be entitled to recover costs and legal fees.
 
-
 ## Changes to this Agreement
+
+### 2025-04-14
+
+- We changed the grace period for subscription expiration from 60 days to 30 days.
 
 ### 2025-03-18
 
