@@ -4,7 +4,7 @@ title:              License Activation with Entra ID
 menu_title:         Entra ID Activation
 published:          true
 date:               2025-02-22
-modified:           2025-04-02
+modified:           2025-04-18
 order:              /licensing/okviz/entra-activation
 ---
 
@@ -42,7 +42,7 @@ If you encounter this issue, please ask your administrator to enable the Entra t
 
     <img src="images/sso.png">
 
-2. Allow users to consent permissions for apps from verified publisher in the Microsoft Entra ID admin center, under ***Identity > Applications > Enterprise Applications > User consent settings***.
+2. Allow users to consent permissions for apps from verified publisher in the [Microsoft Entra admin center](https://entra.microsoft.com/), under ***Identity > Applications > Enterprise Applications > User consent settings***.
 
     <img src="images/user-consent.png">
 
