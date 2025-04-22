@@ -12,11 +12,11 @@ The Maps Manager provides an overview of **all the maps connected to the visual*
 
 <video src="images/map-manager.mp4" autoplay loop muted></video>
 
-The Maps Manager interface is visually similar to the [Map Editor](./map-editor/layout.md) and is divided into two main sections:
+The Maps Manager interface is visually similar to the [Map Editor](./map-editor/layout.md) and is divided into two main panes.
 
-## Drill Paths Tree (Left pane)
+## Drill Paths Tree
 
-This pane displays a hierarchical view of all Drill Paths to which maps are connected. Each drill path is represented as a node in the tree, and each node can contain one or more maps.
+The left pane displays a hierarchical view of all drill paths to which maps are connected. Each drill path is represented as a node in the tree, and each node can contain one or more maps.
 
 > [Child Maps](../features/drill-mode.md#child-maps), that are children of specific areas in a parent map, are not displayed in the Maps Manager.
 
@@ -26,9 +26,9 @@ This pane displays a hierarchical view of all Drill Paths to which maps are conn
 - Both, drill paths and maps, has a context menu that allows you to perform actions for the selected item, such as deleting, renaming, or move to another drill path.
 - You can search for specific drill paths or maps  by using the search bar at the top of the tree.
 
-## Map Preview (Right pane)
+## Map Preview
 
-This section provides useful information and a visual preview of the currently selected map.
+The right pane provides useful information and a visual preview of the currently selected map.
 The map is displayed in the center of the pane while in the corners you can find some useful information and tools.
 
 <img src="images/map-manager-map-preview.png" width="600">
