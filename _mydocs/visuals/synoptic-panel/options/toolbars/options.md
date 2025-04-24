@@ -3,7 +3,7 @@ layout:             page
 title:              Options
 published:          true
 date:               2024-09-14
-modified:           2024-09-14
+modified:           2025-04-24
 order:              /synoptic-panel/options/toolbars/options
 ---
 
@@ -28,6 +28,12 @@ When enabled, the toolbars overlap the map, otherwise some space is reserved for
 Show a dropdown to select the map to display. This option only affects [Reading View](../../../glossary.md#reading-and-editing-view). 
 
 When this option is disabled, the map may display the map title as defined in the [Map Title](../appearance/map-title.md) option.
+
+## Show Maps Search
+
+**Default value:** On
+
+Show a the ***Map Search*** button to access the [Map Search](../../features/map-search.md). This option only affects [Reading View](../../../glossary.md#reading-and-editing-view). 
 
 ## Top Margin
 

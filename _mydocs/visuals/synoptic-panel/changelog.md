@@ -3,7 +3,7 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2024-05-10
-modified:           2025-04-11
+modified:           2025-04-24
 order:              /synoptic-panel/{99}
 toc_h_max:          2
 ---
@@ -11,6 +11,31 @@ This page contains a quick summary of versions and notable changes of Synoptic P
 Synoptic Panel uses **Power BI Custom Visuals API v5.11.0**.
 
 > **NOTE:** Synoptic Panel Lite is a subset of Synoptic Panel with limited features. Both versions share the same codebase and changelog.
+
+## v2.3.8
+
+**Released:** 2025-04-23
+
+**New Features:**
+
+- Allow to save Search Index 
+- Add [Save Index](./options/advanced-options/map-search.md#save-index) option
+- Allow to change the action on map selection in the Map Search dialog
+- Add [On Map Selection](./options/advanced-options/map-search.md#on-map-selection) option
+- Add "Filter By" options to the Map Search dialog
+- Add [Show Map Search](./options/toolbars/options.md#show-maps-search) option to the toolbar settings
+
+**Improvements:**
+
+- Improve Search Map feature
+- Add "Refresh" button when a remote map cannot be rendered in the visual
+
+**Bug Fixes:**
+
+- Fix a bug that prevented saving edited maps to My Storage in some cases
+- Fix a bug that prevented removing the Map Selector from a map in the Map Editor in some cases
+- Fix a bug that caused wrong error messages when remote maps were not available
+- Fix a but that caused wrong maps to be displayed in the visual when using Map Selector
 
 ## v2.3.7
 
