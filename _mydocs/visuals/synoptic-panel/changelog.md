@@ -14,7 +14,7 @@ Synoptic Panel uses **Power BI Custom Visuals API v5.11.0**.
 
 ## v2.3.8
 
-**Released:** 2025-04-23
+**Released:** 2025-04-24
 
 **New Features:**
 
