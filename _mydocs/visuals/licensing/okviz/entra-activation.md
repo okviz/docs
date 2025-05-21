@@ -63,4 +63,4 @@ If you encounter this issue, please ask your administrator to follow these steps
         
         3. Go to ***Security > Permissions*** and review the permissions that the application requires. If you agree, select ***Grant admin consent***.
 
-        For more information, see [Grant tenant-wide admin consent to an application](https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/admin-consent).
+        For more information, see [Grant tenant-wide admin consent to an application](https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/grant-admin-consent).
