@@ -4,7 +4,7 @@ title:              License Activation with Entra ID
 menu_title:         Entra ID Activation
 published:          true
 date:               2025-02-22
-modified:           2025-04-18
+modified:           2025-05-21
 order:              /licensing/okviz/entra-activation
 ---
 
@@ -36,7 +36,7 @@ The Entra token could be disabled in your organization, in which case you could 
 
 <img src="images/entra-disabled.png" width="250">
 
-If you encounter this issue, please ask your administrator to enable the Entra token by following these steps:
+If you encounter this issue, please ask your administrator to follow these steps:
 
 1. Enable [AppSource Custom Visuals SSO](https://learn.microsoft.com/en-us/fabric/admin/organizational-visuals#appsource-custom-visuals-sso) option in the Power BI Admin Portal.
 
@@ -46,10 +46,21 @@ If you encounter this issue, please ask your administrator to enable the Entra t
 
     <img src="images/user-consent.png">
 
-    Or [grant tenant-wide admin consent to our application](https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/grant-admin-consent):
+3. At this point, you can either:
 
-    **App Name:** OKVIZ Licensing  
-    **App (client) ID:** 0b9efea2-367e-45ec-bb42-6842d57039c9  
-    **Directory (tenant) ID:** b41a4344-0bf1-4b4b-80d6-fd0f0ccb0613
-    
-3. After granting the consent, you should be able to activate the license in your report.
+    - Allow users to consent to the permissions required by the application the first time they use it - [see above](#activation-steps).
+
+    - Or you can grant admin consent for the application. To do that:
+
+        1. Browse to ***Identity > Applications > Enterprise Applications > All Applications*** of the Entra admin center.
+        2. Enter "OKVIZ" in the search box, and then select this application from the results:
+
+            **App Name:** OKVIZ Licensing  
+            **App (client) ID:** 0b9efea2-367e-45ec-bb42-6842d57039c9  
+            **Directory (tenant) ID:** b41a4344-0bf1-4b4b-80d6-fd0f0ccb0613
+            
+            >> **IMPORTANT:** If the application does not appear in the list, it means that no user in your organization has authorized the visual to access Entra ID yet. This authorization is required at least once. To complete it, follow the instructions in the [Activation Steps](#activation-steps) section. Once authorized, the OKVIZ licensing application will be visible in the list.
+        
+        3. Go to ***Security > Permissions*** and review the permissions that the application requires. If you agree, select ***Grant admin consent***.
+
+        For more information, see [Grant tenant-wide admin consent to an application](https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/admin-consent).
