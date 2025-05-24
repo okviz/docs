@@ -4,7 +4,7 @@ title:          No Resellers Programs
 published:      true
 date:           2025-05-24
 modified:       2025-05-24
-order:          /website/sales/050-no-resellers-programs
+order:          /website/sales/050
 ---
 
 At OKVIZ we maximize the efficiency by automating all the processes we can, trying to remove any unnecessary bureaucracy. We try to reflect this efficiency in the pricing of our products, which we try to keep as low as possible to reflect the value of the products and making sure that most of the money goes to the development of the products and not to the sales process.
