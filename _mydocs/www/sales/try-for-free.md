@@ -1,10 +1,10 @@
 ---
 layout:         page
-title:          Try for free
+title:          Try for Free
 published:      true
 date:           2025-05-24
 modified:       2025-05-24
-order:          /website/sales/try-for-free
+order:          /website/sales/010-try-for-free
 ---
 
 The commercial OKVIZ custom visuals have 1-month free trials available.
@@ -15,7 +15,7 @@ To create a free trial license:
 
 1 - Visit our [OKVIZ website](https://okviz.com/) and select the visual you want to try.
 
-2 - Click on the **Try or Purchase** button.<br/><img src="images/try-or-purchase-button.png" width="213" alt="Try or Purchase Button">
+2 - Click on the **Try or Purchase** button.<br/><img src="images/try-or-purchase-button.png" width="550" alt="Try or Purchase Button">
 
 3 - If you are a returning customer, use the Login link to retrieve your information automatically.
 
@@ -25,11 +25,11 @@ To create a free trial license:
 
 6 - Select optional documents if required by your organization.
 
-7 - Make sure that the **Pay now** checkbox is **unchecked**. This will create a free trial license.
+7 - Make sure that the **Pay now** checkbox is **unchecked**. This will create a free trial license.<br/><img src="images/pay-now-unchecked.png" width="400" alt="Pay Now Checkbox Checked">
 
 8 - You can choose the Billing cycle, license Type, and license Tier if you want. For the trial period, you can leave the default values and change them later if you decide to purchase the license. However, if you provide the information now, the process of license renewal will be simpler if at the end of the trial period you decide to buy the license.
 
-9 - **Agree** to the terms and conditions and EULA.<br/><img src="images/terms-conditions-eula.png" width="355" alt="Try or Purchase Button">
+9 - **Agree** to the terms and conditions and EULA.<br/><img src="images/try-or-purchase-button.png" width="550" alt="Try or Purchase Button">
 
 10 - Click the **Place Order** button to complete the process and create the license. *You are not performing any payment at this stage, so you will not be charged anything.*
 

@@ -1,15 +1,17 @@
 ---
 layout:         page
-title:          No resellers programs
+title:          No Resellers Programs
 published:      true
 date:           2025-05-24
 modified:       2025-05-24
-order:          /website/sales/no-resellers-programs
+order:          /website/sales/050-no-resellers-programs
 ---
 
 At OKVIZ we maximize the efficiency by automating all the processes we can, trying to remove any unnecessary bureaucracy. We try to reflect this efficiency in the pricing of our products, which we try to keep as low as possible to reflect the value of the products and making sure that most of the money goes to the development of the products and not to the sales process.
 
 We believe in the maximum transparency, so **we do not have any resellers programs**. We do not have resellers discounts, and we do not provide a different way to order our products other than our website.
+
+## Common Issues with Resellers
 
 We know that there are companies that prefer to purchase through resellers, and we have made it possible for the resellers to purchase a license on behalf of a customer. However, based on our experience, a customer who purchases through a reseller will face the following issues:
 

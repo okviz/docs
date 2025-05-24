@@ -4,7 +4,7 @@ title:          Buy a License
 published:      true
 date:           2025-05-24
 modified:       2025-05-24
-order:          /website/sales/buy-a-license
+order:          /website/sales/020-buy-a-license
 ---
 
 If you create a 1-month free trial license, you can later purchase a license for the same visual without having to create a new order. You can complete the order by entering your [OKVIZ account](https://okviz.com/account/) and selecting the license you want to purchase.
@@ -13,7 +13,7 @@ You can create a new order by following the steps below:_
 
 1 - Visit our [OKVIZ website](https://okviz.com/) and select the visual you want to purchase.
 
-2 - Click on the **Try or Purchase** button.<br/><img src="images/try-or-purchase-button.png" width="213" alt="Try or Purchase Button">
+2 - Click on the **Try or Purchase** button.<br/><img src="images/try-or-purchase-button.png" width="550" alt="Try or Purchase Button">
 
 3 - If you are a returning customer, use the Login link to retrieve your information automatically.
 
@@ -33,7 +33,7 @@ You can create a new order by following the steps below:_
 
   - License **Tier**: Choose the tier of the license you want to purchase. The available tiers depend on the selected license type. 
   
-8 - Make sure that the **Pay now** checkbox is **checked**.<br/><img src="images/pay-now-checked.png" width="66" alt="Pay Now Checkbox Checked">
+8 - Make sure that the **Pay now** checkbox is **checked**.<br/><img src="images/pay-now-checked.png" width="400" alt="Pay Now Checkbox Checked">
 
 9 - Choose the **payment type** (you can read more about the payment methods in the [Payment Methods](./payment-methods.md) page):
 
@@ -41,9 +41,7 @@ You can create a new order by following the steps below:_
 
   - **Pay by Invoice / ACH / Wire Transfer** is available for orders over a certain amount. If you select this option, you will receive an invoice with the payment details. You can pay by wire transfer or ACH transfer. The license will be activated once we receive the payment.  If you select this option, you will not be charged automatically at the end of the billing cycle. At every renewal, you will receive an invoice before the expiration date and you can pay by wire transfer or ACH transfer before the license expires. *If this payment option is not available for your order, you can change the billing cycle to obtain an amount over the limit required to enable this payment option.*
 
-10 - **Agree** to the terms and conditions and EULA.<br/><img src="images/terms-conditions-eula.png" width="355" alt="Try or Purchase Button">
-
-11 - Click the **Place Order** button to complete the process and create the order. 
+10 - **Agree** to the terms and conditions and EULA, and click the **Place Order** button to complete the process and create the order.<br/><img src="images/place-order.png" width="457" alt="Try or Purchase Button">
   - If you selected the Credit Card payment option, the payment transaction will start immediately and once completed you immediately receive the license.
 
   - If you selected the Pay by Invoice / ACH / Wire Transfer payment option, you will receive an invoice with the payment details. The license will be activated once we receive the payment.

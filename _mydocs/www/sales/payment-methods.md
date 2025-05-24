@@ -4,7 +4,7 @@ title:          Payment Methods
 published:      true
 date:           2025-05-24
 modified:       2025-05-24
-order:          /website/sales/payment-methods
+order:          /website/sales/040-payment-methods
 ---
 
 When you buy a license for an OKVIZ custom visual, you create a subscription with an automatic renewal according to the billing cycle you choose (every month, every year, or every 3 years).
