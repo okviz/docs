@@ -4,13 +4,13 @@ title:              OKVIZ Licensing
 menu_title:         OKVIZ
 published:          true
 date:               2025-02-22
-modified:           2025-03-25
+modified:           2025-05-28
 order:              /licensing/okviz
 ---
 
 OKVIZ Licensing is a new licensing system available for all OKVIZ premium visuals from February 2025. This system is designed to provide a more flexible and user-friendly experience for our customers.
 
-> **NOTE:** OKVIZ premium visuals also support the AppSource Licensing. See the [Licensing page](index.md) for more information.
+> **NOTE:** OKVIZ premium visuals also support the AppSource Licensing. See the [Licensing page](../index.md) for a comparison of the two licensing systems.
 
 This licensing is based on a subscription model, which allows you to purchase a license for a specific period of time (e.g., monthly or yearly).
 

@@ -4,14 +4,14 @@ title:              AppSource Licensing
 menu_title:         AppSource
 published:          true
 date:               2025-02-22
-modified:           2025-02-22
+modified:           2025-05-28
 order:              /licensing/appsource
 toc_h_max:          2
 ---
 
 AppSource Licensing is a licensing system that allows users to purchase and manage licenses for Power BI visuals directly from the Microsoft AppSource marketplace and Office 365.
 
-> **NOTE:** OKVIZ supports AppSource Licensing for all its premium visuals along with an alternative system offered directly by OKVIZ. See the [Licensing page](index.md) for more information.
+> **NOTE:** OKVIZ supports AppSource Licensing for all its premium visuals along with an alternative system offered directly by OKVIZ. See the [Licensing page](index.md) for a comparison of the two licensing systems.
 
 This licensing is based on the number of users who will design or consume reports containing the visual. Each license must be assigned to a user and is valid for a specific period of time.
 

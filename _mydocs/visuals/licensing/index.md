@@ -4,7 +4,7 @@ title:              Licensing Overview
 menu_title:         Licensing
 published:          true
 date:               2024-08-14
-modified:           2025-03-18
+modified:           2025-05-28
 order:              /04
 ---
 
@@ -15,9 +15,7 @@ We offer a dual licensing system so that you can choose the option that best fit
 - **AppSource Licensing**  
 - **OKVIZ Licensing**
 
-<img src="images/dual-licensing.png" width="700">
-
-Each model has its unique management and operational features, as detailed below.
+Each system has its unique management and operational features, as detailed below.
 
 |  | **AppSource Licensing** | **OKVIZ Licensing**|
 |---|---|---|
