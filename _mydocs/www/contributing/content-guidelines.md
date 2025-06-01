@@ -5,7 +5,7 @@ menu_title:     Content Guidelines
 published:      true
 date:           2024-10-19
 modified:       2024-10-19
-order:          /website/contributing/comparison-guidelines
+order:          /website/contributing/01
 ---
 
 These editorial guidelines ensure that all content published on OKVIZ, including reviews, comparisons, and use cases of Power BI visuals, maintains a high standard of quality and consistency, providing unbiased and valuable insights.
@@ -17,7 +17,7 @@ The OKVIZ content is intended for Power BI end-users, developers, data professio
 The following types of content are accepted:
 
 - **Reviews:** Detailed evaluations of individual Power BI visuals. [Guidelines for Reviews](./review-guidelines/index.md).
-- **Comparisons:** Side-by-side assessments of two or more visuals to help users’ choice [Guidelines for Comparisons](./comparison-guidelines.md).
+- **Comparisons:** Side-by-side assessments of two or more visuals to help users' choice [Guidelines for Comparisons](./comparison-guidelines.md).
 - **Use Cases:** Practical examples of how to use a visual to solve a problem in a specific scenario. [Guidelines for Use Cases](./use-case-guidelines.md).
 
 ### Media

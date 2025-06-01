@@ -1,7 +1,6 @@
 ---
 layout:         page
 title:          Guidelines for Comparisons
-menu_title:     Comparison Guidelines
 published:      true
 date:           2024-10-04
 modified:       2025-01-03

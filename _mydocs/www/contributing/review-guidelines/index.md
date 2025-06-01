@@ -1,7 +1,6 @@
 ---
 layout:         page
 title:          Guidelines for Reviews
-menu_title:     Reviews Guidelines
 published:      true
 date:           2024-10-04
 modified:       2024-11-06
