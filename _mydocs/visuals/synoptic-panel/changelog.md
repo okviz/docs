@@ -3,7 +3,7 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2024-05-10
-modified:           2025-04-24
+modified:           2025-06-28
 order:              /synoptic-panel/{99}
 toc_h_max:          2
 ---
@@ -52,7 +52,7 @@ Synoptic Panel uses **Power BI Custom Visuals API v5.11.0**.
 **New Features:**
 
 - Add [Outline customization settings](./options/areas/color-matched.md#outline) per area type 
-- Add [Search Map](./features/search-map.md) feature
+- Add [Search Map](./features/map-search.md) feature
 - Add [Cache Setting for Remote Maps](./options/advanced-options/cache.md#remote-maps)
 
 **Removed:**

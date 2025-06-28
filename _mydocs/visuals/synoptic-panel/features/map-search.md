@@ -3,7 +3,7 @@ layout:             page
 title:              Map Search
 published:          true
 date:               2025-04-24
-modified:           2025-04-24
+modified:           2025-06-28
 order:              /synoptic-panel/features/map-search
 next_reading:       true
 ---
@@ -35,7 +35,7 @@ The **Map Search** feature allows you to search through all maps connected to th
 
 - Click on a map to select it. The dialog will close and the selected map will be displayed in the visual, according to the [On Map Selection](../options/advanced-options/map-search.md#on-map-selection) setting.
 
-> Note that maps that are not bound to the current [Drill Path](../features/drill-mode.md#the-drill-path) or [Map Selector](../features/map-selector.md) cannot be selected.
+> Note that maps that are not bound to the current [Drill Path](../features/drill-mode.md#the-drill-path) or [Map Selector](../features/filtering-maps.md#map-selector) cannot be selected.
 
 ## Map Index
 
@@ -45,7 +45,7 @@ The index is created only once per visual session, unless you make changes to th
 
 You can also force the index to be rebuilt by clicking the **Rebuild Index** button in the dialog. This is useful if you want to ensure the search results are up to date.
 
-The index can be saved in the visual settings. This allows you to have a persistent index across sessions, avoiding the need to rebuild it every time the visual is loaded. This behavior is controlled by the [Save Index](./options/advanced-options/map-search.md#save-index) option in the visual settings.
+The index can be saved in the visual settings. This allows you to have a persistent index across sessions, avoiding the need to rebuild it every time the visual is loaded. This behavior is controlled by the [Save Index](../options/advanced-options/map-search.md#save-index) option in the visual settings.
 
 > Note that if the index is too large, the visual will not be able to save it. In this case, the visual will automatically disable this option and rebuild the index when the search dialog is opened for the first time in the session.
 

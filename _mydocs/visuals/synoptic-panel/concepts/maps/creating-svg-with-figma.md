@@ -3,7 +3,7 @@ layout:             page
 title:              Creating SVGs with Figma
 published:          true
 date:               2024-09-13
-modified:           2024-09-13
+modified:           2025-06-28
 order:              /synoptic-panel/concepts/maps/03
 next_reading:       true
 author:             Victor Rivas
@@ -17,7 +17,7 @@ White it's possible to create an entire SVG from scratch, the primary goal of th
 
 ## Initial Steps
 
-If it’s your first time using Figma, we recommend starting with the [Figma for beginners guide](https://help.figma.com/hc/en-us/sections/4405269443991-Figma-for-beginners-4-parts). The first two parts (Beginner 1 and 2) are particularly useful to get started.
+If it’s your first time using Figma, we recommend starting with the [Figma for beginners guide](https://help.figma.com/hc/en-us/sections/30880632542743). The first two parts (Beginner 1 and 2) are particularly useful to get started.
 
 There are two main reasons to use Figma as a complementary tool before importing your map into Synoptic Panel:
 
