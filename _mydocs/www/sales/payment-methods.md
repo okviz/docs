@@ -7,27 +7,27 @@ modified:       2025-05-24
 order:          /website/sales/040
 ---
 
-When you buy a license for an OKVIZ custom visual, you create a subscription with an automatic renewal according to the billing cycle you choose (every month, every year, or every 3 years).
+When purchasing a license for an OKVIZ custom visual, you create a subscription with an automatic renewal according to the billing cycle you choose (every month, every year, or every 3 years).
 
-For this reason, we suggest to use a payment method that allows you to pay automatically at the end of the billing cycle, so you do not have to worry about renewing the license manually.
+For this reason, we suggest you use a payment method that allows you to pay automatically at the end of the billing cycle, so you do not have to worry about renewing the license manually.
 
 ## Credit Cards and Debit Cards
 
-Credit and debit cards are always accepted and can be used for any license amount.
+Credit and debit cards are always accepted and can be used for any license amount. They are the recommended payment type as they allow the system to handle the renewal automatically.
 
 The credit card information is securely processed by our payment provider (Stripe), and we do not store any sensitive payment information on our servers.
 
 The credit card will be used for the initial payment and for automatic renewals depending on the billing cycle you selected.
 
-When you pay by credit card or debit card, at every renewal cycle you receive an email with the receipt for your payment in form of a "paid invoice" that you can use for your accounting.
+When you pay by credit card or debit card, in the beginning of every renewal cycle you receive an email with the receipt for your payment in form of a "paid invoice" that you can use for your accounting.
 
 ## Invoice
 
-When you create an order, you can choose to pay by invoice by selecting the ***Pay by Invoice / ACH / Wire Transfer*** option, which is available for orders over a certain amount. *If this payment option is not available for your order, you can change the billing cycle to obtain an amount over the limit required to enable this payment option.*
+When you create an order, you can choose to pay by invoice by selecting the ***Pay by Invoice / ACH / Wire Transfer*** option, which is available for orders over a certain threshold. *If this payment option is not available for your order, you should increase the duration of your billing cycle to reach an amount over the threshold required to enable this payment option.*
 
-The license will be activated once we receive the payment.
+The license will be activated by the system as soon as it detects your payment.
 
-If you select this option, you will not be charged automatically at the end of the billing cycle. At every renewal, you will receive an invoice before the expiration date, which must be paid before the license expires.
+If you select this option, you will not be charged automatically at the end of the billing cycle. At every renewal, whoever was introduced to the system as its billing contact will receive an invoice before the expiration date, which must be paid before the license expires. The billing contact should simply follow the instructions in that email.
 
 ## Wire Transfer / ACH Transfer
 
