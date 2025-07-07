@@ -52,13 +52,13 @@ This Application uses Functionality Trackers to enable additional features and f
 | sid | OKVIZ | Session | Used to maintain the user's session state, allowing the server to recognize the user and provide a consistent experience across different pages. |
 | wordpress_logged_in_* | OKVIZ | Session | Help WordPress determine if the user is logged in. |
 | wordpress_sec_* | OKVIZ | Session | Help WordPress determine if the user is logged in. |
+| out | OKVIZ | 1 hour | User authentication token used by content API.  |
 | WFESessionId | [Microsoft](https://privacy.microsoft.com/en-us/privacystatement) | Session | Used to keep track of a user's session, ensuring that requests within the session are routed to the same system for a consistent user experience. |
 | VISITOR_PRIVACY_METADATA | [Google](https://policies.google.com/privacy) | 6 months | Used to store the user's consent and privacy choices for their interaction with the site. It records data on the visitor's consent regarding various privacy policies and settings, ensuring that their preferences are honored in future sessions. |
 | woocommerce_items_in_cart | OKVIZ | Session | Helps WooCommerce determine when cart contents/data changes. |
 | woocommerce_cart_hash | OKVIZ | Session | Helps WooCommerce determine when cart contents/data changes. |
 | wp_woocommerce_session_* | OKVIZ |2 days | Cookies with this prefix are used by WooCommerce to keep user session active.|
 | wordpress_test_cookie | OKVIZ | Session | Used to tests whether or not the browser has cookies enabled. |
-| out | OKVIZ | 1 hour | User authentication token used by content API.  |
 | wp-settings-* | OKVIZ | 1 year | Used to customize the main site interface for logged-in users. |
 | wpcaptcha_*, wp_captcha_* | OKVIZ | Session | Used to store the user's CAPTCHA verification status, ensuring that the user has completed the CAPTCHA challenge before submitting forms. |
 | PHPSESSID | OKVIZ | Session | Used to establish a user session and to pass state data via a temporary cookie, which is commonly referred to as a session cookie. |
