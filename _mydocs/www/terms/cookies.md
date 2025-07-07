@@ -63,6 +63,8 @@ This Application uses Functionality Trackers to enable additional features and f
 | wpcaptcha_*, wp_captcha_* | OKVIZ | Session | Used to store the user's CAPTCHA verification status, ensuring that the user has completed the CAPTCHA challenge before submitting forms. |
 | PHPSESSID | OKVIZ | Session | Used to establish a user session and to pass state data via a temporary cookie, which is commonly referred to as a session cookie. |
 | ARRAffinity, ARRAffinitySameSite | [Microsoft](https://privacy.microsoft.com/en-us/privacystatement) | Session | Used to ensure that requests from one visitor browsing session are always handled by the same server in the cluster, which is important for load balancing and session management. |
+| SpsAuthenticatedUser | [Microsoft](https://privacy.microsoft.com/en-us/privacystatement) | Session | Used to identify authenticated users in the Power BI service, allowing for personalized experiences and access to user-specific data. |
+| VstsSession | [Microsoft](https://privacy.microsoft.com/en-us/privacystatement) | Session | Used to maintain the user's session state in the Power BI service, ensuring that requests within the session are routed to the same system for a consistent user experience. |
 
 ## Performance Trackers
 
@@ -94,6 +96,7 @@ This Application uses Functionality Trackers to enable additional features and f
 | _m | [Stripe](https://stripe.com/privacy) | 2 years | Used for fraud detection and helps Stripe assess the risk associated with an attempted transaction on the your website.  |
 | __cf_bm | [hCaptcha](https://www.hcaptcha.com/privacy) | 30 minutes | Used by Stripe to protect the payment process from malicious bots and automated traffic. |
 | *Other Stripe Cookies* | [Stripe](https://stripe.com/privacy) | Varies | Stripe may set additional cookies to manage user sessions, preferences, and security features. [All Stripe Cookies](https://stripe.com/en-it/cookie-settings) |
+
 
 ## Policy Application
 
