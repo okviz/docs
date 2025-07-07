@@ -58,6 +58,7 @@ This Application uses Functionality Trackers to enable additional features and f
 | woocommerce_cart_hash | OKVIZ | Session | Helps WooCommerce determine when cart contents/data changes. |
 | wp_woocommerce_session_* | OKVIZ |2 days | Cookies with this prefix are used by WooCommerce to keep user session active.|
 | wordpress_test_cookie | OKVIZ | Session | Used to tests whether or not the browser has cookies enabled. |
+| out | OKVIZ | 1 hour | User authentication token used by content API.  |
 | wp-settings-* | OKVIZ | 1 year | Used to customize the main site interface for logged-in users. |
 | wpcaptcha_*, wp_captcha_* | OKVIZ | Session | Used to store the user's CAPTCHA verification status, ensuring that the user has completed the CAPTCHA challenge before submitting forms. |
 | PHPSESSID | OKVIZ | Session | Used to establish a user session and to pass state data via a temporary cookie, which is commonly referred to as a session cookie. |
