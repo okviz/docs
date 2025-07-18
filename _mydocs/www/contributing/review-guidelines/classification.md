@@ -181,7 +181,6 @@ Provide interactive filtering capabilities for other visuals. Components include
 
 ### Other
 
-- AI
 - Risk Matrix
 - Visual Builder
 - Other
