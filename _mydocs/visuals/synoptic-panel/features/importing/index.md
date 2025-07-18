@@ -19,7 +19,7 @@ There are different sources from which you can import maps:
 - [My Storage Maps](#my-storage-maps): maps stored in your My Storage
 - [Map URLs Column](#map-urls-column): maps from a column containing URLs
 
->> **NOTE**: Only [Synoptic Panel with an OKVIZ license](../../licensing/index.md) supports remote maps, My Storage maps, and map URLs from a column. Synoptic Panel Lite supports local maps only.
+>> **NOTE**: Only [Synoptic Panel with an OKVIZ license](../../../licensing/index.md) supports remote maps, My Storage maps, and map URLs from a column. Synoptic Panel Lite supports local maps only.
 
 ## Before Importing
 
