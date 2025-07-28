@@ -4,7 +4,7 @@ title:              Cookie Policy
 published:          true
 toc_h_max:          2
 date:               2024-12-31
-modified:           2025-07-07
+modified:           2025-07-28
 order:              /terms/03
 ---
 
@@ -15,7 +15,6 @@ For simplicity, we refer to all these technologies as **"Trackers"** throughout 
 Depending on applicable law, some purposes for which Trackers are used may require your consent. If you provide consent, you can withdraw it at any time by following the instructions outlined in this document.
 
 This Application uses both Trackers managed directly by us (so-called **first-party Trackers**) and Trackers provided by third parties (so-called **third-party Trackers**). Unless noted otherwise, third-party providers may access the Trackers they manage. The validity and expiration periods for Cookies and similar Trackers vary based on the lifetime settings established by us or the respective provider. Some Trackers expire at the end of your browsing session. For more detailed or updated information about Tracker lifetimes—and details on additional Trackers—please review the linked privacy policies of the respective third-party providers or contact the Owner.
-
 
 ## How This Application Uses Trackers
 
@@ -49,6 +48,7 @@ This Application uses Functionality Trackers to enable additional features and f
 | Name | Provider | Expiration | Description |
 |-|-|-|-|
 | cc_cookie | OKVIZ | 6 months | Used to remember the user's choice regarding cookies on the site. It stores the user's consent to the use of cookies, ensuring that the cookie banner does not reappear on subsequent visits. |
+| cc_required | OKVIZ | 1 month | Used to remember if the cookie consent is required, according to the user location |
 | sid | OKVIZ | Session | Used to maintain the user's session state, allowing the server to recognize the user and provide a consistent experience across different pages. |
 | wordpress_logged_in_* | OKVIZ | Session | Help WordPress determine if the user is logged in. |
 | wordpress_sec_* | OKVIZ | Session | Help WordPress determine if the user is logged in. |
@@ -97,13 +97,11 @@ This Application uses Functionality Trackers to enable additional features and f
 | __cf_bm | [hCaptcha](https://www.hcaptcha.com/privacy) | 30 minutes | Used by Stripe to protect the payment process from malicious bots and automated traffic. |
 | *Other Stripe Cookies* | [Stripe](https://stripe.com/privacy) | Varies | Stripe may set additional cookies to manage user sessions, preferences, and security features. [All Stripe Cookies](https://stripe.com/en-it/cookie-settings) |
 
-
 ## Policy Application
 
 This policy applies to:
 - [okviz.com](https://okviz.com) and its subdomains  
 - [synoptic.design](https://synoptic.design) and its subdomains
-
 
 ### How to Manage Preferences on This Application
 
@@ -133,7 +131,6 @@ You may also manage certain categories of Trackers on mobile apps by adjusting y
 
 While you are free to block Trackers, please note that doing so may affect certain features and functionalities of the Application. Trackers help us provide enhanced functionality and a better user experience; therefore, blocking them could limit related features.
 
-
 ## Owner and Data Controller
 
 **OKVIZ Corp.**  
@@ -142,13 +139,14 @@ Address: 5348 Vegas Drive, Las Vegas, NV 89108
 
 Because we cannot fully control the use of third-party Trackers on this Application, any references to such Trackers are provided for informational purposes only. For complete details, please refer to the privacy policies of the respective third-party services listed in this document. Due to the complexity of tracking technologies, if you need further information on how these are used, please contact the Owner.
 
-
 ## Definitions and Legal References
 
 ### Personal Data (or Data)
+
 Any information that directly, indirectly, or in connection with other information — including a personal identification number — allows for the identification or identifiability of a natural person.
 
 ### Usage Data
+
 Information automatically collected through this Application (or via third-party services), which may include:
 - The IP addresses or domain names of the computers used by Users,
 - URI addresses (Uniform Resource Identifier),
@@ -163,38 +161,50 @@ Information automatically collected through this Application (or via third-party
 - Other parameters regarding your device's operating system or IT environment.
 
 ### User
+
 The individual using this Application who, unless otherwise specified, is the Data Subject.
 
 ### Data Subject
+
 The natural person to whom the Personal Data refers.
 
 ### Data Processor (or Processor)
+
 The natural or legal person, public authority, agency, or other body that processes Personal Data on behalf of the Controller, as described in this privacy policy.
 
 ### Data Controller (or Owner)
+
 The natural or legal person, public authority, agency, or other body that, alone or jointly with others, determines the purposes and means of processing Personal Data—including the security measures used in this Application. Unless stated otherwise, the Data Controller is the Owner of this Application.
 
 ### This Application
+
 The platform through which your Personal Data is collected and processed.
 
 ### Service
+
 The service provided by this Application as described in the applicable terms and on this site.
 
 ### European Union (or EU)
+
 Unless stated otherwise, all references to the European Union include all current member states of the EU and the European Economic Area.
 
 ### Cookie
+
 Cookies are Trackers consisting of small sets of data stored in your browser.
 
 ### Tracker
-A Tracker refers to any technology—for example, Cookies, unique identifiers, web beacons, embedded scripts, e-tags, or fingerprinting—that enables tracking of Users by accessing or storing information on your device.
 
+A Tracker refers to any technology—for example, Cookies, unique identifiers, web beacons, embedded scripts, e-tags, or fingerprinting—that enables tracking of Users by accessing or storing information on your device.
 
 #### Legal Information
 
 This privacy statement has been prepared based on provisions from multiple legislations. This privacy policy relates solely to this Application, unless stated otherwise.
 
 ## Changes to this Policy
+
+### 2025-07-28
+
+- We added the `cc_required` cookie to remember if cookie consent is required based on user location.
 
 ### 2025-03-18
 
