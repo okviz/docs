@@ -109,7 +109,7 @@ For adding multiple URLs at once, you can import a JSON file containing a list o
 
     - **url**: The URL of the map file.
     - **name**: *(Optional)* The name of the map. This is the name that will be displayed in the visual. If not provided, the name of the file will be used.
-    - **mapSelector**: *(Optional)* The value of the column bound as map selector. This is the column that will be used to switch between the maps. See more in the [Filtering Maps](../../features/filtering-maps.md) section.
+    - **mapSelector**: *(Optional)* The value of the column bound as map selector. This is the column that will be used to switch between the maps. See more in the [Filtering Maps](../../features/filtering-maps/index.md) section.
     - **drillPath**: *(Optional)* This is an array of values used to build the **Drill Path**, which represent the drill level of the visual. This is a useful way to quickly assign different maps to different levels, but requires to know the exact values of the drill path components. See how the drill path is built in the [Drill Mode](../drill-mode.md#the-drill-path) section.
     If not provided, each imported URL will be assigned to the current drill level.
 
@@ -132,7 +132,7 @@ To load a map from My Storage, follow these steps:
 
 ### Map URLs Column
 
-Maps can also be loaded from a remote hosting using a column containing the URLs of the maps. This is useful when you want to switch between maps based on a specific column value, as specified in the [Filtering Maps](../../features/filtering-maps.md#map-urls-column) section.
+Maps can also be loaded from a remote hosting using a column containing the URLs of the maps. This is useful when you want to switch between maps based on a specific column value, as specified in the [Filtering Maps](../../features/filtering-maps/index.md#map-urls-column) section.
 
 To load maps from a column, follow these steps:
 

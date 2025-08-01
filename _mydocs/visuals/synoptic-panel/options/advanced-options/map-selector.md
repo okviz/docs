@@ -9,7 +9,7 @@ order:              /synoptic-panel/options/advanced-options/map-selector
 
 These options control the behavior of the ***Map Selector*** field. 
 
-This field enables switching between different maps by bounding a DAX measure, which must be created with a specific syntax. See [Map Selector](../../features/filtering-maps.md#map-selector) for more information.
+This field enables switching between different maps by bounding a DAX measure, which must be created with a specific syntax. See [Map Selector](../../features/filtering-maps/map-selector.md) for more information.
 
 ## Show Maps without Selector
 

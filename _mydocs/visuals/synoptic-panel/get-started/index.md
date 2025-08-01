@@ -86,6 +86,6 @@ Now that you have a working visual you can start customizing it and exploring th
 
 - Add multiple levels to your visual to create a browsable hierarchy of maps. See more in the [Drill Mode](../features/drill-mode.md) section.
 
-- Connect the maps to a specific measure to create a dynamic visualization that changes based on the actual report filter. See more in the [Filtering Maps](../features/filtering-maps.md) section.
+- Connect the maps to a specific measure to create a dynamic visualization that changes based on the actual report filter. See more in the [Filtering Maps](../features/filtering-maps/index.md) section.
 
 - And much more!

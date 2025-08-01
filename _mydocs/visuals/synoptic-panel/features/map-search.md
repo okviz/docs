@@ -35,7 +35,7 @@ The **Map Search** feature allows you to search through all maps connected to th
 
 - Click on a map to select it. The dialog will close and the selected map will be displayed in the visual, according to the [On Map Selection](../options/advanced-options/map-search.md#on-map-selection) setting.
 
-> Note that maps that are not bound to the current [Drill Path](../features/drill-mode.md#the-drill-path) or [Map Selector](../features/filtering-maps.md#map-selector) cannot be selected.
+> Note that maps that are not bound to the current [Drill Path](../features/drill-mode.md#the-drill-path) or [Map Selector](../features/filtering-maps/map-selector.md) cannot be selected.
 
 ## Map Index
 

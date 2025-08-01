@@ -8,7 +8,7 @@ modified:           2025-03-26
 order:              /synoptic-panel/features/importing/03
 ---
 
-Every map stored in [My Storage](../my-storage.md) has a unique URL that can be added to a data column and bind it to the [Map URLs field well](../filtering-maps.md#map-urls-column) of Synoptic Panel to display the maps according to the current filters.
+Every map stored in [My Storage](../my-storage.md) has a unique URL that can be added to a data column and bind it to the [Map URLs field well](../filtering-maps/index.md#map-urls-column) of Synoptic Panel to display the maps according to the current filters.
 
 This guide will show you how to add these URLs to your dataset and use them to make your reports more interactive.
 

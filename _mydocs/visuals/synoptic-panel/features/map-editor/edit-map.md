@@ -34,7 +34,7 @@ This section displays the selected SVG interactive map. You can click on specifi
 1. **SVG button:** click the button on the top right corner to open a code editor with the SVG raw content of the map, which can be useful for advanced users who want to make manual changes to the SVG code.
 2. **Zoom controls:** You can zoom in and out of the map, pan around the map, and reset the view to the default zoom level using the controls in the bottom right corner of the map.
 3. **Colors button:** Change how matched areas are colored in the map
-4. **Map selector:** Assign or remove the [Map Selector](../filtering-maps.md#map-selector) to the current map.
+4. **Map selector:** Assign or remove the [Map Selector](../filtering-maps/map-selector.md) to the current map.
 
 ## Selection Tree
 

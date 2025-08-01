@@ -58,7 +58,7 @@ To access and browse My Storage, click the ***+ Add Map*** button and select the
 
 <img src="importing/images/import-my-storage.png" width="250">
 
-In case you are using the [Map URLs](../features/filtering-maps.md#map-urls-column) feature, you can access My Storage by clicking the dedicated button next to the map selection dropdown.
+In case you are using the [Map URLs](../features/filtering-maps/index.md#map-urls-column) feature, you can access My Storage by clicking the dedicated button next to the map selection dropdown.
 
 <img src="images/my-storage-button.png" width="400">
 
