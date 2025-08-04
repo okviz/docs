@@ -3,9 +3,8 @@ layout:             page
 title:              Filtering Maps
 published:          true
 date:               2025-08-01
-modified:           2025-08-01
+modified:           2025-08-04
 order:              /synoptic-panel/features/filtering-maps
-next_reading:       true
 ---
 
 Synoptic Panel allows you to change maps using a report filter or a custom selection. This feature is useful when you want to control the rendered map from a slicer or any other visual in your report.
@@ -14,7 +13,7 @@ Synoptic Panel provides different ways to obtain this behavior:
 
 - [Map URLs Column](#map-urls-column): Bound a column containing map URLs to display.
 - [Single Data Point Maps](#single-data-point-maps): Assign a map to each data point in the data.
-- [Map Selector](./map-selector.md): Set a special DAX measure to select the map to display.
+- [Map Selector](#map-selector): Set a special DAX measure to select the map to display.
 
 It worth mentioning that you can also use the drill mode to programmatically change maps, also if in a different way. When you enable the drill mode, you can assign different maps to each level in the hierarchy. See more in the [Drill Mode](../drill-mode.md) section.
 
