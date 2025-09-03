@@ -12,6 +12,27 @@ Synoptic Panel uses **Power BI Custom Visuals API v5.11.0**.
 
 > **NOTE:** Synoptic Panel Lite is a subset of Synoptic Panel with limited features. Both versions share the same codebase and changelog.
 
+## v2.3.9
+
+**Released:** 2025-09-02
+
+**Improvements:**
+
+- Add [Color Rules](./fields/color-rules.md) field well
+- Support condition formatting for text columns in the Color Rules dialog
+- Add [Ignore Hierarchical Binding](./options/drill-behavior/ignore-hierarchical-binding.md) option for drill behavior.
+
+**Bug Fixes:**
+
+- Fix tooltips displaying the wrong value in some cases
+- Fix wrong outline rendering when conditional formatting is applied
+- Fix wrong area matching in some cases
+- Fix wrong legend colors rendering in some cases
+
+**Removed:**
+
+- Remove "Aggregate on Expand" option
+
 ## v2.3.8
 
 **Released:** 2025-04-24

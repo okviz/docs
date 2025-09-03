@@ -3,7 +3,7 @@ layout:             page
 title:              Drill Mode
 published:          true
 date:               2024-05-10
-modified:           2025-03-23
+modified:           2025-09-03
 order:              /synoptic-panel/features/drill-mode
 ---
 
@@ -103,7 +103,7 @@ Synoptic Panel offers some advanced options to control the behavior of the Drill
 
 - [Last Level Maps](./../options/drill-behavior/last-level-maps.md)
 - [Category Level Maps](./../options/drill-behavior/category-level-maps.md)
-- [Aggregate on Expand](./../options/drill-behavior/aggregate-on-expand.md)
+- [Ignore Hierarchical Binding](./../options/drill-behavior/ignore-hierarchical-binding.md)
 
 ## Child Maps
 

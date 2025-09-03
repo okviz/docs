@@ -3,7 +3,7 @@ layout:             page
 title:              Data Binding
 published:          true
 date:               2024-05-10
-modified:           2025-01-29
+modified:           2025-09-03
 order:              /synoptic-panel/concepts/03
 next_reading:       true
 ---
@@ -61,13 +61,11 @@ Matching is done according to the following rules:
 
 #### Automatic Binding when Hierarchy is Expanded
 
-When the [Aggregate on Expand](../options/drill-behavior/aggregate-on-expand.md) option is disabled, in order to automatically bind areas to data points, the SVG structure must match the data hierarchy. This means that the SVG elements must be organized in group elements (`g` tag) that represent the hierarchy paths of the data.
+When the [Ignore Hierarchical Binding](../options/drill-behavior/ignore-hierarchical-binding.md) option is disabled, in order to automatically bind areas to data points, the SVG structure must match the data hierarchy. This means that the SVG elements must be organized in group elements (`g` tag) that represent the hierarchy paths of the data.
 
 <img src="images/svg-structure-compared.png">
 
-In the image above, you can see the same Map design with different SVG structures. The `Sphere-Sector` (left) has a flat structure, while the `Sphere-Sector-Grouped`(right) has a hierarchical structure of "Sector" and "Category". `Sphere-Sector-Grouped` has the correct structure to automatically bind the areas to the data points when the hierarchy is expanded and the ***Aggregate on Expand*** option is disabled.
-
-<video src="images/auto-binding-on-hierarchy.mp4" autoplay loop muted></video>
+In the image above, you can see the same Map design with different SVG structures. The `Sphere-Sector` (left) has a flat structure, while the `Sphere-Sector-Grouped`(right) has a hierarchical structure of "Sector" and "Category". `Sphere-Sector-Grouped` has the correct structure to automatically bind the areas to the data points when the hierarchy is expanded and the ***Ignore Hierarchical Binding*** option is disabled.
 
 ### Manual Binding
 

@@ -3,7 +3,7 @@ layout:             page
 title:              Value
 published:          true
 date:               2024-09-14
-modified:           2024-12-01
+modified:           2025-09-03
 order:              /synoptic-panel/options/category-labels/value
 ---
 
@@ -25,7 +25,7 @@ Available options:
 
 - **Category Value**: The visual will display the category value.
 
-- **Category Value (Path)**: In case you have expanded the hierarchy level through the specific drill control and have disabled the [Aggregate on Expand](../drill-behavior/aggregate-on-expand.md) option, the visual will display the full hierarchy path of the category, otherwise the category value (as above).  
+- **Category Value (Path)**: In case you have expanded the hierarchy level through the specific drill control and have disabled the [Ignore Hierarchical Binding](../drill-behavior/ignore-hierarchical-binding.md) option, the visual will display the full hierarchy path of the category, otherwise the category value (as above).  
 See [Automatic Binding when Hierarchy is Expanded](../../concepts/data-binding.md#automatic-binding-when-hierarchy-is-expanded) for more information.
 
 - **Title**: The visual will display the title of the matched element as defined in the SVG file.
