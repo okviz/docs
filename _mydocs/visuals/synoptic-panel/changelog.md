@@ -3,7 +3,7 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2024-05-10
-modified:           2025-06-28
+modified:           2025-09-04
 order:              /synoptic-panel/{99}
 toc_h_max:          2
 ---
@@ -16,11 +16,14 @@ Synoptic Panel uses **Power BI Custom Visuals API v5.11.0**.
 
 **Released:** 2025-09-02
 
-**Improvements:**
+**New Features:**
 
 - Add [Color Rules](./fields/color-rules.md) field well
-- Support condition formatting for text columns in the Color Rules dialog
 - Add [Ignore Hierarchical Binding](./options/drill-behavior/ignore-hierarchical-binding.md) option for drill behavior.
+
+**Improvements:**
+
+- Support condition formatting for text columns in the Color Rules dialog
 
 **Bug Fixes:**
 
