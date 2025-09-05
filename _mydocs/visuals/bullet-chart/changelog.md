@@ -10,6 +10,24 @@ toc_h_max:            2
 This page contains a quick summary of versions and notable changes of Bullet Chart.  
 Bullet Chart uses **Power BI Custom Visuals API v5.11.0**.
 
+## v2.3.9
+
+**Released:** 2025-09-05
+
+**Added:**
+- Added [Add To Legend](./options/states/add-to-legend.md) option to include states in the legend
+
+**Improvements:**
+
+- States can now be included in the legend with custom labels
+- Added [Adjust Axis Scale](./options/states/adjust-axis-scale.md) option to automatically adjust the axis scale to include all states
+- Support condition formatting for text columns with Color Rules
+
+**Bug Fixes:**
+
+- Fix wrong state rendering when [Extend Last State](./options/advanced-options/extend-last-state.md) is enabled
+- Fix wrong overlapping state rendering in some cases
+
 ## v2.3.8
 
 **Released:** 2025-02-27
