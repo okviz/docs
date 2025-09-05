@@ -38,7 +38,7 @@ This error indicates that the SVG file you are trying to use could be malformed 
 
 This error occurs when the JSVG file is not in the correct format or is corrupted. JSVG files should be a valid JSON representation of an SVG map with the required structure. 
 
-Read more about [JSVG Format](./concepts/maps/jsvg-format.md).
+Read more about [JSVG](./concepts/maps/index.md#jsvg).
 
 ## Invalid JSON
 
@@ -69,7 +69,7 @@ This error occurs when you have no data points in your dataset.
 
 **Error Message**: *No maps match the selector*.
 
-This error occurs when you filter maps using the [Map Selector](./features/map-selector.md) and no maps match the selected filter criteria.
+This error occurs when you filter maps using the [Map Selector](./features/filtering-maps/map-selector.md) and no maps match the selected filter criteria.
 
 **Try To**: Ensure that at least one map matches the selected filter or enable the option [Show Maps without Selector](./options/advanced-options/map-selector.md#show-maps-without-selector).
 

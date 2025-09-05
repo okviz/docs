@@ -14,18 +14,16 @@ Bullet Chart uses **Power BI Custom Visuals API v5.11.0**.
 
 **Released:** 2025-09-05
 
-**Added:**
-- Added [Add To Legend](./options/states/add-to-legend.md) option to include states in the legend
-
 **Improvements:**
 
+- Added [Add To Legend](./options/states/add-to-legend.md) option to include states in the legend
 - States can now be included in the legend with custom labels
 - Added [Adjust Axis Scale](./options/states/adjust-axis-scale.md) option to automatically adjust the axis scale to include all states
 - Support condition formatting for text columns with Color Rules
 
 **Bug Fixes:**
 
-- Fix wrong state rendering when [Extend Last State](./options/advanced-options/extend-last-state.md) is enabled
+- Fix wrong state rendering when [Extend Last State](./options/states/extend-last-state.md) is enabled
 - Fix wrong overlapping state rendering in some cases
 
 ## v2.3.8

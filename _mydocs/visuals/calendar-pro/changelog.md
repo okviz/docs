@@ -14,6 +14,8 @@ Smart Filter Pro uses **Power BI Custom Visuals API v5.11.0**.
 
 **Released:** 2025-09-05
 
+**Improvements:**
+
 Add events value for Color Rules definition.
 
 ## v1.1.2
