@@ -10,6 +10,12 @@ toc_h_max:            2
 This page contains a quick summary of versions and notable changes of Calendar Pro.  
 Smart Filter Pro uses **Power BI Custom Visuals API v5.11.0**.
 
+## v1.1.3
+
+**Released:** 2025-09-05
+
+Add events value for Color Rules definition.
+
 ## v1.1.2
 
 **Released:** 2025-03-19
