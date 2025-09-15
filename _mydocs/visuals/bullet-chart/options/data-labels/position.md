@@ -3,7 +3,7 @@ layout:             page
 title:              Position
 published:          true
 date:               2022-07-07
-modified:   	    2023-03-21
+modified:   	    2025-09-15
 order:              /bullet-chart/options/data-labels/position
 premium:            /bullet-chart/licensing.md
 internal:           position
@@ -20,6 +20,8 @@ Allows to specify the position of data labels relative to the bars. The followin
 - **Inside base:** the label is placed inside, at the base of the bar. If the bar is not large enough to contain the label it will not be displayed.
 
     <img src="images/data-labels-position-inside-base.png" width="700">
+
+- **Base:** the label is placed at the base of the bar, outside or inside depending on the available space. 
 
 - **Inside center:** the label is placed in the middle of the bar. If the bar is not large enough to contain the label it will not be displayed.
 
