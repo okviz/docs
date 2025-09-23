@@ -101,7 +101,7 @@ To assign a reference to a map, follow these steps:
 
 3. Load a map into Synoptic Panel, if you haven't already.
 
-4. Open the **Map Editor** by clicking the pencil button in the visual toolbar.
+4. Open the **Map Editor** by clicking the pencil button in the visual toolbar (proceed to the next step if you have just uploaded a map).
     <img src="images/map-editor-btn.png">
 
 5. Select a map and click the ***Edit*** button.
