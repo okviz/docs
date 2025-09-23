@@ -34,17 +34,17 @@ Assuming you have a table with the following columns and values:
         <th>...</th>
     </tr>
     <tr>
+        <td>Miami</td>
+        <td>...</td>
+        <td>...</td>
+    </tr>
+    <tr>
         <td>New York</td>
         <td>...</td>
         <td>...</td>
     </tr>
     <tr>
         <td>Seattle</td>
-        <td>...</td>
-        <td>...</td>
-    </tr>
-    <tr>
-        <td>Chicago</td>
         <td>...</td>
         <td>...</td>
     </tr>
@@ -101,12 +101,17 @@ To assign a reference to a map, follow these steps:
 
 3. Load a map into Synoptic Panel, if you haven't already.
 
-4. Open the **Map Editor** by clicking the pencil button in the visual toolbar, or by clicking the ***Edit*** button, if you just imported the map.
+4. Open the **Map Editor** by clicking the pencil button in the visual toolbar.
+    <img src="images/map-editor-btn.png">
 
-5. In the Map Editor, choose the reference value that will be associated with the map from the dropdown list in the **Map Selector** section.
+5. Select a map and click the ***Edit*** button.
+    <img src="images/edit-map.png">
+
+6. In the Map Editor, choose the reference value that will be associated with the map from the dropdown list in the **Map Selector** section.
     <img src="images/map-selector-editor.png">
 
-6. Click ***Save*** to apply the changes.
+7. Click ***Save*** to apply the changes.
+    <img src="images/map-editor-save.png">
 
 Repeat these steps for each map you want to associate with a reference.
 
