@@ -4,7 +4,7 @@ title:          Visual Classification
 menu_title:     Classification
 published:      true
 date:           2024-10-08
-modified:       2025-07-18
+modified:       2025-09-26
 order:          /website/contributing/review-guidelines/classification
 ---
 
@@ -84,9 +84,11 @@ Consist of nodes (data points) connected by links (relationships). Components in
 
 Illustrate steps or stages in a process. Components include flow lines, stages, and decision points.
 
+- Alluvial Diagram
 - Bowtie Chart
 - Flow Chart
 - Funnel Chart
+- Sunray Chart
 
 ### Hierarchical Charts
 
