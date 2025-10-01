@@ -3,7 +3,7 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2024-05-10
-modified:           2025-09-04
+modified:           2025-10-01
 order:              /synoptic-panel/{99}
 toc_h_max:          2
 ---
@@ -11,6 +11,19 @@ This page contains a quick summary of versions and notable changes of Synoptic P
 Synoptic Panel uses **Power BI Custom Visuals API v5.11.0**.
 
 > **NOTE:** Synoptic Panel Lite is a subset of Synoptic Panel with limited features. Both versions share the same codebase and changelog.
+
+## v2.4.0
+
+**Released:** 2025-10-01
+
+**Bug Fixes:**
+
+- Fix auto-zoom not working in some cases
+- Fix a bug that caused to show the search button in embedded environments (where search is not supported)
+
+**Improvements:**
+
+- Improve aggregation handling with Map URLs field and restore the ability to choose how to summarize values
 
 ## v2.3.9
 

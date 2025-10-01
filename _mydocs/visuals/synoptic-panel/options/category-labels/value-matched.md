@@ -3,7 +3,7 @@ layout:             page
 title:              Value
 published:          true
 date:               2024-09-14
-modified:           2025-09-03
+modified:           2025-09-29
 order:              /synoptic-panel/options/category-labels/value
 ---
 
@@ -47,7 +47,8 @@ You can use different placeholders to include specific fields from the data mode
 - `{path}` - the full hierarchy path of the category when the hierarchy is expanded, otherwise the category value
 
 E.g.: `{category}\n({value})` will be rendered as:
-```
+
+```text
 Computers 
 ($123,456)
 ```
@@ -69,13 +70,3 @@ The unit of the value to display. This option is only visible when the 'Include 
 **Default value:** 0
 
 The number of decimal places to display. This option is only visible when the 'Include Data Label' option is On. 
-
-## Summarization
-
-**Default value:** (Auto Detect)
-
-The summarization method for the data point values. It must be exactly the same as the one used by the value column. This setting is required when you connect a column to 'Legend' or 'Map URLs' field wells, since the aggregation is made by the visual and not from Power BI. 
-
-This option is only visible when the 'Include Data Label' option is On.
-
-> If you select `(Auto Detect)` the visual will try to detect the summarization method automatically. This doesn't work for all cases, so it is recommended to verify the summarization method and set it manually if necessary.
