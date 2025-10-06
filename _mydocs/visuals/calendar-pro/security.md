@@ -3,7 +3,7 @@ layout:             page
 title:              Security & Privacy
 published:          true
 date:               2022-07-17
-modified:           2025-03-20
+modified:           2025-10-06
 order:              /calendar-pro/{96}
 ---
 Calendar Pro uses the latest technologies available and is updated regularly. It does not contain malicious or unsafe code.
@@ -35,7 +35,7 @@ This version is available directly from our OKVIZ website.
 
 ### Certification
 
-Calendar Pro (from OKVIZ) is not certified by Microsoft. This is because it **supports Power BI Report Server, Power BI Embedded, Publish to Web, and National Clouds.** These platforms are not supported by paid certified visuals because they require third-party licensing systems that are not compatible with the certification requirements.
+Calendar Pro (from OKVIZ) is not certified by Microsoft. This is because it **supports Power BI Report Server, Power BI Embedded, SharePoint, Publish to Web, and National Clouds.** These platforms are not supported by paid certified visuals because they require third-party licensing systems that are not compatible with the certification requirements.
 
 ### Audit Process
 

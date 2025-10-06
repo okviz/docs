@@ -4,7 +4,7 @@ title:              Licensing Overview
 menu_title:         Licensing
 published:          true
 date:               2024-08-14
-modified:           2025-05-28
+modified:           2025-10-06
 order:              /04
 ---
 
@@ -42,7 +42,7 @@ When you purchase a license from [AppSource](https://appsource.microsoft.com/en-
 
 - **Platform Compatibility**  
     Because the assignment is user-specific, this licensing option does not support platforms where users are not publicly authenticated. 
-    This means that **Power BI Report Server, Power BI Embedded, Publish to Web, and National Clouds are NOT supported**.
+    This means that **Power BI Report Server, Power BI Embedded, SharePoint, Publish to Web, and National Clouds are NOT supported**.
 
 - **No Version Control**  
     AppSource licensed visuals are always updated to the latest version for every user. This means that you cannot roll back to a previous version in case of regressions.
@@ -67,7 +67,7 @@ When you purchase a license directly from the [OKVIZ website](https://okviz.com/
     Unlike AppSource licensing, there is no need for a per-user assignment. We provide you with a package containing the visual with the hardcoded license, which can be used in any report. If you install the visual in your [Organizational Store](../get-started/org-store.md), the process is even simpler.
 
 - **Platform Compatibility**  
-    OKVIZ licenses **can be used with any Power BI platform**, including Power BI Report Server, Power BI Embedded, Publish to Web, and National Clouds.
+    OKVIZ licenses **can be used with any Power BI platform**, including Power BI Report Server, Power BI Embedded, SharePoint, Publish to Web, and National Clouds.
 
 - **Version Control**  
     With OKVIZ licensing, you have full control over version updates. You can choose when to update the visual in your reports, and you can roll back to a previous version if necessary.

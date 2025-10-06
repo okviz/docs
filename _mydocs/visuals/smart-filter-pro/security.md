@@ -3,7 +3,7 @@ layout:             page
 title:              Security & Privacy
 published:          true
 date:               2022-07-13
-modified:           2025-03-20
+modified:           2025-10-06
 order:              /smart-filter-pro/{96}
 toc_h_max:            2
 ---
@@ -20,7 +20,7 @@ How come? Does it mean that Smart Filter Pro is not safe or we want to keep our 
 
 1. **To provide the powerful Filter and Search modes, we use some functions that belong to an old API SDK** that have not yet been migrated to the latest version. It might sound a bit cumbersome, but the point is, we cannot upgrade to the latest version of the API (which is another certification requirement) without removing these features.
 
-2. **We support Power BI Report Server, Power BI Embedded, Publish to Web, and National Clouds**. These platforms are not supported by paid certified visuals because they require third-party licensing systems that are not compatible with the certification requirements.
+2. **We support Power BI Report Server, Power BI Embedded, SharePoint, Publish to Web, and National Clouds**. These platforms are not supported by paid certified visuals because they require third-party licensing systems that are not compatible with the certification requirements.
 
 ## Audit Process
 

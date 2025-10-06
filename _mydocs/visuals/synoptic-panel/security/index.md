@@ -3,7 +3,7 @@ layout:             page
 title:              Security & Privacy
 published:          true
 date:               2024-05-10
-modified:           2025-03-23
+modified:           2025-10-06
 order:              /synoptic-panel/{96}
 ---
 Synoptic Panel uses the latest technologies available and is updated regularly. It does not contain malicious or unsafe code.
@@ -22,7 +22,7 @@ How come? Does it mean that Synoptic Panel is not safe or we want to keep our so
 
 1. **We allow users to use remote maps** (either from the Internet, from their private hosting or from our provided storage - My Storage); unfortunately, this is not allowed by the certification requirements.
 
-2. **We support Power BI Report Server, Power BI Embedded, Publish to Web, and National Clouds**. These platforms are not supported by paid certified visuals because they require third-party licensing systems that are not compatible with the certification requirements.
+2. **We support Power BI Report Server, Power BI Embedded, SharePoint, Publish to Web, and National Clouds**. These platforms are not supported by paid certified visuals because they require third-party licensing systems that are not compatible with the certification requirements.
 
 >> Note that Synoptic Panel can also display maps stored locally, but since this option can cause performance issues depending on the size of the maps, [we do not recommend it](../concepts/best-practices.md) for large maps. As a result, we are committed to providing the best possible experience for our users, which is why we have chosen to allow remote maps.
 

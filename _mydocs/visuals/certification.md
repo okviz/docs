@@ -4,7 +4,7 @@ title:              Microsoft Certification
 menu_title:         Certification
 published:          true
 date:               2021-11-17
-modified:           2025-03-22
+modified:           2025-10-06
 order:              /035
 ---
 
@@ -63,7 +63,7 @@ Here are the main pros and cons of certified visuals compared to uncertified one
   - Version rollbacks (which are useful in case of regressions) are not immediate: they require 1 week to take effect.
 
 - **❌ Platform Support for Paid Visuals**  
-  - Certified visuals that requires a paid license can only use the [AppSource licensing model](./licensing/index.md), which does not support Power BI Report Server, Power BI Embedded, Publish to Web, and National Clouds.
+  - Certified visuals that requires a paid license can only use the [AppSource licensing model](./licensing/index.md), which does not support Power BI Report Server, Power BI Embedded, SharePoint, Publish to Web, and National Clouds.
 
 ### Uncertified Visuals
 
@@ -83,7 +83,7 @@ Here are the main pros and cons of certified visuals compared to uncertified one
   - Organizations can decide when to update visuals or roll back to a previous version, offering better management of potential issues and regressions.
 
 - **✅ No Platform Limitations**  
-  - Uncertified visuals can be used with any Power BI platform, including Power BI Report Server, Power BI Embedded, Publish to Web, and National Clouds.  
+  - Uncertified visuals can be used with any Power BI platform, including Power BI Report Server, Power BI Embedded, SharePoint, Publish to Web, and National Clouds.  
 
 > **NOTE:** The above pros and cons consider cases where uncertified visuals are installed from the vendor's website. Since uncertified visuals can also be published on AppSource, some of the cons—particularly those related to the update process—may not apply.
 
@@ -96,7 +96,7 @@ In summary:
    This is a common scenario with software licenses: you trust the vendor to provide a secure and reliable product.
 
 - **Paid Certified visuals don't support all Power BI platforms.**  
-   If you need to use Power BI Report Server, Power BI Embedded, Publish to Web, or National Clouds, you may need to consider uncertified visuals.
+   If you need to use Power BI Report Server, Power BI Embedded, SharePoint, Publish to Web, or National Clouds, you may need to consider uncertified visuals.
 
 ## OKVIZ Certified Visuals
 

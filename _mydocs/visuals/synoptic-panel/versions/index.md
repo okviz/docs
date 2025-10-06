@@ -3,7 +3,7 @@ layout:             page
 title:              Versions
 published:          true
 date:               2024-09-10
-modified:           2025-03-08
+modified:           2025-10-06
 order:              /synoptic-panel/00
 ---
 Synoptic Panel is available in three different versions:
@@ -22,12 +22,12 @@ Synoptic Panel is available in three different versions:
     - **Free**
         - Maximum a single local map per visual.
         - Only the first 15 data points are matched with the map areas, the others are ignored.
-        - No Power BI Embedded (Publish To Web, PaaS embed) / Report Server / National Clouds support.
+        - No Power BI Embedded (SharePoint, Publish To Web, PaaS embed) / Report Server / National Clouds support.
         - No [My Storage](../features/my-storage.md) support.
         - No support for remote maps.
 
     - **Licensed with AppSource license**
-        - No Power BI Embedded (Publish To Web, PaaS embed) / Report Server / National Clouds, since the AppSource licensing model doesn't support these scenarios.
+        - No Power BI Embedded (SharePoint, Publish To Web, PaaS embed) / Report Server / National Clouds, since the AppSource licensing model doesn't support these scenarios.
         - No [My Storage](../features/my-storage.md) support.
 
     - **Licensed with OKVIZ license**
@@ -39,7 +39,7 @@ Synoptic Panel is available in three different versions:
 
     *Limitations*:
 
-    - No Power BI Embedded (Publish To Web, PaaS embed) / Report Server / National Clouds, since the AppSource licensing model doesn't support these scenarios.
+    - No Power BI Embedded (SharePoint, Publish To Web, PaaS embed) / Report Server / National Clouds, since the AppSource licensing model doesn't support these scenarios.
     - No [My Storage](../features/my-storage.md) support.
     - No support for remote maps.
 
