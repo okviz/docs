@@ -4,7 +4,7 @@ title:              Displaying Multiple Metrics on the Same Map
 menu_title:         Multiple Metrics, Same Map
 published:          true
 date:               2024-11-29
-modified:           2024-11-29
+modified:           2025-10-22
 order:              /synoptic-panel/concepts/multiple-metrics-same-map
 ---
 
@@ -24,23 +24,31 @@ While this method is relatively straightforward to implement for a small number 
 
 ## Method 2: Using Field Parameters
 
-An alternative and more efficient method involves using [Field Parameters](https://learn.microsoft.com/en-us/power-bi/create-reports/power-bi-field-parameters)—a feature in Power BI (currently in preview) that allows you to create a parameter capable of switching between different fields or measures in your data model. This means you can consolidate all the metrics you want to display into a single parameter.
+You can use [Field Parameters](https://learn.microsoft.com/en-us/power-bi/create-reports/power-bi-field-parameters) to let users switch between different measures (or columns) on a single Synoptic Panel. This approach avoids managing multiple maps or bookmarks. You create one parameter that holds all the metrics you want to show.
 
-To implement this method, you first create a Field Parameter that includes all the desired metrics. You then integrate this parameter into the Synoptic Panel visual on your report. Users can select the metric they wish to view from a slicer—a simple selection menu—placed on the report page. When a user chooses a metric from the slicer, the map dynamically updates to display data for that metric.
+### How It Works
 
-This approach offers several significant advantages. It requires only one map regardless of how many metrics you have, greatly simplifying maintenance. Any updates or changes to the map are automatically applied to all metrics since they all utilize the same visual. Users can effortlessly switch between metrics without the need to load different maps or navigate to different report pages, enhancing the overall user experience.
+First, create a Field Parameter in your model that includes all the desired measures. Add a slicer to the report page using this new parameter.
+
+On Synoptic Panel, use the Field Parameter to drive the data. When a user selects a metric from the slicer, the map updates to show data for that metric.
+
+This method has clear benefits. You only need one map, which simplifies maintenance. Changes to the map design apply to all metrics at once. Users can quickly switch between different data views on the same chart.
 
 <img src="images/field-parameter.png">
 
-However, this method presents a challenge with conditional formatting—the ability to change visual elements based on data values. In Power BI, conditional formatting does not natively support Field Parameters because they are treated like text columns. This limitation means you cannot directly apply conditional formatting rules to the Field Parameter in the usual way.
+### The Challenge of Conditional Formatting
 
-<img src="images/field-parameter-formatting.png">
+There is one main challenge: conditional formatting.
 
-### Overcoming the Conditional Formatting Challenge
+Power BI's conditional formatting rules cannot be applied directly to a Field Parameter. **The rules bind to a specific column or measure name, not to the dynamic *result* of the parameter**.
 
-To address this limitation, you can set a dynamic measure using DAX to handle the selected metric and apply conditional formatting. This involves creating measures that determine which metric to display and how to format it based on user selection.
+<img src="images/measure-header-formatting.png">
 
-You could create a dynamic measure that outputs the value of the selected metric. This measure uses the `SWITCH` function to check which metric is selected from the slicer and returns the corresponding measure.
+### Solving for Conditional Formatting
+
+You can solve this by creating a separate DAX measure that "wraps" the Field Parameter's selection. This new measure will check which metric (or column) is currently selected in the slicer and return its value.
+
+Use a `SWITCH` function to do this:
 
 ```dax
 Dynamic measure = 
@@ -51,14 +59,17 @@ SWITCH(MAX('Measure to choose'[Measure to choose]),
 )
 ```
 
-In this example, `MAX('Metrics'[SelectedMetric])` retrieves the user's selection from the slicer. The `SWITCH` function compares this selection to the specified cases ("Margin USD," "Margin %," etc.) and returns the appropriate measure.
-Now, you can set conditional formatting rules for this newly created `DynamicMeasure`. **However, the formatting rules applied here will be the same for all cases** ("Margin USD," "Margin %," etc.), which may not be ideal if each metric requires different formatting logic.
+This dynamic measure now holds the value of the selected metric. You can apply standard conditional formatting rules to this measure.
 
 <img src="images/field-parameter-rules.png">
 
-If your formatting logic varies depending on the selected metric, you can develop a measure that contains the conditional formatting logic specific to each metric. This involves creating a more complex measure that handles all formatting rules in a single place.
+This works well, but it has one limitation: the same formatting rules (e.g., "color red if value < 25%") will apply to all metrics. This may not work if "Margin USD" and "Margin %" need different thresholds.
 
-Here's how you can do it:
+### Creating Dynamic Formatting Rules
+
+If each metric needs its own unique formatting logic, you must create a second measure. This measure will contain the formatting logic itself. It will also use `SWITCH` to return the correct color based on the slicer selection.
+
+Here is an example measure that returns a specific color code:
 
 ```dax
 Dynamic measure formatting = 
@@ -73,18 +84,20 @@ SWITCH(max('Measure to choose'[Measure to choose]),
 )
 ```
 
-In this measure:
+This measure works in steps:
 
-- Each `VAR` defines a variable that holds the color code based on a condition specific to that metric.
-- The `IF` function checks whether the metric meets a certain threshold and assigns a color accordingly.
-- The `RETURN` statement uses a `SWITCH` function to select the appropriate color variable based on the user's metric selection
+- **Variables (`VAR`)** define the color logic for each specific metric.
+- The **`IF`** function checks that metric's value against its unique threshold and assigns a color.
+- The **`RETURN`** statement uses `SWITCH` to check the slicer selection and return the correct color variable
 
-Finally, you incorporate the `Dynamic measure formatting` measure into the map's conditional formatting settings. This controls the visual appearance based on the metric's value and the specific formatting logic you've defined for each metric.
+To use this, go to Synoptic Panel's conditional formatting settings. Set the *Format style* to **Field value**. For the *Field* setting, select your `Dynamic measure formatting` measure.
+
+Synoptic Panel will now use the color code returned by this measure.
 
 <img src="images/field-parameter-measure-choose.png" width="250">
 
-This setup allows the map to dynamically update both the data and its formatting based on the user's selection from the slicer.
-
 ### Benefits of This Approach
 
-This method centralizes all the logic for metric selection and conditional formatting within the measures you have created. It ensures consistency across all metrics and significantly reduces the need for manual adjustments. Since all metrics share the same map visual, any changes to the map's design or settings automatically apply to all metrics. This not only streamlines the development process but also makes the report easier to maintain and scale as new metrics are added.
+This method keeps all the logic in one place. Both the selected metric and its formatting logic are controlled by DAX measures.
+
+Any changes to the map visual are applied to all metrics automatically. This makes the report easier to build, maintain, and expand with new metrics.
