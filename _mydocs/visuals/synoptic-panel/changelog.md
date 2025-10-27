@@ -3,7 +3,7 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2024-05-10
-modified:           2025-10-09
+modified:           2025-10-27
 order:              /synoptic-panel/{99}
 toc_h_max:          2
 ---
@@ -11,6 +11,22 @@ This page contains a quick summary of versions and notable changes of Synoptic P
 Synoptic Panel uses **Power BI Custom Visuals API v5.11.0**.
 
 > **NOTE:** Synoptic Panel Lite is a subset of Synoptic Panel with limited features. Both versions share the same codebase and changelog.
+
+## v2.4.4
+
+**Released:** 2025-10-10
+
+**Improvements:**
+
+- Add [Transparency](./options/areas/color-matched.md#transparency) option for all area types
+
+## v2.4.3
+
+**Released:** 2025-10-10
+
+**Improvements:**
+
+- Enhance labels rotation handling
 
 ## v2.4.2
 
