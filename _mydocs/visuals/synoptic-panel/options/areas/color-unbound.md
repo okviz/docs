@@ -3,7 +3,7 @@ layout:             page
 title:              Color (Unbound)
 published:          true
 date:               2024-09-14
-modified:           2025-04-10
+modified:           2025-10-27
 order:              /synoptic-panel/options/areas/color-unbound
 ---
 
@@ -32,9 +32,15 @@ Select the color to use for unbound elements background when the *Color* option 
 
 ## Transparency
 
+**Default value:** Custom
+
+The transparency mode for the unbound areas. Select "original" to use the transparency defined in the SVG file, or "custom" to define a custom transparency value.
+
+## Custom Transparency
+
 **Default value:** 0%
 
-The transparency of the unbound elements. The value ranges from 0% (completely opaque) to 100% (completely transparent).
+The transparency of the unbound areas. The value ranges from 0% (completely opaque) to 100% (completely transparent).
 
 ## Outline
 

@@ -3,7 +3,7 @@ layout:             page
 title:              Color
 published:          true
 date:               2024-09-14
-modified:           2025-04-10
+modified:           2025-10-27
 order:              /synoptic-panel/options/areas/color
 ---
 
@@ -33,6 +33,12 @@ Available options:
 Select the color to use for matched areas background when the *Color* option is set to *Custom*.
 
 ## Transparency
+
+**Default value:** Custom
+
+The transparency mode for the matched areas. Select "original" to use the transparency defined in the SVG file, or "custom" to define a custom transparency value.
+
+## Custom Transparency
 
 **Default value:** 0%
 

@@ -4,7 +4,7 @@ title:              Map Selector
 menu_title:         Map Selector
 published:          true
 date:               2025-08-01
-modified:           2025-08-01
+modified:           2025-10-27
 order:              /synoptic-panel/features/filtering-maps/map-selector
 ---
 
@@ -68,11 +68,13 @@ Remember to modify the table and column names according to your dataset.
 
 ### Add Default View
 
-To visualize a default map when no selection has been made, create an artificial surrogate level directly in the map selection measure.
+Synoptic Panel can show a default map when no specific item is selected. You can set this up by building a DAX measure that provides a "surrogate" value to the **Map Selector** field.
+
+Create a measure with this pattern:
 
 ```dax
-SelectedOffices = 
-    VAR vSelector =    
+SelectedOffices =
+    VAR vSelector =
         CONCATENATEX(
             ALLSELECTED('OfficesTable'[Office]),
             'OfficesTable'[Office],
@@ -80,14 +82,28 @@ SelectedOffices =
         )
     VAR vDefaultView = "Default view"
     Return
-    IF( ISFILTERED('OfficesTable'[Office]), vSelector, vDefaultView)
+    IF( COUNTROWS(ALLSELECTED('OfficesTable'[Office])) = 1, vSelector, vDefaultView)
 ```
 
-When `ISFILTERED` evaluates to ***False***, Synoptic Panel receives the text *“Default view”*. Then, in the Map Selector section, *“Default view”* will appear as any other physical value from the column.
+This measure ignores filters coming from Synoptic Panel itself. It uses `ALLSELECTED` to accomplish this. `ALLSELECTED` considers only the filter context *outside* the visual, such as from a slicer.
+
+The measure checks the current external filter selection:
+
+- **One item selected:** If `COUNTROWS(ALLSELECTED('OfficesTable'[Office]))` equals 1, the user has filtered for a single office. The measure returns that office's name.
+- **Zero or many items selected:** If the count is greater than 1, the measure returns the hardcoded text "Default view".
+
+Synoptic Panel receives the result of this measure in its **Map Selector** data field. The text "Default view" is treated just like any other value from your column.
+
+The **Map Selector** setting will only display one reference value at a time.
+
+- When no selection is active (or multiple are active), the measure feeds "Default view" to the visual.
+- When a single selection is active, the measure feeds that specific value (e.g., "Main Office") to the visual.
+
+This logic ensures Synoptic Panel always has a single, valid map name to display.
+
+Please note that only one reference value will be displayed in the map selector section at a time.
 
 <img src="images/map-selector-default-view.png" width="200">
-
-Please note that only one reference value will be displayed in the map selector section at a time. When there is no selection made (for example, when no slicer selection is active), “Default view” will be shown. Once a selection is made, the corresponding reference value will appear in the map selector section. This change is due to the selector measure, which will display “Default view” when there are no selections, rather than showing all reference values.
 
 ## Assigning References to Maps
 
