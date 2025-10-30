@@ -3,7 +3,7 @@ layout:             page
 title:              Creating SVGs with Figma
 published:          true
 date:               2024-09-13
-modified:           2025-06-28
+modified:           2025-10-30
 order:              /synoptic-panel/concepts/maps/03
 next_reading:       true
 author:             Victor Rivas
@@ -12,7 +12,7 @@ author:             Victor Rivas
 
 **Figma is free to use** as long as you don’t use enterprise features.
 
-White it's possible to create an entire SVG from scratch, the primary goal of this guide is to use Figma after obtaining the initial image from another source (e.g., AutoCAD, Revit, an image provided by a graphic designer, etc.) to create a file that can be used by Synoptic Panel. 
+While it's possible to create an entire SVG from scratch, the primary goal of this guide is to use Figma after obtaining the initial image from another source (e.g., AutoCAD, Revit, an image provided by a graphic designer, etc.) to create a file that can be used by Synoptic Panel. 
 
 
 ## Initial Steps
