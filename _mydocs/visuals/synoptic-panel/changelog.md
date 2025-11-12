@@ -3,7 +3,7 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2024-05-10
-modified:           2025-10-27
+modified:           2025-12-11
 order:              /synoptic-panel/{99}
 toc_h_max:          2
 ---
@@ -11,6 +11,25 @@ This page contains a quick summary of versions and notable changes of Synoptic P
 Synoptic Panel uses **Power BI Custom Visuals API v5.11.0**.
 
 > **NOTE:** Synoptic Panel Lite is a subset of Synoptic Panel with limited features. Both versions share the same codebase and changelog.
+
+## v2.4.5
+
+**Released:** 2025-11-12
+
+**New Features:**
+
+- Add [Dynamic Links](./fields/dynamic-links.md) feature to create with a measure clickable areas in SVG maps that navigate to specified URLs
+
+**Improvements:**
+
+- Add [Map Animations](./options/appearance/map-animations.md) option to enable/disable SVG animations
+- Add [Stop On Hover](./options/appearance/map-animations.md#stop-on-hover) option to pause animations on hover
+- Add [Color (Link)](./options/areas/color-link.md) options to customize the appearance of link areas
+
+**Bug Fixes:**
+
+- Fix a bug that caused rendering issues with maps dropdown in Teams for macOS
+- Fix remote maps loading in demo reports
 
 ## v2.4.4
 
