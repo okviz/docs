@@ -3,7 +3,7 @@ layout:             page
 title:              Matching
 published:          true
 date:               2021-12-16
-modified:           2025-02-27
+modified:           2025-11-20
 toc:                false
 order:              /smart-filter-pro/options/mode/matching
 internal:           searchCondition
@@ -13,13 +13,11 @@ available:          Search mode
 
 This option allows you to define how the search is performed with the Search mode.
 
-> To learn how search works and the full syntax you can use, see: [How to Search in Search Mode](../../features/search.md#how-to-search)
-
 You can choose between: 
 - [Exact Match](#exact-match)
-- [Contains/Wildcards](#containswildcards)
-- [Contains](#contains)
-- [Starts With](#starts-with)
+- [Advanced Query](#advanced-query)
+- [Contains](#contains-text-only)
+- [Starts With](#starts-with-text-only)
 - [Interactive](#interactive)
 
 This feature is similar to the [Default Condition for Text](default-text-condition.md) of Filter mode, but introduces fundamental differences. 
@@ -32,21 +30,27 @@ Let us say you want to filter with the Audio category. If you type `audio` and t
 
 <img src="images/matching-1.png" width="700">
 
-## Contains/Wildcards
+## Advanced Query
 
-If you choose ***Contains/Wildcards*** as the Matching value, then you can specify any keyword to have items containing that keyword, or even wildcards can be applied explicitly.
+If you choose ***Advanced Query*** as the matching value, then you can provide any keyword with wildcards to have more advanced search capabilities.
 
-<img src="images/matching-2.png" width="700">
+By default, Advanced Query behaves like a contains search: entering `audio` will match any item that contains the term `audio`. You can refine results with quotes for exact phrases, use ***!*** to exclude terms, and include wildcard characters to broaden matches.
 
-For instance, in the above example where the keyword `audio` is specified in the search box, you will see all the categories containing ***audio***, including the category ***Music, Movies, and Audio Books***. 
+> To learn the supported syntax, see: [How to Search in Search Mode](../../features/search.md#how-to-search)
 
-## Contains
+Note that after activating this mode, you will be able to disallow the use of wildcards by unchecking the option [Allow Wildcards](./allow-wildcards.md) available in the same section.
 
-Like the previous option, ***Contains*** allows you to specify any keyword to have items containing that keyword. However, **wildcards are not allowed**.
+## Contains (text only)
 
-## Starts With
+This options allows you to search for any keyword contained in the items. **No wildcards are supported in this mode.**
 
-If you choose ***Starts With*** as the Matching value, then you can specify any keyword to have items starting with that keyword.
+>> 2025-20-11: This is a deprecated option and will be removed in future versions. Please use ***Advanced Query*** mode with the option [Allow Wildcards](./allow-wildcards.md) disabled instead.
+
+## Starts With (text only)
+
+If you choose ***Starts With*** as the matching value, then you can specify any keyword to have items starting with that keyword.
+
+> This works only for text fields.
 
 ## Interactive
 

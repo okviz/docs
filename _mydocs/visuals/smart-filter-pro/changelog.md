@@ -3,12 +3,24 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2018-06-01
-modified:           2025-04-24
+modified:           2025-11-20
 order:              /smart-filter-pro/{99}
 toc_h_max:            2
 ---
 This page contains a quick summary of versions and notable changes of Smart Filter Pro.  
 Smart Filter Pro uses **Power BI Custom Visuals API v1.13.0** - compatible with Power BI Desktop July 2018 and later versions.
+
+## v2.3.9
+
+**Released:** 2025-11-20
+
+**New Features:**
+
+- Add the ability to disable wildcards in ***Advanced Query*** and ***Interactive*** matching modes through the new [Allow Wildcards](./options/mode/allow-wildcards.md) option.
+
+**Other Changes:**
+
+- [Contains (text only)](options/mode/search-matching#contains-text-only) matching mode is now deprecated and will be removed in future versions.
 
 ## v2.3.8
 
