@@ -3,7 +3,7 @@ layout:             page
 title:              Pan & Zoom
 published:          true
 date:               2024-09-14
-modified:           2024-11-17
+modified:           2025-11-28
 order:              /synoptic-panel/options/advanced-options/pan-zoom
 ---
 
@@ -62,3 +62,6 @@ Available options:
 - **Disabled**: No automatic zoom is applied.
 - **Single Data Point**: Automatic zoom is applied only if there is a single data point in the underlying data.
 - **All Data Points**: Automatic zoom is always applied.
+
+Here is an example of Auto Zoom Mode in action:
+<video src="images/auto-zoom.mp4" controls></video>
