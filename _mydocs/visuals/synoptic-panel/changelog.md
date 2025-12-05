@@ -25,6 +25,7 @@ Synoptic Panel uses **Power BI Custom Visuals API v5.11.0**.
 - Add "Show Menu" interaction for [Dynamic Links](./fields/dynamic-links.md)
 - Add "Show Color Blindness Button" option to [Toolbar Controls](./options/toolbars/controls.md#color-blindness-button) section
 - Add "Allow Multi-Select" option to [Selection](./options/advanced-options/selection.md#allow-multi-select) section
+- Add "Remember Selection" option to [Selection](./options/advanced-options/selection.md#remember-selection) section
 
 **Removed:**
 
