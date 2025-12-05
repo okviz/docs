@@ -3,7 +3,7 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2024-05-10
-modified:           2025-11-29
+modified:           2025-12-05
 order:              /synoptic-panel/{99}
 toc_h_max:          2
 ---
@@ -14,11 +14,22 @@ Synoptic Panel uses **Power BI Custom Visuals API v5.11.0**.
 
 ## v2.4.6
 
-**Released:** TBD
+**Released:** 2025-12-04
+
+**Bug Fixes:**
+
+- Fix a bug causing visual rendering blocking in some cases
 
 **Improvements:**
 
 - Add "Show Menu" interaction for [Dynamic Links](./fields/dynamic-links.md)
+- Add "Show Color Blindness Button" option to [Toolbar Controls](./options/toolbars/controls.md#color-blindness-button) section
+- Add "Allow Multi-Select" option to [Selection](./options/advanced-options/selection.md#allow-multi-select) section
+
+**Removed:**
+
+- Remove Color Blindness option from [Accessibility](./options/accessibility/index.md) section
+
 
 ## v2.4.5
 
@@ -212,7 +223,7 @@ Synoptic Panel uses **Power BI Custom Visuals API v5.11.0**.
 **Improvements:**
 
 - Add [Apply To](./options/areas/color-matched.md) options for area colors
-- Add [Allow Empty Matched Area Selection](./options/advanced-options/misc.md#allow-empty-matched-area-selection) option 
+- Add [Allow Empty Matched Area Selection](./options/advanced-options/selection.md#allow-empty-matched-area-selection) option 
 - Improve Auto-Fetch feature
 - Add [inline console](./options/about/index.md#inline-console) for diagnostics
 

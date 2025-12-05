@@ -3,7 +3,7 @@ layout:             page
 title:              Controls
 published:          true
 date:               2024-09-14
-modified:           2025-11-12
+modified:           2025-12-05
 order:              /synoptic-panel/options/toolbars/controls
 ---
 **Default value:** Off
@@ -33,3 +33,9 @@ Show a button to clear the selection.
 **Default value:** On
 
 Show a button to enable/disable Dynamic Links button. This button will only be shown if there are Dynamic Links connected to the field.
+
+## Color Blindness Button
+
+**Default value:** Off
+
+Show a button to select a color blindness vision filter for the visual.

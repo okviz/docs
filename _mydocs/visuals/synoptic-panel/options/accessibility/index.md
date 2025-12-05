@@ -3,7 +3,7 @@ layout:             page
 title:              Accessibility
 published:          true
 date:               2024-09-13
-modified:           2025-03-17
+modified:           2025-12-05
 order:              /synoptic-panel/options/accessibility
 next_reading:       true
 ---
@@ -27,12 +27,6 @@ Defines the transparency of the elements that are not selected when at least one
 **Default value:** Off
 
 When enabled, the unselected areas are displayed in greyscale.
-
-## Color Blindness
-
-**Default value:** Normal
-
-When enabled, the visual colors are adjusted to simulate the selected type of color blindness. This option is useful for designing visuals that are accessible to people with color vision deficiencies.
 
 ## Scale UI Elements
 
