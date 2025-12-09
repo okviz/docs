@@ -3,7 +3,7 @@ layout:             page
 title:              Controls
 published:          true
 date:               2024-09-14
-modified:           2025-12-05
+modified:           2025-12-09
 order:              /synoptic-panel/options/toolbars/controls
 ---
 **Default value:** Off
@@ -39,3 +39,17 @@ Show a button to enable/disable Dynamic Links button. This button will only be s
 **Default value:** Off
 
 Show a button to select a color blindness vision filter for the visual.
+
+When enabled, the visual colors are adjusted to simulate the selected type of color blindness. This feature helps users with color vision deficiencies to better interpret the visual data.
+
+Available vision filter options:
+
+- Protanopia
+- Protanomaly
+- Deuteranopia
+- Deuteranomaly
+- Tritanopia
+- Tritanomaly
+- Achromatopsia
+- Achromatomaly
+- Low Contrast
