@@ -2,8 +2,8 @@
 layout:             page
 title:              Dynamic Links
 published:          true
-date:               2025-18-12
-modified:           2025-18-12
+date:               2025-12-18
+modified:           2025-12-18
 order:              /synoptic-panel/features/dynamic-links
 ---
 
