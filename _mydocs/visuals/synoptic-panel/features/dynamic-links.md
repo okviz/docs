@@ -79,7 +79,7 @@ RETURN
         & vID
 ```
 
-<video src="images/dynamic-links.mp4" width="600" autoplay loop muted></video>
+<video src="images/dynamic-links .mp4" width="600" autoplay loop muted></video>
 
 By adding this measure to Dynamic Links, areas where the measure returns a URL become clickable.
 
