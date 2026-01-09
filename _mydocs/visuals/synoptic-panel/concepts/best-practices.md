@@ -3,7 +3,7 @@ layout:             page
 title:              Best Practices
 published:          true
 date:               2024-10-02
-modified:           2025-03-23
+modified:           2026-01-09
 order:              /synoptic-panel/concepts/best-practices
 next_reading:       true
 ---
@@ -76,6 +76,6 @@ Structuring the data effectively, you can ensure smoother performance and a more
 
     - My Storage maps:
 
-        - The **maximum size of a map is 10 MB**.
+        - The **maximum size of a map is 20 MB**.
 
     In short, **we recommend using remote or My Storage maps** because they are more efficient and do not increase the report file size.

@@ -3,7 +3,7 @@ layout:             page
 title:              My Storage
 published:          true
 date:               2024-05-10
-modified:           2025-03-26
+modified:           2026-01-09
 order:              /synoptic-panel/features/my-storage
 next_reading:       true
 ---
@@ -128,8 +128,8 @@ When uploading maps to My Storage, consider the following size limitations:
 
 - **Storage Space**: Each license has 100 MB of storage included, so the total file size of all maps cannot exceed this limit.
     > Note that the actual size of a file on My Storage is shorter than the size of the files on your local disk due to automatic GZIP compression. It depends to the content of the file, but **it can be up to 70% smaller.**
-- **File Size Limit**: Each file must not exceed 10 MB.
-- **Total Upload Limit**: A maximum of 20 MB can be uploaded in a single operation.
+- **File Size Limit**: Each file must not exceed 20 MB.
+- **Total Upload Limit**: A maximum of 40 MB can be uploaded in a single operation.
 - **Image Optimization**: Eventual bitmap images embedded in SVG maps will be compressed to reduce their sized based on the [Image Quality](./../options/advanced-options/performance.md#image-quality) setting.
 
 ## Protecting Maps

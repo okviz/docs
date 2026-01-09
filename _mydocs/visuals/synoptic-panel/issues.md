@@ -111,11 +111,11 @@ Read more on [Encryption](./security/my-storage.md#encryption-optional).
 
 **Error Message**: *The selected file is too large*.
 
-This error occurs when the file you are trying to upload exceeds the maximum allowed size for Synoptic Panel of 10 MB.
+This error occurs when the file you are trying to upload exceeds the maximum allowed size for Synoptic Panel.
 
 **Try To**: Reduce the size of the file by optimizing the SVG or JSVG content, or split the file into smaller parts if possible.
 
-Read more about [Performance & Limitis](./concepts/best-practices.md#performance--limits).
+Read more about [Performance & Limits](./concepts/best-practices.md#performance--limits).
 
 ## Image Compression Failed
 
