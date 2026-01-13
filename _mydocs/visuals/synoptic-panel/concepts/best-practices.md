@@ -18,6 +18,8 @@ To ensure your [SVG maps](./../concepts/maps/svg-format.md) work seamlessly with
 
     - **Avoid Bitmaps**: Preferably, do not include bitmap images in your SVG. If necessary, optimize bitmap images to reduce file size: use external compression tools to minimize their size or [reduce the image quality](../options/advanced-options/performance.md#image-quality) in the visual options before importing the SVG.
 
+    - **WebP format recommended**: When using bitmap images with Synoptic Panel, prefer .WEBP over .JPG or .PNG whenever possible. WebP uses modern image compression algorithms that provide the same visual quality at significantly smaller file sizes. Compared to JPEG, WebP achieves better compression for photographic images, and compared to PNG, it delivers much smaller files for graphics with transparency. Smaller image files load faster, consume less memory, and improve the overall performance of Synoptic Panel visuals, especially when used in large or complex reports.
+
 2. Map Complexity
 
     - **Reduce the Elements**: Large and complex SVGs, especially those containing thousands of elements, can negatively affect rendering speed and performance in Synoptic Panel.
