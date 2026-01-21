@@ -5,7 +5,6 @@ published:          true
 date:               2025-06-05
 modified:           2026-21-01
 order:              /synoptic-panel/concepts/maps/04
-next_reading:       false
 author:             Victor Rivas
 ---
 [PowerPoint](https://www.microsoft.com/en-us/microsoft-365/powerpoint?market=en) is primarily a presentation tool, but it includes a capable vector drawing engine. For simple layouts such as floor plans, rack diagrams, or schematic maps, you can draw shapes on a slide and export the slide as an SVG file that Synoptic Panel can render as a map.
