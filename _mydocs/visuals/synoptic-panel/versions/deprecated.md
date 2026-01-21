@@ -13,11 +13,13 @@ Synoptic Panel v1 is the original version of the visual, which is now deprecated
 >> **IMPORTANT**: v1 will stop working on **{{ page.retirement_date }}**.
 
 ## Why is v1 Deprecated?
+
 We have rewritten Synoptic Panel from scratch to take advantage of the latest Power BI APIs and to provide a more robust and flexible solution. While **maps created with v1 will continue to work also with v2**, the new version includes new features, options, and improvements that are not compatible in v1. 
 
 By deprecating v1, we can focus on enhancing the new version and providing a better user experience for our customers.
 
 ## How to Identify v1
+
 You can determine the version of Synoptic Panel you are using by examining its icon and settings. If you notice the following icon or see version `1.5.0` in the About section, you are using v1.
 
 <img src="images/v1-toolbar.png" width="100">
@@ -30,7 +32,7 @@ Also, the visual will display a warning icon with a message indicating that the 
 
 <img src="images/deprecated2.png">
 
-> Note: The warning icon is visible only in Power BI Desktop and Power BI Service (powerbi.com) in Editing View when you hover over or select the visual. **If you do not see the warning, it does not necessarily mean you are not using the deprecated version.**
+> Note that the warning icon is visible only in Power BI Desktop and Power BI Service (powerbi.com) in Editing View when you hover over or select the visual. **If you do not see the warning, it does not necessarily mean you are not using the deprecated version.**
 
 ## What Happens Before Retirement
 
@@ -40,13 +42,13 @@ Until the retirement date, which is set for **{{ page.retirement_date }}**, you 
 
 After the retirement date, which is set for **{{ page.retirement_date }}**, Synoptic Panel v1 will no longer work in your reports and you will see messages indicating that the visual is not available. 
 
-
 ## How to Migrate to v2
+
 To migrate your reports from Synoptic Panel v1 to v2, follow these steps:
 
 1. Go to the links below, choose the appropriate license, and install the visual following the instructions provided:
 
-    - [Synoptic Panel from OKVIZ ](https://okviz.com/synoptic-panel/)
+    - [Synoptic Panel from OKVIZ](https://okviz.com/synoptic-panel/)
     - [Synoptic Panel from AppSource](https://appsource.microsoft.com/en-us/product/power-bi-visuals/okvizcorp1634637213047.synopticpanelbyokviz-v2)
     - [Synoptic Panel Lite from AppSource](https://appsource.microsoft.com/en-us/product/power-bi-visuals/okvizcorp1634637213047.synopticpanelbyokviz-lite)
 

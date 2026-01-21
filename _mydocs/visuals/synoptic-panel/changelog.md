@@ -46,7 +46,7 @@ Synoptic Panel uses **Power BI Custom Visuals API v5.11.0**.
 
 **Improvements:**
 
-- Add "Show Menu" interaction for [Dynamic Links](./fields/dynamic-links.md)
+- Add "Show Menu" interaction for [Dynamic Links](./features/dynamic-links.md)
 - Add "Show Color Blindness Button" option to [Toolbar Controls](./options/toolbars/controls.md#color-blindness-button) section
 - Add "Allow Multi-Select" option to [Selection](./options/advanced-options/selection.md#allow-multi-select) section
 - Add "Remember Selection" option to [Selection](./options/advanced-options/selection.md#remember-selection) section
@@ -55,14 +55,13 @@ Synoptic Panel uses **Power BI Custom Visuals API v5.11.0**.
 
 - Remove Color Blindness option from [Accessibility](./options/accessibility/index.md) section
 
-
 ## v2.4.5
 
 **Released:** 2025-11-12
 
 **New Features:**
 
-- Add [Dynamic Links](./fields/dynamic-links.md) feature to create with a measure clickable areas in SVG maps that navigate to specified URLs
+- Add [Dynamic Links](./features/dynamic-links.md) feature to create with a measure clickable areas in SVG maps that navigate to specified URLs
 
 **Improvements:**
 
