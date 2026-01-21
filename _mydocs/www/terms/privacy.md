@@ -4,7 +4,7 @@ title:              Privacy Policy
 published:          true
 toc_h_max:          2
 date:               2024-12-31
-modified:           2025-03-18
+modified:           2026-01-21
 order:              /terms/02
 ---
 
@@ -243,7 +243,15 @@ This service analyzes Application traffic—which may include your Personal Data
 - **Place of Processing:** United States, Ireland - <a href="https://business.safety.google/privacy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
 - **CCPA Category:** internet or other electronic network activity information; inferences drawn from other personal information.
 
+### External System Status Notifications
 
+This service is used to provide Users with access to an external system status page and to allow them to voluntarily subscribe to operational updates (such as incidents, maintenance, and service disruptions) via a third-party platform.
+
+#### Statuspage.io (Atlassian, Inc.)
+- **Description:** Users may choose to visit an external status page and subscribe to service updates. Any subscription is handled directly by Statuspage.io.
+- **Data Processed:** email address; notification preferences (only if the User voluntarily subscribes).
+- **Place of Processing:** United States – <a href="https://www.atlassian.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
+- **CCPA Category:** identifiers.
 
 ## Policy Application
 
@@ -609,6 +617,10 @@ This Privacy Statement has been prepared in accordance with provisions from mult
 This Privacy Policy applies solely to this Application unless otherwise stated.
 
 ## Changes to this Policy
+
+### 2026-01-21
+
+- We added the Statuspage.io service under External System Status Notifications.
 
 ### 2025-03-18
 

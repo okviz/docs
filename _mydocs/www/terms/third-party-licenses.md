@@ -3,7 +3,7 @@ layout:             page
 title:              Third-Party Licenses
 published:          true
 date:               2025-04-05
-modified:           2025-08-15
+modified:           2026-01-21
 order:              /terms/06
 ---
 The OKVIZ website incorporates third-party components from the projects listed below. The original copyright notices and applicable licenses under which OKVIZ Corp. received these components are provided herein for reference. All rights not expressly granted are reserved by OKVIZ Corp., whether by implication, estoppel, or otherwise.
@@ -21,21 +21,23 @@ Below are reference links to the licenses governing each third-party component, 
 
 ## Components under the MIT License
 
-- [PrismJS](https://prismjs.com/)
+- [CookieConsent](https://cookieconsent.orestbida.com/)
+- [html-react-parser](https://github.com/remarkablemark/html-react-parser)
+- [Jose](https://github.com/panva/jose)
+- [Katex](https://katex.org/)
+- [Marked](https://marked.js.org/)
+- [marked-katex-extension](https://github.com/UziTech/marked-katex-extension)
 - [medium-zoom](https://github.com/francoischalifour/medium-zoom)
-- [Split.js](https://split.js.org/)
+- [PrismJS](https://prismjs.com/)
 - [Radix UI](https://www.radix-ui.com/)
 - [React](https://reactjs.org/)
-- [React Loading Skeleton](https://github.com/dvtng/react-loading-skeleton)
-- [html-react-parser](https://github.com/remarkablemark/html-react-parser)
 - [react-error-boundary](https://github.com/bvaughn/react-error-boundary)
+- [React Fast Marquee](https://github.com/justin-chu/react-fast-marquee)
+- [React Google Recaptcha V3](https://github.com/t49tran/react-google-recaptcha-v3)
+- [React Loading Skeleton](https://github.com/dvtng/react-loading-skeleton)
 - [React Router DOM](https://reactrouter.com/en/main)
-- [Marked](https://marked.js.org/)
-- [Katex](https://katex.org/)
-- [marked-katex-extension](https://github.com/UziTech/marked-katex-extension)
+- [Split.js](https://split.js.org/)
 - [SWR](https://swr.vercel.app/)
-- [Jose](https://github.com/panva/jose)
-- [CookieConsent](https://cookieconsent.orestbida.com/)
 - [Zustand](https://zustand-demo.pmnd.rs/)
 
 ## Components under the BSD 3-Clause License
