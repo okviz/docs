@@ -10,14 +10,11 @@ order:              /terms/02
 
 This Privacy Policy explains how this Application collects, uses, processes, and protects Personal Data from its Users.
 
-
-
 ## Owner and Data Controller
 
 **OKVIZ Corp.**  
 Email: [backoffice@okviz.com](mailto:backoffice@okviz.com)  
 Address: 5348 Vegas Drive, Las Vegas, NV 89108
-
 
 ## Types of Data Collected
 
@@ -41,8 +38,6 @@ Unless specified otherwise, all Data requested is mandatory. Failing to provide 
 
 **Important:** You are solely responsible for any third-party Personal Data that you obtain, publish, or share through this Application.
 
-
-
 ## How We Process Your Data
 
 ### Methods of Processing
@@ -59,8 +54,6 @@ Unless specified otherwise, all Data requested is mandatory. Failing to provide 
 ### Retention Period
 
 Unless specified otherwise, Personal Data is processed and stored only for as long as needed to fulfill its collection purpose. Data may be retained longer due to legal obligations or with your consent.
-
-
 
 ## Purposes of Processing
 
@@ -86,8 +79,6 @@ Additionally, we process your Data for:
 
 For specific details on the Personal Data used for each purpose, please see the section [Detailed Information on the Processing of Personal Data](#detailed-information-on-the-processing-of-personal-data).
 
-
-
 ## Detailed Information on the Processing of Personal Data
 
 Below is a breakdown of the services used by the Application, including the types of Data processed, locations, legal categories (according to the CCPA), and any applicable legal classifications.
@@ -97,41 +88,45 @@ Below is a breakdown of the services used by the Application, including the type
 These services monitor and analyze web traffic and user behavior.
 
 #### Direct Analytics (This Application)
+
 - **Data Processed:** Usage Data.
 - **CCPA Category:** internet or other electronic network activity information.
 - **This Processing Constitutes:** a Sale in California.
 
 #### Google Analytics (Google LLC)
+
 - **Data Processed:** Cookies; Usage Data.
 - **Place of Processing:** United States - <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a> - <a href="https://tools.google.com/dlpage/gaoptout">Opt out</a>.
 - **CCPA Category:** internet or other electronic network activity information.
 - **This Processing Constitutes:** a Sale in California.
 
 #### YouTube Analytics and Reporting API (Google LLC)
+
 - **Data Processed:** Usage Data.
 - **Place of Processing:** United States - <a href="http://www.google.com/policies/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a> - <a href="https://security.google.com/settings/security/permissions">Opt out</a>.
 - **CCPA Category:** internet or other electronic network activity information.
 - **This Processing Constitutes:** a Sale in California.
 - **Additional Note:** Data may be used to support interest-based advertising. You can opt out via your device settings or the <a href="http://optout.networkadvertising.org/?c=1">Network Advertising Initiative opt-out page</a>.
 
-
 ### Backup Saving and Management
 
 This service allows the Owner to back up the Application (including source code, content, and user-provided Data) on external servers.
 
 #### Backup on Azure
-- **Note:** Backups are stored on Azure servers in the United States (if sourced from the United States), The Netherlands (if sourced from The Netherlands), or Australia (if sourced from Australia).
 
+- **Note:** Backups are stored on Azure servers in the United States (if sourced from the United States), The Netherlands (if sourced from The Netherlands), or Australia (if sourced from Australia).
 
 ### Contacting the User
 
 #### Contact Form (This Application)
+
 - When you complete the contact form, you authorize us to use your Data to respond to your inquiries.
 - **Data Processed:** city; company name; country; email address; first name; last name; number of employees; physical address; state; VAT Number; ZIP/Postal code.
 - **CCPA Category:** identifiers; commercial information.
 - **This Processing Constitutes:** a Sale in California.
 
 #### Mailing List or Newsletter (This Application)
+
 - By subscribing, your email is added to our contact list for sending commercial or promotional emails.
 - **Data Processed:** country; email address; first name; last name; Usage Data.
 - **CCPA Category:** identifiers; internet or other electronic network activity information.
@@ -140,6 +135,7 @@ This service allows the Owner to back up the Application (including source code,
 ### Content Commenting
 
 #### Internal Commenting System (This Application)
+
 - You may post and publish comments using our built-in commenting system. Depending on our settings, you can also comment anonymously.
 - If you provide your email, it may be used to send notifications regarding your comments.
 - **Data Processed:** email address; first name; last name; username.
@@ -148,25 +144,26 @@ This service allows the Owner to back up the Application (including source code,
 
 > **Note:** If a third-party commenting service is installed, it may still collect web traffic data for the pages where it appears—even if you do not use it.
 
-
-
 ### Displaying Content from External Platforms
 
 This service allows you to view and interact with content hosted on external platforms.
 
 #### Adobe Fonts (Adobe Systems Incorporated)
+
 - **Data Processed:** Usage Data; various types of Data as specified in the service's privacy policy.
 - **Place of Processing:** United States - <a href="https://www.adobe.com/privacy/policies/adobe-fonts.html" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
 - **CCPA Category:** identifiers; internet or other electronic network activity information.
 - **This Processing Constitutes:** a Sale in California.
 
 #### Google Fonts (Google LLC)
+
 - **Data Processed:** Usage Data; various types of Data as specified in the service's privacy policy.
 - **Place of Processing:** United States - <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
 - **CCPA Category:** identifiers; internet or other electronic network activity information.
 - **This Processing Constitutes:** a Sale in California.
 
 #### YouTube IFrame Player (Google LLC)
+
 - **Data Processed:** Usage Data.
 - **Place of Processing:** United States - <a href="http://www.google.com/policies/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a> - <a href="https://security.google.com/settings/security/permissions">Opt out</a>.
 - **CCPA Category:** internet or other electronic network activity information.
@@ -174,69 +171,72 @@ This service allows you to view and interact with content hosted on external pla
 - **Additional Note:** As with YouTube Analytics, you can restrict data collection via Google's security settings.
 
 #### YouTube Video Widget (Google LLC)
+
 - **Data Processed:** Trackers; Usage Data.
 - **Place of Processing:** United States - <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
 - **CCPA Category:** internet or other electronic network activity information.
 - **This Processing Constitutes:** a Sale in California.
 
 #### Vimeo Video (Vimeo, LLC)
+
 - **Data Processed:** Trackers; Usage Data.
 - **Place of Processing:** United States - <a href="https://vimeo.com/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
 - **CCPA Category:** internet or other electronic network activity information.
 - **This Processing Constitutes:** a Sale in California.
-
 
 ### Handling Payments
 
 Unless stated otherwise, payments (via credit card, bank transfer, etc.) are processed by external payment service providers. You provide your payment details directly to these providers; the Application only receives a confirmation of payment.
 
 #### Stripe (Stripe, Inc.)
+
 - **Data Processed:** Various types of Data as specified in the service's privacy policy.
 - **Place of Processing:** United States - <a href="https://stripe.com/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
 - **CCPA Category:** identifiers.
 
 #### PayPal (PayPal Inc.)
+
 - **Data Processed:** Various types of Data as specified in the service's privacy policy.
 - **Place of Processing:** See the PayPal - <a href="https://www.paypal.com/webapps/mpp/ua/privacy-full%20" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
 - **CCPA Category:** identifiers.
 - **This Processing Constitutes:** a Sale in Virginia, Colorado, Connecticut, Utah, Texas, Oregon, Nevada, Delaware, Iowa, New Hampshire, New Jersey, Nebraska, and Montana.
-
 
 ### Hosting and Backend Infrastructure
 
 This service hosts Data and files necessary for the Application's operation and supports its features.
 
 #### Microsoft Azure (Microsoft Corporation)
+
 - **Data Processed:** Various types of Data as specified in the service's privacy policy.
 - **Place of Processing:** United States, Australia, Netherlands - <a href="https://privacy.microsoft.com/PrivacyStatement" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
 - **CCPA Category:** identifiers.
-
 
 ### Managing Contacts and Sending Messages
 
 This service manages our database of contact information (e.g., email addresses, phone numbers) and may track when you view or interact with messages.
 
 #### SparkPost (Message Systems, Inc.)
+
 - **Data Processed:** email address; various types of Data as specified in the service's privacy policy.
 - **Place of Processing:** United States - <a href="https://www.sparkpost.com/policies/privacy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
 - **CCPA Category:** identifiers.
 - **This Processing Constitutes:** a Sale in California and a Sharing in California.
-
 
 ### Registration and Authentication Provided Directly by This Application
 
 By registering or logging in, you allow us to identify you and provide you with dedicated services. We collect only the data necessary for registration or identification.
 
 #### Direct Registration (This Application)
+
 - **Data Processed:** email address; first name; last name; password; profile picture; Usage Data; username.
 - **CCPA Categories:** identifiers; internet or other electronic network activity information; audio, electronic, visual, thermal, olfactory, or similar information.
-
 
 ### SPAM Protection
 
 This service analyzes Application traffic—which may include your Personal Data—to filter out spam content.
 
-#### Google reCAPTCHA
+#### Google reCAPTCHA (Google LLC)
+
 - **Description:** A SPAM protection service provided by Google LLC (or Google Ireland Limited, depending on our data processing setup).  
 - **Legal References:** Use is subject to Google's <a href="https://www.google.com/policies/privacy/">privacy policy</a> and <a href="https://www.google.com/intl/en/policies/terms/">terms of use</a>. Consult Google's partner policy for details.
 - **Data Processed:** answers to questions; clicks; keypress events; motion sensor events; mouse movements; scroll position; touch events; Trackers; Usage Data.
@@ -248,9 +248,21 @@ This service analyzes Application traffic—which may include your Personal Data
 This service is used to provide Users with access to an external system status page and to allow them to voluntarily subscribe to operational updates (such as incidents, maintenance, and service disruptions) via a third-party platform.
 
 #### Statuspage.io (Atlassian, Inc.)
+
 - **Description:** Users may choose to visit an external status page and subscribe to service updates. Any subscription is handled directly by Statuspage.io.
 - **Data Processed:** email address; notification preferences (only if the User voluntarily subscribes).
 - **Place of Processing:** United States – <a href="https://www.atlassian.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
+- **CCPA Category:** identifiers.
+
+### External Security Report Requests
+
+This service allows Users to request security reports related to this Application via an external third-party platform.
+
+#### Aikido Security (Aikido Security NV)
+
+- **Description:** Users may voluntarily submit a request for a security report by providing their contact details through an external platform operated by Aikido.
+- **Data Processed:** first name; last name; email address (only if the User voluntarily submits a request).
+- **Place of Processing:** European Union - <a href="https://www.aikido.dev/policies/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
 - **CCPA Category:** identifiers.
 
 ## Policy Application
@@ -259,22 +271,17 @@ This Privacy Policy applies to:
 - [okviz.com](https://okviz.com) and its subdomains  
 - [synoptic.design](https://synoptic.design) and its subdomains
 
-
 ## Selling Goods and Services Online
 
 The Personal Data collected is used to provide you with services or to sell goods (including processing payments and arranging delivery). The Data required for payment (such as credit card details, bank account information, or other payment methods) depends on the payment system used.
-
 
 ## Cookie Policy
 
 This Application uses Trackers (e.g., Cookies). For more details, please review our [Cookie Policy](./cookies.md).
 
-
 ## Further Information for Users in the European Union
 
 This section applies to all EU Users under the General Data Protection Regulation (GDPR) and supersedes any conflicting information in this Policy. For more details on the categories, purposes, recipients, and other aspects of Personal Data processing, please see the section [Detailed Information on the Processing of Personal Data](#detailed-information-on-the-processing-of-personal-data).
-
-
 
 ## Legal Basis for Processing
 
@@ -288,8 +295,6 @@ We may process your Personal Data if one of the following conditions applies:
 
 In any case, the Owner is available to clarify the specific legal basis for processing, including whether providing your Personal Data is a statutory or contractual requirement or necessary to enter into a contract.
 
-
-
 ## Further Information on Retention
 
 Unless otherwise specified, your Personal Data will be processed and stored only for as long as necessary to fulfill its collection purpose, and it may be retained longer due to legal obligations or with your consent. Accordingly:
@@ -300,8 +305,6 @@ Unless otherwise specified, your Personal Data will be processed and stored only
 - **Legal Obligations:** We may be required to retain Data for longer periods to comply with legal obligations or authority orders.
 
 After the retention period expires, your Personal Data will be deleted. Consequently, rights to access, erasure, rectification, and data portability cannot be exercised beyond that period.
-
-
 
 ## Your Rights Under the GDPR
 
@@ -318,21 +321,15 @@ You have the right to:
 
 You are also entitled to know the legal basis for transferring your Data abroad—including to any international organization governed by public international law or established by multiple countries (such as the UN)—and the security measures in place to safeguard your Data.
 
-
-
 ## Right to Object to Processing
 
 If your Personal Data is processed for public interest, under an official authority, or for our legitimate interests, you may object to the processing by providing reasons specific to your situation.
 
 **Direct Marketing Exception:** If your Personal Data is processed for direct marketing, you may object at any time, free of charge and without providing any justification. Once you object, your Data will no longer be processed for direct marketing. For further details, please refer to the appropriate sections of this Policy.
 
-
-
 ## How to Exercise Your Rights
 
 You may exercise your rights by contacting the Owner using the contact details provided in this document. Requests are free of charge and will be handled as promptly as possible—within one month—while providing the information required by law. If your request involves rectification, deletion, anonymization, or restriction of processing, we will also inform any third parties with whom your Data has been shared (unless this is impossible or requires disproportionate effort).
-
-
 
 ## Additional Information for Users in Switzerland
 
@@ -348,8 +345,6 @@ You have the following rights (subject to legal limits):
 - The right to request correction of any inaccurate Personal Data.
 
 You may exercise these rights by contacting the Owner as described above.
-
-
 
 ## Additional Information for Users in Brazil
 
@@ -421,8 +416,6 @@ We may transfer your personal information outside Brazil in the following cases:
 - When necessary for executing public policy or a legal public service obligation.
 - When required for compliance with a legal or regulatory obligation, for contract-related procedures, or for exercising rights in judicial, administrative, or arbitration procedures.
 
-
-
 ## Additional Information for Users in the United States
 
 This section supplements the Privacy Policy and is provided by the business operating this Application (and, if applicable, its parent, subsidiaries, and affiliates—collectively "we", "us", "our"). It applies to all users who are residents of the following states:  
@@ -435,6 +428,7 @@ In this section, the terms **Personal Information** and **Sensitive Personal Inf
 This Notice at Collection informs you of the categories of Personal Information collected or disclosed in the past 12 months so you can exercise meaningful control over its use. Although this categorization is primarily based on California privacy laws, it is also useful for non-California residents.
 
 #### Commercial Information
+
 - **Personal Information Collected or Disclosed:** first name; last name; company name; physical address; country; state; email address; ZIP/Postal code; city; number of employees.
 - **Sensitive Personal Information Collected or Disclosed:** VAT Number.
 - **Purpose:** Contacting the User.
@@ -444,6 +438,7 @@ This Notice at Collection informs you of the categories of Personal Information 
 - **Service Providers or Contractors:** this Application.
 
 #### Internet or Other Electronic Network Activity Information
+
 - **Personal Information Collected or Disclosed:** Usage Data; various types of Data as specified in the privacy policy; Trackers; email address; first name; last name; country; profile picture; device information; answers to questions; clicks; keypress events; motion sensor events; mouse movements; scroll position; touch events.
 - **Sensitive Personal Information Collected or Disclosed:** username; password.
 - **Purposes:** Analytics; displaying content from external platforms; contacting the User; registration and authentication; access to third-party accounts; SPAM protection.
@@ -453,6 +448,7 @@ This Notice at Collection informs you of the categories of Personal Information 
 - **Service Providers or Contractors:** this Application.
 
 #### Audio, Electronic, Visual, Thermal, Olfactory, or Similar Information
+
 - **Personal Information Collected or Disclosed:** Usage Data; first name; last name; email address; profile picture.
 - **Sensitive Personal Information Collected or Disclosed:** username; password.
 - **Purpose:** Registration and authentication provided directly by this Application.
@@ -462,6 +458,7 @@ This Notice at Collection informs you of the categories of Personal Information 
 - **Service Providers or Contractors:** this Application.
 
 #### Inferences Drawn from Other Personal Information
+
 For definitions of these concepts, please refer to the **Definitions and Legal References** section.
 
 For more on your rights—especially regarding opting out or limiting the use of your sensitive personal information (the "Limit the Use of My Sensitive Personal Information" option)—please see the [Your Privacy Rights Under US State Laws](#your-privacy-rights-under-us-state-laws) section.
@@ -470,16 +467,12 @@ For additional details on the collection of Personal Information, please review 
 
 We will not process your Information for any unexpected purposes or for purposes that are not reasonably necessary or compatible with those originally disclosed, without your consent.
 
-
-
 ## Sources of the Personal Information We Collect
 
 We obtain your Personal Information directly from you or indirectly through your use of the Application. For example:
 - You provide Personal Information when submitting requests via forms.
 - Personal Information is automatically observed and collected as you navigate the Application.
 - We may also receive your Personal Information from third parties who work with us in connection with the Service or the operation of the Application.
-
-
 
 ## Your Privacy Rights Under US State Laws
 
@@ -492,16 +485,19 @@ You have the following rights regarding your Personal Information:
 - **Non-Discrimination:** You have the right to be free from discrimination in connection with your privacy rights.
 
 ### Additional Rights for California Residents
+
 If you reside in California, you additionally have:
 - The right to opt out of the Sharing of your Personal Information for cross-context behavioral advertising.
 - The right to request that we limit our use or disclosure of your Sensitive Personal Information to only that which is necessary to perform the services or provide the goods, as reasonably expected by an average consumer (subject to certain legal exceptions).
 
 ### Additional Rights for Residents of Virginia, Colorado, Connecticut, Texas, Oregon, Nevada, Delaware, Iowa, New Hampshire, New Jersey, Nebraska, and Montana
+
 If you reside in these states, you also have:
 - The right to opt out of the processing of your Personal Information for Targeted Advertising or profiling in furtherance of decisions that produce legal or similarly significant effects.
 - The right to freely give, deny, or withdraw your consent for processing of your Sensitive Personal Information (with certain legal exceptions, such as when the collection is necessary for a specifically requested product or service).
 
 ### Additional Rights for Utah and Iowa Residents
+
 If you reside in Utah or Iowa, in addition to the above, you have:
 - The right to opt out of the processing of your Personal Information for Targeted Advertising.
 - The right to opt out of the processing of your Sensitive Personal Information (subject to applicable exceptions).
@@ -519,8 +515,6 @@ In addition to the methods described above, you can opt out of the Sale or Shari
 #### How and When We Will Handle Your Request
 
 We will respond to your request without undue delay and, in any case, within the time frame required by law. If we require additional time, we will explain why and provide an estimate. If we deny your request, we will provide the reasons. We do not charge for processing these requests unless the request is manifestly unfounded or excessive, in which case we may charge a reasonable fee or refuse the request—with an explanation of our decision.
-
-
 
 ## Additional Information on Data Collection and Processing
 
@@ -540,8 +534,6 @@ For operational and maintenance purposes, this Application and any third-party s
 
 If you require more details about the collection or processing of your Personal Data, please contact the Owner using the contact information provided at the beginning of this document.
 
-
-
 ## Changes to This Privacy Policy
 
 The Owner reserves the right to update or modify this Privacy Policy at any time by:
@@ -550,8 +542,6 @@ The Owner reserves the right to update or modify this Privacy Policy at any time
 - Sending a notice to Users via any available contact information (as far as technically and legally feasible).
 
 We strongly recommend that you check this page regularly. The date of the last modification is listed at the bottom. If changes affect processing activities based on your consent, the Owner will obtain new consent where required.
-
-
 
 ## Definitions and Legal References
 
@@ -621,6 +611,7 @@ This Privacy Policy applies solely to this Application unless otherwise stated.
 ### 2026-01-21
 
 - We added the Statuspage.io service under External System Status Notifications.
+- We added the Aikido Security service under External Security Report Requests.
 
 ### 2025-03-18
 
