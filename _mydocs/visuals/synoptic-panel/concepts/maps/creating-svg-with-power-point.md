@@ -3,9 +3,9 @@ layout:             page
 title:              Creating SVGs with Power Point
 published:          true
 date:               2025-06-05
-modified:           2025-06-05
+modified:           2026-21-01
 order:              /synoptic-panel/concepts/maps/04
-next_reading:       true
+next_reading:       false
 author:             Victor Rivas
 ---
 [PowerPoint](https://www.microsoft.com/en-us/microsoft-365/powerpoint?market=en) is primarily a presentation tool, but it includes a capable vector drawing engine. For simple layouts such as floor plans, rack diagrams, or schematic maps, you can draw shapes on a slide and export the slide as an SVG file that Synoptic Panel can render as a map.
@@ -18,7 +18,7 @@ This method is a good fit when you need a quick map and you plan to complete dat
 2. Set the slide size to match the aspect ratio you want in the report. This reduces extra whitespace and helps the map fill the visual.
 3. Draw each interactive area as its own shape. Basic shapes such as rectangles, lines, and polygons export predictably.
 
-<img src="images/Shapes_in_PowerPoint.png" width="350">
+<img src="images/shapes-in-powerpoint.png" width="350">
 
 As for demonstration purposes, the following ward floor-plan map was created using rectangles and text boxes.
 
@@ -38,7 +38,7 @@ Use PowerPoint’s Save As export, not “Save as Picture”.
 
 Do not export by selecting all objects, then right clicking and using **Save as Picture**. That method can change coordinates and cause elements to shift, which can break alignment and selection in Synoptic Panel
 
-<img src="images/Save_as_SVG_in_Power_Point.png" width="550">
+<img src="images/save-as-svg-in-powerpoint.png" width="550">
 
 ## Bind shapes to data in Synoptic Panel
 
@@ -52,7 +52,7 @@ Recommended steps:
 2. Open the **Map Editor** and select an area either on the map canvas or from the Selection Tree. The Selection Tree lists SVG areas by their identifiers.
 3. In the Interaction Pane, use the **Data Point** dropdown to assign the selected area to a specific value from your Categories column.
     
-<img src="images/map_editor.png" width="450">
+<img src="images/map-editor.png" width="450">
     
 4. Repeat for each area you want to make interactive.
 5. Select **Save and Close** to apply changes.
