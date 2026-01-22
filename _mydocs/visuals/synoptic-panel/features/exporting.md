@@ -9,11 +9,11 @@ order:              /synoptic-panel/features/exporting
 
 There are different exporting concepts in Power BI and Synoptic Panel.
 
-## Exporting Reports to PDF or Power Point file
+## Exporting Reports to PDF or PowerPoint file
 
-This is a feature of Power BI that allows you to export your report to a PDF or Power Point file. 
+This is a feature of Power BI that allows you to export your report to a PDF or PowerPoint file. 
 
-Unfortunately, **this feature is supported only by Synoptic Panel Lite**, since it's certified by Microsoft. If you try to export a report containing Synoptic Panel to a PDF or Power Point file, you will get a placeholder error where the visual was placed.
+Unfortunately, **this feature is supported only by Synoptic Panel Lite**, since it's certified by Microsoft. If you try to export a report containing Synoptic Panel to a PDF or PowerPoint file, you will get a placeholder error where the visual was placed.
 
 <img src="../../issues/images/not-support-exporting.png" width="350">
 

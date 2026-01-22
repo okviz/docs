@@ -33,7 +33,7 @@ Here are some of the most common errors you can run into with Power BI and custo
 
 - **This visual does not support exporting.**
 
-    This error occurs when you try to export a report to PDF/Power Point or the report is embedded in an email and the visual is not certified. [Read more on certification](../certification.md).
+    This error occurs when you try to export a report to PDF/PowerPoint or the report is embedded in an email and the visual is not certified. [Read more on certification](../certification.md).
     
     <img src="../issues/images/not-support-exporting.png" width="350">
 

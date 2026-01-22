@@ -26,7 +26,7 @@ Power BI sets some limitations to ensure user safety and avoid data breaches:
 
 - **Must be certified to be exported**
 
-    Exporting to PDF/Power Point or including them in subscription emails is not allowed in custom visuals unless they are certified by Microsoft. See more here: [Certification](certification.md)
+    Exporting to PDF/PowerPoint or including them in subscription emails is not allowed in custom visuals unless they are certified by Microsoft. See more here: [Certification](certification.md)
 
 - **New features in Power BI may come later**
 

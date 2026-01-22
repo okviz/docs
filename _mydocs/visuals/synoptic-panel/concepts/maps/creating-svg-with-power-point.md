@@ -1,6 +1,6 @@
 ---
 layout:             page
-title:              Creating SVGs with Power Point
+title:              Creating SVGs with PowerPoint
 published:          true
 date:               2025-06-05
 modified:           2026-01-22

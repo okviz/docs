@@ -7,7 +7,7 @@ modified:           2022-07-16
 order:              /smart-filter-pro/features/exporting
 ---
 
-Exporting to PDF or Power Point file or attaching to Power BI subscription emails, **is not supported by Smart Filter Pro**.  
+Exporting to PDF or PowerPoint file or attaching to Power BI subscription emails, **is not supported by Smart Filter Pro**.  
 If you try to do any of the above with a report containing Smart Filter Pro, you will get a placeholder error where the visual was placed.
 
 <img src="../../issues/images/not-support-exporting.png" width="350">

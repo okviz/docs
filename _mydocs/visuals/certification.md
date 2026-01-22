@@ -43,7 +43,7 @@ Here are the main pros and cons of certified visuals compared to uncertified one
   - Certified visuals code is reviewed by Microsoft to ensure it is free from malicious elements and vulnerabilities.
 
 - **✅ Exporting Support**  
-  - Certified visuals can be included in email subscriptions and exported to PDF/Power Point.
+  - Certified visuals can be included in email subscriptions and exported to PDF/PowerPoint.
 
 - **✅ Sandbox Environment**
   - Certified visuals cannot call external services, ensuring that your data is not sent anywhere.
@@ -71,7 +71,7 @@ Here are the main pros and cons of certified visuals compared to uncertified one
   - You must rely on the custom visuals vendor's commitment to security and reliability. [See our audit process](#audit-process) for uncertified visuals.
 
 - **❌ Exporting Support**
-  - Uncertified visual do not support email subscriptions or export to PDF/Power Point.
+  - Uncertified visual do not support email subscriptions or export to PDF/PowerPoint.
 
 - **✅ No Limitations**
   - Uncertified visuals can access remote resources, which can be essential for some features.
