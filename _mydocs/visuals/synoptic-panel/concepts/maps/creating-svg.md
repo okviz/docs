@@ -3,9 +3,8 @@ layout:             page
 title:              Creating SVG Files
 published:          true
 date:               2024-05-26
-modified:           2025-02-25
+modified:           2026-01-27
 order:              /synoptic-panel/concepts/maps/02
-next_reading:       true
 ---
 
 SVG files can be created using various tools. This page provides an overview of the different methods to create/edit SVG files for use in Synoptic Panel.
@@ -38,7 +37,15 @@ When creating an SVG file for use in Synoptic Panel, it is important to follow s
 
 ### Creating with Figma 
 
-Since Figma is very popular, free, and easy to use tool, here is a detailed guide on [how to create SVG files for Synoptic Panel using Figma](creating-svg-with-figma.md).
+Since Figma is very popular, free, and easy to use tool, here is a detailed guide:
+- [Creating SVG files with Figma](creating-svg-with-figma.md)
+
+## Creating with Presentation Tools
+
+You can also create simple SVG files using presentation tools such as *Microsoft PowerPoint*. These tools allow you to create basic shapes and text, and to apply styles and effects to the elements of the map.
+
+Please refer to specific guide below:
+- [Creating SVG with PowerPoint](creating-svg-with-power-point.md)
 
 ## Editing with a Text Editor
 
