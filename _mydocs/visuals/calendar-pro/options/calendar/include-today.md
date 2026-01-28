@@ -1,10 +1,10 @@
 ---
 layout:             page
-title:              Default to Today
+title:              Include Today
 published:          true
 date:               2023-02-26
-modified:           2024-05-15
-order:              /calendar-pro/options/calendar-setup/default-today
+modified:           2026-01-28
+order:              /calendar-pro/options/calendar-setup/include-today
 internal:           defaultToday
 ---
 **Default value:** Off

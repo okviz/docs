@@ -3,12 +3,20 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2022-07-17
-modified:           2025-12-29
+modified:           2026-01-28
 order:              /calendar-pro/{99}
 toc_h_max:            2
 ---
 This page contains a quick summary of versions and notable changes of Calendar Pro.  
 Calendar Pro uses **Power BI Custom Visuals API v5.11.0**.
+
+## v1.1.5
+
+**Released:** 2026-01-28
+
+**New Features:**
+
+Add [Auto Select Today](options/calendar/auto-select-today.md) option
 
 ## v1.1.4
 
@@ -159,7 +167,7 @@ Bump version release (no actual changes).
 
 **New Features:**
 
-- [Default to Today](options/calendar/default-today.md) option.
+- [Default to Today](options/calendar/include-today.md) option.
 
 **Bug Fixes:**
 
