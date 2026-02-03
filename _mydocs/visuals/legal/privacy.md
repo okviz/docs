@@ -5,14 +5,15 @@ menu_title:         Privacy Policy
 published:          true
 toc_h_max:          2
 date:               2024-12-09
-modified:           2024-03-18
+modified:           2026-02-03
 order:              /legal/privacy-policy
 pdf:                true
 ---
 
 This document explains how OKVIZ Corp. and its affiliates ("Company," "we," "us," or "our") use the data you provide through our Custom Visuals for Microsoft Power BI ("Custom Visual") distributed via Microsoft AppSource or provided privately. Please note that this Privacy Policy only applies to our Custom Visuals. Our website and other online services may be subject to a separate privacy policy. By using the Custom Visual or submitting information through it (directly or indirectly), you agree that we may process the data you provide in accordance with this Privacy Policy.
 
-## Data Controller and Owner 
+## Data Controller and Owner
+
 OKVIZ Corp. - [backoffice@okviz.com](mailto:backoffice@okviz.com])  
 5348 Vegas Drive - Las Vegas, NV 89108
 
@@ -59,7 +60,20 @@ This Privacy Policy applies each time you submit data through the Custom Visual.
 
 ## Information We Collect When You Use The Custom Visual
 
-Apart from the data you voluntarily provide when signing up or authenticating via a third-party authentication provider, we do not involuntarily log or transmit any actions, events, or data managed or visualized within the Custom Visual to our servers.
+### For Custom Visual distributed via Microsoft AppSource
+
+When you use a Custom Visual distributed via Microsoft AppSource, Microsoft may collect certain data as described in their [Privacy Statement](https://learn.microsoft.com/en-us/legal/marketplace/standard-contract#2-privacy).
+
+### For Custom Visual provided privately by OKVIZ
+
+When you use a Custom Visual provided privately by OKVIZ, apart from the data you voluntarily provide when signing up or authenticating via a third-party authentication provider, as well as rough numbers regarding the usage being made of the Custom Visual, we do not voluntarily nor involuntarily log nor transmit any actions, events, or data managed or visualized within the Custom Visual on our servers.
+
+For more information about collected usage data, please refer to each Custom Visual's specific documentation, as it may implement additional telemetry features:
+
+- [Usage Data Collection in Bullet Chart](../bullet-chart/security.md#data-sent-over-the-internet-1)
+- [Usage Data Collection in Calendar Pro](../calendar-pro/security.md#data-sent-over-the-internet-1)
+- [Usage Data Collection in Smart Filter Pro](../smart-filter-pro/security.md#data-sent-over-the-internet)
+- [Usage Data Collection in Synoptic Panel](../synoptic-panel/security/index.md#data-sent-over-the-internet)
 
 ## Security of Your Data
 
@@ -90,6 +104,10 @@ For marketing-related communications, we will only provide such information afte
 **By using the Custom Visual, you acknowledge and accept this Privacy Policy.** If you do not agree with this Privacy Policy, please refrain from using the Custom Visual.
 
 ## Changes to this Policy
+
+### 2026-02-03
+
+- We expanded the "Data Collection" sections to include more detailed information about usage data that may be collected by Custom Visuals provided privately by OKVIZ.
 
 ### 2025-03-18
 
