@@ -12,6 +12,31 @@ Synoptic Panel uses **Power BI Custom Visuals API v5.11.0**.
 
 > **NOTE:** Synoptic Panel Lite is a subset of Synoptic Panel with limited features. Both versions share the same codebase and changelog.
 
+## v2.5.1
+
+**Released:** 2026-02-04
+
+**Bug Fixes:**
+
+- Fix an issue that prevent background and embedded images from being displayed.
+
+    This issue was introduced in v2.4.8 and affects only **Synoptic Panel Lite** users. Due to the lengthy AppSource approval process and the Christmas holidays, the problem began impacting users on **February 3, 2026**.
+
+    The issue affects only newly added maps that include background or embedded images.
+    Existing maps are not affected.
+
+    Since the AppSource approval process is expected to take approximately three weeks, the fix is estimated to be available on AppSource by **February 24, 2026**.
+
+    **Workaround**
+
+    1. Open the report where the issue occurs.
+    2. Add Synoptic Panel (non-Lite) from AppSource to the report.
+    3. Replace the existing Synoptic Panel Lite visual with Synoptic Panel (non-Lite).
+    4. Remove and re-add the affected map.
+    5. Switch back to the Synoptic Panel Lite visual.
+
+    If you need assistance, please contact us at [support@okviz.com](mailto:support@okviz.com).
+
 ## v2.5.0
 
 **Released:** 2026-01-21
