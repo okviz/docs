@@ -18,14 +18,11 @@ Synoptic Panel uses **Power BI Custom Visuals API v5.11.0**.
 
 **Bug Fixes:**
 
-- Fix an issue that prevent background and embedded images from being displayed.
+- Fix an issue ([#54](https://github.com/okviz/synoptic-panel-issues/issues/54)) that prevent background and embedded images from being displayed in newly added maps.
 
     This issue was introduced in v2.4.8 and affects only **Synoptic Panel Lite** users. Due to the lengthy AppSource approval process and the Christmas holidays, the problem began impacting users on **February 3, 2026**.
 
-    The issue affects only newly added maps that include background or embedded images.
-    Existing maps are not affected.
-
-    Since the AppSource approval process is expected to take approximately three weeks, the fix is estimated to be available on AppSource by **February 24, 2026**.
+    Since the AppSource approval process is expected to take approximately three weeks, the fixed version (v2.5.1) is estimated to be available on AppSource by **February 24, 2026**.
 
     **Workaround**
 
