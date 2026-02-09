@@ -3,12 +3,15 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2022-07-17
-modified:           2026-01-28
+modified:           2026-02-09
 order:              /calendar-pro/{99}
 toc_h_max:            2
 ---
 This page contains a quick summary of versions and notable changes of Calendar Pro.  
-Calendar Pro uses **Power BI Custom Visuals API v5.11.0**.
+Calendar Pro uses **Power BI Custom Visuals API v5.11.0**, which requires:
+- Power BI Service
+- **Power BI Desktop July 2024** or later
+- **Power BI Report Server September 2025** or later
 
 ## v1.1.5
 
