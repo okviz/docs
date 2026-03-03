@@ -3,7 +3,7 @@ layout:             page
 title:              Third-Party Licenses
 published:          true
 date:               2025-04-05
-modified:           2026-01-21
+modified:           2026-03-03
 order:              /terms/06
 ---
 The OKVIZ website incorporates third-party components from the projects listed below. The original copyright notices and applicable licenses under which OKVIZ Corp. received these components are provided herein for reference. All rights not expressly granted are reserved by OKVIZ Corp., whether by implication, estoppel, or otherwise.
@@ -21,6 +21,7 @@ Below are reference links to the licenses governing each third-party component, 
 
 ## Components under the MIT License
 
+- [BetterAuth](https://github.com/better-auth/better-auth)
 - [CookieConsent](https://cookieconsent.orestbida.com/)
 - [html-react-parser](https://github.com/remarkablemark/html-react-parser)
 - [Jose](https://github.com/panva/jose)

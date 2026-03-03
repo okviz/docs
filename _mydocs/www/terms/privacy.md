@@ -4,7 +4,7 @@ title:              Privacy Policy
 published:          true
 toc_h_max:          2
 date:               2024-12-31
-modified:           2026-01-21
+modified:           2026-03-03
 order:              /terms/02
 ---
 
@@ -230,6 +230,14 @@ By registering or logging in, you allow us to identify you and provide you with 
 
 - **Data Processed:** email address; first name; last name; password; profile picture; Usage Data; username.
 - **CCPA Categories:** identifiers; internet or other electronic network activity information; audio, electronic, visual, thermal, olfactory, or similar information.
+
+#### Authentication and Session Management (This Application)
+
+- **Description:** This Application uses an internal authentication and session management system to enable secure sign-in, maintain active sessions, and protect user accounts.
+- **Data Processed:** email address; password (stored as secure hash where applicable); authentication tokens; session identifiers; IP address; device/browser metadata; login and security event logs (including failed attempts and verification events).
+- **Place of Processing:** Data is processed in the regions where this Application's infrastructure is configured and operated.
+- **Retention:** Authentication and session-related logs are retained only for as long as necessary for security, fraud prevention, legal compliance, and incident response.
+- **CCPA Categories:** identifiers; internet or other electronic network activity information; inferences drawn from other personal information (where applicable).
 
 ### SPAM Protection
 
@@ -607,6 +615,10 @@ This Privacy Statement has been prepared in accordance with provisions from mult
 This Privacy Policy applies solely to this Application unless otherwise stated.
 
 ## Changes to this Policy
+
+### 2026-03-03
+
+- We added details about the internal authentication and session management system under Registration and Authentication.
 
 ### 2026-01-21
 
