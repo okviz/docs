@@ -4,7 +4,7 @@ title:              Synoptic Panel
 menu_title:         – Synoptic Panel
 published:          true
 date:               2024-05-08
-modified:           2025-03-08
+modified:           2026-03-20
 order:              /synoptic-panel
 next_reading:       true
 ---
@@ -19,7 +19,7 @@ Synoptic Panel is available in three different versions:
 
 - **Synoptic Panel Lite**: A simplified, limited version of the v2 which is certified by Microsoft.
 
-- **Synoptic Panel v1**: The original version of the visual which is now deprecated.
+- **Synoptic Panel v1**: The original version of the visual which is now deprecated and has been retired.
 
 Learn more on the [Versions page](versions/index.md).
 

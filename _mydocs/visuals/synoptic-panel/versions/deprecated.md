@@ -3,14 +3,14 @@ layout:             page
 title:              Deprecated (v1)
 published:          true
 date:               2025-03-08
-modified:           2026-03-11
+modified:           2026-03-20
 order:              /synoptic-panel/versions/deprecated
 retirement_date:    March 20, 2026
 ---
 
-Synoptic Panel v1 is the original version of the visual, which is now deprecated and scheduled for retirement. This version is no longer supported, and we recommend that you upgrade to the latest version of the visual, [Synoptic Panel v2](../versions/index.md).
+Synoptic Panel v1 is the original version of the visual, which is now deprecated. This version is no longer supported, and we recommend that you upgrade to the latest version of the visual, [Synoptic Panel v2](../versions/index.md).
 
->> **IMPORTANT**: v1 will stop working on **{{ page.retirement_date }}**.
+>> **IMPORTANT**: **v1 has been retired on {{ page.retirement_date }}**. The following information is provided for historical reference only and may not be up to date. We recommend that you upgrade to the latest version of the visual to take advantage of the new features and improvements.
 
 ## Why is v1 Deprecated?
 
