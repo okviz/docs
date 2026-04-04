@@ -4,7 +4,7 @@ title:              Privacy Policy
 published:          true
 toc_h_max:          2
 date:               2024-12-31
-modified:           2026-03-03
+modified:           2026-04-04
 order:              /terms/02
 ---
 
@@ -246,8 +246,10 @@ This service analyzes Application traffic—which may include your Personal Data
 #### Google reCAPTCHA (Google LLC)
 
 - **Description:** A SPAM protection service provided by Google LLC (or Google Ireland Limited, depending on our data processing setup).  
-- **Legal References:** Use is subject to Google's <a href="https://www.google.com/policies/privacy/">privacy policy</a> and <a href="https://www.google.com/intl/en/policies/terms/">terms of use</a>. Consult Google's partner policy for details.
-- **Data Processed:** answers to questions; clicks; keypress events; motion sensor events; mouse movements; scroll position; touch events; Trackers; Usage Data.
+- **Legal References:** For information about the data collected by reCAPTCHA and measures that Google takes to protect data, see our Cloud Data Processing Addendum and reCAPTCHA Service Specific Terms.
+
+Use is subject to <a href="https://www.google.com/policies/privacy/">reCAPTCHA Service Specific Terms</a>.
+- **Data Processed:** For more information on the types of data collected by reCAPTCHA, please refer to [Google's Cloud Data Processing Addendum](https://cloud.google.com/terms/data-processing-addendum)
 - **Place of Processing:** United States, Ireland - <a href="https://business.safety.google/privacy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
 - **CCPA Category:** internet or other electronic network activity information; inferences drawn from other personal information.
 
@@ -615,6 +617,10 @@ This Privacy Statement has been prepared in accordance with provisions from mult
 This Privacy Policy applies solely to this Application unless otherwise stated.
 
 ## Changes to this Policy
+
+### 2026-04-04
+
+- We updated the reCAPTCHA section to reflect the latest information about Google's data processing and legal references.
 
 ### 2026-03-03
 
