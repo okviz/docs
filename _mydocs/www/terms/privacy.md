@@ -248,8 +248,8 @@ This service analyzes Application traffic—which may include your Personal Data
 - **Description:** A SPAM protection service provided by Google LLC (or Google Ireland Limited, depending on our data processing setup).  
 - **Legal References:** For information about the data collected by reCAPTCHA and measures that Google takes to protect data, see our Cloud Data Processing Addendum and reCAPTCHA Service Specific Terms.
 
-Use is subject to <a href="https://www.google.com/policies/privacy/">reCAPTCHA Service Specific Terms</a>.
-- **Data Processed:** For more information on the types of data collected by reCAPTCHA, please refer to [Google's Cloud Data Processing Addendum](https://cloud.google.com/terms/data-processing-addendum)
+Use is subject to <a href="https://cloud.google.com/terms/service-terms">reCAPTCHA Service Specific Terms</a>.
+- **Data Processed:** For more information on the types of data collected by reCAPTCHA, please refer to <a href="https://cloud.google.com/terms/data-processing-addendum" target="_blank">Google's Cloud Data Processing Addendum</a>.
 - **Place of Processing:** United States, Ireland - <a href="https://business.safety.google/privacy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
 - **CCPA Category:** internet or other electronic network activity information; inferences drawn from other personal information.
 
