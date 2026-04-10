@@ -1,17 +1,16 @@
 ---
 layout:             page
-title:              Free Visuals
-menu_title:         – Free Visuals
+title:              Other Visuals
+menu_title:         – Other Visuals
 published:          true
 date:               2022-07-13
-modified:           2025-04-01
+modified:           2026-04-08
 order:              /{50}
 ---
 
 OKVIZ has released and maintains several custom visuals for Power BI available for free. There is no a real documentation for these visuals yet, but you can find some helpful resources below:
 
 - [Candlestick](https://okviz.com/candlestick/)
-- [Card with States](https://okviz.com/card-with-states/)
 - [Smart Filter (Free)](https://okviz.com/smart-filter/)
 - [Sparkline](https://okviz.com/sparkline/)
 
