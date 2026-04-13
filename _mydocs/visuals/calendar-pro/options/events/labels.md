@@ -3,7 +3,7 @@ layout:             page
 title:              Show Labels
 published:          true
 date:               2022-07-18
-modified:           2024-05-16
+modified:           2026-04-13
 order:              /calendar-pro/options/events/show-labels
 internal:           showLabels
 related:
@@ -11,6 +11,6 @@ related:
 ---
 **Default value:** On
 
-When this option is enabled, Calendar Pro will display the holidays labels.
+When this option is enabled, Calendar Pro will display the event labels.
 
 <todo>Screenshot</todo>

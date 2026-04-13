@@ -3,9 +3,9 @@ layout:             page
 title:              "Leap Rule: Every X Years"
 published:          true
 date:               2022-07-27
-modified:           2024-05-22
+modified:           2026-04-13
 order:              /calendar-pro/options/calendar-setup/leap-rule-every-x-years
-internal:           leapYear
+internal:           leapYears
 related:
     - leap-rule.md
 ---

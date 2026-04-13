@@ -3,7 +3,7 @@ layout:             page
 title:              Matching
 published:          true
 date:               2021-12-16
-modified:           2025-11-20
+modified:           2026-04-13
 toc:                false
 order:              /smart-filter-pro/options/mode/matching
 internal:           searchCondition
@@ -34,7 +34,7 @@ Let us say you want to filter with the Audio category. If you type `audio` and t
 
 If you choose ***Advanced Query*** as the matching value, then you can provide any keyword with wildcards to have more advanced search capabilities.
 
-By default, Advanced Query behaves like a contains search: entering `audio` will match any item that contains the term `audio`. You can refine results with quotes for exact phrases, use ***!*** to exclude terms, and include wildcard characters to broaden matches.
+By default, Advanced Query behaves like a contains search: entering `audio` will match any item that contains the term `audio`. You can refine results with quotes for exact phrases, use ***!*** to exclude terms, and use `*` to broaden text matches.
 
 > To learn the supported syntax, see: [How to Search in Search Mode](../../features/search.md#how-to-search)
 
@@ -42,9 +42,9 @@ Note that after activating this mode, you will be able to disallow the use of wi
 
 ## Contains (text only)
 
-This options allows you to search for any keyword contained in the items. **No wildcards are supported in this mode.**
+This option allows you to search for any keyword contained in the items. **No wildcards are supported in this mode.**
 
->> 2025-20-11: This is a deprecated option and will be removed in future versions. Please use ***Advanced Query*** mode with the option [Allow Wildcards](./allow-wildcards.md) disabled instead.
+>> 2025-11-20: This is a deprecated option and will be removed in future versions. Please use ***Advanced Query*** mode with the option [Allow Wildcards](./allow-wildcards.md) disabled instead.
 
 ## Starts With (text only)
 

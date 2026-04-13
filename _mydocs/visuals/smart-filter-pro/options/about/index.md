@@ -3,28 +3,29 @@ layout:             page
 title:              About & License
 published:          true
 date:               2021-11-15
-modified:           2025-02-22
+modified:           2026-04-13
 order:              /smart-filter-pro/options/about-license
-internal:           about, name, version, license, user, key, expiry
+internal:           about, name, version, license, customer, user, key, expiry, updates
 toc:                false
 ---
-This section contains information about the visual such as the version, licensing details, and options related to telemetry and updates.
+This section contains information about the visual version, license activation/status, and the update-check option.
 
 ## Name
 The name of the visual.
 
 ## Version
 
-The current version of visual.
+The current version of the visual. Depending on the package, the displayed version can also include additional suffixes related to the distribution channel.
 
 ## License Details
 
-License details include the following fields:
+Depending on the current licensing state, this section can show or request the following fields:
 
--	**Licensee name**: Name of the licensee user
--	**License id**: Your license id
--	**License status**: Active/Expired *(read-only)*
--	**Expiration date**: Expiry of the license if not renewed *(read-only)*
+- **License id**: Your license id. It can be editable during activation or read-only after the license has been resolved.
+- **Licensee name**: The name/key used to activate the license.
+- **Licensee**: The resolved licensee shown as read-only information when available.
+- **License status**: The current status of the license, such as `Active`, `Trial Mode`, `Grace Period`, `Suspended`, `Expired`, `Unlicensed`, or `Pending...`.
+- **Expiration date**: The expiration date of the resolved license, when available.
 
 > See more on [Licensing](../../licensing.md).
 

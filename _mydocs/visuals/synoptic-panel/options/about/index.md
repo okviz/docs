@@ -8,6 +8,9 @@ order:          /synoptic-panel/options/about
 ---
 This section contains the information and debug options available in the About card of Synoptic Panel.
 
+## Name
+The name of the visual.
+
 ## Version
 The current version of visual.
 

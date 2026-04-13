@@ -3,9 +3,9 @@ layout:             page
 title:              Prev/Next Page
 published:          true
 date:               2022-07-22
-modified:           2024-05-16
+modified:           2026-04-13
 order:              /calendar-pro/options/toolbar/prev-next-page
-internal:           prevNextStepPageControls
+internal:           prevNextPageControls
 available:          Calendar Mode
 ---
 **Default value:** On

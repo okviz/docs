@@ -5,7 +5,7 @@ published:          true
 date:               2023-03-07
 modified:   	    2024-05-22
 order:              /bullet-chart/options/target-labels/background-color
-internal:           backgroundColor
+internal:           backgroundFill
 premium:            /bullet-chart/licensing.md
 class:              normal
 version:            2.3.2.1

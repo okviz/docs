@@ -3,7 +3,7 @@ layout:             page
 title:              Allow All Granularities
 published:          true
 date:               2022-07-27
-modified:           2024-05-18
+modified:           2026-04-13
 order:              /calendar-pro/options/calendar-granularity/allow-all-granularities
 internal:           allGranularities
 related:
@@ -11,6 +11,10 @@ related:
 ---
 **Default value:** On
 
-When this option is enabled, the visual granularity can also be managed directly from the visual, otherwise the granularity can only be managed from the settings.
+When this option is enabled, all supported granularities are available in the visual.
+
+When this option is disabled, you can choose exactly which granularities to allow in the settings below.
+
+> This option does not enable or disable the toolbar controls. To manage the granularity directly from the visual, use the [Granularity controls](../toolbar/granularity.md) option in the Toolbar section.
 
 <todo>Screenshot</todo>

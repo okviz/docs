@@ -3,9 +3,9 @@ layout:             page
 title:              Max Items
 published:          true
 date:               2022-07-22
-modified:           2024-05-17
+modified:           2026-04-13
 order:              /calendar-pro/options/tooltips/max-items
-internal:           maxTooltipsItems
+internal:           maxTooltipItems
 ---
 **Default value:** 8
 

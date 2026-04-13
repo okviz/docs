@@ -7,7 +7,7 @@ modified:   	    2022-08-18
 order:              /bullet-chart/options/variances/bad-color
 premium:            /bullet-chart/licensing.md
 version:            2.3.1.0
-internal:           fillGood
+internal:           fillBad
 ---
 
 **Default value:** {% include color value="#F20D0E" %}
