@@ -3,7 +3,7 @@ layout:             page
 title:              Display Unit
 published:          true
 date:               2022-07-07
-modified:   	    2024-10-04
+modified:   	    2023-03-22
 order:              /bullet-chart/options/data-labels/display-unit
 internal:           unit
 related:

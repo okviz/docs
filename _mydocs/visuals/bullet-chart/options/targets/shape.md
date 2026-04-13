@@ -3,7 +3,7 @@ layout:         page
 title:          Shape
 published:      true
 date:           2022-08-17
-modified:   	2024-10-04
+modified:   	2024-05-22
 order:          /bullet-chart/options/targets/shape
 internal:       shape
 ---

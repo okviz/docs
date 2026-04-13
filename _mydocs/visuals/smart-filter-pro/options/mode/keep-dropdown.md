@@ -3,7 +3,7 @@ layout:             page
 title:              Keep Dropdown Open
 published:          true
 date:               2022-07-28
-modified:           2024-10-04
+modified:           2023-02-26
 order:              /smart-filter-pro/options/mode/keep-dropdown-open
 internal:           keepDropdown
 available:          Dropdown mode

@@ -3,7 +3,7 @@ layout:             page
 title:              Font Color
 published:          true
 date:               2022-07-19
-modified:           2024-10-04
+modified:           2022-07-22
 order:              /smart-filter-pro/options/labels-placeholders/font-color
 internal:           fill
 available:          Dropdown | Observer mode

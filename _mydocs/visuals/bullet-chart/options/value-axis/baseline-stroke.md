@@ -3,7 +3,7 @@ layout:         page
 title:          Baseline Stroke Width
 published:      true
 date:           2022-08-21
-modified:   	2024-10-04
+modified:   	2023-02-01
 order:          /bullet-chart/options/value-axis/baseline-stroke-width
 premium:        /bullet-chart/licensing.md
 internal:       baselineStroke

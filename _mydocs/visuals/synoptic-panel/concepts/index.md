@@ -3,7 +3,7 @@ layout:             page
 title:              Concepts
 published:          true
 date:               2024-05-10
-modified:           2024-10-04
+modified:           2024-05-27
 order:              /synoptic-panel/02
 next_reading:       true
 ---

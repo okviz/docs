@@ -3,7 +3,7 @@ layout:             page
 title:              Observer Mode
 published:          true
 date:               2021-12-09
-modified:           2024-10-04
+modified:           2022-07-22
 order:              /smart-filter-pro/features/observer-mode
 internal:           observer
 related_title:      Related Options

@@ -3,7 +3,7 @@ layout:             page
 title:              Drill Behavior
 published:          true
 date:               2024-09-12
-modified:           2024-10-04
+modified:           2024-09-14
 order:              /synoptic-panel/options/drill-behavior
 next_reading:       true
 next_reading_title: Options

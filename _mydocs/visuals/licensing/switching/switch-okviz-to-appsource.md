@@ -11,13 +11,14 @@ related:
     - switch-appsource-to-okviz.md
 ---
 
-If you want to move from OKVIZ Licensing to AppSource Licensing, there is **no direct migration path**.
+If you want to move from OKVIZ Licensing to AppSource Licensing, there is **no direct switching path**.
 The two subscriptions are managed separately and cannot be converted automatically.
 
 To switch licensing systems, you must:
 
 1. Cancel the current OKVIZ subscription.
 2. Create a new AppSource subscription for the same visual.
+3. Replace the OKVIZ visual in your reports with the AppSource version.
 
 ## 1. Cancel the OKVIZ Subscription
 
@@ -45,8 +46,22 @@ After you have cancelled the OKVIZ subscription, create a new subscription from 
 
 > For the detailed purchase and assignment steps, see [AppSource Licensing](../appsource.md).
 
+## 3. Replace the Visual in Your Reports
+
+Switching the subscription does not convert the OKVIZ visual already used in your reports into the AppSource version.
+After the switch, you must add the visual again from AppSource and use that version in your reports.
+
+1. Open each report that still uses the OKVIZ version.
+
+2. Select the ellipsis from the bottom of the ***Visualizations*** pane and choose ***Get more visuals***.
+
+3. Search for the visual in AppSource and press ***Add***, as described in [Installation from AppSource](../../get-started/installation.md#from-appsource).
+
+4. Replace the OKVIZ version in the report with the AppSource version of the visual.
+
 ## Important Notes
 
 - The OKVIZ subscription and the AppSource subscription are independent. Existing OKVIZ subscription data is not transferred to Microsoft.
 - AppSource Licensing is per-user, so users or groups must be assigned after the purchase.
+- The OKVIZ visual already present in the report does not automatically become an AppSource visual when you switch the subscription.
 - If you still need uninterrupted access, plan the switch around the end of the current OKVIZ billing period.

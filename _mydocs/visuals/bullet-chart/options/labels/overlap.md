@@ -3,7 +3,7 @@ layout:             page
 title:              Overlap
 published:          true
 date:               2022-10-20
-modified:   	    2024-10-04
+modified:   	    2023-03-09
 order:              /bullet-chart/options/labels/overlap
 premium:            /bullet-chart/licensing.md
 internal:           overlap

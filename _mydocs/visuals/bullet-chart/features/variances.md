@@ -3,7 +3,7 @@ layout:             page
 title:              Variances
 published:          true
 date:               2022-08-17
-modified:           2024-10-04
+modified:           2024-09-14
 order:              /bullet-chart/features/variances
 version:            2.3.1.0
 ---

@@ -132,7 +132,7 @@ To purchase and activate your license, follow the instructions provided in the r
 
 ## Switching Between Licensing Systems
 
-There is no direct migration path between AppSource Licensing and OKVIZ Licensing.
+There is no direct switching path between AppSource Licensing and OKVIZ Licensing.
 If you want to switch, you must cancel the current subscription in the original system and create a new subscription in the other one.
 
 - [Switching Overview](switching/index.md)

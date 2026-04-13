@@ -3,7 +3,7 @@ layout:             page
 title:              Size %
 published:          true
 date:               2022-08-21
-modified:   	    2024-10-04
+modified:   	    2023-03-21
 order:              /bullet-chart/options/category-axis/size
 premium:            /bullet-chart/licensing.md
 version:            2.3.1.1

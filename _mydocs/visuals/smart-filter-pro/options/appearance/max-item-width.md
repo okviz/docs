@@ -3,7 +3,7 @@ layout:             page
 title:              Max Item Width
 published:          true
 date:               2021-11-20
-modified:           2024-10-04
+modified:           2022-07-20
 order:              /smart-filter-pro/options/appearance/max-item-width
 available:          Dropdown | Filter | Observer mode
 internal:           tokenMaxWidth

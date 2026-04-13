@@ -3,7 +3,7 @@ layout:             page
 title:              Hierarchy Mode
 published:          true
 date:               2021-12-09
-modified:           2024-10-04
+modified:           2022-07-20
 order:              /smart-filter-pro/features/hierarchy-mode
 internal:           hierarchy
 version:            2.0.8

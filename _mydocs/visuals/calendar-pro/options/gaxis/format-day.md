@@ -3,7 +3,7 @@ layout:             page
 title:              Format for Days
 published:          true
 date:               2022-07-27
-modified:           2024-10-04
+modified:           2024-09-14
 order:              /calendar-pro/options/group-title/format-for-days
 internal:           formatDay
 related:

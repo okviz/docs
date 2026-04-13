@@ -3,7 +3,7 @@ layout:             page
 title:              Consolidate Fields
 published:          true
 date:               2021-12-16
-modified:           2024-10-04
+modified:           2022-07-20
 order:              /smart-filter-pro/options/mode/consolidate-fields
 internal:           consolidateFields
 version:            2.0.1

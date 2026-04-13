@@ -3,7 +3,7 @@ layout:             page
 title:              Change Decimal Places
 published:          true
 date:               2022-08-17
-modified:   	    2024-10-04
+modified:   	    2023-03-22
 order:              /bullet-chart/options/data-labels/change-decimal-places
 internal:           changePrecision
 related:

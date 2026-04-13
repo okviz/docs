@@ -3,7 +3,7 @@ layout:             page
 title:              Data Labels
 published:          true
 date:               2022-07-07
-modified:   	    2024-10-04
+modified:   	    2022-08-17
 order:              /bullet-chart/options/data-labels
 internal:           dataLabels
 next_reading:       true

@@ -3,7 +3,7 @@ layout:             page
 title:              Check for Updates
 published:          true
 date:               2021-11-15
-modified:           2024-10-04
+modified:           2024-09-14
 order:              /smart-filter-pro/options/about/check-for-updates
 internal:           updates
 ---

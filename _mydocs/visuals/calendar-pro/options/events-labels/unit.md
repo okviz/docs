@@ -3,7 +3,7 @@ layout:             page
 title:              Display Unit
 published:          true
 date:               2022-07-26
-modified:           2024-10-04
+modified:           2024-09-14
 order:              /calendar-pro/options/events-holidays-labels/display-unit
 internal:           unit
 available:          Calendar Mode

@@ -4,7 +4,7 @@ title:              Get Started with OKVIZ Visuals
 menu_title:         Get Started
 published:          true
 date:               2021-11-17
-modified:           2024-10-04
+modified:           2022-07-17
 order:              /01
 next_reading:       true
 ---

@@ -3,7 +3,7 @@ layout:             page
 title:              Maximum Bullet Width
 published:          true
 date:               2022-07-07
-modified:   	    2024-10-04
+modified:   	    2024-05-22
 order:              /bullet-chart/options/general/maximum-bullet-width
 available:          Vertical Mode
 internal:           maxWidth

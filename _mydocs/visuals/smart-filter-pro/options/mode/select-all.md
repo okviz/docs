@@ -2,7 +2,7 @@
 layout:             page
 title:              Show 'Select All'
 date:               2021-12-16
-modified:           2024-10-04
+modified:           2022-07-31
 order:              /smart-filter-pro/options/mode/show-select-all
 internal:           treeShowSelectAll, treeSelectAllText
 available:          Hierarchy mode

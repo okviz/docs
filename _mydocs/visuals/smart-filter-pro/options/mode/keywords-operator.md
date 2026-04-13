@@ -3,7 +3,7 @@ layout:             page
 title:              Keywords Operator
 published:          true
 date:               2021-12-16
-modified:           2024-10-04
+modified:           2024-09-14
 toc:                false
 order:              /smart-filter-pro/options/mode/keywords-operator
 internal:           logicalOperator

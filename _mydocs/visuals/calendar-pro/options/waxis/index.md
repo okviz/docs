@@ -3,7 +3,7 @@ layout:             page
 title:              "Axis: Week"
 published:          true
 date:               2022-07-18
-modified:           2024-10-04
+modified:           2024-05-31
 order:              /calendar-pro/options/axis-week
 internal:           wAxis
 available:          Calendar Mode

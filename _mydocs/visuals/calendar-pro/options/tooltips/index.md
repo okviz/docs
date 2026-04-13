@@ -3,7 +3,7 @@ layout:             page
 title:              Tooltips
 published:          true
 date:               2022-07-18
-modified:           2024-10-04
+modified:           2024-05-31
 order:              /calendar-pro/options/tooltips
 internal:           tooltips
 next_reading:       true

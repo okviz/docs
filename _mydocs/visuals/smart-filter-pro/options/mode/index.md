@@ -3,7 +3,7 @@ layout:             page
 title:              Mode
 published:          true
 date:               2021-12-14
-modified:           2024-10-04
+modified:           2022-07-20
 order:              /smart-filter-pro/options/mode
 internal:           mode
 ---

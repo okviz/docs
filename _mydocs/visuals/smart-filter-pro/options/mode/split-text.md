@@ -4,7 +4,7 @@ title:              Split Text by
 menu_title:         Split Text
 published:          true
 date:               2021-12-16
-modified:           2024-10-04
+modified:           2024-09-14
 order:              /smart-filter-pro/options/mode/split-text
 internal:           searchDelimiter
 available:          Search mode

@@ -11,13 +11,14 @@ related:
     - switch-okviz-to-appsource.md
 ---
 
-If you want to move from AppSource Licensing to OKVIZ Licensing, there is **no direct migration path**.
+If you want to move from AppSource Licensing to OKVIZ Licensing, there is **no direct switching path**.
 The two subscriptions are managed separately and cannot be converted automatically.
 
 To switch licensing systems, you must:
 
 1. Cancel the current AppSource subscription in Microsoft 365.
 2. Create a new OKVIZ subscription for the same visual.
+3. Replace the AppSource visual in your reports with the OKVIZ version.
 
 ## 1. Cancel the AppSource Subscription
 
@@ -27,7 +28,7 @@ Follow these steps in the Microsoft 365 admin center:
 
 2. On the navigation menu, select ***Billing*** > ***Your products***.
 
-3. Find the row related to the OKVIZ visual you want to migrate, click the **ellipsis button**, then choose ***Cancel subscription***.
+3. Find the row related to the OKVIZ visual you want to switch, click the **ellipsis button**, then choose ***Cancel subscription***.
 
     <img src="../images/as-cancel-subscription.png" width="600">
 
@@ -49,8 +50,27 @@ After you have cancelled the AppSource subscription, create a new subscription d
 
 > For the full OKVIZ purchase flow, see [OKVIZ Licensing](../okviz/index.md).
 
+## 3. Replace the Visual in Your Reports
+
+Switching the subscription does not convert the AppSource visual already used in your reports into an OKVIZ-licensed visual.
+After the switch, you must obtain the OKVIZ visual and use that version in your reports.
+
+1. Download the licensed `.pbiviz` file from your [OKVIZ account dashboard](https://okviz.com/account/licenses/), or use the file you received by email after the purchase.
+
+    <img src="images/okviz-dashboard.png" width="600">
+
+2. Choose how you want to distribute the OKVIZ version:
+
+    - Import the `.pbiviz` file manually into each report, as described in [Installation from a File](../../get-started/installation.md#from-a-file).
+    - Install the `.pbiviz` file in the [Org Store](../../get-started/org-store.md) if you want to distribute the visual centrally in your organization.
+
+3. Open each report that still uses the AppSource version and replace it with the OKVIZ version of the visual.
+
+4. If you manage the visual through the Org Store, update the existing Org Store entry instead of deleting it and creating a new one. See [Updating from the Org Store](../../get-started/updating.md#from-the-org-store).
+
 ## Important Notes
 
 - The AppSource subscription and the OKVIZ subscription are independent. Billing history, assignments, and subscription state are not transferred between the two systems.
+- The AppSource visual already present in the report does not automatically become an OKVIZ visual when you switch the subscription.
 - If you still need uninterrupted access, plan the switch around the end of the current AppSource billing period.
 - For visuals that use a hybrid OKVIZ activation flow, follow the activation instructions linked from the [OKVIZ Licensing](../okviz/index.md) page.

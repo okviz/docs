@@ -3,7 +3,7 @@ layout:             page
 title:              Features
 published:          true
 date:               2022-07-13
-modified:           2024-10-04
+modified:           2023-02-03
 order:              /bullet-chart/features
 class:              front-section
 next_reading:       true

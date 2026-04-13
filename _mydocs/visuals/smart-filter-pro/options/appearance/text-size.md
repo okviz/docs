@@ -3,7 +3,7 @@ layout:             page
 title:              Text Size
 published:          true
 date:               2021-11-20
-modified:           2024-10-04
+modified:           2022-07-20
 order:              /smart-filter-pro/options/appearance/text-size
 internal:           fontSize
 related:

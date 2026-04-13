@@ -3,7 +3,7 @@ layout:             page
 title:              Clear Button
 published:          true
 date:               2021-11-20
-modified:           2024-10-04
+modified:           2022-07-20
 order:              /smart-filter-pro/options/appearance/clear-button
 available:          Dropdown | Filter | Search mode
 internal:           showClear
