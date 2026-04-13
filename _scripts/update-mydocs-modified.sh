@@ -51,6 +51,107 @@ if [[ ! -d "${docs_root}" ]]; then
     exit 1
 fi
 
+normalize_content() {
+    awk '
+        BEGIN {
+            in_front_matter = 0;
+            has_front_matter = 0;
+        }
+        NR == 1 {
+            if ($0 == "---") {
+                has_front_matter = 1;
+                in_front_matter = 1;
+            }
+            print;
+            next;
+        }
+        in_front_matter && $0 == "---" {
+            in_front_matter = 0;
+            print;
+            next;
+        }
+        in_front_matter && $0 ~ /^modified:[[:space:]]*/ {
+            next;
+        }
+        {
+            print;
+        }
+    '
+}
+
+get_normalized_blob() {
+    local revision="$1"
+    local path="$2"
+
+    if git show "${revision}:${path}" 2>/dev/null | normalize_content; then
+        return 0
+    fi
+
+    return 0
+}
+
+get_meaningful_commit_date() {
+    local file="$1"
+    local current_path="${file}"
+    local commit_hash=""
+    local commit_date=""
+    local status_line=""
+    local status=""
+    local path_one=""
+    local path_two=""
+    local path_at_commit=""
+    local parent_path=""
+    local parent_hash=""
+    local current_content=""
+    local parent_content=""
+
+    while IFS= read -r line; do
+        if [[ "${line}" == __COMMIT__* ]]; then
+            commit_hash="${line#__COMMIT__ }"
+            commit_date="${commit_hash##* }"
+            commit_hash="${commit_hash% *}"
+            continue
+        fi
+
+        if [[ -z "${line}" ]]; then
+            continue
+        fi
+
+        status_line="${line}"
+        IFS=$'\t' read -r status path_one path_two <<< "${status_line}"
+
+        path_at_commit="${current_path}"
+        parent_path="${current_path}"
+
+        if [[ "${status}" == R* || "${status}" == C* ]]; then
+            path_at_commit="${path_two}"
+            parent_path="${path_one}"
+            current_path="${path_one}"
+        elif [[ -n "${path_one}" ]]; then
+            path_at_commit="${path_one}"
+            parent_path="${path_one}"
+        fi
+
+        current_content="$(get_normalized_blob "${commit_hash}" "${path_at_commit}")"
+        parent_hash="$(git rev-parse "${commit_hash}^" 2>/dev/null || true)"
+        if [[ -z "${parent_hash}" ]]; then
+            if [[ -n "${current_content}" ]]; then
+                printf '%s\n' "${commit_date}"
+                return 0
+            fi
+            continue
+        fi
+
+        parent_content="$(get_normalized_blob "${parent_hash}" "${parent_path}" || true)"
+        if [[ "${current_content}" != "${parent_content}" ]]; then
+            printf '%s\n' "${commit_date}"
+            return 0
+        fi
+    done < <(git log --follow --format='__COMMIT__ %H %cs' --name-status -- "${file}")
+
+    return 0
+}
+
 updated_count=0
 unchanged_count=0
 filtered_count=0
@@ -157,7 +258,12 @@ process_file() {
         return
     fi
 
-    commit_date="$(git log -1 --follow --format=%cs -- "${file}" 2>/dev/null | tr -d '\r')"
+    if commit_date="$(get_meaningful_commit_date "${file}" | tr -d '\r')"; then
+        :
+    else
+        commit_date=""
+    fi
+
     if [[ -z "${commit_date}" ]]; then
         printf 'skip    %s (no commit found)\n' "${file}"
         skipped_count=$((skipped_count + 1))

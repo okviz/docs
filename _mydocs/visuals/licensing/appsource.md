@@ -4,7 +4,7 @@ title:              AppSource Licensing
 menu_title:         AppSource
 published:          true
 date:               2025-02-22
-modified:           2025-05-28
+modified:           2026-04-13
 order:              /licensing/appsource
 toc_h_max:          2
 ---
@@ -98,5 +98,6 @@ You can cancel the subscription from the Microsoft 365 admin page:
 
     <img src="images/as-cancel-subscription.png" width="600">
 
-> Refund policy is available on the [Refund policies for Microsoft AppSource and Azure Marketplace](https://learn.microsoft.com/en-us/marketplace/refund-policies) page.
+> If you are cancelling because you want to switch to an OKVIZ-managed subscription, see [Switch from AppSource to OKVIZ Licensing](switching/switch-appsource-to-okviz.md).
 
+> Refund policy is available on the [Refund policies for Microsoft AppSource and Azure Marketplace](https://learn.microsoft.com/en-us/marketplace/refund-policies) page.

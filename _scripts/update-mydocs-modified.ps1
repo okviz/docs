@@ -37,6 +37,123 @@ if (-not (Test-Path -LiteralPath $docsRoot -PathType Container)) {
     Write-Error "_mydocs was not found in $repoRoot."
 }
 
+function Normalize-Content {
+    param(
+        [Parameter(Mandatory = $true)]
+        [AllowEmptyString()]
+        [string]$Content
+    )
+
+    $normalized = [regex]::Replace(
+        $Content,
+        "(?s)\A---\r?\n(?<front>.*?)(\r?\n)---",
+        {
+            param($match)
+
+            $frontMatter = $match.Groups["front"].Value
+            $newline = if ($match.Value.Contains("`r`n")) { "`r`n" } else { "`n" }
+            $frontLines = $frontMatter -split "\r?\n"
+            $filteredLines = New-Object System.Collections.Generic.List[string]
+
+            foreach ($line in $frontLines) {
+                if ($line -match "^modified:\s*") {
+                    continue
+                }
+
+                [void]$filteredLines.Add($line)
+            }
+
+            return "---$newline$($filteredLines -join $newline)$newline---"
+        },
+        1
+    )
+
+    return $normalized
+}
+
+function Get-NormalizedBlob {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$Revision,
+        [Parameter(Mandatory = $true)]
+        [string]$Path
+    )
+
+    $content = & git show "$Revision`:$Path" 2>$null
+    if ($LASTEXITCODE -ne 0) {
+        return ""
+    }
+
+    return Normalize-Content (($content -join "`n"))
+}
+
+function Get-MeaningfulCommitDate {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$Path
+    )
+
+    $currentPath = $Path
+    $currentCommit = $null
+    $logLines = & git log --follow --format="__COMMIT__ %H %cs" --name-status -- $Path 2>$null
+
+    if ($LASTEXITCODE -ne 0) {
+        return ""
+    }
+
+    foreach ($line in $logLines) {
+        if ([string]::IsNullOrWhiteSpace($line)) {
+            continue
+        }
+
+        if ($line.StartsWith("__COMMIT__ ")) {
+            $parts = $line.Substring(11).Split(" ", 2)
+            $currentCommit = @{
+                Hash = $parts[0]
+                Date = $parts[1]
+            }
+            continue
+        }
+
+        if ($null -eq $currentCommit) {
+            continue
+        }
+
+        $parts = $line -split "`t"
+        $status = $parts[0]
+        $pathAtCommit = $currentPath
+        $parentPath = $currentPath
+
+        if (($status.StartsWith("R") -or $status.StartsWith("C")) -and $parts.Length -ge 3) {
+            $pathAtCommit = $parts[2]
+            $parentPath = $parts[1]
+            $currentPath = $parts[1]
+        }
+        elseif ($parts.Length -ge 2) {
+            $pathAtCommit = $parts[1]
+            $parentPath = $parts[1]
+        }
+
+        $currentContent = Get-NormalizedBlob -Revision $currentCommit.Hash -Path $pathAtCommit
+        $parentHash = (& git rev-parse "$($currentCommit.Hash)^" 2>$null)
+
+        if ($LASTEXITCODE -ne 0 -or [string]::IsNullOrWhiteSpace($parentHash)) {
+            if (-not [string]::IsNullOrEmpty($currentContent)) {
+                return $currentCommit.Date
+            }
+
+            continue
+        }
+
+        $parentContent = Get-NormalizedBlob -Revision $parentHash.Trim() -Path $parentPath
+        if ($currentContent -cne $parentContent) {
+            return $currentCommit.Date
+        }
+    }
+
+    return ""
+}
+
 $updatedCount = 0
 $unchangedCount = 0
 $filteredCount = 0
@@ -91,10 +208,9 @@ Get-ChildItem -LiteralPath $docsRoot -Recurse -File -Filter "*.md" | Sort-Object
         return
     }
 
-    $commitDateOutput = & git log -1 --follow --format=%cs -- $relativePath 2>$null
-    $commitDate = ($commitDateOutput | Select-Object -First 1)
+    $commitDate = Get-MeaningfulCommitDate -Path $relativePath
 
-    if ($LASTEXITCODE -ne 0 -or $null -eq $commitDate -or [string]::IsNullOrWhiteSpace($commitDate)) {
+    if ([string]::IsNullOrWhiteSpace($commitDate)) {
         Write-Host "skip    $relativePath (no commit found)"
         $script:skippedCount++
         return
