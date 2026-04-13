@@ -3,7 +3,7 @@ layout:             page
 title:              Format for Months
 published:          true
 date:               2022-07-26
-modified:           2024-10-04
+modified:           2024-09-14
 order:              /calendar-pro/options/cell-label/format-for-months
 internal:           formatMonth
 available:          Calendar Mode

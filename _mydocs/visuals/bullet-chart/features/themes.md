@@ -3,7 +3,7 @@ layout:             page
 title:              Report Themes
 published:          true
 date:               2022-07-21
-modified:           2024-10-04
+modified:           2024-09-14
 order:              /bullet-chart/features/themes
 ---
 Power BI Report Themes is a feature that allows you to apply multiple settings to a report at the same time and share them via a single JSON file. Check out this page for more information: [Report Themes with Custom Visuals](../../features/themes.md)

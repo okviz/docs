@@ -3,7 +3,7 @@ layout:             page
 title:              Font Color
 published:          true
 date:               2022-07-20
-modified:           2024-10-04
+modified:           2022-07-20
 order:              /smart-filter-pro/options/values/font-color
 version:            2.2.1
 available:          Dropdown | Observer | Hierarchy mode

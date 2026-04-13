@@ -3,7 +3,7 @@ layout:         page
 title:          Advanced Editor
 published:      true
 date:           2022-07-07
-modified:   	2024-10-04
+modified:   	2024-05-16
 order:          /bullet-chart/options/advanced-editor
 internal:       editor, hide, pin
 ---

@@ -3,7 +3,7 @@ layout:             page
 title:              Fields
 published:          true
 date:               2024-05-11
-modified:           2025-03-26
+modified:           2024-09-14
 order:              /synoptic-panel/05
 next_reading:       true
 ---

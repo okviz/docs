@@ -3,7 +3,7 @@ layout:             page
 title:              Reverse Labels
 published:          true
 date:               2022-07-07
-modified:   	    2024-10-04
+modified:   	    2022-08-24
 order:              /bullet-chart/options/category-axis/reverse-labels
 internal:           reverseLabels
 related:

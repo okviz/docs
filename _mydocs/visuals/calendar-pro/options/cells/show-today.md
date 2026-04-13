@@ -3,7 +3,7 @@ layout:             page
 title:              Show Today
 published:          true
 date:               2024-01-15
-modified:           2024-10-04
+modified:           2024-05-31
 order:              /calendar-pro/options/cell-appearance/show-today
 internal:           showToday
 related:

@@ -3,7 +3,7 @@ layout:             page
 title:              Color
 published:          true
 date:               2022-07-07
-modified:   	    2024-10-04
+modified:   	    2023-03-21
 order:              /bullet-chart/options/data-labels/color
 internal:           fill
 related:

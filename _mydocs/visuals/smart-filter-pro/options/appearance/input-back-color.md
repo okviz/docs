@@ -3,7 +3,7 @@ layout:             page
 title:              Input Back Color
 published:          true
 date:               2021-11-20
-modified:           2024-10-04
+modified:           2022-07-22
 order:              /smart-filter-pro/options/appearance/input-back-color
 available:          All modes except Hierarchy
 internal:           inputBackFill

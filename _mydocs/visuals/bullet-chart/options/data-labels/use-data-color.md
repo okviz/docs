@@ -3,7 +3,7 @@ layout:             page
 title:              Use Data Color
 published:          true
 date:               2022-10-20
-modified:   	    2024-10-04
+modified:   	    2024-05-22
 order:              /bullet-chart/options/data-labels/use-data-color
 premium:            /bullet-chart/licensing.md
 internal:           useMarkerColor

@@ -3,7 +3,7 @@ layout:         page
 title:          Opacity
 published:      true
 date:           2022-07-07
-modified:   	2024-10-04
+modified:   	2022-08-17
 order:          /bullet-chart/options/states/opacity
 premium:        /bullet-chart/licensing.md
 internal:       opacity

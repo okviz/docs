@@ -3,7 +3,7 @@ layout:             page
 title:              Stepped Layout Indentation
 published:          true
 date:               2021-11-20
-modified:           2024-10-04
+modified:           2022-07-20
 order:              /smart-filter-pro/options/appearance/stepped-layout-indentation
 available:          Hierarchy mode
 internal:           steppedLayoutIndentation

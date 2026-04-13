@@ -3,7 +3,7 @@ layout:             page
 title:              Color
 published:          true
 date:               2023-03-07
-modified:   	    2024-10-04
+modified:   	    2024-05-22
 order:              /bullet-chart/options/target-labels/color
 internal:           fill
 premium:            /bullet-chart/licensing.md

@@ -3,7 +3,7 @@ layout:             page
 title:              Show Hidden Count
 published:          true
 date:               2021-12-16
-modified:           2024-10-04
+modified:           2022-07-20
 order:              /smart-filter-pro/options/mode/show-hidden-count
 internal:           showObservedCount
 available:          Observer mode

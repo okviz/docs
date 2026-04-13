@@ -3,7 +3,7 @@ layout:             page
 title:              Border
 published:          true
 date:               2023-03-07
-modified:   	    2024-10-04
+modified:   	    2023-03-09
 order:              /bullet-chart/options/target-labels/border
 internal:           border
 premium:            /bullet-chart/licensing.md

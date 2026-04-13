@@ -3,7 +3,7 @@ layout:             page
 title:              Border Color
 published:          true
 date:               2023-03-07
-modified:   	    2024-10-04
+modified:   	    2024-05-27
 order:              /bullet-chart/options/target-labels/border-color
 internal:           borderFill
 premium:            /bullet-chart/licensing.md

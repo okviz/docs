@@ -3,7 +3,7 @@ layout:             page
 title:              Slicing
 published:          true
 date:               2021-11-20
-modified:           2024-10-04
+modified:           2024-09-14
 order:              /smart-filter-pro/features/slicing
 ---
 

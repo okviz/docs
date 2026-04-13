@@ -3,7 +3,7 @@ layout:             page
 title:              Options
 published:          true
 date:               2022-07-14
-modified:           2024-10-04
+modified:           2022-07-20
 order:              /bullet-chart/options
 class:              front-section
 next_reading:       true

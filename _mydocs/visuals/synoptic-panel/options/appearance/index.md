@@ -3,7 +3,7 @@ layout:             page
 title:              Appearance
 published:          true
 date:               2024-05-10
-modified:           2024-10-04
+modified:           2024-09-14
 order:              /synoptic-panel/options/appearance
 next_reading:       true
 next_reading_title: Options

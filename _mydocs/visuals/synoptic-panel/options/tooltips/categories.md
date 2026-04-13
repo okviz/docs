@@ -3,7 +3,7 @@ layout:             page
 title:              Categories
 published:          true
 date:               2024-09-14
-modified:           2024-10-04
+modified:           2024-09-14
 order:              /synoptic-panel/options/tooltips/categories
 ---
 **Default value:** On

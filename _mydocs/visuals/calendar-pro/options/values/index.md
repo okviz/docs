@@ -3,7 +3,7 @@ layout:             page
 title:              Cell Value
 published:          true
 date:               2022-07-18
-modified:           2024-10-04
+modified:           2024-05-21
 order:              /calendar-pro/options/cell-value
 internal:           labelsMeasure
 available:          Calendar Mode

@@ -3,7 +3,7 @@ layout:             page
 title:              Focus View Control
 published:          true
 date:               2022-07-22
-modified:           2024-10-04
+modified:           2024-05-16
 order:              /calendar-pro/options/toolbar/focus-view-control
 internal:           focusViewControl
 available:          Calendar Mode
