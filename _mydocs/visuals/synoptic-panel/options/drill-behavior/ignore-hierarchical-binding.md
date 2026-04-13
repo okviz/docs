@@ -3,7 +3,7 @@ layout:             page
 title:              Ignore Hierarchical Binding
 published:          true
 date:               2025-09-03
-modified:           2025-09-03
+modified:           2026-04-13
 order:              /synoptic-panel/options/drill-behavior/ignore-hierarchical-binding
 internal:           aggregateOnExpand
 ---
@@ -54,7 +54,7 @@ Consider the following dataset with a hierarchy of ***Category → Sector***:
         <td colspan="2" style="text-align:center;" >......</td>
     </tr>
 </table>
- <img src="images/catergories-field-2-levels.png" style="width:300px; align-self:center;" >
+ <img src="images/categories-field-2-levels.png" style="width:300px; align-self:center;" >
 </div>
 
 When **Ignore Hierarchical Binding** is **enabled**, only the **last level of the hierarchy** is used to build the data point.  

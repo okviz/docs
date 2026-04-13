@@ -3,12 +3,12 @@ layout:             page
 title:              Importing Maps
 published:          true
 date:               2024-05-26
-modified:           2025-03-23
+modified:           2026-04-13
 order:              /synoptic-panel/features/importing
 ---
 
 
-You can import various type of maps in Synoptic Panel. Depending on map type, the import process — whether for a single map or multiple maps — may vary slightly. However, in each case, the procedure is straightforward.
+You can import various types of maps in Synoptic Panel. Depending on the map type, the import process — whether for a single map or multiple maps — may vary slightly. However, in each case, the procedure is straightforward.
 
 > Remember that we call ***maps*** the SVG files that you import into Synoptic Panel and they are not limited to geographical representations; they can be any kind of design that you want to use to visualize your data.
 
@@ -118,7 +118,7 @@ For adding multiple URLs at once, you can import a JSON file containing a list o
 
 ### My Storage Maps
 
-My Storage is a feature that gives a limited amount of storage space on OKIVIZ servers to store maps that can be used in Synoptic Panel. For more information, see the [My Storage](../../features/my-storage.md) section.
+My Storage is a feature that gives a limited amount of storage space on OKVIZ servers to store maps that can be used in Synoptic Panel. For more information, see the [My Storage](../../features/my-storage.md) section.
 
 To load a map from My Storage, follow these steps:
 

@@ -4,7 +4,7 @@ title:              End User License Agreement
 menu_title:         EULA
 published:          true
 date:               2019-01-15
-modified:           2025-03-18
+modified:           2026-04-13
 toc_h_max:          2
 order:              /legal/eula
 pdf:                true
@@ -140,7 +140,7 @@ It is the licensee's responsibility to ensure that the chosen licensing model ad
 
 **9.4** No refunds or credits will be issued for partial periods of service, upgrade/downgrade refunds, or refunds for periods unused with an active subscription, including, but not limited to, instances involving the removal of a Subscriber.
 
-**9.5** There are is no separate charge to cancel a subscription, and paying subscriptions which are cancelled successfully pursuant to Section 9 prior to the end of their current billing cycle will not be charged again in the following cycle.
+**9.5** There is no separate charge to cancel a subscription, and paying subscriptions which are cancelled successfully pursuant to Section 9 prior to the end of their current billing cycle will not be charged again in the following cycle.
 
 **9.6** The amount charged on the next billing cycle will be automatically updated to reflect any changes to the subscription, including upgrades, downgrades, or the addition or subtraction of users. Subscription changes, including downgrades, may result in loss of access to Content, features, or an increase or reduction in the amount of available capacity for Content provided by the Service.
 
@@ -207,6 +207,10 @@ It is the licensee's responsibility to ensure that the chosen licensing model ad
 **14.11** Governing Law and Venue. This Agreement and your relationship with OKVIZ shall be governed exclusively by, and will be enforced, construed, and interpreted exclusively in accordance with, the laws applicable in the State of Delaware, United States and shall be considered to have been made and accepted in the State of Delaware, United States, without regard to its conflict of law provisions. All disputes under this Agreement will be resolved by the courts of State of Delaware and Subscribers consent to the jurisdiction of and venue in such courts and waive any objection as to inconvenient forum. In any action or proceeding to enforce rights under this Agreement, the prevailing party shall be entitled to recover costs and legal fees.
 
 ## Changes to this Agreement
+
+### 2026-04-13
+
+- We fixed a typo in the definition of "Subscriber" in Section 1.9.
 
 ### 2025-04-14
 

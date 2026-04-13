@@ -3,7 +3,7 @@ layout:             page
 title:              Filter Mode
 published:          true
 date:               2021-12-09
-modified:           2025-03-13
+modified:           2026-04-13
 order:              /smart-filter-pro/features/filter-mode
 toc_h_max:            3
 internal:           filter
@@ -27,7 +27,7 @@ The Filter mode is very useful when you are dealing with huge datasets, and load
 
 ## How to Search
 
-Unlike the Dropdown mode, which only allows simple queries, Filter mode supports advanced and powerful queries that you can you use to slice your data uniquely.
+Unlike the Dropdown mode, which only allows simple queries, Filter mode supports advanced and powerful queries that you can use to slice your data uniquely.
 
 The syntax available differs depending on the type of the field to the visual, so here are the options for each type. Multiple conditions are combined using a [logical operator](#operators) specific for each field.
 

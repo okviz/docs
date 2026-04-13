@@ -3,7 +3,7 @@ layout:             page
 title:              Issues
 published:          true
 date:               2022-07-14
-modified:           2025-02-25
+modified:           2026-04-13
 order:              /03
 menu_sep:           true
 next_reading:       true
@@ -12,7 +12,7 @@ class:              normal
 
 At OKVIZ we strive to produce good code, but we are human beings and unfortunately bugs do occur. 
 
-When we find a bug in our visuals we usually fix it as soon as possible, but depending on how the visuals were distributed and installed, the update may you take days or weeks to reach you:
+When we find a bug in our visuals we usually fix it as soon as possible, but depending on how the visuals were distributed and installed, the update may take days or weeks to reach you:
 
 ## Resolution Time (Visuals from AppSource)
 
@@ -27,7 +27,7 @@ During the deployment period the following message may appear on the visual:
 
 <img src="images/deployment-notice.png" width="500">
 
-This message means that the vendor (OKVIZ) has released a new version of the visuals that has been approved, but it will available to you only after the specified number of days.
+This message means that the vendor (OKVIZ) has released a new version of the visuals that has been approved, but it will be available to you only after the specified number of days.
 
 
 ### Rollback
@@ -47,8 +47,8 @@ In some cases we may provide a preview fixed version of the visual to mitigate t
 
 ## Resolution Time (Visuals from OKVIZ.com)
 
-Visuals installed from OKVIZ must be updated manually by the user in every report that use them (or just once via [Org Store](../get-started/org-store.md)). In this case, **we are able to provide a corrected version of the visual as soon as we fix the bug**.
+Visuals installed from OKVIZ must be updated manually by the user in every report that uses them (or just once via [Org Store](../get-started/org-store.md)). In this case, **we are able to provide a corrected version of the visual as soon as we fix the bug**.
 
 ### Rollback
 
-Users can download a previous version (without regression bugs) of the visual directly from the their [account dashboard](https://okviz.com/account/) and install it manually in their reports.
+Users can download a previous version (without regression bugs) of the visual directly from their [account dashboard](https://okviz.com/account/) and install it manually in their reports.

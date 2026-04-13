@@ -3,7 +3,7 @@ layout:             page
 title:              Last Level Maps
 published:          true
 date:               2024-05-30
-modified:           2025-02-05
+modified:           2026-04-13
 order:              /synoptic-panel/options/drill-behavior/last-level-maps
 ---
 **Default value:** Off
@@ -57,14 +57,14 @@ Consider the following dataset with a hierarchy of ***Category → Sector***:
             <td colspan="2" style="text-align:center;" >......</td>
         </tr>
     </table>
- <img src="images/catergories-field-2-levels.png" style="width:300px; align-self:center;" >
+ <img src="images/categories-field-2-levels.png" style="width:300px; align-self:center;" >
 </div>
 
 You are currently at the ***Category-Sector*** level, which means that you cannot drill down further since you are on the last level, with no filter applied. The visual displays the map associated with the current drill path. 
 
 <img src="images/category-sector-level.png">
 
-Then, you apply a filter using external slicer, selecting only one data point:
+Then, you apply a filter using an external slicer, selecting only one data point:
 
 <table width="50%">
         <tr>
@@ -87,6 +87,6 @@ You will have the following result:
 
 2. ***Last Level Maps Enabled***:
 
-    The visual displays the map associated with the current drill path, ***Economy-310***. Maps are filtered by ***Economy*** category, on the the single sector selected ***310***.
+    The visual displays the map associated with the current drill path, ***Economy-310***. Maps are filtered by ***Economy*** category, on the single selected sector ***310***.
 
     <img src="images/last-level-maps-enabled-single-filter.png">
