@@ -4,7 +4,7 @@ title:              Licensing Overview
 menu_title:         Licensing
 published:          true
 date:               2024-08-14
-modified:           2025-10-06
+modified:           2026-04-13
 order:              /04
 ---
 
@@ -129,3 +129,12 @@ If you need further guidance or have additional questions, please [contact our a
 To purchase and activate your license, follow the instructions provided in the respective licensing pages:
 - [AppSource Licensing](appsource.md)
 - [OKVIZ Licensing](okviz/index.md)
+
+## Switching Between Licensing Systems
+
+There is no direct migration path between AppSource Licensing and OKVIZ Licensing.
+If you want to switch, you must cancel the current subscription in the original system and create a new subscription in the other one.
+
+- [Switching Overview](switching/index.md)
+- [Switch from AppSource to OKVIZ Licensing](switching/switch-appsource-to-okviz.md)
+- [Switch from OKVIZ to AppSource Licensing](switching/switch-okviz-to-appsource.md)

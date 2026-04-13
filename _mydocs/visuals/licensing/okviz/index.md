@@ -4,7 +4,7 @@ title:              OKVIZ Licensing
 menu_title:         OKVIZ
 published:          true
 date:               2025-02-22
-modified:           2025-05-28
+modified:           2026-04-13
 order:              /licensing/okviz
 ---
 
@@ -83,5 +83,7 @@ If you wish to cancel your OKVIZ licensing subscription, please follow these ste
 1. Visit your [OKVIZ account dashboard](https://okviz.com/account), go to the ***Subscriptions*** section, select the subscription you want to cancel, and press the ***Cancel*** button.
 
     <img src="images/okviz-sub-cancel.png" width="500">
+
+> If you are cancelling because you want to move to AppSource Licensing, see [Switch from OKVIZ to AppSource Licensing](../switching/switch-okviz-to-appsource.md).
 
 The subscription will be cancelled at the end of the current billing period. The visual will continue to work until the end of the billing period, after which it will be disabled in your reports.
