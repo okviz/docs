@@ -6,6 +6,8 @@
         "run:incremental": "bundle exec jekyll serve --incremental --port 4001",
         "run:full": "bundle exec jekyll serve --port 4001", 
         "update-dates:sh": "./_scripts/update-mydocs-modified.sh",
-        "update-dates:ps": "powershell -ExecutionPolicy Bypass -File .\\_scripts\\update-mydocs-modified.ps1"
+        "update-dates:sh:dry-run": "./_scripts/update-mydocs-modified.sh --dry-run",
+        "update-dates:ps": "powershell -ExecutionPolicy Bypass -File .\\_scripts\\update-mydocs-modified.ps1",
+        "update-dates:ps:dry-run": "powershell -ExecutionPolicy Bypass -File .\\_scripts\\update-mydocs-modified.ps1 --dry-run"
     }
 }
