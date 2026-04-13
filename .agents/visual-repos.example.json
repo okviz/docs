@@ -1,0 +1,11 @@
+{
+    "version": 1,
+    "visuals": {
+        "REPO-NAME": {
+            "docs_root": "_mydocs/visuals/REPO_NAME",
+            "local_clone_path": ".agents/repos/REPO_NAME",
+            "private_remote_url": "https://github.com/YOUR-ORG/REPO_NAME.git",
+            "default_branch": "main"
+        }
+    }
+}

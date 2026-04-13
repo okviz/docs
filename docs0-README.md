@@ -126,7 +126,7 @@ Parameters:
 - **next_reading:** (optional) set **true** to show the ***Next Reading*** section at the end of the page. Note there is also a [special template tag](#next-reading) you can use to obtain the same result, useful if you need to place it on a different position.
 - **next_reading_title:** (optional) set a custom title for the ***Next Reading*** section. Default is: "Next Reading". It can be **false** to deactivate title. You can change the title at the site level by editing the **next_reading_title** variable in the `_config.yml` file.
 - **next_reading_ol:** (optional) list items as ordered list.
-- **related:** (optional) define a list of pages related to this one; you can use URLs relative to the _mydocs root (they must start with a slash) or relative to the same parent path (no slashes at the beginnig) - **../** is not supported. At the bottom of the page will be displayed a section like ***Next Reading***. If defined, the **next_reading** option will be ignored.
+- **related:** (optional) define a list of pages related to this one; you can use URLs relative to the _mydocs root (they must start with a slash) or relative to the same parent path (no slashes at the beginning) - **../** is not supported. At the bottom of the page will be displayed a section like ***Next Reading***. If defined, the **next_reading** option will be ignored.
 - **related_title:** (optional) set a custom title for the related section. Default is: "Related Pages". You can change the title at the site level by editing the **related_title** variable in the `_config.yml` file.
 - **pdf:** (optional) set ***true*** to enable the PDF download button. Note that you can set the PDF download button at the site level by editing the **pdf** variable in the `_config.yml` file.
 
@@ -658,11 +658,11 @@ You can add notes to your documents by using the blockquote syntax.
 
 #### TODOs
 
-You can add some placeholders and notes in unfinished documents, to keep track of the content to be edited or the tasks to be performed. **TODOs are not displayed on the rendered page**, but still visible if you inspect the html in the browser – if you need to add a truly hidden content, please use comments. Also, when there is a TODO in the file, a **draft notice** is added the rendered page.
+You can add some placeholders and notes in unfinished documents, to keep track of the content to be edited or the tasks to be performed. **TODOs are not displayed on the rendered page**, but still visible if you inspect the HTML in the browser – if you need to add truly hidden content, please use comments. Also, when there is a TODO in the file, a **draft notice** is added to the rendered page.
 
     <todo>Take a screenshot</todo>
 
-You can choose to rendere the TODOs in the page by adding the `visible` attribute:
+You can choose to render the TODOs in the page by adding the `visible` attribute:
 
 <table>
     <tr>

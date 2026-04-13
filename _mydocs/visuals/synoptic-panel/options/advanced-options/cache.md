@@ -3,7 +3,7 @@ layout:             page
 title:              Cache
 published:          true
 date:               2025-04-11
-modified:           2025-04-11
+modified:           2026-04-13
 order:              /synoptic-panel/options/advanced-options/cache
 ---
 
@@ -14,4 +14,7 @@ This section allows you to set the cache options for Synoptic Panel.
 **Default value:** On
 
 When enabled, [Remote Maps](../../features/importing/index.md#remote-maps) are cached. This improves performance when switching between maps, as the visual does not need to download the map again.
-<todo> Improve this section </todo>
+
+> Disabling the cache may cause performance issues, because remote maps are always downloaded again when needed.
+
+The cache is automatically cleared when the visual is refreshed.

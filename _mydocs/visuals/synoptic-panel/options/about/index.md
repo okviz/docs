@@ -3,13 +3,10 @@ layout:         page
 title:          About
 published:      true
 date:           2025-02-22
-modified:   	2025-02-26
+modified:   	2026-04-13
 order:          /synoptic-panel/options/about
 ---
-This section contains basic information of Synoptic Panel.
-
-## Name
-The name of the visual.
+This section contains the information and debug options available in the About card of Synoptic Panel.
 
 ## Version
 The current version of visual.
@@ -26,4 +23,4 @@ If enabled, this option allows Synoptic Panel to log significant information and
 
 If enabled, this option allows Synoptic Panel to display a console in the visual interface.
 
-> This option is not available in Power BI Desktop, where the inline console is enabled by default.
+> This option is available only in Power BI Desktop and only after enabling **Show Diagnostics**.

@@ -3,11 +3,11 @@ layout:             page
 title:              Legend
 published:          true
 date:               2024-12-01
-modified:           2025-03-26
+modified:           2026-04-13
 order:              /synoptic-panel/fields/legend
 ---
 
-The Legend field well is where you can bind a column or measure to define the legend values for the visual. When a column is added here, Synoptic Panel will categorize the mapped areas based on the values in that field, applying distinct colors and styles. 
+The Legend field well is where you can bind one column to define the legend values for the visual. When a column is added here, Synoptic Panel will categorize the mapped areas based on the values in that field, applying distinct colors and styles.
 
 Learn more about this feature in the [Legend](./../features/legend.md) section.
 

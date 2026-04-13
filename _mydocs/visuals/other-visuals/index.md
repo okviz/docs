@@ -8,7 +8,7 @@ modified:           2026-04-08
 order:              /{50}
 ---
 
-OKVIZ has released and maintains several custom visuals for Power BI available for free. There is no a real documentation for these visuals yet, but you can find some helpful resources below:
+OKVIZ has released and maintains several custom visuals for Power BI available for free. There is no real documentation for these visuals yet, but you can find some helpful resources below:
 
 - [Candlestick](https://okviz.com/candlestick/)
 - [Smart Filter (Free)](https://okviz.com/smart-filter/)

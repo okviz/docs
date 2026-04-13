@@ -4,7 +4,7 @@ title:              Updating Visuals
 menu_title:         Updating
 published:          true
 date:               2021-12-21
-modified:           2024-05-22
+modified:           2026-04-13
 order:              /01/03
 ---
 Keeping code updated is an essential part of our commitment. This is the only way to get rid of bugs and take advantage of the latest features of Power BI.  
@@ -29,7 +29,7 @@ The updating process of a local visual file is almost identical to its installat
 
 If the visual has been installed on AppSource, no additional actions are required to keep it up to date. In fact, every new version of the visual is automatically downloaded in every report that uses a previous version.
 
-This behavior is straightforth and time-saving, but since **it doesn't show any notification when a new version is updated in your reports (and you cannot downgrade it at any time)** you may run into problems if a regression or new default settings cause a sudden change in the report layout. It is our duty to avoid these scenarios, but they actually happen.
+This behavior is straightforward and time-saving, but since **it doesn't show any notification when a new version is updated in your reports (and you cannot downgrade it at any time)** you may run into problems if a regression or new default settings cause a sudden change in the report layout. It is our duty to avoid these scenarios, but they actually happen.
 
 ## From the Org Store
 
