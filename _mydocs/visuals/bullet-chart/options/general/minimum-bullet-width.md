@@ -6,7 +6,7 @@ date:               2022-07-07
 modified:   	    2024-05-22
 order:              /bullet-chart/options/general/minimum-bullet-width
 available:          Vertical Mode
-internal:           maxWidth
+internal:           minWidth
 ---
 
 **Default value:** Auto

@@ -3,7 +3,7 @@ layout:             page
 title:              Events & Holidays
 published:          true
 date:               2022-07-17
-modified:           2024-05-15
+modified:           2026-04-13
 order:              /calendar-pro/features/events-holidays
 ---
 
@@ -13,7 +13,7 @@ Calendar Pro supports events and holidays.
 
 The idea behind the use of events is that they may be useful to intercept relations or correlations with the data you are analyzing.
 
-To display events in the visual, you need to bind one or more columns containing the event names to the [Events](../fields/events.md) field well. Calendar Pro doesn't have the concept of a start and end date for events, so they are displayed as a single day in the calendar. However, there is [dedicated option](../options/events/join.md) to join multiple adjacent events.
+To display events in the visual, you need to bind either a single column or one or more measures to the [Events](../fields/events.md) field well. When events are bound through a column, they are associated with the corresponding date row. There is also a [dedicated option](../options/events/join.md) to merge adjacent events with the same name when applicable.
 
 This way, you can display any kind of data as events, not just the typical events like meetings or appointments. 
 
@@ -30,7 +30,7 @@ Like the events, the idea behind the use of holidays is that they may be useful 
 <todo>Use a chart mode screenshot with 1 year of events (include the legend).</todo>
 <img src="images/holidays.png" width="500" alt="Holidays in Calendar pro">
 
-Calendar Pro is able to display holidays from different countries at the same time. You have two ways to manage this: 
+Calendar Pro is able to display holidays from different countries at the same time. You have two ways to manage this:
 - From the options (see below), you can select up to 3 countries whose holidays you want to display.
 - By binding a column containing the country codes you want to display to the [Holidays Countries](../fields/holidays-countries.md) field well of the visual.
 

@@ -3,13 +3,17 @@ layout:             page
 title:              Filter Dates
 published:          true
 date:               2022-07-27
-modified:           2024-05-15
+modified:           2026-04-13
 order:              /calendar-pro/options/calendar-setup/filter
 internal:           filter, filterChart
 ---
 **Default value:** Don't filter
 
-This option allows you to filter the calendar according dynamic criteria. 
+This option allows you to filter the calendar according to dynamic criteria.
+
+The available options depend on the current [Display Mode](../appearance/display-mode.md).
+
+## Calendar Mode
 
 Available options:
 - **(Don't filter)**
@@ -29,8 +33,15 @@ Available options:
 - **Last day**
 - **First day**
 
-For example, if you select the **Last year** option, the calendar will display the data for the last year. If you select the **Last month** option, the calendar will display the data for the last month, and so on. 
+## Chart Mode
 
-Although the same result can be obtained by setting the date range in the data, this option allows you to do it dynamically easily.
+Available options:
+- **(Don't filter)**
+- **Last year**
+- **First year**
+
+For example, if you select the **Last year** option, the calendar will display the data for the last year. In Calendar Mode, you can also use more granular presets such as **Last month**, **Last week**, or **Last 30 days**.
+
+Although the same result can be obtained by setting the date range in the data, this option allows you to do it more easily and dynamically.
 
 <todo>Screenshot</todo>

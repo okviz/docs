@@ -5,7 +5,7 @@ published:      true
 date:           2022-07-07
 modified:   	2025-02-27
 order:          /bullet-chart/options/about
-internal:       about, name, version, license, diagnostics
+internal:       about, name, version, diagnostics, inlineConsole
 toc:            false
 ---
 This section displays basic information of Bullet Chart.

@@ -7,7 +7,7 @@ modified:   	2022-07-20
 order:          /bullet-chart/options/bullet-shape/shadow
 premium:        /bullet-chart/licensing.md
 available:      Premium
-internal:       shadow
+internal:       shadows
 ---
 
 **Default value:** Off

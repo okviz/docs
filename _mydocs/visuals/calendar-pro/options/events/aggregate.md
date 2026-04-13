@@ -3,13 +3,15 @@ layout:             page
 title:              Single Color
 published:          true
 date:               2022-07-18
-modified:           2024-05-16
+modified:           2026-04-13
 order:              /calendar-pro/options/events/single-color
 internal:           aggregate
-available:          Calendar Mode
+available:          Calendar Mode, when Event Colors is bound
 ---
 **Default value:** On
 
-When this option is enabled, the events are shown in the same background color, otherwise, you can choose a different color for each event.
+When this option is enabled, all events use the same color.
+
+When this option is disabled, Calendar Pro uses the colors coming from the **Event Colors** field well.
 
 <todo>Screenshot</todo>

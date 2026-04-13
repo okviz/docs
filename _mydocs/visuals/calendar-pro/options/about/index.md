@@ -3,9 +3,9 @@ layout:             page
 title:              About 
 published:          true
 date:               2022-07-17
-modified:           2025-02-27
+modified:           2026-04-13
 order:              /calendar-pro/options/about
-internal:           about, name, version, diagnostics
+internal:           about, name, version, license, diagnostics, inlineConsole
 ---
 This section displays basic information of Calendar Pro.
 
@@ -14,6 +14,9 @@ The name of the visual.
 
 ## Version
 The current version of the visual.
+
+## License
+The current license status of the visual.
 
 ## Diagnostics
 **Default value:** Off

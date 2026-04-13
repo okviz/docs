@@ -31,26 +31,24 @@ Unlike the Dropdown mode, which only allows simple queries, Filter mode supports
 
 The syntax available differs depending on the type of the field to the visual, so here are the options for each type. Multiple conditions are combined using a [logical operator](#operators) specific for each field.
 
-> The syntax here is also supported by the Search mode. Learn more about the [differences between Filter and Search modes](search.md#differences-between-search-and-filter-modes).
+> In Search mode, the same core syntax is available when [Matching](../options/mode/search-matching.md) is set to ***Advanced Query*** or ***Interactive***. The other matching modes expose a simplified subset.
 
 ### Text Search
 
 The syntax for querying text fields includes rules for the most common uses:
            
 - #### Containing Text {#contains}
-    You can perform a search that returns values containing your keyword without using any special characters if the [Default Condition for Text](../options/mode/default-text-condition.md) is set to ***Contains***, otherwise you can use the wildcard characters ***\**** and ***?*** to define the part of the string you don't know along with your keyword. 
+    You can perform a search that returns values containing your keyword without using any special characters if the [Default Condition for Text](../options/mode/default-text-condition.md) is set to ***Contains***, otherwise you can use the wildcard character ***\**** to broaden the match.
 
-    The character ***\**** is used to define an unknown string of any length.   
-    The character ***?*** defines a single unknown character.
+    The character ***\**** is used to define an unknown string of any length.
 
-    > You can use as many wildcards as you like and in any position with one exception: you can't put a wildcard at the beginning of a string if there isn't the same character at the end as well - in other words, the ***Ends with*** search is not supported.
+    > You can use as many `*` wildcards as you like. However, ***Ends with*** is not a dedicated search syntax. A leading `*` without a trailing `*` is still treated as a contains search.
 
     For example:
     - `audio` returns all values containing ***audio*** if the default condition for text is ***Contains***, otherwise returns all values equal to ***audio*** (see [Exact Match](#exact)).
     - `*audio*` returns all values containing ***audio***.
     - `aud*` returns all values starting with ***aud***.
-    - `*udio` **is not supported** and won't return any results.
-    - `a??io` returns values starting with ***a***, followed by two characters and ending with ***io***.
+    - `*udio` is treated as a contains search for ***udio***, not as an ***Ends with*** search.
 
     <img src="images/filter-mode-2.png" width="350">
 

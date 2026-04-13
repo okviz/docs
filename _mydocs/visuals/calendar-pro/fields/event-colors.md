@@ -3,11 +3,13 @@ layout:             page
 title:              Event Colors
 published:          true
 date:               2025-02-25
-modified:           2025-02-25
+modified:           2026-04-13
 order:              /calendar-pro/fields/event-colors
 ---
 
-The **Event Colors** field well allow you to bind a column containing color values to the Events. The color values will be assigned to the events label background in the calendar.
+The **Event Colors** field well allows you to bind a column or a measure containing color values to the Events.
+
+When a valid color is provided, Calendar Pro uses it for the event background in the calendar. If a row does not provide a valid color, the visual uses the default event color configured in the [Events > Color](../options/events/color.md) option.
 
 Color values can be in any valid CSS color format, such as hex, RGB, or color names:
 

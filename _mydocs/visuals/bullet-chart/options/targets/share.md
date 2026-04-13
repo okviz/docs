@@ -5,7 +5,7 @@ published:      true
 date:           2022-08-17
 modified:   	2023-03-22
 order:          /bullet-chart/options/targets/share-targets
-internal:       size
+internal:       share
 ---
 **Default value:** On
 
