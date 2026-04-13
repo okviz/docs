@@ -3,7 +3,7 @@ layout:             page
 title:              Color
 published:          true
 date:               2022-08-17
-modified:           2023-03-08
+modified:           2024-10-04
 order:              /bullet-chart/options/legend/color
 internal:           labelColor
 ---

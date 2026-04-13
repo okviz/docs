@@ -3,7 +3,7 @@ layout:             page
 title:              Appearance
 published:          true
 date:               2021-11-20
-modified:           2022-07-19
+modified:           2024-10-04
 order:              /smart-filter-pro/options/appearance
 internal:           search
 next_reading:       true

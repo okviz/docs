@@ -3,7 +3,7 @@ layout:             page
 title:              Autocomplete
 published:          true
 date:               2021-12-15
-modified:           2024-05-22
+modified:           2024-10-04
 order:              /smart-filter-pro/options/mode/autocomplete
 internal:           autocomplete
 available:          Dropdown mode

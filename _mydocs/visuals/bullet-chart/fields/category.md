@@ -3,7 +3,7 @@ layout:             page
 title:              Category
 published:          true
 date:               2022-08-17
-modified:           2023-02-02
+modified:           2024-10-04
 order:              /bullet-chart/fields/category
 next_reading:       true
 related:

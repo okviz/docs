@@ -3,7 +3,7 @@ layout:             page
 title:              Bad Color
 published:          true
 date:               2022-08-17
-modified:   	    2022-08-18
+modified:   	    2026-04-13
 order:              /bullet-chart/options/variances/bad-color
 premium:            /bullet-chart/licensing.md
 version:            2.3.1.0

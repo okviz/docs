@@ -4,7 +4,7 @@ title:              Microsoft Certification
 menu_title:         Certification
 published:          true
 date:               2021-11-17
-modified:           2025-10-06
+modified:           2026-01-22
 order:              /035
 ---
 

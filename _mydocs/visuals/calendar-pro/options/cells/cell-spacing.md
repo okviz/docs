@@ -3,7 +3,7 @@ layout:             page
 title:              Cell Spacing
 published:          true
 date:               2022-07-27
-modified:           2024-05-15
+modified:           2024-10-04
 order:              /calendar-pro/options/cell-appearance/cell-spacing
 internal:           cellSpacing
 related:

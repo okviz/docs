@@ -3,7 +3,7 @@ layout:             page
 title:              Legend
 published:          true
 date:               2022-07-07
-modified:   	    2023-03-08
+modified:   	    2024-10-04
 order:              /bullet-chart/options/legend
 next_reading:       true
 next_reading_title: Options

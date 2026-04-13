@@ -3,7 +3,7 @@ layout:             page
 title:              Legend
 published:          true
 date:               2024-12-09
-modified:           2025-02-01
+modified:           2025-04-10
 order:              /synoptic-panel/features/legend
 ---
 

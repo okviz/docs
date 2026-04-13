@@ -4,7 +4,7 @@ title:              Calendar Pro
 menu_title:         – Calendar Pro
 published:          true
 date:               2022-07-13
-modified:           2022-07-21
+modified:           2025-02-25
 order:              /calendar-pro
 next_reading:       true
 ---

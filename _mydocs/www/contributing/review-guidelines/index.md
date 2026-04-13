@@ -3,7 +3,7 @@ layout:         page
 title:          Guidelines for Reviews
 published:      true
 date:           2024-10-04
-modified:       2024-11-06
+modified:       2025-06-01
 order:          /website/contributing/review-guidelines
 pdf:            true
 ---

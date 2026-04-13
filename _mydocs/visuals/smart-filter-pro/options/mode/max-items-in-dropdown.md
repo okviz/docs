@@ -3,7 +3,7 @@ layout:             page
 title:              Max Items in Dropdown
 published:          true
 date:               2021-12-14
-modified:           2022-07-16
+modified:           2024-10-04
 order:              /smart-filter-pro/options/mode/max-items-in-dropdown
 internal:           maxResults
 available:          Dropdown mode

@@ -3,7 +3,7 @@ layout:             page
 title:              Empty List Text
 published:          true
 date:               2021-12-16
-modified:           2022-07-17
+modified:           2024-10-04
 order:              /smart-filter-pro/options/mode/empty-list-text
 internal:           emptyObserverLabel
 available:          Observer mode

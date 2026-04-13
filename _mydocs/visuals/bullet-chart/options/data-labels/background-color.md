@@ -3,7 +3,7 @@ layout:                     page
 title:                      Background Color
 published:                  true
 date:                       2022-07-07
-modified:   	            2023-03-21
+modified:   	            2024-10-04
 order:                      /bullet-chart/options/data-labels/background-color
 premium:                    /bullet-chart/licensing.md
 internal:                   backgroundFill

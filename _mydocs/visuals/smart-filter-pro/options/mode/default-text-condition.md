@@ -4,7 +4,7 @@ title:              Default Condition for Text
 menu_title:         Default Condition
 published:          true
 date:               2021-12-16
-modified:           2022-07-20
+modified:           2024-10-04
 toc:                false
 order:              /smart-filter-pro/options/mode/default-condition
 internal:           defaultTextCondition

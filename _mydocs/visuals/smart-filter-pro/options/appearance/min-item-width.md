@@ -3,7 +3,7 @@ layout:             page
 title:              Min Item Width
 published:          true
 date:               2021-11-20
-modified:           2022-07-19
+modified:           2024-10-04
 order:              /smart-filter-pro/options/appearance/min-item-width
 available:          Dropdown | Filter | Observer mode
 version:            2.2.9

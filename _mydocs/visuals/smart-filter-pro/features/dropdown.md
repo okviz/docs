@@ -3,7 +3,7 @@ layout:             page
 title:              Dropdown Mode
 published:          true
 date:               2021-12-09
-modified:           2024-05-22
+modified:           2024-10-04
 order:              /smart-filter-pro/features/dropdown-mode
 internal:           dropdown
 related_title:      Related Options

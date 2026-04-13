@@ -4,7 +4,7 @@ title:          Guidelines for OKVIZ Content
 menu_title:     Content Guidelines
 published:      true
 date:           2024-10-19
-modified:       2024-10-19
+modified:       2025-06-01
 order:          /website/contributing/01
 ---
 

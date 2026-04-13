@@ -3,7 +3,7 @@ layout:             page
 title:              Labels
 published:          true
 date:               2022-07-22
-modified:           2024-05-22
+modified:           2024-10-04
 order:              /calendar-pro/options/toolbar/labels
 internal:           labels
 ---

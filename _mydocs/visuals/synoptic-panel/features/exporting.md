@@ -3,7 +3,7 @@ layout:             page
 title:              Exporting Data
 published:          true
 date:               2024-05-10
-modified:           2025-04-13
+modified:           2026-01-22
 order:              /synoptic-panel/features/exporting
 ---
 

@@ -3,7 +3,7 @@ layout:             page
 title:              Support
 published:          true
 date:               2021-12-03
-modified:           2025-03-18
+modified:           2025-03-20
 order:              /03/03
 ---
 OKVIZ offers direct support to users who have problems with premium visuals and provides a dedicated forum for assistance with free visuals.

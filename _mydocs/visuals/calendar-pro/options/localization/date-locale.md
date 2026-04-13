@@ -3,7 +3,7 @@ layout:             page
 title:              Auto Date Localization
 published:          true
 date:               2024-03-02
-modified:           2024-05-31
+modified:           2024-10-04
 order:              /calendar-pro/options/localization/auto-date-localization
 internal:           auto, userLocale
 ---

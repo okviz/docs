@@ -3,7 +3,7 @@ layout:             page
 title:              First Day Of The Month
 published:          true
 date:               2022-07-27
-modified:           2024-05-15  
+modified:           2024-10-04
 order:              /calendar-pro/options/calendar-setup/first-day-of-the-month
 internal:           monthStartDay
 ---

@@ -3,7 +3,7 @@ layout:             page
 title:              Selection
 published:          true
 date:               2024-09-14
-modified:           2025-15-05
+modified:           2025-12-05
 order:              /synoptic-panel/options/advanced-options/selection
 ---
 

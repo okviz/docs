@@ -3,7 +3,7 @@ layout:             page
 title:              Outline
 published:          true
 date:               2025-03-20
-modified:           2025-03-20
+modified:           2025-03-21
 order:              /synoptic-panel/options/areas/outline
 ---
 

@@ -3,7 +3,7 @@ layout:         page
 title:          Guidelines for Comparisons
 published:      true
 date:           2024-10-04
-modified:       2025-01-03
+modified:       2025-06-01
 order:          /website/contributing/comparison-guidelines
 ---
 

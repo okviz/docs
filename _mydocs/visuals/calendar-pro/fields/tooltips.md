@@ -3,7 +3,7 @@ layout:             page
 title:              Tooltips
 published:          true
 date:               2024-05-15
-modified:           2024-05-30
+modified:           2024-11-28
 order:              /calendar-pro/fields/tooltips
 related:
     - /calendar-pro/options/tooltips/index.md

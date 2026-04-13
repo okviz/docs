@@ -3,7 +3,7 @@ layout:             page
 title:              Max Rows to Retrieve
 published:          true
 date:               2021-12-14
-modified:           2024-05-22
+modified:           2024-10-04
 order:              /smart-filter-pro/options/mode/max-rows-to-retrieve
 internal:           maxIncremental
 available:          Dropdown | Hierarchy mode

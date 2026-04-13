@@ -3,7 +3,7 @@ layout:             page
 title:              Show Labels
 published:          true
 date:               2022-07-20
-modified:           2022-07-22
+modified:           2024-10-04
 order:              /smart-filter-pro/options/labels-placeholders/show-labels
 available:          Dropdown mode
 internal:           showLabels

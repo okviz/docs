@@ -3,7 +3,7 @@ layout:             page
 title:              Min Items Before Compressing
 published:          true
 date:               2021-12-15
-modified:           2022-07-19
+modified:           2024-10-04
 order:              /smart-filter-pro/options/mode/min-items-before-compressing
 internal:           compressMultipleAfter
 available:          Dropdown mode

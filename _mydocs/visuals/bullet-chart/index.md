@@ -4,7 +4,7 @@ title:              Bullet Chart
 menu_title:         – Bullet Chart
 published:          true
 date:               2022-07-14
-modified:           2022-07-21
+modified:           2025-02-25
 order:              /bullet-chart
 class:              front-section
 next_reading:       true

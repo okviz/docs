@@ -3,7 +3,7 @@ layout:             page
 title:              Change Value Type
 published:          true
 date:               2022-08-17
-modified:   	    2023-03-21
+modified:   	    2024-10-04
 order:              /bullet-chart/options/data-labels/change-value-type
 premium:            /bullet-chart/licensing.md
 internal:           changeValueType

@@ -3,7 +3,7 @@ layout:             page
 title:              Map Search
 published:          true
 date:               2025-04-24
-modified:           2025-06-28
+modified:           2025-08-01
 order:              /synoptic-panel/features/map-search
 next_reading:       true
 ---

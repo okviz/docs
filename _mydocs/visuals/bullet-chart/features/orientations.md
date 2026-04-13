@@ -3,7 +3,7 @@ layout:             page
 title:              Orientations
 published:          true
 date:               2022-08-01
-modified:           2023-03-14
+modified:           2024-10-04
 order:              /bullet-chart/features/orientations
 ---
 

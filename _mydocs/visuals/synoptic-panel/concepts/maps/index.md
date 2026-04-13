@@ -3,7 +3,7 @@ layout:             page
 title:              What are Maps?
 published:          true
 date:               2024-05-10
-modified:           2025-01-29
+modified:           2025-02-10
 order:              /synoptic-panel/concepts/01
 ---
 

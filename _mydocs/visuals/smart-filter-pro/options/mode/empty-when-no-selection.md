@@ -3,7 +3,7 @@ layout:             page
 title:              Empty when no Selection
 published:          true
 date:               2021-12-14
-modified:           2022-07-17
+modified:           2024-10-04
 order:              /smart-filter-pro/options/mode/empty-when-no-selection
 internal:           defaultNoFilter
 version:            2.2.4

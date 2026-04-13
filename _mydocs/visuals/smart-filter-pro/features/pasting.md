@@ -3,7 +3,7 @@ layout:             page
 title:              Pasting Data
 published:          true
 date:               2021-12-15
-modified:           2022-07-17
+modified:           2024-10-04
 order:              /smart-filter-pro/features/pasting-data
 ---
 

@@ -3,7 +3,7 @@ layout:             page
 title:              Multi-Select with CTRL
 published:          true
 date:               2021-12-16
-modified:           2021-12-16
+modified:           2024-10-04
 order:              /smart-filter-pro/options/mode/multi-select-with-ctrl
 internal:           ctrlSelection, treeCtrlSelection
 available:          Observer | Hierarchy mode

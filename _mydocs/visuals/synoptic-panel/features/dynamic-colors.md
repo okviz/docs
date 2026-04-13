@@ -4,7 +4,7 @@ title:              Dynamic Areas Colors
 menu_title:         Dynamic Colors
 published:          true
 date:               2024-05-10
-modified:           2025-02-05
+modified:           2025-08-01
 order:              /synoptic-panel/features/dynamic-colors
 ---
 Synoptic Panel allows you to change the color of areas dynamically based on the data. This feature is useful when you want to highlight specific areas based on the data values.

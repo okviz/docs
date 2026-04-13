@@ -3,7 +3,7 @@ layout:             page
 title:              First Month Of The Year
 published:          true
 date:               2022-07-27
-modified:           2024-05-15
+modified:           2024-10-04
 order:              /calendar-pro/options/calendar-setup/first-month-of-the-year
 internal:           yearStartMonth
 ---

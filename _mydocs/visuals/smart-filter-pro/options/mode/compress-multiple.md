@@ -3,7 +3,7 @@ layout:             page
 title:              Compress Multiple
 published:          true
 date:               2021-12-15
-modified:           2022-07-19
+modified:           2024-10-04
 order:              /smart-filter-pro/options/mode/compress-multiple
 internal:           compressMultiple
 available:          Dropdown mode

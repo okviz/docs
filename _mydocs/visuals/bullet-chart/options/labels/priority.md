@@ -3,7 +3,7 @@ layout:             page
 title:              Priority
 published:          true
 date:               2022-10-20
-modified:   	    2023-03-08
+modified:   	    2024-10-04
 order:              /bullet-chart/options/labels/priority
 premium:            /bullet-chart/licensing.md
 internal:           order

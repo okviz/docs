@@ -3,7 +3,7 @@ layout:             page
 title:              Variances
 published:          true
 date:               2022-08-17
-modified:   	    2024-05-22
+modified:   	    2024-10-04
 order:              /bullet-chart/options/variances
 premium:            /bullet-chart/licensing.md
 version:            2.3.1.1
