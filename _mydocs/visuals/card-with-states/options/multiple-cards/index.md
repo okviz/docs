@@ -3,7 +3,7 @@ layout:             page
 title:              Multiple Cards
 published:          true
 date:               2026-04-07
-modified:           2026-04-08
+modified:           2026-04-10
 order:              /card-with-states/options/multiple-cards
 internal:           multiple
 next_reading:       true

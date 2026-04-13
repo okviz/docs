@@ -3,7 +3,7 @@ layout:             page
 title:              Rule Message
 published:          true
 date:               2026-04-07
-modified:           2026-04-08
+modified:           2026-04-10
 order:              /card-with-states/options/rule-message
 internal:           message
 next_reading:       true
