@@ -3,7 +3,7 @@ layout:             page
 title:              Edit Map
 published:          true
 date:               2025-01-13
-modified:           2025-04-13
+modified:           2025-08-01
 order:              /synoptic-panel/features/map-editor/edit-map
 toc_h_max:          2
 next_reading:       true

@@ -3,7 +3,7 @@ layout:             page
 title:              Map Title
 published:          true
 date:               2024-09-14
-modified:           2024-09-14
+modified:           2024-12-18
 order:              /synoptic-panel/options/appearance/map-title
 ---
 **Default value:** On

@@ -3,7 +3,7 @@ layout:             page
 title:              Chart Mode
 published:          true
 date:               2022-07-17
-modified:           2024-05-15
+modified:           2024-10-04
 order:              /calendar-pro/features/chart-mode
 ---
 

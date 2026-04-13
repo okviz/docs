@@ -3,7 +3,7 @@ layout:             page
 title:              Exporting
 published:          true
 date:               2021-12-17
-modified:           2022-07-16
+modified:           2026-01-22
 order:              /smart-filter-pro/features/exporting
 ---
 

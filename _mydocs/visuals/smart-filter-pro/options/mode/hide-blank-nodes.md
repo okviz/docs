@@ -2,7 +2,7 @@
 layout:             page
 title:              Hide Blank Nodes 
 date:               2021-12-16
-modified:           2021-12-16
+modified:           2024-10-04
 order:              /smart-filter-pro/options/mode/hide-blank-nodes
 internal:           hideBlank
 available:          Hierarchy mode

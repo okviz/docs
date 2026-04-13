@@ -3,7 +3,7 @@ layout:             page
 title:              Performance
 published:          true
 date:               2024-09-14
-modified:           2024-12-11
+modified:           2024-12-17
 order:              /synoptic-panel/options/advanced-options/performance
 ---
 

@@ -3,7 +3,7 @@ layout:             page
 title:              Word Wrap
 published:          true
 date:               2021-11-20
-modified:           2022-07-19
+modified:           2024-12-09
 order:              /smart-filter-pro/options/appearance/word-wrap
 toc_h_max:            2
 available:          All modes except Search

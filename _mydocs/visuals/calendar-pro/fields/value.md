@@ -3,7 +3,7 @@ layout:             page
 title:              Value
 published:          true
 date:               2024-05-15
-modified:           2024-05-30
+modified:           2024-11-28
 order:              /calendar-pro/fields/value
 related:
     - /calendar-pro/options/values/index.md

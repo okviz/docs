@@ -3,7 +3,7 @@ layout:             page
 title:              Tooltips
 published:          true
 date:               2021-11-20
-modified:           2024-05-22
+modified:           2024-10-04
 order:              /smart-filter-pro/options/appearance/tooltips
 available:          All modes except Search
 internal:           showTooltips

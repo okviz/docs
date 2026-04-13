@@ -3,7 +3,7 @@ layout:             page
 title:              Search on Typing
 published:          true
 date:               2021-12-16
-modified:           2022-07-19
+modified:           2024-10-04
 order:              /smart-filter-pro/options/mode/search-on-typing
 internal:           searchOnTyping
 available:          Search mode

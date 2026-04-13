@@ -3,7 +3,7 @@ layout:             page
 title:              Cross Filtering
 published:          true
 date:               2021-12-14
-modified:           2024-01-13
+modified:           2024-10-04
 order:              /smart-filter-pro/options/mode/cross-filtering
 toc:                false
 internal:           filterMultiple, crossFiltering

@@ -3,7 +3,7 @@ layout:         page
 title:          Corner Radius
 published:      true
 date:           2022-07-07
-modified:   	2023-02-07
+modified:   	2024-10-04
 order:          /bullet-chart/options/bullet-shape/corner-radius
 premium:        /bullet-chart/licensing.md
 internal:       radius

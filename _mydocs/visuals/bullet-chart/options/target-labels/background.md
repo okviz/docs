@@ -3,7 +3,7 @@ layout:             page
 title:              Background
 published:          true
 date:               2023-03-07
-modified:   	    2024-05-22
+modified:   	    2024-10-04
 order:              /bullet-chart/options/target-labels/background
 internal:           background
 premium:            /bullet-chart/licensing.md

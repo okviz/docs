@@ -3,7 +3,7 @@ layout:         page
 title:          Stroke Size
 published:      true
 date:           2022-08-17
-modified:   	2022-08-17
+modified:   	2024-10-04
 order:          /bullet-chart/options/targets/stroke-size
 internal:       size
 ---

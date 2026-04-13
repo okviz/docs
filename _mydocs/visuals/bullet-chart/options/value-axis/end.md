@@ -3,7 +3,7 @@ layout:         page
 title:          End
 published:      true
 date:           2022-07-07
-modified:   	2022-08-17
+modified:   	2024-10-04
 order:          /bullet-chart/options/value-axis/end
 internal:       end
 related:

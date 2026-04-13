@@ -3,7 +3,7 @@ layout:             page
 title:              Color
 published:          true
 date:               2022-07-26
-modified:           2024-05-22
+modified:           2024-10-04
 order:              /calendar-pro/options/cell-appearance/color
 internal:           blankFill
 ---

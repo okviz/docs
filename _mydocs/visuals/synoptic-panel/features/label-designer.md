@@ -3,7 +3,7 @@ layout:             page
 title:              Label Designer
 published:          true
 date:               2024-05-12
-modified:           2025-01-30
+modified:           2025-03-26
 order:              /synoptic-panel/features/label-designer
 ---
 

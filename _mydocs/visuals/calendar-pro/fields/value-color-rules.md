@@ -3,7 +3,7 @@ layout:             page
 title:              Values for Color Rules
 published:          true
 date:               2024-05-15
-modified:           2024-05-30
+modified:           2024-11-28
 order:              /calendar-pro/fields/value-color-rules
 related:
     - /calendar-pro/features/color-rules.md

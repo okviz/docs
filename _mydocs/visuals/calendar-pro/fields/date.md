@@ -3,7 +3,7 @@ layout:             page
 title:              Date
 published:          true
 date:               2024-05-15
-modified:           2024-05-30
+modified:           2024-11-28
 order:              /calendar-pro/fields/date
 ---
 The ***Date*** field well is used to bind a date column to the visual. The visual will create a calendar based on the dates in the column.

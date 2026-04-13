@@ -4,7 +4,7 @@ title:              Smart Filter Pro
 menu_title:         – Smart Filter Pro
 published:          true
 date:               2021-11-15
-modified:           2022-07-16
+modified:           2024-10-04
 order:              /smart-filter-pro
 next_reading:       true
 ---

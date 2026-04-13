@@ -3,7 +3,7 @@ layout:             page
 title:              Text Size
 published:          true
 date:               2022-07-19
-modified:           2022-07-22
+modified:           2024-10-04
 order:              /smart-filter-pro/options/labels-placeholders/text-size
 internal:           fontSize
 available:          Dropdown | Observer mode

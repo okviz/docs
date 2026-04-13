@@ -3,7 +3,7 @@ layout:             page
 title:              Drill Path
 published:          true
 date:               2024-09-14
-modified:           2024-09-14
+modified:           2024-12-18
 order:              /synoptic-panel/options/appearance/drill-path
 ---
 **Default value:** On

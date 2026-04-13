@@ -3,7 +3,7 @@ layout:             page
 title:              Targets
 published:          true
 date:               2022-07-07
-modified:   	    2024-05-22
+modified:   	    2024-10-04
 order:              /bullet-chart/options/targets
 internal:           markers
 next_reading:       true

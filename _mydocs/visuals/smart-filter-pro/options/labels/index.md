@@ -4,7 +4,7 @@ title:              Labels & Placeholders
 menu_title:         Labels
 published:          true
 date:               2021-11-20
-modified:           2022-07-22 
+modified:           2024-10-04
 order:              /smart-filter-pro/options/labels-placeholders
 available:          All modes except Hierarchy
 class:              normal

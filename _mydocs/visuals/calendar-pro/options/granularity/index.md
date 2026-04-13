@@ -3,7 +3,7 @@ layout:             page
 title:              Calendar Granularity
 published:          true
 date:               2022-07-18
-modified:           2024-05-18
+modified:           2024-10-04
 order:              /calendar-pro/options/calendar-granularity
 internal:           granularity
 next_reading:       true

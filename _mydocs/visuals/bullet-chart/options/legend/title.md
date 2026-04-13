@@ -3,7 +3,7 @@ layout:             page
 title:              Title
 published:          true
 date:               2022-08-17
-modified:           2022-08-17
+modified:           2024-10-04
 order:              /bullet-chart/options/legend/title
 internal:           titleText
 related:

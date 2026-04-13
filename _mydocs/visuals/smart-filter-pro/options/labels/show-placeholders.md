@@ -3,7 +3,7 @@ layout:             page
 title:              Show Placeholders
 published:          true
 date:               2022-07-28
-modified:           2022-07-28
+modified:           2024-10-04
 order:              /smart-filter-pro/options/labels-placeholders/show-placeholders
 available:          Dropdown | Filter | Search mode
 version:            2.3.0

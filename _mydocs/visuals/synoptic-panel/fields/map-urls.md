@@ -3,7 +3,7 @@ layout:             page
 title:              Map URLs
 published:          true
 date:               2024-09-14
-modified:           2025-03-26
+modified:           2025-08-01
 order:              /synoptic-panel/fields/map-urls
 ---
 

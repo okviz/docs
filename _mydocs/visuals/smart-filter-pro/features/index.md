@@ -3,7 +3,7 @@ layout:             page
 title:              Features
 published:          true
 date:               2022-07-13
-modified:           2022-07-16
+modified:           2024-10-04
 order:              /smart-filter-pro/features
 next_reading:       true
 ---

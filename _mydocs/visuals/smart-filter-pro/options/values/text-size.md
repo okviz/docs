@@ -3,7 +3,7 @@ layout:             page
 title:              Text Size
 published:          true
 date:               2022-07-20
-modified:           2022-07-20
+modified:           2024-10-04
 order:              /smart-filter-pro/options/values/text-size
 version:            2.2.1
 available:          Dropdown | Observer | Hierarchy mode

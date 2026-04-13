@@ -3,7 +3,7 @@ layout:             page
 title:              States
 published:          true
 date:               2022-07-07
-modified:   	    2022-08-17
+modified:   	    2025-09-05
 order:              /bullet-chart/options/states
 internal:           states
 next_reading:       true

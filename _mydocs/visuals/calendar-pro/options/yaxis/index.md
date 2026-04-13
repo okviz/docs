@@ -3,7 +3,7 @@ layout:             page
 title:              "Axis: Year"
 published:          true
 date:               2022-07-18
-modified:           2024-05-31
+modified:           2024-10-04
 order:              /calendar-pro/options/axis-year
 internal:           yAxis
 next_reading:       true

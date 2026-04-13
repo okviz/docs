@@ -3,7 +3,7 @@ layout:             page
 title:              Today Color
 published:          true
 date:               2022-07-26
-modified:           2024-01-15
+modified:           2024-10-04
 order:              /calendar-pro/options/cell-appearance/today-color
 internal:           todayFill
 related:

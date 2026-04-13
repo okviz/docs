@@ -3,7 +3,7 @@ layout:         page
 title:          Share Targets
 published:      true
 date:           2022-08-17
-modified:   	2023-03-22
+modified:   	2026-04-13
 order:          /bullet-chart/options/targets/share-targets
 internal:       share
 ---

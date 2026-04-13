@@ -3,7 +3,7 @@ layout:             page
 title:              Clear Selection
 published:          true
 date:               2022-07-22
-modified:           2024-05-16
+modified:           2024-10-04
 order:              /calendar-pro/options/toolbar/clear-selection
 internal:           clear
 ---

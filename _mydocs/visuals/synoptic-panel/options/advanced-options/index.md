@@ -3,7 +3,7 @@ layout:             page
 title:              Advanced Options
 published:          true
 date:               2024-05-10
-modified:           2024-05-10
+modified:           2024-10-04
 order:              /synoptic-panel/options/advanced-options
 next_reading:       true
 next_reading_title: Options

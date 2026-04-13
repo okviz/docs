@@ -3,7 +3,7 @@ layout:             page
 title:              Text
 published:          true
 date:               2024-09-14
-modified:           2024-11-12
+modified:           2024-12-18
 order:              /synoptic-panel/options/category-labels/text
 ---
 This section provides options for configuring the category labels text.

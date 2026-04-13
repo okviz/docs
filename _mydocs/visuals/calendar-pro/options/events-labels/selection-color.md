@@ -3,7 +3,7 @@ layout:             page
 title:              Selection Color
 published:          true
 date:               2022-07-26
-modified:           2024-05-17
+modified:           2024-10-04
 order:              /calendar-pro/options/events-holidays-labels/selection-color
 internal:           selectedFill
 available:          Calendar Mode

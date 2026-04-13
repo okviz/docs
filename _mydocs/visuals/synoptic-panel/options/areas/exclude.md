@@ -3,7 +3,7 @@ layout:             page
 title:              Exclude
 published:          true
 date:               2024-12-22
-modified:           2025-01-07
+modified:           2025-03-20
 order:              /synoptic-panel/options/areas/exclude
 ---
 

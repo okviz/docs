@@ -3,7 +3,7 @@ layout:         page
 title:          About
 published:      true
 date:           2022-07-07
-modified:   	2025-02-27
+modified:   	2026-04-13
 order:          /bullet-chart/options/about
 internal:       about, name, version, diagnostics, inlineConsole
 toc:            false

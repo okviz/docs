@@ -3,7 +3,7 @@ layout:             page
 title:              Min Text Size
 published:          true
 date:               2022-07-27
-modified:           2024-05-18
+modified:           2024-10-04
 order:              /calendar-pro/options/group-title/min-text-size
 internal:           minFontSize
 available:          Calendar Mode

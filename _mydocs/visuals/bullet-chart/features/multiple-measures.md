@@ -3,7 +3,7 @@ layout:             page
 title:              Multiple Measures
 published:          true
 date:               2022-07-21
-modified:           2024-05-11
+modified:           2024-12-09
 order:              /bullet-chart/features/multiple-measures
 ---
 Each measure connected to the ***Value*** role can be associated with a measure connected to the roles: ***Comparison Value***, ***Target*** and ***Target for Variance***. The ***Value*** field will only accept more than one measure when no column is linked to the ***Category*** field.

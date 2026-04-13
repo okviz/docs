@@ -3,7 +3,7 @@ layout:             page
 title:              Sorting
 published:          true
 date:               2021-11-20
-modified:           2022-07-22
+modified:           2024-11-28
 order:              /smart-filter-pro/options/sorting
 
 version:            2.1.1

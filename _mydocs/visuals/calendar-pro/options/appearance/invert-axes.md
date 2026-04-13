@@ -3,7 +3,7 @@ layout:             page
 title:              Invert Axes 
 published:          true
 date:               2022-07-26
-modified:           2024-05-15
+modified:           2024-10-04
 order:              /calendar-pro/options/appearance/invert-axes
 internal:           invertAxis
 available:          Chart Mode

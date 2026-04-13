@@ -3,7 +3,7 @@ layout:             page
 title:              Leap Rule
 published:          true
 date:               2022-07-27
-modified:           2024-05-16
+modified:           2024-10-04
 order:              /calendar-pro/options/calendar-setup/leap-rule
 internal:           leapRule
 related:

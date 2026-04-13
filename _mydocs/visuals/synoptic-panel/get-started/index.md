@@ -3,7 +3,7 @@ layout:             page
 title:              Get Started
 published:          true
 date:               2024-05-10
-modified:           2025-03-23
+modified:           2025-08-01
 order:              /synoptic-panel/01
 
 ---

@@ -3,7 +3,7 @@ layout:         page
 title:          Payment Methods
 published:      true
 date:           2025-05-24
-modified:       2025-05-24
+modified:       2025-07-01
 order:          /website/sales/040
 ---
 

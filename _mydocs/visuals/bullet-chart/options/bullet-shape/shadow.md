@@ -3,7 +3,7 @@ layout:         page
 title:          Shadow
 published:      true
 date:           2022-07-07
-modified:   	2022-07-20
+modified:   	2026-04-13
 order:          /bullet-chart/options/bullet-shape/shadow
 premium:        /bullet-chart/licensing.md
 available:      Premium

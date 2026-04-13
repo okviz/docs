@@ -3,7 +3,7 @@ layout:             page
 title:              Features
 published:          true
 date:               2024-05-10
-modified:           2024-05-10
+modified:           2024-10-04
 order:              /synoptic-panel/03
 next_reading:       true
 ---

@@ -3,7 +3,7 @@ layout:             page
 title:              Non-Working Day Color
 published:          true
 date:               2022-07-26
-modified:           2024-05-18
+modified:           2024-10-04
 order:              /calendar-pro/options/cell-label/non-working-day-color
 internal:           weekendFill
 available:          Calendar Mode

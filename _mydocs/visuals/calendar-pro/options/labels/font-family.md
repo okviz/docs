@@ -3,7 +3,7 @@ layout:             page
 title:              Font Family
 published:          true
 date:               2022-07-26
-modified:           2024-05-16
+modified:           2024-10-04
 order:              /calendar-pro/options/cell-label/font-family
 internal:           fontFamily
 available:          Calendar Mode

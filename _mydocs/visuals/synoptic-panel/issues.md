@@ -3,7 +3,7 @@ layout:             page
 title:              Issues
 published:          true
 date:               2025-09-05
-modified:           2025-09-05
+modified:           2026-01-09
 order:              /synoptic-panel/issues
 ---
 

@@ -3,7 +3,7 @@ layout:             page
 title:              Text Rotation
 published:          true
 date:               2022-08-21
-modified:   	      2023-02-28
+modified:   	      2024-10-04
 order:              /bullet-chart/options/category-axis/text-rotation
 premium:            /bullet-chart/licensing.md
 version:            2.3.1.1

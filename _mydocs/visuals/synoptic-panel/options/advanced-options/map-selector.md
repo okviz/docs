@@ -3,7 +3,7 @@ layout:             page
 title:              Map Selector
 published:          true
 date:               2024-05-30
-modified:           2024-09-14
+modified:           2025-08-01
 order:              /synoptic-panel/options/advanced-options/map-selector
 ---
 

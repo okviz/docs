@@ -4,7 +4,7 @@ title:              Load Maps from GitHub
 menu_title:         Maps from GitHub
 published:          true
 date:               2025-03-23
-modified:           2025-03-26
+modified:           2025-03-27
 order:              /synoptic-panel/features/importing/02
 ---
 

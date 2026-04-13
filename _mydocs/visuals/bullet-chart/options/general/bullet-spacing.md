@@ -3,7 +3,7 @@ layout:             page
 title:              Bullet Spacing
 published:          true
 date:               2022-10-19
-modified:   	    2024-05-22
+modified:   	    2024-10-04
 order:              /bullet-chart/options/general/bullet-spacing
 internal:           bulletSpacing
 version:            2.3.2.1

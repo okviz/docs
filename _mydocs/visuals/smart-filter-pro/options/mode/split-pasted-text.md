@@ -4,7 +4,7 @@ title:              Split Pasted Text by
 menu_title:         Split Pasted Text
 published:          true
 date:               2021-12-15
-modified:           2021-12-15
+modified:           2024-10-04
 order:              /smart-filter-pro/options/mode/split-pasted-text
 internal:           delimiterForPasting
 available:          Dropdown | Filter mode
