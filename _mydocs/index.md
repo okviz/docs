@@ -11,7 +11,7 @@ class:          front-site
 Welcome to the documentation of OKVIZ.  
 In this site, you will find information about our products, services, and other resources.
 
-### Visuals for Power BI
+### Top Visuals for Power BI
 
 <div class="cards visual-cards">
     <div class="card interactive">
@@ -58,20 +58,34 @@ In this site, you will find information about our products, services, and other 
             </div>
         </a>
     </div>
+    <div class="card interactive">
+        <a href="visuals/card-with-states">
+            <div class="card-image">
+                <img src="images/card-with-states.png" alt="Card with States" width="50" class="nozoom">
+            </div>
+            <div>
+                <div class="card-title">Card with States</div>
+                <div class="card-content">Visualize single data points with advanced states.</div>
+            </div>
+        </a>
+    </div>
 </div>
 
 ### General Knowledge
+
 - [What are Custom Visuals?](visuals/get-started/custom-visuals.md)
 - [How to Install a Custom Visual?](visuals/get-started/installation.md)
 - [Benefits of Organizational Store](visuals/get-started/org-store.md)
 - [About Microsoft Certification](visuals/certification.md)
 
 ### Support
+
 - [Learn About Licensing](visuals/licensing/index.md)
 - [Visuals EULA](visuals/legal/eula.md)
 - [Submit an Issue](visuals/issues/support.md)
 
 ### Website
+
 - [How to Contribute to OKVIZ Content](www/contributing/index.md)
 - [Frequently Asked Questions](https://okviz.com/our-visuals/faq/)
 - [Terms of Use](www/terms/index.md)
