@@ -3,7 +3,7 @@ layout:             page
 title:              Multiple Cards
 published:          true
 date:               2026-04-07
-modified:           2026-04-10
+modified:           2026-04-14
 order:              /card-with-states/options/multiple-cards
 internal:           multiple
 next_reading:       true
@@ -12,13 +12,7 @@ next_reading_title: Options
 
 This section contains the options that apply when the visual renders more than one card, for example when you bind a field to **Category** or when you bind multiple measures to **Values**.
 
-## Show Tooltips
-
-**Default value:** Off
-
-This option shows the tooltip for each card.
-
-If **Trendline > Show Tooltips** is enabled, this option is ignored.
+The current **Multiple Cards** card only contains the **Layout** group.
 
 ## Sort Order
 
@@ -34,7 +28,7 @@ Available options:
 - **Value (ascending)**
 - **Value (descending)**
 
-When sorting by value, the visual uses the current aggregation selected in [Data Label](../data-label/index.md#value).
+When sorting by value, the visual uses the current aggregation selected in [Data Label > Display](../data-label/index.md#display).
 
 ## Cards Per Row
 
@@ -48,8 +42,3 @@ This option defines the maximum number of cards displayed on each row. The value
 
 This option defines the spacing between cards. The value ranges from 0 to 40.
 
-## Automatically Resize Text Size To Fit
-
-**Default value:** On
-
-This option automatically reduces text size when multiple cards need to fit in the available space.

@@ -3,7 +3,7 @@ layout:             page
 title:              Category Label
 published:          true
 date:               2026-04-07
-modified:           2026-04-10
+modified:           2026-04-14
 order:              /card-with-states/options/category-label
 internal:           categoryLabel
 next_reading:       true
@@ -13,6 +13,8 @@ next_reading_title: Options
 **Default value:** On
 
 This section contains the options that control the secondary label of the card.
+
+The **Category Label** card is organized into **Appearance** and **Value**.
 
 ## Display
 
@@ -49,7 +51,7 @@ You can use the following shortcodes:
 - **`{prev}`**: previous data point value
 - **`{prev_name}`**: previous data point axis label
 
-See also: [Value](../data-label/index.md#value)
+See also: [Display](../data-label/index.md#display)
 
 ## Color
 
@@ -59,17 +61,17 @@ This option sets the category label color.
 
 The final color can be overridden by [OKVIZ Color Rules](../../../features/color-rules.md).
 
-## Text Size
+## Margin Top
 
-**Default value:** 12
+**Default value:** 5
 
-This option defines the size of the category label text. The value ranges from 5 to 100.
+This option adds top spacing above the category label.
 
-## Font Family
+## Font
 
-**Default value:** `'Segoe UI', wf_segoe-ui_normal, helvetica, arial, sans-serif`
+**Default value:** Size 12, default text font, regular style
 
-This option sets the font family of the category label.
+This composite control defines the font family, size, bold, italic, and underline settings of the category label.
 
 ## Word Wrap
 

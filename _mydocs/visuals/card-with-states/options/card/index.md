@@ -3,46 +3,16 @@ layout:             page
 title:              Card
 published:          true
 date:               2026-04-07
-modified:           2026-04-10
+modified:           2026-04-14
 order:              /card-with-states/options/card
 internal:           card
 next_reading:       true
 next_reading_title: Options
 ---
 
-This section contains the options that control the card container, label alignment, and card appearance.
+This section contains the options of the **Card** formatting card.
 
-## Horizontal Alignment
-
-**Default value:** Center
-
-This option aligns the labels horizontally inside the card.
-
-Available options:
-
-- **Left**
-- **Center**
-- **Right**
-
-## Vertical Alignment
-
-**Default value:** Middle
-
-This option aligns the labels vertically inside the card.
-
-Available options:
-
-- **Top**
-- **Middle**
-- **Bottom**
-
-## Padding
-
-**Default value:** 0 on all sides
-
-This option defines the inner spacing of the labels area inside the card.
-
-Each side can be set independently from 0 to 1000.
+The card is organized into **Appearance** and **Labels Layout**.
 
 ## Background Color
 
@@ -88,7 +58,7 @@ It is available only when **Border** is enabled.
 
 **Default value:** 1
 
-This option defines the border thickness. The value ranges from 1 to 30.
+This option defines the border thickness.
 
 It is available only when **Border** is enabled.
 
@@ -96,7 +66,7 @@ It is available only when **Border** is enabled.
 
 **Default value:** 0
 
-This option rounds the card corners. The value ranges from 0 to 95.
+This option rounds the card corners.
 
 ## Shadow
 
@@ -156,7 +126,7 @@ It is available only when **Shadow** is enabled.
 
 **Default value:** 3 px
 
-This option defines the shadow spread. The value ranges from 0 px to 100 px.
+This option defines the shadow size.
 
 It is available only when **Shadow** is enabled and **Shadow Preset** is set to **Custom**.
 
@@ -164,7 +134,7 @@ It is available only when **Shadow** is enabled and **Shadow Preset** is set to 
 
 **Default value:** 10 px
 
-This option defines the shadow blur. The value ranges from 0 px to 100 px.
+This option defines the shadow blur.
 
 It is available only when **Shadow** is enabled and **Shadow Preset** is set to **Custom**.
 
@@ -172,7 +142,7 @@ It is available only when **Shadow** is enabled and **Shadow Preset** is set to 
 
 **Default value:** 45°
 
-This option defines the shadow angle. The value ranges from 0° to 360°.
+This option defines the shadow angle.
 
 It is available only when **Shadow** is enabled and **Shadow Preset** is set to **Custom**.
 
@@ -180,7 +150,7 @@ It is available only when **Shadow** is enabled and **Shadow Preset** is set to 
 
 **Default value:** 10 px
 
-This option defines how far the shadow is offset from the card. The value ranges from 0 px to 100 px.
+This option defines how far the shadow is offset from the card.
 
 It is available only when **Shadow** is enabled and **Shadow Preset** is set to **Custom**.
 
@@ -188,6 +158,38 @@ It is available only when **Shadow** is enabled and **Shadow Preset** is set to 
 
 **Default value:** 70%
 
-This option defines the shadow transparency. The value ranges from 0% to 100%.
+This option defines the shadow transparency.
 
 It is available only when **Shadow** is enabled.
+
+## Horizontal Alignment
+
+**Default value:** Center
+
+This option aligns the labels horizontally inside the card.
+
+Available options:
+
+- **Left**
+- **Center**
+- **Right**
+
+## Vertical Alignment
+
+**Default value:** Middle
+
+This option aligns the labels vertically inside the card.
+
+Available options:
+
+- **Top**
+- **Middle**
+- **Bottom**
+
+## Padding
+
+**Default value:** 5 on all sides
+
+This option defines the inner spacing of the labels area inside the card.
+
+Each side can be set independently from 0 to 1000.

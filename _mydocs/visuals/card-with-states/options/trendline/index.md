@@ -3,7 +3,7 @@ layout:             page
 title:              Trendline
 published:          true
 date:               2026-04-07
-modified:           2026-04-10
+modified:           2026-04-14
 order:              /card-with-states/options/trendline
 internal:           trendLine
 next_reading:       true
@@ -13,16 +13,6 @@ next_reading_title: Options
 This section contains the options of the trendline shown inside the card.
 
 The **Trendline** card is available only when the visual receives multiple data points for each card through the **Trendline axis** field well.
-
-## Show Tooltips
-
-**Default value:** On
-
-This option shows tooltips for trendline data points.
-
-It is available only when **Show Line** is enabled.
-
-If [Data Label > Value](../data-label/index.md#value) is set to **Dynamic**, trendline tooltips are automatically disabled.
 
 ## Missing Data Points
 
@@ -52,9 +42,22 @@ This option defines the end of the trendline Y-axis. Leave it empty to let the v
 
 The accepted range is from 0 to 100.
 
+## Line/Area Interpolation
+
+**Default value:** Monotone
+
+This option defines the interpolation used by the trendline line and area.
+
+Available options:
+
+- **Straight**
+- **Step**
+- **Monotone**
+- **Smooth**
+
 ## Size & Position
 
-**Default value:** Empty Bottom Space
+**Default value:** Lower Half Space
 
 This option defines how much vertical space is reserved for the trendline.
 
@@ -88,21 +91,6 @@ This option defines the size of rendered points. The value ranges from 1 to 20.
 
 It is available only when **Show Line** is enabled.
 
-## Appearance
-
-**Default value:** Monotone
-
-This option defines the line interpolation.
-
-Available options:
-
-- **Straight**
-- **Step**
-- **Monotone**
-- **Smooth**
-
-It is available only when **Show Line** is enabled.
-
 ## Line Color
 
 **Default value:** Foreground color from the current report theme
@@ -119,15 +107,15 @@ The final color can be overridden by [OKVIZ Color Rules](../../../features/color
 
 This option shows the interactive marker on the trendline.
 
-It is available only when **Show Line** is enabled and [Data Label > Value](../data-label/index.md#value) is not set to **Dynamic**.
+It is available only when **Show Line** is enabled and [Data Label > Display](../data-label/index.md#display) is not set to **Dynamic**.
 
 ## Marker Line Color
 
 **Default value:** {% include color value="#666666" %}
 
-This option sets the color of the interactive marker.
+This option sets the color of the position marker.
 
-It is available when **Show Marker** is enabled. It is also used by the dynamic marker when [Data Label > Value](../data-label/index.md#value) is set to **Dynamic**.
+It is available when **Show Marker** is enabled. It is also used by the dynamic marker when [Data Label > Display](../data-label/index.md#display) is set to **Dynamic**.
 
 ## Show the Current Point
 
@@ -183,9 +171,9 @@ It is available only when **Lowest Point** is enabled.
 
 This option fills the area under the trendline.
 
-When enabled, you can also configure **Area Color** and **Area Transparency**.
+When enabled, you can also configure **Color** and **Transparency**.
 
-## Area Color
+## Color
 
 **Default value:** {% include color value="#CCCCCC" %}
 
@@ -195,7 +183,7 @@ It is available only when **Show Area** is enabled.
 
 The final color can be overridden by [OKVIZ Color Rules](../../../features/color-rules.md).
 
-## Area Transparency
+## Transparency
 
 **Default value:** 50%
 

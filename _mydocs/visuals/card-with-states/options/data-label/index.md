@@ -3,18 +3,60 @@ layout:             page
 title:              Data Label
 published:          true
 date:               2026-04-07
-modified:           2026-04-10
+modified:           2026-04-14
 order:              /card-with-states/options/data-label
 internal:           dataLabel
 next_reading:       true
 next_reading_title: Options
 ---
 
+**Default value:** On
+
 This section contains the options of the main value shown in the card.
+
+The **Data Label** card is organized into **Appearance**, **Value**, and **Reference**.
 
 The **Reference** settings are available only when a measure is bound to **Targets**.
 
-## Value
+## Color
+
+**Default value:** Foreground color from the current report theme
+
+This option sets the color of the main value.
+
+The final color can be overridden by [OKVIZ Color Rules](../../../features/color-rules.md).
+
+Read more about theme colors: [Report Themes with Custom Visuals](../../../features/themes.md)
+
+## Font
+
+**Default value:** Size 30, default numeric font, regular style
+
+This composite control defines the font family, size, bold, italic, and underline settings of the main value.
+
+When **Auto Font Size** is enabled, the font size field inside this control is ignored.
+
+## Auto Font Size
+
+**Default value:** Off
+
+This option automatically adjusts the main value size to fit the available space inside the card.
+
+When enabled, the font size in **Font** is ignored and the visual uses **Min Font Size** and **Max Font Size** as limits.
+
+## Min Font Size
+
+**Default value:** 5
+
+This option defines the minimum font size used when **Auto Font Size** is enabled.
+
+## Max Font Size
+
+**Default value:** 100
+
+This option defines the maximum font size used when **Auto Font Size** is enabled.
+
+## Display
 
 **Default value:** Last data point
 
@@ -60,28 +102,6 @@ Available options:
 - **123.456,789**
 - **123 456,789**
 - **1,23,456.789**
-
-## Color
-
-**Default value:** Foreground color from the current report theme
-
-This option sets the color of the main value.
-
-The final color can be overridden by [OKVIZ Color Rules](../../../features/color-rules.md).
-
-Read more about theme colors: [Report Themes with Custom Visuals](../../../features/themes.md)
-
-## Text Size
-
-**Default value:** 30
-
-This option defines the size of the main value text. The value ranges from 5 to 100.
-
-## Font Family
-
-**Default value:** `wf_standard-font, helvetica, arial, sans-serif`
-
-This option sets the font family of the main value.
 
 ## Reference
 
