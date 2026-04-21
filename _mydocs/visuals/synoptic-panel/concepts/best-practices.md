@@ -81,3 +81,7 @@ Structuring the data effectively, you can ensure smoother performance and a more
         - The **maximum size of a map is 20 MB**.
 
     In short, **we recommend using remote or My Storage maps** because they are more efficient and do not increase the report file size.
+
+### Maps Optimization
+
+SVG including bitmap images may have a larger file size that can be blocked by the limits mentioned above. In these cases, you can try to optimize them using a simple [SVG Optimizer](https://github.com/okviz/svg-optimizer/) tool we provide, which can help reduce the file size by compressing the underlying bitmap images.
