@@ -3,7 +3,7 @@ layout:             page
 title:              Data Label
 published:          true
 date:               2026-04-07
-modified:           2026-04-14
+modified:           2026-04-24
 order:              /card-with-states/options/data-label
 internal:           dataLabel
 next_reading:       true
@@ -17,6 +17,8 @@ This section contains the options of the main value shown in the card.
 The **Data Label** card is organized into **Appearance**, **Value**, and **Reference**.
 
 The **Reference** settings are available only when a measure is bound to **Targets**.
+
+When the visual receives multiple data points through the trendline, the value shown by the data label is controlled by [Trendline > Display Data Point](../trendline/index.md#display-data-point).
 
 ## Color
 
@@ -38,7 +40,7 @@ When **Auto Font Size** is enabled, the font size field inside this control is i
 
 ## Auto Font Size
 
-**Default value:** Off
+**Default value:** On
 
 This option automatically adjusts the main value size to fit the available space inside the card.
 
@@ -46,37 +48,15 @@ When enabled, the font size in **Font** is ignored and the visual uses **Min Fon
 
 ## Min Font Size
 
-**Default value:** 5
+**Default value:** 8
 
 This option defines the minimum font size used when **Auto Font Size** is enabled.
 
 ## Max Font Size
 
-**Default value:** 100
+**Default value:** 50
 
 This option defines the maximum font size used when **Auto Font Size** is enabled.
-
-## Display
-
-**Default value:** Last data point
-
-This option chooses which value is displayed as the main label.
-
-Available options:
-
-- **Last data point**
-- **First data point**
-- **Dynamic**
-- **Sum**
-- **Average**
-- **Minimum**
-- **Maximum**
-
-This option is available only when the visual receives multiple data points through the trendline.
-
-When set to **Dynamic**, the main value follows the currently hovered point on the trendline.
-
-See also: [Trendline](../trendline/index.md)
 
 ## Display Unit
 

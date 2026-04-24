@@ -4,7 +4,7 @@ title:              Power BI Requirements
 menu_title:         Requirements
 published:          true
 date:               2026-02-09
-modified:           2026-02-09
+modified:           2026-04-24
 order:              /040
 ---
 
@@ -26,8 +26,8 @@ Below are the minimum platform requirements for the latest versions of our visua
     - Power BI Report Server **September 2025** or later
 
 - **Card with States**: 
-    - Power BI Desktop **June 2019** or later
-    - Power BI Report Server **May 2019** or later
+    - Power BI Desktop **July 2024** or later
+    - Power BI Report Server **September 2025** or later
 
 - **Smart Filter**: 
     - Power BI Desktop **June 2019** or later

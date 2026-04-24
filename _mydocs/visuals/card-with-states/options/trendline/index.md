@@ -3,7 +3,7 @@ layout:             page
 title:              Trendline
 published:          true
 date:               2026-04-07
-modified:           2026-04-14
+modified:           2026-04-24
 order:              /card-with-states/options/trendline
 internal:           trendLine
 next_reading:       true
@@ -13,6 +13,24 @@ next_reading_title: Options
 This section contains the options of the trendline shown inside the card.
 
 The **Trendline** card is available only when the visual receives multiple data points for each card through the **Trendline axis** field well.
+
+## Display Data Point
+
+**Default value:** Last data point
+
+This option chooses which data point or aggregation is displayed as the main data label.
+
+Available options:
+
+- **Dynamic**
+- **Last**
+- **First**
+- **Sum**
+- **Average**
+- **Minimum**
+- **Maximum**
+
+When set to **Dynamic**, the main value follows the currently hovered point on the trendline. When no point is hovered, the visual uses the sum of the available data points.
 
 ## Missing Data Points
 
@@ -107,7 +125,7 @@ The final color can be overridden by [OKVIZ Color Rules](../../../features/color
 
 This option shows the interactive marker on the trendline.
 
-It is available only when **Show Line** is enabled and [Data Label > Display](../data-label/index.md#display) is not set to **Dynamic**.
+It is available only when **Show Line** is enabled and **Display Data Point** is not set to **Dynamic**.
 
 ## Marker Line Color
 
@@ -115,7 +133,7 @@ It is available only when **Show Line** is enabled and [Data Label > Display](..
 
 This option sets the color of the position marker.
 
-It is available when **Show Marker** is enabled. It is also used by the dynamic marker when [Data Label > Display](../data-label/index.md#display) is set to **Dynamic**.
+It is available when **Show Marker** is enabled. It is also used by the dynamic marker when **Display Data Point** is set to **Dynamic**.
 
 ## Show the Current Point
 
@@ -123,7 +141,7 @@ It is available when **Show Marker** is enabled. It is also used by the dynamic 
 
 This option highlights the point currently represented by the main value.
 
-It is available only when **Show Line** is enabled and the main value is set to **Last data point**, **First data point**, **Minimum**, or **Maximum**.
+It is available only when **Show Line** is enabled and **Display Data Point** is set to **Last**, **First**, **Minimum**, or **Maximum**.
 
 ## Show All Points
 

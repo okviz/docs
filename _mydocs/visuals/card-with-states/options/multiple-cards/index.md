@@ -3,7 +3,7 @@ layout:             page
 title:              Multiple Cards
 published:          true
 date:               2026-04-07
-modified:           2026-04-14
+modified:           2026-04-24
 order:              /card-with-states/options/multiple-cards
 internal:           multiple
 next_reading:       true
@@ -28,7 +28,7 @@ Available options:
 - **Value (ascending)**
 - **Value (descending)**
 
-When sorting by value, the visual uses the current aggregation selected in [Data Label > Display](../data-label/index.md#display).
+When sorting by value, the visual uses the current aggregation selected in [Trendline > Display Data Point](../trendline/index.md#display-data-point).
 
 ## Cards Per Row
 
@@ -41,4 +41,3 @@ This option defines the maximum number of cards displayed on each row. The value
 **Default value:** 15
 
 This option defines the spacing between cards. The value ranges from 0 to 40.
-

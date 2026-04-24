@@ -3,7 +3,7 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2026-04-13
-modified:           2026-04-15
+modified:           2026-04-24
 order:              /card-with-states/{99}
 toc_h_max:          2
 ---
@@ -18,7 +18,7 @@ Card with States uses **Power BI Custom Visuals API v5.11.0**, which requires:
 
 ## v2.0.0
 
-**Released:** 2026-04-03
+**Released:** 2026-04-24
 
 This release introduces the new generation of Card with States.
 
@@ -31,6 +31,8 @@ This release introduces the new generation of Card with States.
 - Improved stability and performance with multiple fixes
 - Renamed the previous generation to **Card with States Legacy**; it remains available for older reports but will no longer receive updates
 
-## Previous Versions
+## Legacy v1.x
 
-Legacy versions logs are not available.
+Card with States Legacy has separate release notes. The final legacy release was **v1.6.8**, released on **2020-07-03**, with a security-related jQuery update.
+
+Earlier legacy releases included API upgrades, trendline fixes, support for themes, trendline tooltips, context menu support, and several formatting and variance fixes.

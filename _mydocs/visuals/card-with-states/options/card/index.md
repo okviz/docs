@@ -3,7 +3,7 @@ layout:             page
 title:              Card
 published:          true
 date:               2026-04-07
-modified:           2026-04-14
+modified:           2026-04-24
 order:              /card-with-states/options/card
 internal:           card
 next_reading:       true
@@ -192,4 +192,4 @@ Available options:
 
 This option defines the inner spacing of the labels area inside the card.
 
-Each side can be set independently from 0 to 1000.
+Each side can be set independently from 0 to 100.

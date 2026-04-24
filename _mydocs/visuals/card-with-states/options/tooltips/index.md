@@ -3,7 +3,7 @@ layout:             page
 title:              Tooltips
 published:          true
 date:               2026-04-13
-modified:           2026-04-14
+modified:           2026-04-24
 order:              /card-with-states/options/tooltips
 internal:           tooltips
 next_reading:       true
@@ -34,7 +34,7 @@ This option shows tooltips when hovering over the trendline.
 
 When enabled, it takes precedence over **Show on Cards**.
 
-If [Data Label > Display](../data-label/index.md#display) is set to **Dynamic**, this option is automatically disabled.
+It is available only when the trendline is available.
 
 ## Display Unit
 

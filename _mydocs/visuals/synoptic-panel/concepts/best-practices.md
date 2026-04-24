@@ -3,7 +3,7 @@ layout:             page
 title:              Best Practices
 published:          true
 date:               2024-10-02
-modified:           2026-01-13
+modified:           2026-04-21
 order:              /synoptic-panel/concepts/best-practices
 next_reading:       true
 ---
