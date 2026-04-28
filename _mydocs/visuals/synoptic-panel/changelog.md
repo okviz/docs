@@ -3,7 +3,7 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2024-05-10
-modified:           2026-02-09
+modified:           2026-04-28
 order:              /synoptic-panel/{99}
 toc_h_max:          2
 ---
@@ -19,7 +19,7 @@ Synoptic Panel uses **Power BI Custom Visuals API v5.11.0**, which requires:
 
 ## v2.5.2
 
-**Released:** 2026-04-15
+**Released:** TBD
 
 **Improvements:**
 
