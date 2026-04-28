@@ -3,7 +3,7 @@ layout:             page
 title:              Best Practices
 published:          true
 date:               2024-10-02
-modified:           2026-04-21
+modified:           2026-04-28
 order:              /synoptic-panel/concepts/best-practices
 next_reading:       true
 ---
@@ -84,4 +84,4 @@ Structuring the data effectively, you can ensure smoother performance and a more
 
 ### Maps Optimization
 
-SVG including bitmap images may have a larger file size that can be blocked by the limits mentioned above. In these cases, you can try to optimize them using a simple [SVG Optimizer](https://github.com/okviz/svg-optimizer/) tool we provide, which can help reduce the file size by compressing the underlying bitmap images.
+SVG files with embedded bitmap images can exceed the file size limits mentioned above. To address this, we provide the [Synoptic Panel Toolbox](https://github.com/okviz/synoptic-panel-toolbox/), a command line tool that optimizes maps by compressing embedded bitmap images. This is particularly useful for large or complex maps that approach the recommended size limits, helping you achieve better performance in Synoptic Panel.

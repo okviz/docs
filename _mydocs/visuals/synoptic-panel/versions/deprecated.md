@@ -3,7 +3,7 @@ layout:             page
 title:              Deprecated (v1)
 published:          true
 date:               2025-03-08
-modified:           2026-04-13
+modified:           2026-04-28
 order:              /synoptic-panel/versions/deprecated
 retirement_date:    April 10, 2026
 ---
@@ -57,6 +57,10 @@ To migrate your reports from Synoptic Panel v1 to v2, follow these steps:
 2. Add the new version of Synoptic Panel to your report alongside the old version. Since maps created with v1 are compatible with v2, you can reuse them. However, you will need to reconfigure the visual settings and re-import the maps, as the new version includes several new options and features and cannot be configured in the same way as the old one - **you cannot simply replace the old visual with the new one.**
 
 3. Remove the old version from your report and save the changes.
+
+## Recover Your v1 Maps
+
+If you have maps created with v1 and you no longer have access to the visual, you can use the [Synoptic Panel Toolbox](https://github.com/okviz/synoptic-panel-toolbox/) to recover them. This tool allows you to extract SVG maps from your existing reports (regardless of the version of Synoptic Panel), enabling you to reuse them in v2 without losing your work.
 
 ## Contact Information
 
