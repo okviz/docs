@@ -135,7 +135,7 @@ You can add more than one condition to the same rule by clicking the **Add** but
 
 The **Then** section defines what happens when the rule matches.
 
-The editor shows the visual elements that can change color according to the rule. The available elements depend on the visual. Some visuals expose only one color target; others, such as [Card With States](../visuals/card-with-states.md), can expose multiple targets such as labels, trendline and background.
+The editor shows the visual elements that can change color according to the rule. The available elements depend on the visual. Some visuals expose only one color target; others, such as [Card With States](../card-with-states/index.md), can expose multiple targets such as labels, trendline and background.
 
 <img src="images/conditional-rule-then-colors.png" width="500" alt="The color section of a conditional rule in Card with States">
 
@@ -155,7 +155,7 @@ When the visual supports messages, the rule can also define a custom **Message**
 
 When a message is enabled, you can also select the message color.
 
-When the visual supports icons, the rule can define an **Icon** to show when the condition matches. If an icon is selected, you can also select its color. For example, [Card With States](../visuals/card-with-states.md) can show a conditional message and icon in addition to colors.
+When the visual supports icons, the rule can define an **Icon** to show when the condition matches. If an icon is selected, you can also select its color. For example, [Card With States](../card-with-states/index.md) can show a conditional message and icon in addition to colors.
 
 <img src="images/conditional-rule-then-messages.png" width="500" alt="The message and icon section of a conditional rule in Card with States">
 
