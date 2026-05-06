@@ -16,6 +16,14 @@ Card with States uses **Power BI Custom Visuals API v5.11.0**, which requires:
 
 [See Power BI Requirements](../requirements.md) for more information.
 
+## v2.0.1
+
+**Released:** TBD
+
+**Bug Fixes:**
+- Fixed a bug that affected the font size of the labels when turning off the Auto Font Size option.
+
+
 ## v2.0.0
 
 **Released:** 2026-04-24
