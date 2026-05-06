@@ -1,17 +1,15 @@
 ---
 layout:             page
-title:              OKVIZ Color Rules
+title:              Color Rules
 menu_title:         Color Rules
 published:          true
 date:               2022-07-14
 modified:           2026-05-06
 order:              /02/color-rules        
 ---
-OKVIZ visuals allow you to change the color of the visual elements dynamically based on the data values.
+OKVIZ visual allow you to change the color of the visual elements dynamically based on the data values through the **Color Rules** editor. This feature is available in many OKVIZ visuals and is useful when Power BI conditional formatting is not available or when the visual needs more advanced rules than the built-in formatting options.
 
-This feature is useful when Power BI conditional formatting is not available or when the visual needs more advanced rules than the built-in formatting options.
-
-When supported by a visual, you can open the Color Rules manager from the visual canvas:
+When supported by a visual, you can open the Color Rules editor from the visual canvas:
 
 <img src="images/editing-color-rules.png" width="500" alt="Editing color rules in Card with States">
 
