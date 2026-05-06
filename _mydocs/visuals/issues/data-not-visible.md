@@ -4,7 +4,7 @@ title:              Data Not Visible in the Visual
 menu_title:         Data Not Visible
 published:          true
 date:               2026-05-05
-modified:           2026-05-05
+modified:           2026-05-06
 toc:                true
 order:              /03/03
 ---
@@ -51,7 +51,7 @@ On the duplicated page, change the visual type to a standard Table:
 
 Power BI replaces the visual with a Table, keeping the fields that were already in the field well. The visual area now shows a plain table with rows and columns.
 
->> **NOTE**: Some fields specific to the custom visual (for example, map URL fields) may be removed automatically during the conversion because they are not compatible with the Table visual. If a field you need disappears, re-add it manually from the ***Fields*** pane.
+>> **NOTE**: Some fields specific to the custom visual (for example, map URL fields) may be removed automatically during the conversion because they are not compatible with the Table visual. If a field you need disappears, re-add it manually from the ***Data*** pane.
 
 ## Step 3 — Examine the Table Content
 
