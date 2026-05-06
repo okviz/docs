@@ -1,5 +1,9 @@
 # Docs0 Changelog
 
+## 1.2.1 (2026-05-06)
+
+- Improve responsive layout
+
 ## 1.2.0 (2026-04-13)
 
 - Improve update dates script

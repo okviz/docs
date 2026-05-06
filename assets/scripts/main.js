@@ -165,13 +165,29 @@ if (navElement) {
 // Nav Split
 if (navElement) {
     const storage = "panels-sizes";
+    const expandedStorage = "panels-expanded-sizes";
     const defaultLeftPerc = (300 / document.body.clientWidth) * 100;
     const defaultSizes = [defaultLeftPerc, 100 - defaultLeftPerc];
-    let sizes = JSON.parse(localStorage.getItem(storage));
-    if (!sizes) sizes = defaultSizes;
+    const isValidSizes = sizes => Array.isArray(sizes) && sizes.length > 1 && sizes.every(size => Number.isFinite(size));
+    const isCollapsedSizes = sizes => isValidSizes(sizes) && sizes[0] < 10;
+    const readSizes = key => {
+        try {
+            const sizes = JSON.parse(localStorage.getItem(key));
+            return isValidSizes(sizes) ? sizes : null;
+        } catch (_) {
+            return null;
+        }
+    };
+    const rememberExpandedSizes = sizes => {
+        if (!isCollapsedSizes(sizes))
+            localStorage.setItem(expandedStorage, JSON.stringify(sizes));
+    };
+    const getExpandedSizes = () => readSizes(expandedStorage) || defaultSizes;
+    let sizes = readSizes(storage) || defaultSizes;
+    rememberExpandedSizes(sizes);
 
     const menuElement = document.querySelector(".burger");
-    if (sizes[0] < 10) menuElement.classList.add("collapsed");
+    if (isCollapsedSizes(sizes)) menuElement.classList.add("collapsed");
 
     try {
         let panes = Split([".main-nav", ".main-content"], {
@@ -183,7 +199,8 @@ if (navElement) {
             cursor: "ew-resize",
             onDragEnd: function (sizes) {
                 localStorage.setItem(storage, JSON.stringify(sizes));
-                menuElement.classList.toggle("collapsed", sizes[0] < 10);
+                rememberExpandedSizes(sizes);
+                menuElement.classList.toggle("collapsed", isCollapsedSizes(sizes));
             }
         });
 
@@ -192,8 +209,10 @@ if (navElement) {
 
             if (panes) {
                 let currentSizes = panes.getSizes();
-                let sizes = (currentSizes[0] < 10 ? defaultSizes : [0, 100]);
-                menuElement.classList.toggle("collapsed", sizes[0] < 10);
+                rememberExpandedSizes(currentSizes);
+
+                let sizes = (isCollapsedSizes(currentSizes) ? getExpandedSizes() : [0, 100]);
+                menuElement.classList.toggle("collapsed", isCollapsedSizes(sizes));
                 panes.setSizes(sizes);
                 localStorage.setItem(storage, JSON.stringify(sizes));
             }

@@ -16,8 +16,8 @@ terms_url: https://docs.okviz.com/www/terms
 github_url:
 
 # Header quick link - This is usually a quick link to the service/product
-header_link_title: 
-header_link_url: 
+header_link_title: OKVIZ.com
+header_link_url: https://okviz.com
 
 # TOC heading range
 toc_h_min: 2

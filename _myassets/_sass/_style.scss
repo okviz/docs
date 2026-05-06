@@ -23,11 +23,21 @@ table {
     }
     .visual-cards {
         margin-bottom: 40px;
+
         .card {
             flex: 0 1 38%;
 
             .card-image img {
                 background: #fff;
+            }
+        }
+
+        @include screen(760px) {
+            display: grid;
+            grid-template-columns: 1fr;
+
+            .card {
+                flex: 1 1 100%;
             }
         }
     }

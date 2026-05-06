@@ -4,14 +4,14 @@ title:              Other Visuals
 menu_title:         – Other Visuals
 published:          true
 date:               2022-07-13
-modified:           2026-04-13
+modified:           2026-05-06
 order:              /{50}
 ---
 
 OKVIZ has released and maintains several custom visuals for Power BI. There is no real documentation for these visuals yet, but you can find some helpful resources below:
 
 - [Candlestick](https://okviz.com/candlestick/)
-- [Smart Filter](https://okviz.com/smart-filter/)
+- Smart Filter (free)
 - [Sparkline](https://okviz.com/sparkline/)
 
 ## Security & Privacy
