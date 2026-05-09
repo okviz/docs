@@ -81,8 +81,8 @@ This repo is public. Some reference repos for the visuals are private. Treat tha
 - Embed images with HTML `<img />` tags, not Markdown image syntax, so the
   rendered width can be controlled. Set `width` so the UI elements shown in the
   image appear at natural size. Because the site content column is capped at
-  700px and images use `max-width: 100%`, do not set `width` above `650`; when
-  the natural image width would be greater than `650`, omit the `width`
+  700px and images use `max-width: 100%`, do not set `width` above `700`; when
+  the natural image width would be greater than `700`, omit the `width`
   attribute. Never add `alt` attributes to image tags.
 - Reference UI elements in text with bold italic emphasis, such as
   `***Settings***` for a UI section named "Settings".
