@@ -20,7 +20,7 @@ First, you need to [create a new account on GitHub](https://github.com/signup) i
 
 <img src="images/github-new-repo.png" width="600">
 
->> **ATTENTION:** Private GitHub repositories are not supported by Synoptic Panel, so your maps can only be hosted in a public repository, accessible to everyone.
+>> **IMPORTANT:** Private GitHub repositories are not supported by Synoptic Panel, so your maps can only be hosted in a public repository, accessible to everyone.
 
 ## 2. Upload Your Maps to GitHub
 

@@ -4,41 +4,42 @@ title:              Color Rules
 menu_title:         Color Rules
 published:          true
 date:               2022-07-14
-modified:           2026-05-06
+modified:           2026-05-09
 order:              /02/color-rules        
 ---
-OKVIZ visual allow you to change the color of the visual elements dynamically based on the data values through the **Color Rules** editor. This feature is available in many OKVIZ visuals and is useful when Power BI conditional formatting is not available or when the visual needs more advanced rules than the built-in formatting options.
+OKVIZ visual allow you to change the color of the visual elements dynamically based on the data values through the Color Rules editor. This feature is available in many OKVIZ visuals and is useful when Power BI conditional formatting is not available or when the visual needs more advanced rules than the built-in formatting options.
 
 When supported by a visual, you can open the Color Rules editor from the visual canvas:
 
-<img src="images/editing-color-rules.png" width="500" alt="Editing color rules in Card with States">
+<img src="images/editing-color-rules.png" width="500">
 
 The editor can create two types of rules:
 - **Color Scale**
 - **Conditions**
 
-The available rule types depend on the visual. Some visuals allow both rule types, while others expose only **Color Scale** or only **Conditions**.
+The available rule types depend on the visual. Some visuals allow both rule types, while others expose only one of them.
 
 ## Rule Settings
 
 Every rule starts with these settings:
 
-<img src="images/rule-settings.png" width="500" alt="The rule settings section">
+<img src="images/rule-settings.png">
 
-1 **Rule Type** selects the type of rule. When the visual supports only one type, this option may be unavailable or limited to the supported rule type.
+1. ***Rule Type*** selects the type of rule. When the visual supports only one type, this option may be unavailable or limited to the supported rule type.
 
-2 **Rule Name** defines the display name shown in the rules list.
+2. ***Rule Name*** defines the display name shown in the rules list.
 
-3 **Rule Target** selects the target affected by the rule. Some visuals have a single target, while others expose multiple targets. For example, when Card with States contains multiple cards based on different measures, the rule can be assigned to the card target it should affect.
+3. ***Rule Target*** selects the target affected by the rule. Some visuals have a single target, while others expose multiple targets. For example, when Card with States contains multiple cards based on different measures, the rule can be assigned to the card target it should affect.
 
-4 **Stop other Rules** stops the evaluation of the following rules when the current rule matches. This is useful when the rule order matters and a matching rule should prevent later rules from changing the same result.
+4. ***Stop other Rules*** stops the evaluation of the following rules when the current rule matches. This is useful when the rule order matters and a matching rule should prevent later rules from changing the same result.
 
 Rules are evaluated in the order shown in the rules list.
 
 ## Color Scale Rules
+
 Use a color scale rule when you want to map a numeric field to a gradient.
 
-<img src="images/color-scale-rule.png" width="500" alt="The color scale rule">
+<img src="images/color-scale-rule.png" width="500">
 
 Color scale rules include these options:
 - **Field** selects the numeric field used by the scale.
@@ -51,15 +52,14 @@ When **Multiple Scales** is not available, or when it is turned off, the rule us
 
 When **Multiple Scales** is turned on, the editor shows one tab for each supported level. Each tab has its own **Minimum**, **Center**, **Maximum**, **Below**, and **Above** settings. This is useful when the same visual can display data at different granularities and each granularity needs its own color range. For example, [Calendar Pro](../calendar-pro/index.md) can use one scale for months and another scale for quarters.
 
-<img src="images/multiple-scales-month.png" width="500" alt="Multiple scales for months in Calendar Pro">
+<img src="images/multiple-scales-month.png" width="500">
 
-<img src="images/multiple-scales-quarter.png" width="500" alt="Multiple scales for quarters in Calendar Pro">
+<img src="images/multiple-scales-quarter.png" width="500">
 
 So the result will show different color formatting for months and quarters based on the configured scales.
 
-<img src="images/multiple-scales-calendar-pro-month.png" width="500" alt="Multiple scales result in Calendar Pro at month level">
-
-<img src="images/multiple-scales-calendar-pro-quarter.png" width="500" alt="Multiple scales result in Calendar Pro at quarter level">
+<img src="images/multiple-scales-calendar-pro-month.png" width="500">
+<img src="images/multiple-scales-calendar-pro-quarter.png" width="500">
 
 The **Color Scale** section defines the colors and thresholds used by the gradient.
 
@@ -86,18 +86,19 @@ The slider previews the resulting scale across the absolute value range of the s
 
 For example, consider the following rule:
 
-<img src="images/setting-ranges.png" width="500" alt="Setting color ranges">
+<img src="images/setting-ranges.png" width="500">
 
 This results in:
 
-<img src="images/setting-ranges-result.png" width="600" alt="Setting color ranges">
+<img src="images/setting-ranges-result.png" width="600">
 
 ## Conditional Rules
+
 Use a conditional rule when you want to apply formatting only when one or more conditions are met.
 
 In the **Conditions** section, each condition follows an **If** flow. Select the field to evaluate, then select the comparison to apply.
 
-<img src="images/conditional-rule.png" width="600" alt="Conditional rule settings">
+<img src="images/conditional-rule.png" width="600">
 
 For numeric fields, the available comparisons include:
 - **Is Less than**
@@ -131,13 +132,13 @@ For text fields, comparisons that require a text value show a text box. **Is Bla
 
 You can add more than one condition to the same rule by clicking the **Add** button. Additional conditions can be combined with **And** or **Or**.
 
-<img src="images/conditional-multiple-conditions.png" width="500" alt="Multiple conditions in the same rule">
+<img src="images/conditional-multiple-conditions.png" width="500">
 
 The **Then** section defines what happens when the rule matches.
 
 The editor shows the visual elements that can change color according to the rule. The available elements depend on the visual. Some visuals expose only one color target; others, such as [Card With States](../card-with-states/index.md), can expose multiple targets such as labels, trendline and background.
 
-<img src="images/conditional-rule-then-colors.png" width="500" alt="The color section of a conditional rule in Card with States">
+<img src="images/conditional-rule-then-colors.png" width="500">
 
 For each available element, you can choose:
 - **Default Fill** to keep the color defined by the visual settings.
@@ -146,8 +147,7 @@ For each available element, you can choose:
 
 For example, in Card With States the result will be:
 
-<img src="images/conditional-rule-then-colors-result.png" width="500" alt="The result of a conditional rule in Card with States">
-
+<img src="images/conditional-rule-then-colors-result.png" width="500">
 When the visual supports messages, the rule can also define a custom **Message** to show when the rule matches:
 - **None** does not show a message.
 - **Static** shows a fixed text entered in the rule.
@@ -157,16 +157,16 @@ When a message is enabled, you can also select the message color.
 
 When the visual supports icons, the rule can define an **Icon** to show when the condition matches. If an icon is selected, you can also select its color. For example, [Card With States](../card-with-states/index.md) can show a conditional message and icon in addition to colors.
 
-<img src="images/conditional-rule-then-messages.png" width="500" alt="The message and icon section of a conditional rule in Card with States">
+<img src="images/conditional-rule-then-messages.png" width="500">
 
 The result will look like this:
 
-<img src="images/conditional-rule-then-messages-result.png" width="500" alt="The result of a conditional rule with messages and icons in Card with States">
+<img src="images/conditional-rule-then-messages-result.png" width="500">
 
-## Color Rules Field Well
+## Field Well
 
 When you need additional measures or columns to define custom rules, supported visuals expose a **Color Rules** field well. 
 
-<img src="images/color-rules-field-well.png" width="200" alt="Color Rules field well in Card with States">
+<img src="images/color-rules-field-well.png" width="200">
 
 Data fields added here are not rendered directly by the visual; they become available in the Color Rules editor so you can use them in conditions, field-based comparisons, calculations, or messages, depending on the visual and rule type. For example, you can add a measure that calculates the percentage difference between the current value and the same value from the previous year, then use that measure in a conditional rule to apply formatting when the percentage difference is above or below a certain threshold.

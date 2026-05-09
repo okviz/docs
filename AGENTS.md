@@ -70,6 +70,34 @@ This repo is public. Some reference repos for the visuals are private. Treat tha
 - Store images next to the relevant section under an `images/` folder. Use lowercase file names with hyphens and no spaces.
 - Use standard Markdown supported by this site and reuse existing patterns for notices, badges, PDFs, and page navigation.
 
+## Style And Consistency
+
+- Before adding or changing Markdown syntax, consult `docs0-README.md` and
+  follow its Docs0 conventions for front matter, notices, images, videos,
+  badges, links, and page navigation.
+- Markdown content must satisfy markdownlint. Keep headings, blank lines, list
+  spacing, fences, and link syntax lint-clean while preserving Docs0-specific
+  constructs.
+- Embed images with HTML `<img />` tags, not Markdown image syntax, so the
+  rendered width can be controlled. Set `width` so the UI elements shown in the
+  image appear at natural size. Because the site content column is capped at
+  700px and images use `max-width: 100%`, do not set `width` above `650`; when
+  the natural image width would be greater than `650`, omit the `width`
+  attribute. Never add `alt` attributes to image tags.
+- Reference UI elements in text with bold italic emphasis, such as
+  `***Settings***` for a UI section named "Settings".
+- Use bold sparingly. Reserve it for terms that truly need emphasis, because
+  excessive bold text weakens scanability and emphasis.
+- For notes, use blockquote syntax: `> **NOTE:**` when the label is useful. The
+  `**NOTE:**` prefix is optional, but when present it must use that exact
+  spelling and formatting.
+- For warnings, use nested blockquote syntax: `>> **IMPORTANT:**` when the label
+  is useful. The `**IMPORTANT:**` prefix is optional, but when present it must
+  use that exact spelling and formatting.
+- Do not add manual lists of relevant pages at the beginning or end of
+  documents. Use `next_reading` or `related` front matter instead, as defined in
+  `docs0-README.md`.
+
 ## Repo Layout Cues
 
 - `_mydocs/` contains documentation pages and drives most of the navigation tree.
