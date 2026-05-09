@@ -10,7 +10,7 @@ order:              /synoptic-panel/issues
 This page lists all possible error messages that may appear in Synoptic Panel, along with their meaning, common causes, and possible solutions.
 When available, additional documentation links are provided for further guidance.
 
->> **Is data not showing in the visual?** Before reviewing error messages, if the visual appears to work but some data is missing or interactions with slicers and filters are not producing the expected result, check whether the visual is actually receiving the right data. See [Data Not Visible in the Visual](../../issues/data-not-visible.md) for a step-by-step diagnostic technique.
+>> **Is data not showing in the visual?** Before reviewing error messages, if the visual appears to work but some data is missing or interactions with slicers and filters are not producing the expected result, check whether the visual is actually receiving the right data. See [Data Not Visible in the Visual](../issues/data-not-visible.md) for a step-by-step diagnostic technique.
 
 ## (Blank)
 
