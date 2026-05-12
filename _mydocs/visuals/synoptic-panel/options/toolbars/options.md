@@ -35,6 +35,12 @@ When this option is disabled, the map may display the map title as defined in th
 
 Show a the ***Map Search*** button to access the [Map Search](../../features/map-search.md). This option only affects [Reading View](../../../glossary.md#reading-and-editing-view). 
 
+## Show Navigation
+
+**Default value:** Off
+
+Show Back and Forward buttons to navigate recent map changes. Note that these buttons only track changes to the map, such as navigating to a different map through the maps dropdown, an area link or a drilldown. They do not track changes to the selection or other interactions.
+
 ## Top Margin
 
 **Default value:** 0px
