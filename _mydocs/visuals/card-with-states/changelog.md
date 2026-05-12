@@ -3,7 +3,7 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2026-04-13
-modified:           2026-05-06
+modified:           2026-05-11
 order:              /card-with-states/{99}
 toc_h_max:          2
 ---
@@ -18,11 +18,31 @@ Card with States uses **Power BI Custom Visuals API v5.11.0**, which requires:
 
 ## v2.0.1
 
-**Released:** TBD
+**Released:** 2026-05-11
+
+**Improvements:**
+
+- Add localization in several languages:
+    - French (`fr-FR`)
+    - German (`de-DE`)
+    - Hindi (`hi-IN`)
+    - Indonesian (`id-ID`)
+    - Italian (`it-IT`)
+    - Spanish (`es-ES`)
+    - Japanese (`ja-JP`)
+    - Korean (`ko-KR`)
+    - Portuguese - Brazil (`pt-BR`)
+    - Russian (`ru-RU`)
+    - Thai (`th-TH`)
+    - Turkish (`tr-TR`)
+    - Ukrainian (`uk-UA`)
+    - Vietnamese (`vi-VN`)
+    - Chinese - Simplified (`zh-CN`)
+
 
 **Bug Fixes:**
-- Fixed a bug that affected the font size of the labels when turning off the Auto Font Size option.
 
+- Fixed a bug that affected the font size of the labels when turning off the Auto Font Size option.
 
 ## v2.0.0
 

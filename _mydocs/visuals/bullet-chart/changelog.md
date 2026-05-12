@@ -3,7 +3,7 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2022-07-15
-modified:           2026-02-09
+modified:           2026-05-11
 order:              /bullet-chart/{99}
 toc_h_max:            2
 ---
@@ -12,6 +12,29 @@ Bullet Chart uses **Power BI Custom Visuals API v5.11.0**, which requires:
 - Power BI Service
 - **Power BI Desktop July 2024** or later
 - **Power BI Report Server September 2025** or later
+
+## v2.4.3
+
+**Released:** 2026-04-18
+
+**Improvements:**
+
+- Add localization in several languages:
+    - French (`fr-FR`)
+    - German (`de-DE`)
+    - Hindi (`hi-IN`)
+    - Indonesian (`id-ID`)
+    - Italian (`it-IT`)
+    - Spanish (`es-ES`)
+    - Japanese (`ja-JP`)
+    - Korean (`ko-KR`)
+    - Portuguese - Brazil (`pt-BR`)
+    - Russian (`ru-RU`)
+    - Thai (`th-TH`)
+    - Turkish (`tr-TR`)
+    - Ukrainian (`uk-UA`)
+    - Vietnamese (`vi-VN`)
+    - Chinese - Simplified (`zh-CN`)
 
 ## v2.4.2
 

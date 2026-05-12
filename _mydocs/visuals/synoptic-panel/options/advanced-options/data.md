@@ -3,7 +3,7 @@ layout:             page
 title:              Data
 published:          true
 date:               2024-09-14
-modified:           2025-10-01
+modified:           2026-05-11
 order:              /synoptic-panel/options/advanced-options/data
 ---
 
@@ -40,3 +40,11 @@ Available options:
 - **Maximum**: Maximum value.
 
 > **NOTE:** This aggregation is made by the visual and does not affect the underlying data model. If you select a different summarization in the field well, unreliable results may occur. Also note that the result may be different from the dataset data because of the rounding applied before the aggregation.
+
+## Show Maps with No Data
+
+**Default value:** Off
+
+When enabled, Synoptic Panel displays maps at the first level even when there are no category values.
+
+When disabled, Synoptic Panel shows the `(Blank)` error if no data points are available.

@@ -3,15 +3,40 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2022-07-17
-modified:           2026-04-13
+modified:           2026-05-11
 order:              /calendar-pro/{99}
 toc_h_max:            2
 ---
 This page contains a quick summary of versions and notable changes of Calendar Pro.  
 Calendar Pro uses **Power BI Custom Visuals API v5.11.0**, which requires:
+
 - Power BI Service
 - **Power BI Desktop July 2024** or later
 - **Power BI Report Server September 2025** or later
+
+## v1.1.7
+
+**Released:** 2026-05-11
+
+**Improvements:**
+
+- Improve Color Rules editor 
+- Add localization in several languages:
+    - French (`fr-FR`)
+    - German (`de-DE`)
+    - Hindi (`hi-IN`)
+    - Indonesian (`id-ID`)
+    - Italian (`it-IT`)
+    - Spanish (`es-ES`)
+    - Japanese (`ja-JP`)
+    - Korean (`ko-KR`)
+    - Portuguese - Brazil (`pt-BR`)
+    - Russian (`ru-RU`)
+    - Thai (`th-TH`)
+    - Turkish (`tr-TR`)
+    - Ukrainian (`uk-UA`)
+    - Vietnamese (`vi-VN`)
+    - Chinese - Simplified (`zh-CN`)
 
 ## v1.1.6
 
@@ -20,6 +45,10 @@ Calendar Pro uses **Power BI Custom Visuals API v5.11.0**, which requires:
 **Improvements:**
 
 - Update dependencies.
+
+**Bug Fixes:**
+
+- Fix event colors with measures.
 
 ## v1.1.5
 
@@ -43,13 +72,15 @@ Add [Auto Select Today](options/calendar/auto-select-today.md) option
 
 **Improvements:**
 
-Add events value for Color Rules definition.
+- Add events value for Color Rules definition.
 
 ## v1.1.2
 
 **Released:** 2025-03-19
 
-Remove unused libraries to reduce the visual size (no actual changes).
+**Improvements:**
+
+- Remove unused libraries to reduce the visual size (no actual changes).
 
 ## v1.1.1
 

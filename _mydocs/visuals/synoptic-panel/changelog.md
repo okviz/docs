@@ -3,7 +3,7 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2024-05-10
-modified:           2026-04-28
+modified:           2026-05-12
 order:              /synoptic-panel/{99}
 toc_h_max:          2
 ---
@@ -17,14 +17,55 @@ Synoptic Panel uses **Power BI Custom Visuals API v5.11.0**, which requires:
 
 > **NOTE:** Synoptic Panel Lite is a subset of Synoptic Panel with limited features. Both versions share the same codebase and changelog.
 
+## v2.5.4
+
+**Released:** 2026-05-12
+
+**Bug Fixes:**
+
+- Fix an issue affecting areas linked to different maps.
+
+## v2.5.3
+
+**Released:** 2026-05-11
+
+**New Features:**
+
+- Add [***Show Maps with No Data***](./options/advanced-options/data.md#show-maps-with-no-data) option to display first-level maps even when there are no category values.
+
 ## v2.5.2
 
-**Released:** TBD
+**Released:** 2026-05-11
+
+**New Features:**
+
+- Add a guided setup wizard to help users start from SVG or bitmap sources, bind data, choose a map, check map area matching, and review next steps.
 
 **Improvements:**
 
+- Improve ***Add Map*** menu behavior in small visual containers
 - Improve Color Rules editor
 - Improve labels positioning with unpredictable canvas resizing
+- Add localization in several languages:
+    - French (`fr-FR`)
+    - German (`de-DE`)
+    - Hindi (`hi-IN`)
+    - Indonesian (`id-ID`)
+    - Italian (`it-IT`)
+    - Spanish (`es-ES`)
+    - Japanese (`ja-JP`)
+    - Korean (`ko-KR`)
+    - Portuguese - Brazil (`pt-BR`)
+    - Russian (`ru-RU`)
+    - Thai (`th-TH`)
+    - Turkish (`tr-TR`)
+    - Ukrainian (`uk-UA`)
+    - Vietnamese (`vi-VN`)
+    - Chinese - Simplified (`zh-CN`)
+
+**Bug Fixes:**
+
+- Fix category labels when ***Display Value*** is set to "(Auto)" so area titles are preferred when available.
 
 ## v2.5.1
 

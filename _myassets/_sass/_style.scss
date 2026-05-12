@@ -43,3 +43,9 @@ table {
     }
 
 }
+
+/* TODO: move to Docs0 theme */
+.toc .toc-content { 
+    max-height: calc(100vh - 100px);
+    overflow-y: auto;
+}

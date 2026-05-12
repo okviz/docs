@@ -3,7 +3,7 @@ layout:             page
 title:              Issues
 published:          true
 date:               2025-09-05
-modified:           2026-05-09
+modified:           2026-05-11
 order:              /synoptic-panel/issues
 ---
 
@@ -18,7 +18,7 @@ When available, additional documentation links are provided for further guidance
 
 This error occurs when you have no data points in your dataset.
 
-**Try To**: Enable the option *"Show items with no data"* on the category column in the *Category* field well or change the selection in the report to include data points.
+**Try To**: Enable [***Show Maps with No Data***](./options/advanced-options/data.md#show-maps-with-no-data) to keep first-level maps visible without category values. Alternatively, enable ***Show items with no data*** on the category column in the ***Categories*** field well or change the selection in the report to include data points.
 
 ## Decryption Failed
 

@@ -3,7 +3,7 @@ layout:             page
 title:              Get Started
 published:          true
 date:               2024-05-10
-modified:           2025-08-01
+modified:           2026-05-11
 order:              /synoptic-panel/01
 
 ---
@@ -28,6 +28,8 @@ In this section, you will learn how to install and use Synoptic Panel in a Power
 3. Drag and drop the visual on the report canvas.
 
     <img src="images/visual-icon.png" width="200">
+
+    If the visual is empty, click ***How to Start*** to open the guided setup wizard. The wizard is available in Edit mode and walks through choosing a map source, binding data, loading a map, checking area matching, and reviewing next steps.
 
 ## Load a Map
 
