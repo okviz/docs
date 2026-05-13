@@ -121,19 +121,4 @@ These visuals, instead, are not certified:
 
 ## Audit Process
 
-We regularly have our (certified and uncertified) visuals code and infrastructure audited by **Aikido Security**, an external security service. This ongoing process ensures our visuals follow best practices and remain free of malicious code.
-
-<a href="https://app.aikido.dev/audit-report/external/0p1vf4b2uv0xwQIZw0YOJ24l/request" target="_blank">
-    <img src="https://app.aikido.dev/assets/badges/label-only-light-theme.svg" alt="Aikido Security Audit Report" height="40" class="naked nozoom" />  
-</a>
-
-The auditing includes:
-
-- Static and dynamic code analysis (SAST & DAST)
-- Open source dependency scanning (SCA)
-- Open source license scanning (SBOM)
-- Infrastructure as code scanning (IaC)
-- Cloud posture management (CSPM)
-- SLA compliance
-
-You can [request our latest Aikido Security report here](https://app.aikido.dev/audit-report/external/0p1vf4b2uv0xwQIZw0YOJ24l/request).
+We regularly have our (certified and uncertified) visuals code and infrastructure audited by **Aikido Security**, an external security service. See more here: [Security Audits](security.md).
