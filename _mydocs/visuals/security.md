@@ -1,7 +1,6 @@
 ---
 layout:             page
 title:              Security & Privacy
-menu_title:         Security
 published:          true
 date:               2026-05-13
 modified:           2026-05-13
