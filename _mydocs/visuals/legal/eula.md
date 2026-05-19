@@ -9,7 +9,7 @@ toc_h_max:          2
 order:              /legal/eula
 pdf:                true
 ---
-> This End User License Agreement (EULA) is for OKVIZ custom visuals for Power BI that are downloaded from OKVIZ website. The EULA for OKVIZ custom visuals hosted on Microsoft AppSource is available here: [EULA (AppSource)](eula-appsource).
+> This End User License Agreement (EULA) is for OKVIZ custom visuals for Power BI that are **downloaded from OKVIZ website**. The EULA for OKVIZ custom visuals hosted on Microsoft AppSource is available here: [EULA (AppSource)](eula-appsource).
 
 The following "End User License Agreement" governs your use of the software and services provided by OKVIZ Corp. (and its parents, subsidiaries or related companies) ("OKVIZ"). This is a legal agreement between you and OKVIZ and incorporates the Privacy Policy. By registering your use of the Service (as defined below), you are accepting to be bound to the terms of this End User License Agreement.
 

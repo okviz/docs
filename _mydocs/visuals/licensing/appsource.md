@@ -98,6 +98,6 @@ You can cancel the subscription from the Microsoft 365 admin page:
 
     <img src="images/as-cancel-subscription.png" width="600">
 
-> If you are cancelling because you want to switch to an OKVIZ-managed subscription, see [Switch from AppSource to OKVIZ Licensing](switching/switch-appsource-to-okviz.md).
+> If you are canceling because you want to switch to an OKVIZ-managed subscription, see [Switch from AppSource to OKVIZ Licensing](switching/switch-appsource-to-okviz.md).
 
-> Refund policy is available on the [Refund policies for Microsoft AppSource and Azure Marketplace](https://learn.microsoft.com/en-us/marketplace/refund-policies) page.
+> The AppSource refund policy is available on the [Refund policies for Microsoft AppSource and Azure Marketplace](https://learn.microsoft.com/en-us/marketplace/refund-policies) page and differs from OKVIZ’s refund terms: **refund requests on AppSource** are processed automatically **if you cancel within 72 hours** of purchase; otherwise, the process is manual and described in the [Refund Terms](../../www/terms/refund.md#5-subscriptions-purchased-via-other-providers) document.
