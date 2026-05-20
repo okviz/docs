@@ -23,8 +23,8 @@ This repo is public. Some reference repos for the visuals are private. Treat tha
 
 1. Start from the existing documentation tree and reuse current structure, wording patterns, front matter, and navigation relationships whenever possible.
 2. Then look for `.agents/visual-repos.local.json`. This file is the local registry of source repos and local clone paths for each visual.
-3. If `local_clone_path` exists, the agent must ask the user for permission and run a shallow `git fetch --depth 1` before using that local clone as the primary reference.
-4. If `local_clone_path` does not exist but the registry provides `private_remote_url`, the agent must ask the user for permission and then run a shallow `git clone --depth 1` into the parent directory derived from `local_clone_path`.
+3. If `local_clone_path` exists, the agent must ask the user for permission and run `git fetch` before using that local clone as the primary reference.
+4. If `local_clone_path` does not exist but the registry provides `private_remote_url`, the agent must ask the user for permission and then run a `git clone` into the parent directory derived from `local_clone_path`.
 5. After a successful fetch or clone, use the refreshed local clone as the primary reference for feature behavior, option names, field definitions, supported variants, changelog notes, and breaking changes.
 6. Use public issue/support repos and public OKVIZ repos only as secondary references for regressions, naming, examples, and externally visible behavior.
 7. If the local registry or the source repo is not available, state that limitation explicitly in the final response and avoid inventing undocumented behavior.
@@ -42,8 +42,8 @@ This repo is public. Some reference repos for the visuals are private. Treat tha
 - When a documentation task requires a visual source repo and the configured local clone exists, the agent must attempt the approval-and-fetch flow before using it as a reference.
 - When a documentation task requires a visual source repo and the configured local clone is missing, the agent must attempt the approval-and-clone flow before proceeding without source references.
 - Automatic repo refresh and checkout are allowed only after explicit user approval.
-- Use a shallow fetch by default: `git fetch --depth 1`.
-- Use a shallow clone by default: `git clone --depth 1`.
+- Use a fetch by default: `git fetch`.
+- Use a clone by default: `git clone`.
 - Derive the clone parent directory from `local_clone_path` and do not clone inside this public docs repository.
 - Derive the clone directory name from `local_clone_path`.
 - If the registry defines `default_branch`, the agent may fetch or clone that branch directly.

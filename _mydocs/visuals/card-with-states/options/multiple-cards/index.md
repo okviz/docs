@@ -3,16 +3,16 @@ layout:             page
 title:              Multiple Cards
 published:          true
 date:               2026-04-07
-modified:           2026-04-24
+modified:           2026-05-20
 order:              /card-with-states/options/multiple-cards
 internal:           multiple
 next_reading:       true
 next_reading_title: Options
 ---
 
-This section contains the options that apply when the visual renders more than one card, for example when you bind a field to **Category** or when you bind multiple measures to **Values**.
+This section contains the options that apply when the visual renders more than one card, for example when you bind a field to ***Category*** or when you bind multiple measures to ***Values***.
 
-The current **Multiple Cards** card only contains the **Layout** group.
+The current ***Multiple Cards*** card only contains the ***Layout*** group.
 
 ## Sort Order
 
@@ -35,6 +35,12 @@ When sorting by value, the visual uses the current aggregation selected in [Tren
 **Default value:** 5
 
 This option defines the maximum number of cards displayed on each row. The value ranges from 1 to 100.
+
+## Max Cards
+
+**Default value:** 100
+
+This option defines the maximum number of cards rendered by the visual. The value ranges from 1 to 100.
 
 ## Space Between Cards
 

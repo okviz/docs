@@ -3,7 +3,7 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2022-07-15
-modified:           2026-05-11
+modified:           2026-05-20
 order:              /bullet-chart/{99}
 toc_h_max:            2
 ---
@@ -12,6 +12,14 @@ Bullet Chart uses **Power BI Custom Visuals API v5.11.0**, which requires:
 - Power BI Service
 - **Power BI Desktop July 2024** or later
 - **Power BI Report Server September 2025** or later
+
+## v2.4.4
+
+**Released:** 2026-05-20
+
+**Bug Fixes:**
+
+- Fix context menu behavior when right-clicking empty chart or legend space.
 
 ## v2.4.3
 

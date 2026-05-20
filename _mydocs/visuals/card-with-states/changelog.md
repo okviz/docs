@@ -3,7 +3,7 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2026-04-13
-modified:           2026-05-11
+modified:           2026-05-20
 order:              /card-with-states/{99}
 toc_h_max:          2
 ---
@@ -15,6 +15,18 @@ Card with States uses **Power BI Custom Visuals API v5.11.0**, which requires:
 - **Power BI Report Server September 2025** or later
 
 [See Power BI Requirements](../requirements.md) for more information.
+
+## v2.0.2
+
+**Released:** 2026-05-20
+
+**New Features:**
+
+- Add [***Max Cards***](./options/multiple-cards/index.md#max-cards) option to the ***Multiple Cards*** settings to limit the number of rendered cards.
+
+**Improvements:**
+
+- Improve data retrieval for large datasets.
 
 ## v2.0.1
 
@@ -38,7 +50,6 @@ Card with States uses **Power BI Custom Visuals API v5.11.0**, which requires:
     - Ukrainian (`uk-UA`)
     - Vietnamese (`vi-VN`)
     - Chinese - Simplified (`zh-CN`)
-
 
 **Bug Fixes:**
 

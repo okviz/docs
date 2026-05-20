@@ -3,7 +3,7 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2024-05-10
-modified:           2026-05-13
+modified:           2026-05-20
 order:              /synoptic-panel/{99}
 toc_h_max:          2
 ---
@@ -16,6 +16,15 @@ Synoptic Panel uses **Power BI Custom Visuals API v5.11.0**, which requires:
 [See Power BI Requirements](../requirements.md) for more information.
 
 > **NOTE:** Synoptic Panel Lite is a subset of Synoptic Panel with limited features. Both versions share the same codebase and changelog.
+
+## v2.5.7
+
+**Released:** 2026-05-20
+
+**Bug Fixes:**
+
+- Fix matched and unbound area colors in the Map Editor when SVG default fills could override status colors.
+- Fix unavailable map references in the Map Editor ***Switch to Map*** selector.
 
 ## v2.5.6
 
