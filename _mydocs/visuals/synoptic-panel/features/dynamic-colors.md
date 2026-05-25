@@ -11,16 +11,68 @@ Synoptic Panel allows you to change the color of areas dynamically based on the 
 
 Dynamic colors usually require two steps:
 
-1. Prepare the field that identifies the value or color to use for each area.
+If you already have a measure or a visual calculation that returns the value used for formatting, you can skip Step 1 and go directly to [Assign Dynamic Colors](#assign-dynamic-colors).
+
+1. Prepare (or reuse) the field that identifies the value or color to use for each area.
 2. Assign that field to the area color by using Power BI conditional formatting or OKVIZ Color Rules.
 
 ## Prepare the Formatting Field
 
 The field used for dynamic colors can be an existing measure in the model, such as the measure bound to the ***Value*** field well or any other measure available in the dataset.
 
-When the color logic is specific to the map, you can create a dedicated measure or visual calculation. This is useful when the map has multiple hierarchy levels and each level must use different business rules.
+When the color logic is specific to the map, you can create a dedicated measure or visual calculation. This is useful for more customized business rules, and when the map has multiple hierarchy levels and each level must use different business rules.
 
-The prepared field can return the desired color as text when it is used with Power BI conditional formatting set to ***Field value***. The same per-level technique can also be used to create a measure that returns a numeric or text value evaluated later by OKVIZ Color Rules.
+The prepared field can return:
+- A numeric value for color scale and conditional rules (for both Power BI conditional formatting and OKVIZ color rules).
+- A string for the color values (only for  Power BI conditional formatting).
+
+### Simple Dynamic Formatting Rules
+
+Simple formatting rules are useful when the same logic applies to every hierarchy level. The easiest starting point is the percentage of total.
+
+You can use this percentage directly in Power BI conditional formatting as a numeric value, or you can feed it into OKVIZ Color Rules to define thresholds.
+
+#### Example of a Measure: Percentage of Total
+
+The following measure returns the share of total in the current selection by using `ALLSELECTED` in the denominator.
+
+```dax
+Area Share of Total % =
+DIVIDE (
+    [Sales Amount],
+    CALCULATE ( [Sales Amount], ALLSELECTED () )
+)
+```
+
+This measure keeps external filters (for example, slicers).
+
+#### Example of a Visual Calculation: Percentage of Total
+
+The following visual calculation applies the same concept in the visual layer.
+
+```dax
+Visual Area Share of Total % =
+DIVIDE (
+    [Sales Amount],
+    COLLAPSEALL ( [Sales Amount], ROWS )
+)
+```
+
+#### Example of a Visual Calculation: Percentage of Parent
+
+When you need the share of the immediate parent in a hierarchy, use a visual calculation. This calculation navigates one level up in the categories applied to the visual and does not require `IF` or `SWITCH` logic, as shown in the following section for more advanced rules.
+
+```dax
+Visual Area Share of Parent % =
+DIVIDE (
+    [Sales Amount],
+    COLLAPSE ( [Sales Amount], ROWS )
+)
+```
+
+At any level, the denominator is the parent aggregation currently visible in the visual. ***Categories*** field well of the visual corresponds to the `ROWS` keyword used in DAX. In a single-level map, this behaves like a percentage of total.
+
+When you use these values for color formatting, set rules with thresholds on the returned percentage (for example: below 0.10, between 0.10 and 0.30, above 0.30).
 
 ### Per-Level Formatting Rules
 
