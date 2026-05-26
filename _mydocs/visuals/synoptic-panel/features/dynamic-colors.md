@@ -4,17 +4,37 @@ title:              Dynamic Areas Colors
 menu_title:         Dynamic Colors
 published:          true
 date:               2024-05-10
-modified:           2026-05-25
+modified:           2026-05-26
 order:              /synoptic-panel/features/dynamic-colors
 ---
-Synoptic Panel allows you to change the color of areas dynamically based on the data. This feature is useful when you want to highlight specific areas based on the data values.
+Synoptic Panel allows you to change area colors dynamically based on data values. In most scenarios, you can use native features directly, without creating additional logic: Power BI Conditional Formatting and, when needed, OKVIZ Color Rules. Create a dedicated measure or visual calculation only when your required color logic is not supported by those native features.
 
-Dynamic colors usually require two steps:
+## Assign Dynamic Colors
 
-1. [Prepare](#prepare-the-formatting-field) (or reuse) the field that identifies the value or color to use for each area.
-2. [Assign](#assign-dynamic-colors) that field to the area color by using Power BI conditional formatting or OKVIZ Color Rules.
+Start with the assignment methods that work out of the box for your visual configuration. Use existing values or measures first, and add a dedicated measure or visual calculation only for custom logic that cannot be expressed directly through Conditional Formatting or Color Rules.
 
-> **If you already have a measure** or a visual calculation that returns the value used for formatting, you can **skip Step 1 and go directly to [Assign Dynamic Colors](#assign-dynamic-colors)**.
+> If you need to customize the color logic, you can find examples of measures and visual calculations in the following section, [Prepare the Formatting Field](#prepare-the-formatting-field).
+
+### Power BI Conditional Formatting
+
+Use Power BI conditional formatting to change the color of areas based on the data values. You can use the measure bound to the ***Value*** field well or any other compatible measure or visual calculation available in your dataset.
+
+When the prepared measure or visual calculation returns the color directly, set the conditional formatting ***Format style*** to ***Field value***.
+
+<video src="images/conditional-formatting.mp4" width="600" autoplay loop muted></video>
+
+See more: [Power BI Conditional Formatting](https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-conditional-table-formatting)
+
+### OKVIZ Color Rules
+
+Use OKVIZ Color Rules to change the color of areas when Power BI conditional formatting cannot be used. Add the prepared measure to the ***Color Rules*** field well, then use it in the Color Rules editor to define color scales or conditional rules.
+
+<video src="images/color-rules.mp4" width="600" autoplay loop muted></video>
+
+>> This feature is available only when Power BI conditional formatting cannot be used, for example, when the visual must perform client-side data aggregation, such as when either [Map URLs](./filtering-maps/index.md#map-urls-column) or [Legend Field](../fields/legend.md) wells are used.
+
+Learn more: [OKVIZ Color Rules](../../../visuals/features/color-rules.md)
+
 
 ## Prepare the Formatting Field
 
@@ -187,27 +207,3 @@ SWITCH (
 The comparisons consider all the rooms, floors, and buildings, regardless of any filters applied to the visual. The level is identified by using the `ISINSCOPE` function, starting from the bottom level of the hierarchy and moving up.
 
 You can use the same pattern to create a measure that returns a color name, a hexadecimal color value, or another value that will be evaluated by Color Rules.
-
-## Assign Dynamic Colors
-
-After preparing the field or measure that drives the color logic, choose the assignment method supported by your visual configuration.
-
-### Power BI Conditional Formatting
-
-Use Power BI conditional formatting to change the color of areas based on the data values. You can use the measure bound to the ***Value*** field well or any other compatible measure available in your dataset.
-
-When the prepared measure or visual calculation returns the color directly, set the conditional formatting ***Format style*** to ***Field value***.
-
-<video src="images/conditional-formatting.mp4" width="600" autoplay loop muted></video>
-
-See more: [Power BI Conditional Formatting](https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-conditional-table-formatting)
-
-### OKVIZ Color Rules
-
-Use OKVIZ Color Rules to change the color of areas when Power BI conditional formatting cannot be used. Add the prepared measure to the ***Color Rules*** field well, then use it in the Color Rules editor to define color scales or conditional rules.
-
-<video src="images/color-rules.mp4" width="600" autoplay loop muted></video>
-
->> This feature is available only when Power BI conditional formatting cannot be used, for example, when the visual must perform client-side data aggregation, such as when either [Map URLs](./filtering-maps/index.md#map-urls-column) or [Legend Field](../fields/legend.md) wells are used.
-
-Learn more: [OKVIZ Color Rules](../../../visuals/features/color-rules.md)
