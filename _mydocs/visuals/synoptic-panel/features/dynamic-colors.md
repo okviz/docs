@@ -14,7 +14,9 @@ Dynamic colors usually require two steps:
 1. [Prepare](#prepare-the-formatting-field) (or reuse) the field that identifies the value or color to use for each area.
 2. [Assign](#assign-dynamic-colors) that field to the area color by using Power BI conditional formatting or OKVIZ Color Rules.
 
-> **If you already have a measure** or a visual calculation that returns the value used for formatting, you can **skip Step 1 and go directly to [Assign Dynamic Colors](#assign-dynamic-colors)**.
+> **If you already have a measure** or a visual calculation that returns the value used for formatting, you can **skip Step 1 and go directly to [Assign Dynamic Colors](#assign-dynamic-colors)**. 
+> 
+> [<video src="images/conditional-formatting.mp4" width="220" autoplay loop muted></video> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<video src="images/color-rules.mp4" width="200" autoplay loop muted></video>](#assign-dynamic-colors)
 
 ## Prepare the Formatting Field
 
