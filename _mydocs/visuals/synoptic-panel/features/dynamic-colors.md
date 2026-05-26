@@ -11,10 +11,10 @@ Synoptic Panel allows you to change the color of areas dynamically based on the 
 
 Dynamic colors usually require two steps:
 
-If you already have a measure or a visual calculation that returns the value used for formatting, you can skip Step 1 and go directly to [Assign Dynamic Colors](#assign-dynamic-colors).
+1. [Prepare](#prepare-the-formatting-field) (or reuse) the field that identifies the value or color to use for each area.
+2. [Assign](#assign-dynamic-colors) that field to the area color by using Power BI conditional formatting or OKVIZ Color Rules.
 
-1. Prepare (or reuse) the field that identifies the value or color to use for each area.
-2. Assign that field to the area color by using Power BI conditional formatting or OKVIZ Color Rules.
+> **If you already have a measure** or a visual calculation that returns the value used for formatting, you can **skip Step 1 and go directly to [Assign Dynamic Colors](#assign-dynamic-colors)**.
 
 ## Prepare the Formatting Field
 
