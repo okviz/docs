@@ -3,11 +3,17 @@ layout:             page
 title:              Creating SVG Files
 published:          true
 date:               2024-05-26
-modified:           2026-01-27
+modified:           2026-06-01
 order:              /synoptic-panel/concepts/maps/02
 ---
 
 SVG files can be created using various tools. This page provides an overview of the different methods to create/edit SVG files for use in Synoptic Panel.
+
+## Creating with Synoptic Designer
+
+Use [Synoptic Designer](../../../../synoptic-designer/index.md) when you want to create or update SVG map geometry in a browser-based editor focused on Synoptic Panel. It can start from a blank canvas, a bitmap tracing image, an SVG file, or a JSVG file with existing binding metadata.
+
+Synoptic Designer is the recommended option when you need to draw map areas, trace bitmap regions, rename areas for automatic binding, or export a map with binding metadata for Synoptic Panel.
 
 ## Creating with a Graphic Editor
 
