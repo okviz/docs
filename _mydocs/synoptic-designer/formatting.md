@@ -3,7 +3,7 @@ layout:             page
 title:              Formatting
 published:          true
 date:               2026-06-01
-modified:           2026-06-01
+modified:           2026-06-04
 order:              /synoptic-designer/05
 toc_h_max:          3
 next_reading:       true
@@ -12,6 +12,8 @@ next_reading:       true
 The ***Formatting*** tab changes the visual appearance and geometry of the current selection. Controls adapt to the selected object type and selection count.
 
 If nothing is selected, the panel asks you to select an area. If a selection cannot be formatted, the panel explains that no formatting controls are available.
+
+<video src="/synoptic-designer/images/formatting-geometry.mp4" autoplay loop muted></video>
 
 ## Appearance
 
@@ -25,6 +27,8 @@ For a single supported selection, ***Appearance*** can include:
 - object opacity.
 
 Color pickers include no-color, current color, recent colors, palette colors, and custom color selection.
+
+<img src="/synoptic-designer/images/formatting-panel.png" />
 
 ## Selection Colors
 

@@ -3,7 +3,7 @@ layout:             page
 title:              Save and Export
 published:          true
 date:               2026-06-01
-modified:           2026-06-01
+modified:           2026-06-05
 order:              /synoptic-designer/07
 toc_h_max:          3
 next_reading:       true
@@ -11,11 +11,29 @@ next_reading:       true
 
 Synoptic Designer has two different persistence concepts: browser-local save and file export.
 
+<video src="/synoptic-designer/images/save-export.mp4" autoplay loop muted></video>
+
 ## Browser-Local Save
 
-Browser-local save stores the current project in the browser profile. It is designed for continuing work later on the same device.
+Browser-local save stores the current project in the browser profile by using IndexedDB. It is designed for continuing work later on the same device, browser, and profile.
 
 When ***Auto Save*** is enabled, Synoptic Designer saves changes locally and shows the current save state. When ***Auto Save*** is disabled, use ***Save*** in the header to save manually.
+
+### Save Modes
+
+***Auto Save*** is enabled by default. After a project changes, Synoptic Designer waits briefly, saves a browser-local snapshot, and updates the header status to ***Saving***, ***Saved locally***, ***Unsaved***, or ***Save failed***.
+
+When ***Auto Save*** is disabled, Synoptic Designer does not save each change automatically. The ***Save*** button appears in the header and saves the current project snapshot on demand.
+
+Browser-local save is separate from export. A saved browser-local project is only available from the ***Load Project*** tab in the same browser profile. Use ***Export*** when you need a portable JSVG file for backup, sharing, or import into Synoptic Panel.
+
+### Browser Storage Limits
+
+Synoptic Designer does not set a fixed number of saved projects or a fixed total storage size. The effective limit depends on the browser, available disk space, site storage quota, private browsing mode, and organization policies.
+
+Large SVG content, embedded images, and tracing images increase the project size. If the browser storage quota is reached, IndexedDB is unavailable, or site storage is blocked, the browser-local save can fail and the header shows ***Save failed***.
+
+Saved project names are required, must be unique in the local project list, and can contain up to 120 characters. Empty projects are not kept as saved projects.
 
 Browser-local projects can preserve:
 
@@ -25,8 +43,6 @@ Browser-local projects can preserve:
 - tracing image metadata;
 - formatting;
 - saved viewport zoom.
-
-Empty projects are not kept as saved projects.
 
 > **NOTE:** Browser-local save is not a backup. Clear browser storage, private browsing modes, profile changes, or browser policies can remove local projects.
 
@@ -46,6 +62,8 @@ The export dialog asks for:
 - tracing image quality when a tracing image is present.
 
 The map name is required.
+
+<img src="/synoptic-designer/images/export-dialog.png" />
 
 Export is a local download action. It does not publish directly to Power BI and does not require network access.
 

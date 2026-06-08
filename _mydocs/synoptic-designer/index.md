@@ -4,7 +4,7 @@ title:              Synoptic Designer
 menu_title:         Synoptic Designer
 published:          true
 date:               2026-06-01
-modified:           2026-06-01
+modified:           2026-06-04
 order:              /{synoptic-designer}
 next_reading:       true
 ---
@@ -18,6 +18,10 @@ Use Synoptic Designer when you need to:
 - clean up or extend an existing SVG map;
 - edit an existing JSVG map while preserving data binding metadata;
 - prepare a map that can be imported into Synoptic Panel.
+
+The following workflow creates a first SVG area from a blank project.
+
+<video src="/synoptic-designer/images/create-first-area.mp4" autoplay loop muted></video>
 
 Synoptic Designer is intentionally focused on Synoptic Panel map authoring. It includes common vector editing tools, but it is not meant to replace a full illustration application.
 
@@ -45,6 +49,8 @@ Project files, imported data lists, bitmap tracing images, and saved browser-loc
 ## Main Areas
 
 The editor is organized around a central canvas with four supporting areas:
+
+<img src="/synoptic-designer/images/overview-main-areas.png" />
 
 - the header for project actions, local save state, and export;
 - the left toolbar for selection, drawing, tracing, insertion, text, erasing, and panning tools;

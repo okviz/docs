@@ -3,7 +3,7 @@ layout:             page
 title:              Create and Load Projects
 published:          true
 date:               2026-06-01
-modified:           2026-06-01
+modified:           2026-06-05
 order:              /synoptic-designer/01
 next_reading:       true
 ---
@@ -13,6 +13,8 @@ Synoptic Designer starts from the ***Synoptic Designer*** project dialog. The di
 ## New Project
 
 Use ***New Project*** to create a new editing session from one of these sources.
+
+<img src="/synoptic-designer/images/project-dialog-new-project.png" />
 
 |Source|Use it when|Result|
 |---|---|---|
@@ -51,6 +53,10 @@ This is the preferred workflow when you need to update a map that already has ma
 
 Use ***Load Project*** to reopen browser-local projects saved by Synoptic Designer on the same browser profile.
 
+<img src="/synoptic-designer/images/project-dialog-load-project.png" />
+
 The local project list can show previews, rename saved projects, delete one project, or delete multiple selected projects.
+
+Browser-local projects are subject to the save modes and browser storage limits described in [Save and Export](save-export.md#browser-local-save).
 
 > **NOTE:** Loading a browser-local project does not contact Synoptic Panel or Power BI. It only reads data stored by the browser.

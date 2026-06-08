@@ -3,13 +3,15 @@ layout:             page
 title:              Areas, Data, and Binding
 published:          true
 date:               2026-06-01
-modified:           2026-06-01
+modified:           2026-06-04
 order:              /synoptic-designer/04
 toc_h_max:          3
 next_reading:       true
 ---
 
 The ***Areas*** tab connects SVG structure to Synoptic Panel data binding. It shows editable map areas, optional imported data points, and the selected area's binding metadata.
+
+<video src="/synoptic-designer/images/areas-data-binding.mp4" autoplay loop muted></video>
 
 ## Areas Tree
 
@@ -47,6 +49,8 @@ For tabular files, Synoptic Designer asks which column should be used as the dat
 Imported data is optional. It helps Synoptic Designer show which area IDs currently match data points, but it is not a live Power BI dataset connection.
 
 You can replace, remove, or download the current imported data list. Removing the list does not delete existing explicit area mappings.
+
+<img src="/synoptic-designer/images/areas-data-binding.png" />
 
 ## Binding States
 

@@ -3,7 +3,7 @@ layout:             page
 title:              Best Practices
 published:          true
 date:               2026-06-01
-modified:           2026-06-01
+modified:           2026-06-04
 order:              /synoptic-designer/09
 toc_h_max:          3
 next_reading:       true
@@ -22,6 +22,8 @@ Avoid duplicate IDs. Synoptic Designer blocks or resolves duplicates where it ca
 Use ***(Auto Bind)*** when the area ID should match a category value. Use explicit datapoint binding only when the SVG ID cannot or should not match the category value. Use ***(Do Not Bind)*** for decorative or static areas that should not react to data.
 
 Import a datapoint list before final review so Synoptic Designer can show auto-bind matches and inherited binding states.
+
+<img src="/synoptic-designer/images/best-practices-binding-review.png" />
 
 ## Use Groups for Real Structure
 

@@ -3,12 +3,14 @@ layout:             page
 title:              Workspace
 published:          true
 date:               2026-06-01
-modified:           2026-06-01
+modified:           2026-06-04
 order:              /synoptic-designer/02
 next_reading:       true
 ---
 
 The Synoptic Designer workspace is built around the SVG artboard. The artboard is the white editable map surface. The surrounding viewport can be panned and zoomed without changing the exported map.
+
+<img src="/synoptic-designer/images/workspace-main-areas.png" />
 
 ## Header
 

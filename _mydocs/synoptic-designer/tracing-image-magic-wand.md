@@ -3,7 +3,7 @@ layout:             page
 title:              Tracing Image and Magic Wand
 published:          true
 date:               2026-06-01
-modified:           2026-06-01
+modified:           2026-06-04
 order:              /synoptic-designer/06
 toc_h_max:          3
 next_reading:       true
@@ -36,6 +36,8 @@ This is the typical workflow for floor plans, venue diagrams, seating layouts, b
 ## Magic Wand
 
 The ***Magic Wand*** tool uses the active tracing image to generate vector areas.
+
+<video src="/synoptic-designer/images/tracing-image-magic-wand.mp4" autoplay loop muted></video>
 
 Click inside a visually enclosed bitmap region. If the region can be detected safely, Synoptic Designer creates an editable SVG path aligned to the traced area.
 
