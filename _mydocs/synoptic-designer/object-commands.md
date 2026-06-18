@@ -3,7 +3,7 @@ layout:             page
 title:              Object Commands
 published:          true
 date:               2026-06-01
-modified:           2026-06-04
+modified:           2026-06-18
 order:              /synoptic-designer/03-object-commands
 toc_h_max:          3
 next_reading:       true
@@ -18,8 +18,6 @@ Commands are validated against the current selection. Locked, hidden, unsupporte
 ## Duplicate and Delete
 
 ***Duplicate*** creates fresh SVG elements with fresh IDs and selects the new copy. ***Delete*** removes the selected editable objects and updates the canvas, ***Areas*** tree, and local save state.
-
-<img src="/synoptic-designer/images/object-context-menu.png" />
 
 Both commands are undoable.
 

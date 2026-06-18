@@ -3,7 +3,7 @@ layout:             page
 title:              Areas, Data, and Binding
 published:          true
 date:               2026-06-01
-modified:           2026-06-04
+modified:           2026-06-15
 order:              /synoptic-designer/04
 toc_h_max:          3
 next_reading:       true
@@ -15,7 +15,7 @@ The ***Areas*** tab connects SVG structure to Synoptic Panel data binding. It sh
 
 ## Areas Tree
 
-The ***Areas*** section shows the current SVG hierarchy. Shapes and compatible groups appear as map area candidates.
+The ***Areas*** section shows the current SVG hierarchy. Shapes, compatible groups, and generated Grid cells appear as map area candidates.
 
 The tree supports:
 

@@ -4,7 +4,7 @@ title:              Synoptic Designer
 menu_title:         Synoptic Designer
 published:          true
 date:               2026-06-01
-modified:           2026-06-04
+modified:           2026-06-15
 order:              /{synoptic-designer}
 next_reading:       true
 ---
@@ -53,7 +53,7 @@ The editor is organized around a central canvas with four supporting areas:
 <img src="/synoptic-designer/images/overview-main-areas.png" />
 
 - the header for project actions, local save state, and export;
-- the left toolbar for selection, drawing, tracing, insertion, text, erasing, and panning tools;
+- the left toolbar for selection, drawing, tracing, grid generation, insertion, text, erasing, and panning tools;
 - the right inspector for ***Areas*** and ***Formatting***;
 - the bottom controls for tracing image, zoom, undo, redo, and clear canvas.
 

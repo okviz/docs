@@ -3,7 +3,7 @@ layout:             page
 title:              Shortcuts and Gestures
 published:          true
 date:               2026-06-01
-modified:           2026-06-04
+modified:           2026-06-15
 order:              /synoptic-designer/08
 toc_h_max:          3
 next_reading:       true
@@ -27,12 +27,13 @@ On macOS, use Command where the table says Cmd/Ctrl. On Windows, use Ctrl.
 |`R`|Rectangle|
 |`L`|Ellipse|
 |`P`|Freehand|
+|`G`|Grid|
 |`T`|Text|
 |`E`|Eraser|
 |`Shift+E`|Erase Node|
 |`K`|Toggle Keep after Use when available|
 
-Some tools, such as Pen, Split, Image/SVG insertion, and several preset shapes, are selected from toolbar groups and do not have a dedicated keyboard shortcut in the current shortcut map.
+Some tools, such as Pen, Split, Image/SVG insertion, Triangle, Diamond, Pentagon, Hexagon, and Scallop, are selected from toolbar groups and do not have a dedicated keyboard shortcut in the current shortcut map.
 
 ## Selection and Editing
 
@@ -46,6 +47,9 @@ Some tools, such as Pen, Split, Image/SVG insertion, and several preset shapes, 
 |Escape|Release selection or finish/cancel active editing state depending on the current tool|
 |Double-click text|Edit text|
 |Double-click grouped content|Drill into a child element where supported|
+|Click canvas with a Magic Wand preview|Insert the previewed area|
+|Enter or Space with a Magic Wand preview|Insert the previewed area|
+|Escape with a Magic Wand preview|Cancel the preview|
 
 ## Object Commands
 

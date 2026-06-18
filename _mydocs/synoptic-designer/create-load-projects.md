@@ -3,7 +3,7 @@ layout:             page
 title:              Create and Load Projects
 published:          true
 date:               2026-06-01
-modified:           2026-06-05
+modified:           2026-06-17
 order:              /synoptic-designer/01
 next_reading:       true
 ---

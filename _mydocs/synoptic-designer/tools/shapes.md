@@ -3,7 +3,7 @@ layout:             page
 title:              Shapes
 published:          true
 date:               2026-06-08
-modified:           2026-06-08
+modified:           2026-06-15
 order:              /synoptic-designer/03/05
 toc_h_max:          3
 next_reading:       true
@@ -22,6 +22,8 @@ Use the shape group to create common SVG primitives:
 - hexagon;
 - scallop.
 
-Drag on the canvas to create the selected shape. Hold Shift while creating supported custom shapes to keep a square aspect ratio. Creation gestures can show smart guides for alignment and size matching.
+Use `\` for ***Line***, `R` for ***Rectangle***, and `L` for ***Ellipse***. Other preset shapes are selected from the shape menu.
+
+Drag on the canvas to create the selected shape. Hold Shift while creating supported preset shapes to keep a square aspect ratio. Creation and resize gestures can show smart guides for alignment and size matching. Hold Alt/Option during the gesture to bypass smart-guide snapping.
 
 New shapes receive editor-managed IDs so they can appear in the ***Areas*** tree and participate in binding.

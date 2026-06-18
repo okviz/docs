@@ -3,7 +3,7 @@ layout:             page
 title:              Help and Visual Guides
 published:          true
 date:               2026-06-01
-modified:           2026-06-04
+modified:           2026-06-15
 order:              /synoptic-designer/08-help
 toc_h_max:          3
 next_reading:       true
@@ -17,7 +17,7 @@ Hover a toolbar tool for about two seconds to open a floating Visual Guide. The 
 
 <video src="/synoptic-designer/images/help-visual-guide.mp4" autoplay loop muted></video>
 
-Opening a Visual Guide from toolbar hover does not activate that tool. The toolbar remains usable and keeps its active state, disabled states, menus, and ***Keep after Use*** state.
+Opening a Visual Guide from toolbar hover does not activate that tool. The toolbar remains usable and keeps its active state, disabled states, menus, active tool options, and ***Keep after Use*** state.
 
 You can also open the guide for the current tool from the active-tool status area at the bottom of the workspace.
 

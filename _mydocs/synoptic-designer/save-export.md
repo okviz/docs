@@ -3,7 +3,7 @@ layout:             page
 title:              Save and Export
 published:          true
 date:               2026-06-01
-modified:           2026-06-05
+modified:           2026-06-15
 order:              /synoptic-designer/07
 toc_h_max:          3
 next_reading:       true
@@ -76,6 +76,7 @@ JSVG export preserves supported SVG content and Synoptic Panel mapping metadata,
 - Do Not Bind state;
 - area titles;
 - groups and hierarchy;
+- generated Grid groups and cells;
 - visible styling changes;
 - supported embedded images;
 - tracing image content embedded as exportable SVG image data.

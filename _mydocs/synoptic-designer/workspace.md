@@ -3,7 +3,7 @@ layout:             page
 title:              Workspace
 published:          true
 date:               2026-06-01
-modified:           2026-06-04
+modified:           2026-06-17
 order:              /synoptic-designer/02
 next_reading:       true
 ---
@@ -12,7 +12,7 @@ The Synoptic Designer workspace is built around the SVG artboard. The artboard i
 
 <img src="/synoptic-designer/images/workspace-main-areas.png" />
 
-## Header
+## 1. Header
 
 The header contains project-level actions:
 
@@ -24,19 +24,21 @@ The header contains project-level actions:
 
 Save status labels indicate whether the current project is saved locally, saving, unsaved, empty, or failed to save.
 
-## Toolbar
+## 2. Toolbar
 
 The left toolbar contains the editor tools. Some toolbar buttons open a grouped menu. You can click the main button to activate its current tool, or open the menu to choose another tool in the same group.
 
 Creation tools can use ***Keep after Use***. When enabled, the active creation tool remains active after creating an object. Press `K` to toggle this behavior when it is available.
 
-## Canvas
+Some tools show an options panel near the canvas while active. For example, ***Magic Wand*** shows tracing controls, and ***Grid*** shows grid generation controls.
+
+## 3. Canvas
 
 The central canvas contains the SVG document. Objects created on the canvas become part of the exported map unless they are editor-only helper content.
 
 The artboard controls show the current artboard size. Artboard size changes affect the document coordinate space used by Synoptic Panel.
 
-## Right Inspector
+## 4. Right Inspector
 
 The right inspector has two main tabs:
 
@@ -45,7 +47,7 @@ The right inspector has two main tabs:
 
 The inspector follows the current canvas selection. Selecting an item in the ***Areas*** tree also selects the related canvas object.
 
-## Bottom Controls
+## 5. Bottom Controls
 
 The bottom-left controls include:
 
