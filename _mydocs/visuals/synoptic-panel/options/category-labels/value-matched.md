@@ -3,13 +3,15 @@ layout:             page
 title:              Value
 published:          true
 date:               2024-09-14
-modified:           2025-10-01
+modified:           2026-06-22
 order:              /synoptic-panel/options/category-labels/value
 ---
 
 This section provides options for configuring the category labels value for matched areas. 
 
 > Note that matched areas are the areas that are associated with a data point in the dataset. See [Data Binding](../../concepts/data-binding.md) for more information.
+
+> When a measure is bound to the [***Labels***](../../fields/labels.md) field well, the label text for matched areas comes from that measure. In that case, ***Display Value*** and ***Custom Value*** are hidden.
 
 ## Display Value
 
@@ -36,7 +38,7 @@ See [Automatic Binding when Hierarchy is Expanded](../../concepts/data-binding.m
 
 **Default value:** (Empty)
 
-The custom value to display for the matched elements. This field is only available when the 'Display Value' option is set to '(Custom)'. 
+The custom value to display for the matched elements. This field is only available when the ***Display Value*** option is set to ***(Custom)*** and the ***Labels*** field well is not used.
 
 You can use different placeholders to include specific fields from the data model or map: 
 
@@ -57,16 +59,16 @@ Computers
 
 **Default value:** Off
 
-When enabled, data point value is appended to the category label.
+When enabled, the data point value from the ***Value*** field well is appended to the category label. This option is also available when the category label text comes from the ***Labels*** field well.
 
 ## Display Unit
 
 **Default value:** Auto
 
-The unit of the value to display. This option is only visible when the 'Include Data Label' option is On. 
+The unit of the value to display. This option is only visible when ***Append Data Value*** is On.
 
 ## Decimal Places
 
 **Default value:** 0
 
-The number of decimal places to display. This option is only visible when the 'Include Data Label' option is On. 
+The number of decimal places to display. This option is only visible when ***Append Data Value*** is On.
