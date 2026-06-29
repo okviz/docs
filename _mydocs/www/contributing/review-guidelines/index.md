@@ -3,7 +3,7 @@ layout:         page
 title:          Guidelines for Reviews
 published:      true
 date:           2024-10-04
-modified:       2025-06-01
+modified:       2026-06-29
 order:          /website/contributing/review-guidelines
 pdf:            true
 ---
@@ -57,7 +57,7 @@ Each review must include a rating based on the following criteria:
 
 - **Support:** Considers the quality of documentation, user guides, help resources, and vendor responsiveness.
 
-**You do not need to provide the rating**, but you must complete a checklist that will be used to automatically calculate it.
+**You do not need to provide the rating**. OKVIZ will provide the rating list for the review assignment, and you must complete it so the score can be calculated consistently.
 
 See [Rating System](rating-system.md) for more information.
 
@@ -138,7 +138,7 @@ Use this checklist to verify that all guidelines have been followed:
 - [ ] **Design and Performance:** Evaluate the visual’s design and performance.
 - [ ] **Pros and Cons:** Provide a balanced list of strengths and weaknesses.
 - [ ] **Final Consideration:** Offer a short summary of the visual’s performance and rating.
-- [ ] **Rating:** Complete the [Rating Checklist](rating-system.md#rating-checklist).
+- [ ] **Rating:** Complete the [Rating List](rating-system.md#rating-list) provided by OKVIZ.
 - [ ] Follow the [OKVIZ Content Guidelines](../content-guidelines.md) for media, links, bugs, style, and grammar.
    - [ ] **Screenshots:** Provide at least 2 high-quality screenshots.
    - [ ] **Comparisons:** Ensure the visual is not compared to other custom visuals.
