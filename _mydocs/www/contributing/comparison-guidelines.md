@@ -3,7 +3,7 @@ layout:         page
 title:          Guidelines for Comparisons
 published:      true
 date:           2024-10-04
-modified:       2025-06-01
+modified:       2026-07-02
 order:          /website/contributing/comparison-guidelines
 ---
 
@@ -39,6 +39,7 @@ When comparing visuals, consider the following parameters:
 > Note that the comparison rating may differ from the individual visual ratings since additional factors and price can influence the overall recommendation.
 
 ## Comparison Structure
+
 Each comparison must be structured as follows:
 
 1. **Summary**
@@ -111,18 +112,28 @@ Each comparison must be structured as follows:
 
    Provide links to reports created for the comparison or any other relevant resources. You could include links to other OKVIZ content, but avoid external links unless necessary.
 
-10. **Visual Versions**  
+## Visuals Reference
 
-      Include the version of each visual used in the comparison. 
+In the front matter of the comparison report, include the following information:
+
+```yml
+visuals:
+   - <VISUAL1_ID>@<VISUAL1_VERSION>
+   - <VISUAL2_ID>@<VISUAL2_VERSION>
+   - ...
+visualsType: <TYPE_OF_VISUALS_BEING_COMPARED>
+```
+
+> **Note:** The `<TYPE_OF_VISUALS_BEING_COMPARED>` should be the slug of the visual type, such as `bar-chart`, `line-chart`, `map`, etc. This information is needed only for visual type comparisons. For single/multiple visual comparisons, this field can be omitted.
+
+In the body of the article, you can include two different placeholders for the visuals reference:
+
+- **Visuals List:** A rich list of the visuals being compared. This list should be placed at the beginning of the article, after the introduction.  
+`{{related-visuals}}`
+
+- **Single Visual Reference:** A simple reference for a specific visual. This should be placed alongside the individual visual analysis section.  
+`{{related-visual:<VISUAL_ID>}}`
       
-      Example:
-
-      `- Visual A: v1.2.3`  
-      `- Visual B: v4.5.6`  
-      `- Visual C: v7.8.9`
-      
-   
-
 ## Content Guidelines
 
 Please refer to the **OKVIZ Content Guidelines** for shared principles, including:
@@ -154,5 +165,5 @@ Use this checklist to verify that all guidelines have been followed:
 - [ ] **Not Classified:** Include a section for visuals that are not classified or excluded from the main comparison (optional).
 - [ ] **Recommendations:** Summarize the comparison and provide final recommendations.
 - [ ] **Resources:** Provide links to reports to relevant resources.
-- [ ] **Visual Versions:** Include the version of each visual used in the comparison.
+- [ ] **Visuals Reference:** Include the visuals reference in the front matter and use the appropriate placeholders in the body of the article.
 - [ ] Follow the [OKVIZ Content Guidelines](content-guidelines.md) for media, links, bugs, style, and grammar.
