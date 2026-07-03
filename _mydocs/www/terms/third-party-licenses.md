@@ -3,7 +3,7 @@ layout:             page
 title:              Third-Party Licenses
 published:          true
 date:               2025-04-05
-modified:           2026-03-03
+modified:           2026-07-03
 order:              /terms/06
 ---
 The OKVIZ website incorporates third-party components from the projects listed below. The original copyright notices and applicable licenses under which OKVIZ Corp. received these components are provided herein for reference. All rights not expressly granted are reserved by OKVIZ Corp., whether by implication, estoppel, or otherwise.
@@ -25,19 +25,19 @@ Below are reference links to the licenses governing each third-party component, 
 - [CookieConsent](https://cookieconsent.orestbida.com/)
 - [html-react-parser](https://github.com/remarkablemark/html-react-parser)
 - [Jose](https://github.com/panva/jose)
-- [Katex](https://katex.org/)
 - [Marked](https://marked.js.org/)
-- [marked-katex-extension](https://github.com/UziTech/marked-katex-extension)
 - [medium-zoom](https://github.com/francoischalifour/medium-zoom)
 - [PrismJS](https://prismjs.com/)
 - [Radix UI](https://www.radix-ui.com/)
 - [React](https://reactjs.org/)
 - [react-error-boundary](https://github.com/bvaughn/react-error-boundary)
+- [react-resizable-panels](https://react-resizable-panels.vercel.app)
 - [React Fast Marquee](https://github.com/justin-chu/react-fast-marquee)
 - [React Google Recaptcha V3](https://github.com/t49tran/react-google-recaptcha-v3)
 - [React Loading Skeleton](https://github.com/dvtng/react-loading-skeleton)
-- [React Router DOM](https://reactrouter.com/en/main)
-- [Split.js](https://split.js.org/)
+- [React Router DOM](https://reactrouter.com)
+- [React Virtuoso](https://virtuoso.dev)
+- [Split.js](https://split.js.org)
 - [SWR](https://swr.vercel.app/)
 - [Zustand](https://zustand-demo.pmnd.rs/)
 

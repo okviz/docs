@@ -3,7 +3,7 @@ layout:         page
 title:          Guidelines for Reviews
 published:      true
 date:           2024-10-04
-modified:       2026-06-29
+modified:       2026-07-03
 order:          /website/contributing/review-guidelines
 pdf:            true
 ---
@@ -21,6 +21,7 @@ Your core values are:
 - **Transparency:** Clearly explain the features, strengths, and weaknesses of the visual without bias.
 
 ## Review Structure
+
 Each review must be structured into the following sections:
 
 1. **Overview**  
@@ -37,29 +38,19 @@ Each review must be structured into the following sections:
 
 4. **Design and Performance**  
 
-   Evaluate the visual’s design, including its appearance, usability, and how seamlessly it integrates into Power BI. Also, evaluate the visual’s performance in terms of speed, responsiveness, and stability. See the performance section in the [Rating System](rating-system.md#design) for more details on how to evaluate performance.
+   Evaluate the visual's design, including its appearance, usability, and how seamlessly it integrates into Power BI. Also, evaluate the visual's performance in terms of speed, responsiveness, and stability. See the design section in the [OKVIZ Index Rating System](../../index/rating.md#design) for more details about how design affects the rating.
 
-6. **Pros and Cons**  
+5. **Pros and Cons**
 
-   Provide a balanced list of the visual’s **strengths and weaknesses**. Avoid generic statements and instead focus on specific features or aspects that set the visual apart or could be improved. The format should be a table with two columns: *Pros* and *Cons*. Do not include more than 5 items in each column.
+   Provide a balanced list of the visual's **strengths and weaknesses**. Avoid generic statements and instead focus on specific features or aspects that set the visual apart or could be improved. The format should be a table with two columns: *Pros* and *Cons*. Do not include more than 5 items in each column.
 
-5. **Final Consideration**  
+6. **Final Consideration**
 
    Summarize the overall performance of the visual. Discuss the rating (see below) and provide a detailed explanation of why the visual received that score based on its features and usability.
 
 ## Rating
 
-Each review must include a rating based on the following criteria:
-
-- **Features:** Assesses the range and functionality of the visual.
-
-- **Design:** Evaluates the visual’s overall design, including its appearance, usability, and how seamlessly it integrates into Power BI. This also includes the performance of the visual with large datasets.
-
-- **Support:** Considers the quality of documentation, user guides, help resources, and vendor responsiveness.
-
-**You do not need to provide the rating**. OKVIZ will provide the rating list for the review assignment, and you must complete it so the score can be calculated consistently.
-
-See [Rating System](rating-system.md) for more information.
+**You do not need to provide the rating** of the visual, since it is calculated automatically. Reviews can discuss the rating when it is already available in the OKVIZ Index, but they should not guess or manually calculate it.
 
 ## Content Guidelines
 
@@ -83,9 +74,9 @@ Also, follow these additional guidelines:
 
 ## Additional Metadata
  
-   Include the following additional metadata for the review:
+Include the following additional metadata for the review:
 
-   - **Review Title**  
+- **Review Title**
 
       Provide a title that reflects the key aspect of the visual being reviewed. The title should be informative and engaging, highlighting a significant feature or use case of the visual. E.g.:
 
@@ -93,7 +84,7 @@ Also, follow these additional guidelines:
       Achieving Smoother Trend Analysis with [Visual Name] in Power BI
       ```
 
-   - **Short Review Title**  
+- **Short Review Title**
 
       Provide a shorter version of the review title that captures the essence of the review in a concise manner.E.g.:
 
@@ -101,7 +92,7 @@ Also, follow these additional guidelines:
       Smoother Trend Analysis with [Visual Name]
       ```
 
-   - **Review Description**  
+- **Review Description**
 
       Provide a brief description of the review content, summarizing the key insights and findings from the review. E.g.:
 
@@ -110,12 +101,12 @@ Also, follow these additional guidelines:
       analysis in Power BI through its advanced customization options, 
       including flexible axis scaling, dynamic styling, and rich 
       interactivity. Whether you are visualizing complex data patterns or 
-      fine-tuning your report’s aesthetics, this visual provides the tools 
+      fine-tuning your report's aesthetics, this visual provides the tools
       you need to create polished and highly informative line charts 
       tailored to your analytical needs.
       ```
 
-   - **One-Sentence Review Description**
+- **One-Sentence Review Description**
 
       Provide a concise one-sentence description of the review content, highlighting the primary focus or benefit of the visual. E.g.:
 
@@ -124,21 +115,20 @@ Also, follow these additional guidelines:
       trend analysis and data precision in Power BI.
       ```
 
-
 &nbsp; 
 
 ---
 
 ## Review Checklist
+
 Use this checklist to verify that all guidelines have been followed:
 
 - [ ] **Overview:** Describe the visual and its purpose.
 - [ ] **Adherence to Visual Type(s):** Evaluate how well the visual meets the features of its visual type.
 - [ ] **Core Features:** Discuss the unique features of the visual.
-- [ ] **Design and Performance:** Evaluate the visual’s design and performance.
-- [ ] **Pros and Cons:** Provide a balanced list of strengths and weaknesses.
-- [ ] **Final Consideration:** Offer a short summary of the visual’s performance and rating.
-- [ ] **Rating:** Complete the [Rating List](rating-system.md#rating-list) provided by OKVIZ.
+- [ ] **Design and Performance:** Evaluate the visual's design and performance.
+- [ ] **Pros and Cons:** Provide a balanced list of the visual's strengths and weaknesses.
+- [ ] **Final Consideration:** Offer a short summary of the visual's performance and rating.
 - [ ] Follow the [OKVIZ Content Guidelines](../content-guidelines.md) for media, links, bugs, style, and grammar.
    - [ ] **Screenshots:** Provide at least 2 high-quality screenshots.
    - [ ] **Comparisons:** Ensure the visual is not compared to other custom visuals.

@@ -4,7 +4,7 @@ title:              Privacy Policy
 published:          true
 toc_h_max:          2
 date:               2024-12-31
-modified:           2026-04-04
+modified:           2026-07-03
 order:              /terms/02
 ---
 
@@ -103,7 +103,7 @@ These services monitor and analyze web traffic and user behavior.
 #### YouTube Analytics and Reporting API (Google LLC)
 
 - **Data Processed:** Usage Data.
-- **Place of Processing:** United States - <a href="http://www.google.com/policies/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a> - <a href="https://security.google.com/settings/security/permissions">Opt out</a>.
+- **Place of Processing:** United States - <a href="http://www.google.com/policies/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
 - **CCPA Category:** internet or other electronic network activity information.
 - **This Processing Constitutes:** a Sale in California.
 - **Additional Note:** Data may be used to support interest-based advertising. You can opt out via your device settings or the <a href="http://optout.networkadvertising.org/?c=1">Network Advertising Initiative opt-out page</a>.
@@ -618,19 +618,23 @@ This Privacy Policy applies solely to this Application unless otherwise stated.
 
 ## Changes to this Policy
 
+### 2026-07-03
+
+- Removed old Google "Opt out" link.
+
 ### 2026-04-04
 
-- We updated the reCAPTCHA section to reflect the latest information about Google's data processing and legal references.
+- Updated the reCAPTCHA section to reflect the latest information about Google's data processing and legal references.
 
 ### 2026-03-03
 
-- We added details about the internal authentication and session management system under Registration and Authentication.
+- Added details about the internal authentication and session management system under Registration and Authentication.
 
 ### 2026-01-21
 
-- We added the Statuspage.io service under External System Status Notifications.
-- We added the Aikido Security service under External Security Report Requests.
+- Added the Statuspage.io service under External System Status Notifications.
+- Added the Aikido Security service under External Security Report Requests.
 
 ### 2025-03-18
 
-- We updated the email address for contacting OKVIZ support.
+- Updated the email address for contacting OKVIZ support.

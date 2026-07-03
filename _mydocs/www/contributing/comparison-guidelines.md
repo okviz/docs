@@ -129,10 +129,10 @@ visualsType: <TYPE_OF_VISUALS_BEING_COMPARED>
 In the body of the article, you can include two different placeholders for the visuals reference:
 
 - **Visuals List:** A rich list of the visuals being compared. This list should be placed at the beginning of the article, after the introduction.  
-`{{related-visuals}}`
+{% raw %}`{{related-visuals}}`{% endraw %}
 
 - **Single Visual Reference:** A simple reference for a specific visual. This should be placed alongside the individual visual analysis section.  
-`{{related-visual:<VISUAL_ID>}}`
+{% raw %}`{{related-visual:<VISUAL_ID>}}`{% endraw %}
       
 ## Content Guidelines
 
