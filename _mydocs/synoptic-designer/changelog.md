@@ -10,7 +10,7 @@ toc_h_max:          2
 
 This page contains a quick summary of versions and notable changes of Synoptic Designer.
 
-## v2.0
+## v2.0.0
 
 **Released:** 2026-07-04
 
