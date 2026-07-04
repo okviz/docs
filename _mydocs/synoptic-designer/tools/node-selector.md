@@ -11,7 +11,7 @@ next_reading:       true
 
 Use ***Node Selector*** to edit the points of supported SVG geometry. It can expose points for paths and compatible shapes.
 
-<video src="/synoptic-designer/tools/images/tool-node-selector-editing.mp4" autoplay loop muted></video>
+<video src="images/tool-node-selector-editing.mp4" autoplay loop muted></video>
 
 With Node Selector, you can:
 

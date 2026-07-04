@@ -15,7 +15,7 @@ Synoptic Designer includes contextual help surfaces for tools and panels. Help i
 
 Hover a toolbar tool for about two seconds to open a floating Visual Guide. The guide shows a compact animated example, the tool name, a short description, and the primary shortcut when a real shortcut exists.
 
-<video src="/synoptic-designer/images/help-visual-guide.mp4" autoplay loop muted></video>
+<video src="images/help-visual-guide.mp4" autoplay loop muted></video>
 
 Opening a Visual Guide from toolbar hover does not activate that tool. The toolbar remains usable and keeps its active state, disabled states, menus, active tool options, and ***Keep after Use*** state.
 

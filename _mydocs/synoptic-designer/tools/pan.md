@@ -11,6 +11,6 @@ next_reading:       true
 
 Use ***Pan*** to move the viewport without editing the SVG document. You can also temporarily pan by holding Space or using the middle mouse button.
 
-<video src="/synoptic-designer/tools/images/tool-pan-viewport.mp4" autoplay loop muted></video>
+<video src="images/tool-pan-viewport.mp4" autoplay loop muted></video>
 
 Horizontal wheel input pans horizontally. Mouse wheel zoom anchors around the pointer when possible.

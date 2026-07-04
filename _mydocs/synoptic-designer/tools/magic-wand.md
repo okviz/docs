@@ -11,7 +11,7 @@ next_reading:       true
 
 Use ***Magic Wand*** to trace an enclosed region from the active tracing image and convert it into an editable SVG area.
 
-<video src="/synoptic-designer/tools/images/tool-magic-wand-tracing.mp4" autoplay loop muted></video>
+<video src="images/tool-magic-wand-tracing.mp4" autoplay loop muted></video>
 
 Click inside a visually enclosed bitmap region to show a non-destructive preview aligned to the traced boundary. While the preview is visible, adjust the Magic Wand options if needed.
 

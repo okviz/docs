@@ -12,6 +12,6 @@ next_reading_title: Available Tools
 
 Synoptic Designer tools are focused on building editable SVG map areas for Synoptic Panel. The toolbar groups related tools so the canvas stays compact while still exposing the common editing workflow.
 
-<img src="/synoptic-designer/tools/images/tools-overview.png" />
+<img src="images/tools-overview.png" />
 
 Each page in this section covers one toolbar tool or tool group in the same order used by the editor.

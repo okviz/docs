@@ -13,7 +13,7 @@ The ***Formatting*** tab changes the visual appearance and geometry of the curre
 
 If nothing is selected, the panel asks you to select an area. If a selection cannot be formatted, the panel explains that no formatting controls are available.
 
-<video src="/synoptic-designer/images/formatting-geometry.mp4" autoplay loop muted></video>
+<video src="images/formatting-geometry.mp4" autoplay loop muted></video>
 
 ## Appearance
 
@@ -28,7 +28,7 @@ For a single supported selection, ***Appearance*** can include:
 
 Color pickers include no-color, current color, recent colors, palette colors, and custom color selection.
 
-<img src="/synoptic-designer/images/formatting-panel.png" />
+<img src="images/formatting-panel.png" />
 
 ## Selection Colors
 

@@ -11,7 +11,7 @@ next_reading:       true
 
 The ***Areas*** tab connects SVG structure to Synoptic Panel data binding. It shows editable map areas, optional imported data points, and the selected area's binding metadata.
 
-<video src="/synoptic-designer/images/areas-data-binding.mp4" autoplay loop muted></video>
+<video src="images/areas-data-binding.mp4" autoplay loop muted></video>
 
 ## Areas Tree
 
@@ -50,7 +50,7 @@ Imported data is optional. It helps Synoptic Designer show which area IDs curren
 
 You can replace, remove, or download the current imported data list. Removing the list does not delete existing explicit area mappings.
 
-<img src="/synoptic-designer/images/areas-data-binding.png" />
+<img src="images/areas-data-binding.png" />
 
 ## Binding States
 

@@ -11,6 +11,10 @@ next_reading:       true
 
 Synoptic Designer is the browser-based companion editor for [Synoptic Panel](../visuals/synoptic-panel/index.md). It helps you create, update, bind, save, and export SVG-based maps without leaving project content on a server.
 
+<a href="https://synoptic.design/"><img src="images/synoptic-designer-logo.svg" class="naked nozoom" width="300" /></a>
+
+> **NOTE:** You can use Synoptic Designer in a browser on any device, including Windows, Mac, Linux, and mobile devices. It works best in modern browsers such as Chrome, Edge, Firefox, and Safari. Visit [synoptic.design](https://synoptic.design/) to try it out.
+
 Use Synoptic Designer when you need to:
 
 - create a new Synoptic Panel map from a blank canvas;
@@ -21,7 +25,7 @@ Use Synoptic Designer when you need to:
 
 The following workflow creates a first SVG area from a blank project.
 
-<video src="/synoptic-designer/images/create-first-area.mp4" autoplay loop muted></video>
+<video src="images/create-first-area.mp4" autoplay loop muted></video>
 
 Synoptic Designer is intentionally focused on Synoptic Panel map authoring. It includes common vector editing tools, but it is not meant to replace a full illustration application.
 
@@ -50,7 +54,7 @@ Project files, imported data lists, bitmap tracing images, and saved browser-loc
 
 The editor is organized around a central canvas with four supporting areas:
 
-<img src="/synoptic-designer/images/overview-main-areas.png" />
+<img src="images/overview-main-areas.png" />
 
 - the header for project actions, local save state, and export;
 - the left toolbar for selection, drawing, tracing, grid generation, insertion, text, erasing, and panning tools;

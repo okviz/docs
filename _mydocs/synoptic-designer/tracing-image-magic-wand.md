@@ -11,7 +11,7 @@ next_reading:       true
 
 The tracing workflow lets you use a bitmap as a visual reference while building editable SVG map areas.
 
-<img src="/synoptic-designer/images/tracing-image-panel.png" />
+<img src="images/tracing-image-panel.png" />
 
 ## Tracing Image Panel
 

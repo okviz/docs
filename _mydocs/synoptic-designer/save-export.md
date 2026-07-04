@@ -11,7 +11,7 @@ next_reading:       true
 
 Synoptic Designer has two different persistence concepts: browser-local save and file export.
 
-<video src="/synoptic-designer/images/save-export.mp4" autoplay loop muted></video>
+<video src="images/save-export.mp4" autoplay loop muted></video>
 
 ## Browser-Local Save
 
@@ -63,7 +63,7 @@ The export dialog asks for:
 
 The map name is required.
 
-<img src="/synoptic-designer/images/export-dialog.png" />
+<img src="images/export-dialog.png" />
 
 Export is a local download action. It does not publish directly to Power BI and does not require network access.
 

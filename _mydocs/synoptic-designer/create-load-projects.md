@@ -14,7 +14,7 @@ Synoptic Designer starts from the ***Synoptic Designer*** project dialog. The di
 
 Use ***New Project*** to create a new editing session from one of these sources.
 
-<img src="/synoptic-designer/images/project-dialog-new-project.png" />
+<img src="images/project-dialog-new-project.png" />
 
 |Source|Use it when|Result|
 |---|---|---|
@@ -53,7 +53,7 @@ This is the preferred workflow when you need to update a map that already has ma
 
 Use ***Load Project*** to reopen browser-local projects saved by Synoptic Designer on the same browser profile.
 
-<img src="/synoptic-designer/images/project-dialog-load-project.png" />
+<img src="images/project-dialog-load-project.png" />
 
 The local project list can show previews, rename saved projects, delete one project, or delete multiple selected projects.
 

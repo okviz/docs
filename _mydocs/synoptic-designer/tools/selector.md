@@ -11,7 +11,7 @@ next_reading:       true
 
 Use ***Selector*** to select, move, resize, rotate, duplicate, delete, group, and arrange existing objects.
 
-<video src="/synoptic-designer/tools/images/tool-selector-transform.mp4" autoplay loop muted></video>
+<video src="images/tool-selector-transform.mp4" autoplay loop muted></video>
 
 The selector supports single selection, multi-selection, lasso selection, keyboard nudging, and canvas context menu commands.
 

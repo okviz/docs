@@ -13,7 +13,7 @@ Object commands are available from canvas right-click menus, the ***Areas*** tre
 
 Commands are validated against the current selection. Locked, hidden, unsupported, or editor-only elements cannot be changed through stale menu state.
 
-<video src="/synoptic-designer/images/object-commands-menu.mp4" autoplay loop muted></video>
+<video src="images/object-commands-menu.mp4" autoplay loop muted></video>
 
 ## Duplicate and Delete
 

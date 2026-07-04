@@ -11,4 +11,4 @@ next_reading:       true
 
 Use ***Eraser*** to remove editable canvas objects by dragging across them. Locked content and editor-only helper layers are protected.
 
-<video src="/synoptic-designer/tools/images/tool-eraser-lasso.mp4" autoplay loop muted></video>
+<video src="images/tool-eraser-lasso.mp4" autoplay loop muted></video>

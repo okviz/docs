@@ -13,7 +13,7 @@ Synoptic Designer supports keyboard shortcuts for tool activation, editing comma
 
 On macOS, use Command where the table says Cmd/Ctrl. On Windows, use Ctrl.
 
-<img src="/synoptic-designer/images/shortcuts-visual-guide.png" />
+<img src="images/shortcuts-visual-guide.png" />
 
 ## Tool Shortcuts
 

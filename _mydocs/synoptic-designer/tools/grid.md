@@ -11,7 +11,7 @@ next_reading:       true
 
 Use ***Grid*** to generate repeated editable SVG areas across the artboard.
 
-<img src="/synoptic-designer/tools/images/tool-grid-overlay.png" />
+<img src="images/tool-grid-overlay.png" />
 
 The default grid is a honeycomb overlay. Applying the grid inserts one SVG group, such as `grid-1`, whose child cells are independent areas with predictable IDs based on the configured prefix.
 

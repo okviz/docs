@@ -23,7 +23,7 @@ Use ***(Auto Bind)*** when the area ID should match a category value. Use explic
 
 Import a datapoint list before final review so Synoptic Designer can show auto-bind matches and inherited binding states.
 
-<img src="/synoptic-designer/images/best-practices-binding-review.png" />
+<img src="images/best-practices-binding-review.png" />
 
 ## Use Groups for Real Structure
 

@@ -11,7 +11,7 @@ next_reading:       true
 
 Use the shape group to create common SVG primitives:
 
-<video src="/synoptic-designer/tools/images/tools-shape-tools.mp4" autoplay loop muted></video>
+<video src="images/tools-shape-tools.mp4" autoplay loop muted></video>
 
 - line;
 - rectangle;
