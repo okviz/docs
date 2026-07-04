@@ -3,7 +3,7 @@ layout:             page
 title:              What are Maps?
 published:          true
 date:               2024-05-10
-modified:           2025-02-10
+modified:           2026-06-01
 order:              /synoptic-panel/concepts/01
 ---
 
@@ -90,7 +90,7 @@ You can use other image formats as a base for your maps, but you will need to co
 
     >> It is essential to choose the correct export settings from these tools to ensure the resulting SVG file is suitable for use in Synoptic Panel. See [Creating SVG with a Graphic Editor](creating-svg.md) for more details.
 
-    We also provide a free online tool called [Synoptic Designer](https://synoptic.design/) specifically designed for this use, but please note that it is more of a proof of concept than a full-featured tool.
+    You can also use [Synoptic Designer](../../../../synoptic-designer/index.md), the browser-based editor for creating and preparing maps for Synoptic Panel. The tool is available at [synoptic.design](https://synoptic.design/).
 
 - **CAD drawings (DXF, DWG, etc.)**  
     You need a CAD software to convert them to SVG, such as *AutoCAD* or *DraftSight*.

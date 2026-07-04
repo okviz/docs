@@ -3,7 +3,7 @@ layout:             page
 title:              Third-Party Licenses
 published:          true
 date:               2024-12-09
-modified:           2026-05-09
+modified:           2026-07-04
 order:              /synoptic-panel/legal/third-party-licenses
 ---
 Synoptic Panel incorporates third-party components from the projects listed below. The original copyright notices and the licenses under which OKVIZ Corp. received such third-party components are set forth below for informational purposes. OKVIZ Corp. licenses these third-party components to you under the [OKVIZ Visuals Terms and Conditions](../../legal/eula.md); however, any third-party components received under open-source licenses that require such components to remain under their original license are provided to you by OKVIZ Corp under their original license. OKVIZ Corp. reserves all other rights not expressly granted herein, whether by implication, estoppel, or otherwise.
@@ -32,6 +32,10 @@ For third-party components licensed under open-source licenses with source code 
 - [CodeMirror](https://www.npmjs.com/package/codemirror)
 - [Moveable](https://www.npmjs.com/package/moveable)
 - [pako](https://www.npmjs.com/package/pako)
+- [fflate](https://www.npmjs.com/package/fflate)
+- [read-excel-file](https://www.npmjs.com/package/read-excel-file)
+- [SVGEdit](https://www.npmjs.com/package/svgedit)
+- [xmldom](https://www.npmjs.com/package/xmldom)
 - [selecto](https://www.npmjs.com/package/selecto)
 - [Split Grid](https://www.npmjs.com/package/split-grid)
 

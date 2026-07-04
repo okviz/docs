@@ -106,6 +106,13 @@ This repo is public. Some reference repos for the visuals are private. Treat tha
 - `_myinternal/` is reserved for local or internal helper material that should not become part of the generated website.
 - `docs0-README.md` documents the site conventions, front matter, and Markdown rules. Consult it before introducing new structures.
 
+## Visual-Specific Instructions
+
+- For Synoptic Designer documentation under `_mydocs/synoptic-designer/` or
+  local media capture helpers under `_myinternal/synoptic-designer-media/`, read
+  `.agents/synoptic-designer.md` before editing content, regenerating media, or
+  changing capture tooling.
+
 ## Validation
 
 - Check relative links, image paths, and cross-page references when adding or moving content.
