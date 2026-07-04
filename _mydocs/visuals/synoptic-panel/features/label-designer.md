@@ -3,7 +3,7 @@ layout:             page
 title:              Label Designer
 published:          true
 date:               2024-05-12
-modified:           2025-03-26
+modified:           2026-06-22
 order:              /synoptic-panel/features/label-designer
 ---
 
@@ -12,6 +12,8 @@ The Label Designer in Synoptic Panel is a built-in feature that allows for exten
 Label customizations are map-specific. Therefore, any settings applied within the Label Designer are unique to the currently displayed map and will not affect other maps. Moreover, custom labels are saved ***within the report***, so any custom styles or settings will not be reflected in other reports even with a shared My Storage map.
 
 > Ensure that labels are enabled in the visual options to make them visible in the Label Designer. This applies to both category labels and data labels. Without activating them, the labels will not appear in the designer interface for customization.
+
+> The Label Designer controls label appearance, position, connectors, and visibility. It does not change the text returned by the [***Labels***](../fields/labels.md) field well.
 
 ## Entering Label Designer
 

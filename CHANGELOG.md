@@ -1,5 +1,9 @@
 # Docs0 Changelog
 
+## 1.2.2 (2026-07-03)
+
+- Fix navigation URL normalization so `index` is treated as a special segment only when it is the final page name
+
 ## 1.2.1 (2026-05-06)
 
 - Improve responsive layout

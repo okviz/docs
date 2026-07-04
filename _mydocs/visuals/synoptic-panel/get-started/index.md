@@ -3,7 +3,7 @@ layout:             page
 title:              Get Started
 published:          true
 date:               2024-05-10
-modified:           2026-06-01
+modified:           2026-06-22
 order:              /synoptic-panel/01
 
 ---
@@ -68,6 +68,8 @@ See more in the [Map Editor](../features/map-editor/index.md) section.
 The main purpose of Synoptic Panel is to visualize data on the map. To do so, you need to bind one or more measures to the visual:
 
 - Bind a measure to the ***Value*** field well to connect it to the map areas. The values of this measure could be displayed in labels or used to color the areas of the map.
+
+- Optionally bind a measure to the ***Labels*** field well when category labels must display custom text instead of the category value, map area title, or element id.
 
 - Bind one or more measures to the ***Tooltips*** field well to display them as tooltips when hovering over the map areas.
 
