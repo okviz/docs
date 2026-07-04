@@ -4,7 +4,7 @@ title:              Privacy Policy
 published:          true
 date:               2026-07-04
 modified:           2026-07-04
-order:              /synoptic-designer/terms-of-use/02
+order:              /synoptic-designer/terms/02
 toc_h_max:          3
 ---
 

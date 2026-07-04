@@ -4,7 +4,7 @@ title:              Data Policy
 published:          true
 date:               2026-07-04
 modified:           2026-07-04
-order:              /synoptic-designer/terms-of-use/01
+order:              /synoptic-designer/terms/01
 toc_h_max:          3
 ---
 
