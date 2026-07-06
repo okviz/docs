@@ -4,7 +4,7 @@ title:              Synoptic Designer
 menu_title:         Synoptic Designer
 published:          true
 date:               2026-06-01
-modified:           2026-06-15
+modified:           2026-07-06
 order:              /{synoptic-designer}
 next_reading:       true
 ---
@@ -27,14 +27,16 @@ Synoptic Designer is intentionally focused on Synoptic Panel map authoring. It i
 
 ## What Synoptic Designer Creates
 
-Synoptic Panel uses SVG maps. A map area is usually an SVG shape or group with an identifier that can be matched to a value in the ***Categories*** field well. Synoptic Designer keeps that relationship visible while you edit the map.
+Synoptic Panel uses [SVG maps](../visuals/synoptic-panel/concepts/maps/index.md#svg). A map area is usually an SVG shape or group with an identifier that can be matched to a value in the [***Categories*** field well](../visuals/synoptic-panel/fields/categories.md). Synoptic Designer keeps that relationship visible while you edit the map.
 
-The main export format is JSVG. A JSVG file is a JSON map file that contains the SVG artwork plus optional Synoptic Panel data mapping. This allows Synoptic Designer to preserve:
+For the complete matching behavior, see [Data Binding](../visuals/synoptic-panel/concepts/data-binding.md) in the Synoptic Panel documentation.
+
+The main export format is [JSVG](../visuals/synoptic-panel/concepts/maps/index.md#jsvg). A JSVG file is a JSON map file that contains the SVG artwork plus optional Synoptic Panel data mapping. This allows Synoptic Designer to preserve:
 
 - SVG shapes, groups, text, and supported embedded images;
 - area identifiers used for automatic binding;
 - explicit data point bindings;
-- areas marked as ***Do Not Bind***;
+- areas marked as [***Do Not Bind***](../visuals/synoptic-panel/concepts/data-binding.md#unbinding-areas);
 - optional area titles;
 - tracing images embedded by Synoptic Designer.
 
@@ -46,15 +48,4 @@ Project files, imported data lists, bitmap tracing images, and saved browser-loc
 
 > **NOTE:** Browser-local projects are saved in the current browser profile. They are useful for continuing work later on the same device, but they are not a cloud backup. Export a JSVG file when you need a portable copy.
 
-## Main Areas
-
-The editor is organized around a central canvas with four supporting areas:
-
-<img src="/synoptic-designer/images/overview-main-areas.png" />
-
-- the header for project actions, local save state, and export;
-- the left toolbar for selection, drawing, tracing, grid generation, insertion, text, erasing, and panning tools;
-- the right inspector for ***Areas*** and ***Formatting***;
-- the bottom controls for tracing image, zoom, undo, redo, and clear canvas.
-
-The next pages describe each area in detail.
+For a tour of the editor layout, see [Workspace](workspace.md).

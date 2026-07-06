@@ -3,7 +3,7 @@ layout:             page
 title:              Text
 published:          true
 date:               2026-06-08
-modified:           2026-06-15
+modified:           2026-07-06
 order:              /synoptic-designer/03/11
 toc_h_max:          3
 next_reading:       true

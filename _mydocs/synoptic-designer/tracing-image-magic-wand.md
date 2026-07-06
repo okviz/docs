@@ -3,7 +3,7 @@ layout:             page
 title:              Tracing Image
 published:          true
 date:               2026-06-01
-modified:           2026-06-18
+modified:           2026-07-06
 order:              /synoptic-designer/06
 toc_h_max:          3
 next_reading:       true
@@ -15,7 +15,7 @@ The tracing workflow lets you use a bitmap as a visual reference while building 
 
 ## Tracing Image Panel
 
-A tracing image is a single bitmap reference attached to the current project. It appears behind editable SVG content and cannot be selected or transformed like a normal vector object.
+A tracing image is a single bitmap reference attached to the current project. It cannot be selected or transformed like a normal vector object.
 
 Use the ***Tracing Image*** panel to:
 
@@ -25,9 +25,13 @@ Use the ***Tracing Image*** panel to:
 - fit it to the artboard width;
 - restore actual size;
 - adjust scale;
+- adjust opacity;
+- bring the image in front of editable SVG content or send it behind;
 - align it horizontally or vertically.
 
 Only one tracing image can be active at a time. Replacing the tracing image does not delete vector areas already created from it.
+
+Use front placement when you need to inspect the bitmap above existing areas. Send the image behind before selecting or reviewing foreground SVG areas.
 
 ## Starting from a Bitmap
 

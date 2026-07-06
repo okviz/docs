@@ -3,7 +3,7 @@ layout:             page
 title:              Save and Export
 published:          true
 date:               2026-06-01
-modified:           2026-06-15
+modified:           2026-07-06
 order:              /synoptic-designer/07
 toc_h_max:          3
 next_reading:       true
@@ -59,13 +59,16 @@ The export dialog asks for:
 - map name;
 - author;
 - attribution;
-- tracing image quality when a tracing image is present.
+- ***Tracing Image***, which controls whether the tracing image is included when one is present;
+- ***Image Quality*** when a tracing image is present.
 
 The map name is required.
 
 <img src="/synoptic-designer/images/export-dialog.png" />
 
 Export is a local download action. It does not publish directly to Power BI and does not require network access.
+
+When ***Tracing Image*** is turned off, the tracing bitmap is omitted from the exported map and the ***Image Quality*** controls are disabled.
 
 ## What Export Preserves
 
@@ -79,7 +82,7 @@ JSVG export preserves supported SVG content and Synoptic Panel mapping metadata,
 - generated Grid groups and cells;
 - visible styling changes;
 - supported embedded images;
-- tracing image content embedded as exportable SVG image data.
+- tracing image content embedded as exportable SVG image data when included in the export.
 
 Generated area IDs in the exported SVG match the IDs shown in the ***Areas*** tree, not internal SVGCanvas IDs.
 

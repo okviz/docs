@@ -3,7 +3,7 @@ layout:             page
 title:              Object Commands
 published:          true
 date:               2026-06-01
-modified:           2026-06-18
+modified:           2026-07-06
 order:              /synoptic-designer/03-object-commands
 toc_h_max:          3
 next_reading:       true

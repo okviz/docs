@@ -3,7 +3,7 @@ layout:             page
 title:              Formatting
 published:          true
 date:               2026-06-01
-modified:           2026-06-15
+modified:           2026-07-06
 order:              /synoptic-designer/05
 toc_h_max:          3
 next_reading:       true
@@ -36,11 +36,7 @@ For multi-selection, Synoptic Designer shows ***Selection Colors*** instead of a
 
 Each color row can include opacity controls. Mixed values are shown when selected objects share a color but differ in opacity or related properties.
 
-## Children Colors
-
-For grouped or placed content where child paint targets are meaningful, ***Children Colors*** exposes supported child fills without forcing the whole group to behave like a single flat shape.
-
-This is useful when a group should remain grouped but individual child colors still need adjustment.
+For grouped content where child paint targets are meaningful, ***Selection Colors*** can expose supported child fills and strokes without forcing the whole group to behave like a single flat shape.
 
 ## Geometry
 
