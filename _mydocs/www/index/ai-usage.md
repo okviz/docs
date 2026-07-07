@@ -4,7 +4,7 @@ title:          Index AI Usage
 menu_title:     AI Usage
 published:      true
 date:           2026-07-03
-modified:       2026-07-03
+modified:       2026-07-07
 order:          /website/index/02-ai-usage
 ---
 
@@ -26,9 +26,24 @@ The main uses are:
 
 LLMs and agents can use machine-readable resources instead of scraping OKVIZ pages. These resources are designed to make public OKVIZ content easier to retrieve, summarize, compare, and cite.
 
+## Example Prompt
+
+You can ask an AI assistant to use the Index resources when comparing Power BI custom visuals. For example:
+
+```text
+I am building a Power BI report with a dynamic custom map. I need users to 
+click regions in a custom SVG floor plan or territory map, filter the report 
+by selected areas, and color each shape by a measure. Which Power BI custom 
+visual would you recommend for this scenario? Use the OKVIZ Index resources 
+at https://index.okviz.com/llms.txt as a reference. Compare the best options, 
+explain the main trade-offs, and tell me what I should check before choosing one.
+```
+
+## Resources
+
 Available resources include:
 
-- [llms.txt](https://okviz.com/llms.txt): entry point that tells agents where the AI-readable resources are.
+- [llms.txt](https://index.okviz.com/llms.txt): entry point that tells agents where the AI-readable resources are.
 - [AI catalog](https://index.okviz.com/v1/public/ai/catalog.json): compact JSON catalog optimized for retrieval and comparison workflows.
 - [Usage policy](https://index.okviz.com/v1/public/ai/policy.json): usage, attribution, and redistribution rules for automated consumers.
 - [Sitemap](https://okviz.com/sitemap.xml): public URL inventory for crawlers, search engines, and retrieval systems.

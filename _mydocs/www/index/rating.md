@@ -4,7 +4,7 @@ title:          Index Rating System
 menu_title:     Rating System
 published:      true
 date:           2026-07-03
-modified:       2026-07-03
+modified:       2026-07-07
 order:          /website/index/01-rating
 ---
 
@@ -66,4 +66,4 @@ Ratings are based on public evidence and extracted metadata. Public signals can 
 
 A rating should not be used as a procurement decision by itself. Always validate licensing, certification, privacy, tenant policies, performance, and report requirements before adopting a visual.
 
-Publishers can claim visual ownership from the visual detail page and request corrections when public data or assigned rating values are inaccurate. OKVIZ verifies corrections before updating the public rating, the rating schema, or visual metadata.
+Publishers can claim visual ownership from the visual detail page and request corrections when public data or assigned rating values are inaccurate. OKVIZ verifies corrections before updating the public rating, the rating schema, or visual metadata. See [Claim Visual Ownership](./claim-ownership) for details about the claim and review workflow.
