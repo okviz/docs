@@ -3,12 +3,18 @@ layout:             page
 title:              Create and Load Projects
 published:          true
 date:               2026-06-01
-modified:           2026-06-17
+modified:           2026-07-06
 order:              /synoptic-designer/01
 next_reading:       true
 ---
 
-Synoptic Designer starts from the ***Synoptic Designer*** project dialog. The dialog has two tabs: ***New Project*** and ***Load Project***.
+Synoptic Designer starts from the ***Synoptic Designer*** welcome dialog. Use ***Start*** to open the project options.
+
+<img src="/synoptic-designer/images/project-dialog-welcome.png" />
+
+If ***Don't show again*** is selected, Synoptic Designer opens the project options directly the next time. You can reopen the welcome dialog from the header resources menu with ***Show Welcome***.
+
+After the welcome dialog, the project dialog has two tabs: ***New Project*** and ***Load Project***.
 
 ## New Project
 
@@ -41,7 +47,7 @@ After loading the bitmap:
 
 When you start from an SVG, Synoptic Designer sanitizes the markup before loading it into the editor. Scripts, event handlers, hostile URLs, and unsupported active content are removed or rejected before the document is edited.
 
-If the SVG is loaded as the initial document, its supported shapes become editable canvas content. If an SVG is inserted later into a non-empty document, it is treated as one placed asset with protected internal IDs.
+If the SVG is loaded as the initial document, its supported shapes become editable canvas content. If an SVG is inserted later into a non-empty document, supported child areas are exposed immediately and source IDs are kept unique with sequential suffixes when needed.
 
 ## Starting from a JSVG File
 

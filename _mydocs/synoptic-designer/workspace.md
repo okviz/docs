@@ -3,7 +3,7 @@ layout:             page
 title:              Workspace
 published:          true
 date:               2026-06-01
-modified:           2026-06-17
+modified:           2026-07-06
 order:              /synoptic-designer/02
 next_reading:       true
 ---

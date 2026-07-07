@@ -3,7 +3,7 @@ layout:             page
 title:              Best Practices
 published:          true
 date:               2026-06-01
-modified:           2026-06-04
+modified:           2026-07-06
 order:              /synoptic-designer/09
 toc_h_max:          3
 next_reading:       true

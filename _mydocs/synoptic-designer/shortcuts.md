@@ -3,7 +3,7 @@ layout:             page
 title:              Shortcuts and Gestures
 published:          true
 date:               2026-06-01
-modified:           2026-06-15
+modified:           2026-07-06
 order:              /synoptic-designer/08
 toc_h_max:          3
 next_reading:       true
@@ -47,9 +47,9 @@ Some tools, such as Pen, Split, Image/SVG insertion, Triangle, Diamond, Pentagon
 |Escape|Release selection or finish/cancel active editing state depending on the current tool|
 |Double-click text|Edit text|
 |Double-click grouped content|Drill into a child element where supported|
-|Click canvas with a Magic Wand preview|Insert the previewed area|
-|Enter or Space with a Magic Wand preview|Insert the previewed area|
-|Escape with a Magic Wand preview|Cancel the preview|
+|Click a Magic Wand preview directly|Insert the previewed area|
+|Click another bitmap region with a Magic Wand preview|Replace the preview|
+|Escape, Delete, or Backspace with a Magic Wand preview|Cancel the preview|
 
 ## Object Commands
 
@@ -92,6 +92,7 @@ Unshifted browser zoom shortcuts are left to the browser or operating system.
 |Middle mouse button|Temporarily pan the viewport|
 |Shift while placing Pen anchors|Constrain the next segment to horizontal, vertical, or 45 degrees|
 |Shift while drawing supported preset shapes|Keep a square aspect ratio|
+|`Alt/Option` while dragging a selection|Duplicate and move the copied selection|
 |`Alt/Option` while transforming|Bypass smart-guide snapping|
 |`Alt/Option` while resizing where supported|Resize from the center|
 |`Alt/Option` while dragging a curve handle|Move one handle independently|
@@ -102,7 +103,7 @@ Unshifted browser zoom shortcuts are left to the browser or operating system.
 |Shortcut or gesture|Action|
 |---|---|
 |Insert|Add a node in Node Selector context|
-|Delete|Remove selected or targeted node when geometry remains valid|
+|Delete or Backspace|Remove selected or targeted node when geometry remains valid|
 |Right-click path in Node Selector|Open node commands|
 |Right-click visible node|Open add and remove node commands|
 |Drag visible node|Move the point|
