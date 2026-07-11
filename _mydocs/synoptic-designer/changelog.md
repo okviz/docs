@@ -10,6 +10,20 @@ toc_h_max:          2
 
 This page contains a quick summary of versions and notable changes of Synoptic Designer.
 
+## v2.0.1
+
+**Released:** 2026-07-11
+
+**Bug Fixes:**
+
+- Fix a bug where hidden areas were not being handled correctly during export and loading projects.
+- Fix a bug that prevented tracing images from loading correctly in Safari.
+- Fix a bug that prevented copying and pasting areas on the canvas.
+
+**Improvements:**
+
+- Map areas can now be copied and pasted between different projects.
+
 ## v2.0.0
 
 **Released:** 2026-07-04
