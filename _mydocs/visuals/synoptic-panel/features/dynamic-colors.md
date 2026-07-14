@@ -98,7 +98,8 @@ When you use these values for color formatting, set rules with thresholds on the
 
 When your map has multiple levels of hierarchy, you can set different formatting rules for each level by creating a measure or a visual calculation that identifies the current level and applies the proper business logic.
 
-You should use a visual calculation when the logic is specific to the visual and you can rely only on the data available in the visual. You should use a measure when the logic is more general and can be reused across multiple visuals, or when it relies on data that is not available in the visual.
+You should use a visual calculation when the logic is specific to the visual and you can rely only on the data available in the visual. You should use a measure when the logic is more general and can be reused across multiple visuals, or when it relies on data that is not available in the visual. You can find a more detailed explanation of these two techniques in the article and video [Dynamic formatting by hierarchy level with ISINSCOPE and ISATLEVEL](https://www.sqlbi.com/articles/dynamic-formatting-by-hierarchy-level-with-isinscope-and-isatlevel/).
+
 
 #### Example of a Visual Calculation for Per-Level Formatting Rules
 
