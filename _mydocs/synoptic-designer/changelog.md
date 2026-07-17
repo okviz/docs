@@ -3,12 +3,20 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2026-07-04
-modified:           2026-07-04
+modified:           2026-07-17
 order:              /synoptic-designer/{98}
 toc_h_max:          2
 ---
 
 This page contains a quick summary of versions and notable changes of Synoptic Designer.
+
+## v2.0.2
+
+**Released:** 2026-07-16
+
+**Bug Fixes:**
+
+- Fix a bug in JSVG export that could cause labels to render incorrectly in Synoptic Panel in some cases.
 
 ## v2.0.1
 
