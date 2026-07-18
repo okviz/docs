@@ -4,7 +4,7 @@ title:          Index Rating System
 menu_title:     Rating System
 published:      true
 date:           2026-07-03
-modified:       2026-07-07
+modified:       2026-07-18
 order:          /website/index/01-rating
 ---
 
@@ -35,6 +35,8 @@ This includes readability, visual hierarchy, chart-type suitability, formatting 
 Support scoring estimates whether users can trust the publisher to maintain, document, and support the visual.
 
 Support signals can include public support links, documentation quality, website quality, release activity, vendor identity, AppSource information, tutorials, examples, bug reporting channels, and warnings for missing, broken, ambiguous, or potentially unsafe evidence.
+
+<img src="images/rating-breakdown.png" width="600" />
 
 ## How the Score Is Created
 
