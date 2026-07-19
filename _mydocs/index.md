@@ -87,5 +87,5 @@ In this site, you will find information about our products, services, and other 
 ### Website
 
 - [How to Contribute to OKVIZ Content](www/contributing/index.md)
-- [Frequently Asked Questions](https://okviz.com/our-visuals/faq/)
+- [Frequently Asked Questions](https://okviz.com/faq/)
 - [Terms of Use](www/terms/index.md)
