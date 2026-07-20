@@ -4,7 +4,7 @@ title:              Licensing Overview
 menu_title:         Licensing
 published:          true
 date:               2024-08-14
-modified:           2026-04-13
+modified:           2026-07-20
 order:              /04
 ---
 
@@ -20,6 +20,7 @@ Each system has its unique management and operational features, as detailed belo
 |  | **AppSource Licensing** | **OKVIZ Licensing**|
 |---|---|---|
 | **License Management** | Managed by Microsoft | Managed directly by OKVIZ |
+| **Invoicing & Payments** | Invoiced by Microsoft, paid to Microsoft | Invoiced by OKVIZ, paid to OKVIZ |
 | **Licensing Options**  | Per-user | Per-user, per-capacity, per-site |
 | **Assignment**         | Per-user assignment | No assignment needed |
 | **Power BI Platforms**   | Desktop, Mobile, powerbi.com  |  All platforms |
@@ -108,6 +109,18 @@ For our visuals **Smart Filter Pro** and **Synoptic Panel** (excluding legacy or
     While the licensing itself is managed by OKVIZ, the hybrid model still inherits some of the platform limitations of AppSource licensing. This means it does not support scenarios that require non-authenticated access or offline use.
 
 This hybrid approach can be a compelling option for users who appreciate the convenience of obtaining visuals through AppSource while still enjoying the direct license management and support provided by OKVIZ. However, it is important to weigh these benefits against the version control and platforms limitations.
+
+## Invoicing and Payments
+
+The two licensing systems also differ in how invoicing and payments are handled:
+
+- **AppSource Licensing**  
+  The transaction is processed entirely by Microsoft: **the invoice is issued by Microsoft and the payment is made to Microsoft**, which generally accepts credit cards only. OKVIZ is not part of the transaction and cannot issue an invoice or accept a payment for a purchase made on AppSource.
+
+- **OKVIZ Licensing**  
+  The transaction is processed by OKVIZ: we issue the invoice and collect the payment directly. Keep in mind that visuals licensed by OKVIZ [cannot be certified by Microsoft](../certification.md).
+
+In other words, if you need an invoice issued by OKVIZ, you should purchase through the OKVIZ website — accepting that the visual will not be certified. The only exception is for enterprise agreements that meet a minimum contract value, for which OKVIZ can arrange a [private offer](private-offers.md) that results in the visual being downloaded from AppSource, certified, and licensed.
 
 ## What License Should I Get?
 
