@@ -3,7 +3,7 @@ layout:             page
 title:              Save and Export
 published:          true
 date:               2026-06-01
-modified:           2026-07-06
+modified:           2026-07-21
 order:              /synoptic-designer/07
 toc_h_max:          3
 next_reading:       true
@@ -39,6 +39,8 @@ Browser-local projects can preserve:
 
 - SVG content;
 - mapping metadata;
+- ***Area***, ***Link***, and ***Decoration*** types;
+- external URLs assigned to ***Link*** elements;
 - area titles;
 - tracing image metadata;
 - formatting;
@@ -75,6 +77,8 @@ When ***Tracing Image*** is turned off, the tracing bitmap is omitted from the e
 JSVG export preserves supported SVG content and Synoptic Panel mapping metadata, including:
 
 - area IDs shown in Synoptic Designer;
+- ***Area***, ***Link***, and ***Decoration*** types;
+- external URLs assigned to ***Link*** elements;
 - explicit datapoint bindings;
 - Do Not Bind state;
 - area titles;

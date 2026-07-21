@@ -3,12 +3,23 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2026-07-04
-modified:           2026-07-17
+modified:           2026-07-21
 order:              /synoptic-designer/{98}
 toc_h_max:          2
 ---
 
 This page contains a quick summary of versions and notable changes of Synoptic Designer.
+
+## v2.0.3
+
+**Released:** 2026-07-21
+
+**New Features:**
+
+- Add an area type selector with [***Area***, ***Link***, and ***Decoration***](areas-data-binding.md#area-types) behaviors compatible with Synoptic Panel.
+- Add external URL editing for ***Link*** elements.
+- Add inherited ***Link*** and ***Decoration*** behavior for groups, with ***Decoration*** taking priority.
+- Preserve area types and link URLs through browser-local save, JSVG export, and JSVG re-import.
 
 ## v2.0.2
 

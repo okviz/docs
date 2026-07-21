@@ -4,7 +4,7 @@ title:              Synoptic Designer
 menu_title:         Synoptic Designer
 published:          true
 date:               2026-06-01
-modified:           2026-07-06
+modified:           2026-07-21
 order:              /{synoptic-designer}
 next_reading:       true
 ---
@@ -39,6 +39,8 @@ The main export format is [JSVG](../visuals/synoptic-panel/concepts/maps/index.m
 
 - SVG shapes, groups, text, and supported embedded images;
 - area identifiers used for automatic binding;
+- [***Area***, ***Link***, and ***Decoration*** behavior](areas-data-binding.md#area-types);
+- external URLs assigned to ***Link*** elements;
 - explicit data point bindings;
 - areas marked as [***Do Not Bind***](../visuals/synoptic-panel/concepts/data-binding.md#unbinding-areas);
 - optional area titles;
