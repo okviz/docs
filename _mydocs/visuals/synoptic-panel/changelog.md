@@ -3,7 +3,7 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2024-05-10
-modified:           2026-06-22
+modified:           2026-07-21
 order:              /synoptic-panel/{99}
 toc_h_max:          2
 ---
@@ -16,6 +16,14 @@ Synoptic Panel uses **Power BI Custom Visuals API v5.11.0**, which requires:
 [See Power BI Requirements](../requirements.md) for more information.
 
 > **NOTE:** Synoptic Panel Lite is a subset of Synoptic Panel with limited features. Both versions share the same codebase and changelog.
+
+## v2.5.9
+
+**Released:** 2026-07-21
+
+**New Features:**
+
+- Add the [***Decoration*** area type](./features/map-editor/edit-map.md#decoration) to keep selected SVG elements in their original appearance and exclude them from data binding, visual formatting, and interactions. When applied to a group, ***Decoration*** also applies to all its child elements.
 
 ## v2.5.8
 

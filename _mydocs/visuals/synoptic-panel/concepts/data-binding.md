@@ -3,7 +3,7 @@ layout:             page
 title:              Data Binding
 published:          true
 date:               2024-05-10
-modified:           2025-09-03
+modified:           2026-07-21
 order:              /synoptic-panel/concepts/03
 next_reading:       true
 ---
@@ -157,7 +157,17 @@ If you wish to exclude an area from the data binding process, you can do so dire
 </svg>
 ```
 
+### Decorations
+
+Use the ***Decoration*** interaction type for an SVG element that should remain visible but not participate in data binding, visual formatting, or interactions. A decoration always keeps its original SVG appearance.
+
+***Decoration*** differs from ***(Do Not Bind)***. An unbound area is excluded from matching but can still receive the colors, transparency, outlines, and other visual formatting configured for unbound areas. A decoration is excluded from both matching and visual formatting.
+
+You can set an element as a decoration in the [Map Editor](../features/map-editor/edit-map.md#decoration) or with the `data-okviz-area-type="decoration"` [custom SVG attribute](maps/svg-format.md#custom-attributes). When applied to a group, the decoration behavior is inherited by all child elements.
+
 ## Areas Status
+
+***Decoration*** is an interaction type rather than a data-binding status, so it is not included in the table below.
 
 Here is a summary of the possible statuses of an area (higher priority has precedence):
 

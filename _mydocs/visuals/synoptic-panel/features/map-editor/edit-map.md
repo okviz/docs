@@ -3,7 +3,7 @@ layout:             page
 title:              Edit Map
 published:          true
 date:               2025-01-13
-modified:           2025-08-01
+modified:           2026-07-21
 order:              /synoptic-panel/features/map-editor/edit-map
 toc_h_max:          2
 next_reading:       true
@@ -51,6 +51,8 @@ Nodes will be styled according to the [Data Binding](../../concepts/data-binding
 - **Unbound** are displayed with only a red dot on the right end of the tree element. For ***Inherited*** areas (areas that are children of a <g> element with this status), the dot will appears slightly lighter red.
 - **Unmatched** will remain unchanged, as this is the default status.
 
+***Link*** and ***Decoration*** elements display their own icons instead of a binding-status dot. The tooltip identifies child elements that inherit either type from a parent group.
+
 You can also filter nodes by their binding status, search nodes by name, hide map areas, collapse nested nodes or just hovering them to the display binding information.
 
 ## Interaction Pane
@@ -59,7 +61,7 @@ Once you select an area in the map or a node in the Selection Tree, the Interact
 
 Area name is preceded by an icon that indicates the [Shape](../../concepts/maps/svg-format.md#shapes) of the selected area. You can hover the icon to see the shape type.
 
-In the top right dropdown, you can choose the type of **Interaction** to apply to the selected element.
+In the top-right dropdown, you can choose the type of ***Interaction*** to apply to the selected element: ***Area***, ***Link***, or ***Decoration***.
 
 <video src="images/edit-area-interaction.mp4" style="clip-path:inset(2px)" autoplay loop muted></video>
 
@@ -92,6 +94,14 @@ If this option is selected, the selected area will be treated as a hyperlink and
 - **Go to URL**: clicking on this area will open the external URL provided in the text box.
 
 <video src="images/edit-link-to.mp4" style="clip-path:inset(0 0 0 4px)" autoplay loop muted></video>
+
+### Decoration
+
+Select ***Decoration*** when an SVG element should remain purely visual. The element is excluded from data binding and visual formatting, always uses its original SVG appearance, and does not respond to visual interactions.
+
+When ***Decoration*** is applied to a group, all its child elements inherit the same behavior. The ***Interaction*** selector is disabled for an inherited decoration; change the parent group to another interaction type before configuring the child independently.
+
+***Decoration*** is different from ***(Do Not Bind)***. An unbound area can still use the visual formatting configured for unbound areas, while a decoration is not formatted by the visual. See [Decorations](../../concepts/data-binding.md#decorations) for details.
 
 ## Save Changes
 

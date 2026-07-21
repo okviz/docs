@@ -3,7 +3,7 @@ layout:             page
 title:              SVG Format
 published:          true
 date:               2024-05-10
-modified:           2025-02-25
+modified:           2026-07-21
 order:              /synoptic-panel/concepts/maps/01
 next_reading:       true
 ---
@@ -62,6 +62,7 @@ table th:nth-of-type(2) { /* Target */
 </style>
 |Attribute                  |Target                 |Description|
 |---                        |---                    |---|
+|`data-okviz-area-type`     |Any shape or group     |*(String)* Sets the element interaction type to `area`, `link`, or `decoration`. A decoration is excluded from data binding and visual formatting and keeps its original SVG appearance. See [Edit Map](../../features/map-editor/edit-map.md#decoration).|
 |`data-okviz-unbound`       |Any shape or group     |*(Boolean)* Excludes the element from the [Data Binding](../data-binding.md).|
 |`data-okviz-strong`        |Any shape or group     |*(String)* Forces the element to bind to a specific data point, regardless of its id. See [Data Binding](../data-binding.md).|
 |`data-okviz-drill-url`     |Any area               |*(String)* It must contain the URL of a remote SVG map. With this attribute you can automatically load a different remote map when drilling down on the area. More on the [Drill Mode](../../features/drill-mode.md#child-maps) section.|
