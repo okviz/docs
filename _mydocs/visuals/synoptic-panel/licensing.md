@@ -3,7 +3,7 @@ layout:             page
 title:              Licensing
 published:          true
 date:               2024-05-10
-modified:           2025-03-26
+modified:           2026-07-22
 order:              /synoptic-panel/{97}
 ---
 
@@ -19,3 +19,5 @@ You can choose from the following licensing options:
 - **Synoptic Panel Lite**
 
     - [AppSource Licensing](../licensing/appsource.md)
+
+> Use the [Licensing Assistant](https://okviz.com/licensing/?visual=synoptic-panel) to compare compatible options and calculate pricing for Synoptic Panel.

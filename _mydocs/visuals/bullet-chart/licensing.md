@@ -3,7 +3,7 @@ layout:             page
 title:              Licensing
 published:          true
 date:               2022-07-21
-modified:           2025-02-28
+modified:           2026-07-22
 order:              /bullet-chart/{97}
 ---
 
@@ -13,3 +13,5 @@ You can unlock those features by purchasing a license, which is available in two
 
 - [**AppSource Licensing**](../licensing/index.md)
 - [**OKVIZ Licensing**](../licensing/index.md)
+
+> Use the [Licensing Assistant](https://okviz.com/licensing/?visual=bullet-chart) to compare compatible options and calculate pricing for Bullet Chart.
