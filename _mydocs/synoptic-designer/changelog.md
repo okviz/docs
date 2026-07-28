@@ -3,12 +3,27 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2026-07-04
-modified:           2026-07-21
+modified:           2026-07-28
 order:              /synoptic-designer/{98}
 toc_h_max:          2
 ---
 
 This page contains a quick summary of versions and notable changes of Synoptic Designer.
+
+## v2.0.4
+
+**Released:** 2026-07-28
+
+**New Features:**
+
+- Add a ***Quick apply*** option to Magic Wand for creating an area with a single click.
+
+**Improvements:**
+
+- Keep ***Node Density*** and ***Tolerance*** available between Magic Wand traces and make higher tolerance values expand the traced region more predictably.
+- Remember the ***Keep after Use (K)*** setting between browser sessions.
+- Add complete dark theme support to ***Visual Guides***.
+- Hide ***Auto Save*** feedback for new empty projects until the canvas contains saveable content.
 
 ## v2.0.3
 
