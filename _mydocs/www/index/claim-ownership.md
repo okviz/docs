@@ -1,59 +1,89 @@
 ---
 layout:         page
-title:          Claim Visual Ownership
-menu_title:     Claim Ownership
+title:          Propose Changes to Your Visuals
+description:    How publishers can claim their visuals and propose corrections to the OKVIZ Index.
+menu_title:     Propose Changes
 published:      true
 date:           2026-07-07
-modified:       2026-07-07
+modified:       2026-07-28
 order:          /website/index/03-claim-ownership
 ---
 
-The OKVIZ Index combines public metadata, catalog information, screenshots, linked websites, and AI-assisted analysis to describe and rate Power BI custom visuals. This process improves coverage, but it can still produce incomplete or incorrect information.
+The OKVIZ Index combines public metadata, catalog information, screenshots, linked websites, and AI-assisted analysis to describe and rate Power BI custom visuals. If you represent a visual publisher, **you can claim your visuals and propose corrections** when this information is incomplete, inaccurate, or outdated.
 
-**Publishers can claim authority over their visuals and request corrections** when the Index shows inaccurate metadata, missing features, outdated links, or rating inputs that do not match the current public evidence.
+Claims and proposed changes are reviewed by OKVIZ before they affect the public Index. Claiming a visual does not make its public page directly editable.
 
-## Why Claims Exist
+## Before You Start
 
-AI helps OKVIZ extract visual features and draft part of the rating assessment. It can review public pages, documentation, screenshots, metadata, and other linked resources faster than a fully manual process.
+Before requesting access:
 
-However, AI-assisted analysis can miss features, misunderstand website content, rely on outdated public pages, or assign the wrong value when evidence is ambiguous. Some visual capabilities are also difficult to verify from public information alone.
+- Create an OKVIZ account or sign in with your existing account.
+- Use a company-domain email address when possible. This helps OKVIZ verify your relationship with the publisher.
+- Prepare public evidence for the changes you intend to propose, such as documentation, release notes, AppSource pages, pricing pages, or support pages.
 
-The claim process gives publishers a structured way to correct those cases without making the public catalog editable by anyone.
+## Request Access to Your Visuals
 
-## What Claiming Allows
+To request access:
 
-After a claim is approved, the account can propose edits for visuals associated with the same developer or publisher record. Approval gives editing authority inside the OKVIZ Index; it does not transfer legal ownership, change Microsoft AppSource publisher records, or bypass OKVIZ review.
-
-<img src="images/edit1.png" width="500" />
-
-Depending on the visual, editable areas can include general metadata, public links, features, price information, certifications, and developer information.
-
-<img src="images/edit2.png" width="500" />
-
-Not every property can be edited. OKVIZ can lock or reject changes for values that are already verified from trusted sources, high-confidence metadata, package identity, AppSource identifiers, internal rating weights, or other fields where there is enough certainty.
-
-## How to Request Access
-
-To use the claim and edit workflow:
-
-1. Create or sign in to an OKVIZ account at [auth.okviz.com](https://auth.okviz.com/).
-2. Open the visual detail page in the Index.
-3. Use the ***Claim*** action to send a claim request for the visual developer.
-4. Wait for OKVIZ to review the request.
-5. After approval, use ***Edit Visual Meta*** to propose changes for the approved developer's visuals.
-6. Submit the proposed changes from the ***Submit*** step.
+1. Sign in to your OKVIZ account.
+2. Open the [OKVIZ Index](https://okviz.com/index/) and find one of your visuals.
+3. Open the visual detail page.
+4. Select ***Claim***.
+5. Verify the account email and publisher shown in the dialog, then select ***Send Claim Request***.
 
 <img src="images/claim-request.png" width="400" />
 
-When possible, use an account email that helps verify your relationship with the publisher, such as a company domain email. OKVIZ may contact you for additional information before enabling edits.
+OKVIZ reviews the request and may contact you for more information. The account that submitted the request receives an email when the claim is approved or rejected.
+
+> **NOTE:** Approval grants editing authority inside the OKVIZ Index. It does not transfer legal ownership, change Microsoft AppSource publisher records, or bypass the review of proposed changes.
+
+## Propose a Change
+
+After your claim is approved:
+
+1. Sign in and open the detail page for one of your authorized visuals.
+2. Select the ***Edit Visual Meta*** button.
+
+    <img src="images/edit-visual.png" width="500" />
+
+3. Change only the fields that need correction.
+
+    <img src="images/edit1.png" width="500" />
+
+    <img src="images/edit2.png" width="500" />
+
+4. Review all pending changes in the ***Submit*** step.
+5. Submit the proposal for OKVIZ review.
+
+## What You Can Change
+
+Depending on the visual, editable areas can include:
+
+- The visual description and classification.
+- Public documentation, website, support, issue, changelog, and purchase links.
+- Supported features and other inputs used by the rating.
+- Pricing and certification information.
+- Developer or publisher information.
+
+Not every property can be edited. OKVIZ can lock values verified from trusted sources, package identity, AppSource identifiers, extracted package metadata, internal rating weights, and other high-confidence fields.
+
+If a field is not editable, explain the requested correction and include its public evidence with the proposal.
+
+## Provide a License When Required
+
+If one or more features included in your proposal require a paid or otherwise restricted license, provide a demo license and/or clear activation instructions, as applicable. Access should remain available long enough for the OKVIZ team to reproduce the feature and complete the review.
+
+Without the required access, the team may be unable to verify the proposed changes. OKVIZ may ask you explicitly for a license or activation details, which can delay the review, or reject the proposal when the claimed functionality cannot be confirmed.
+
+>> **IMPORTANT:** Do not publish license keys, passwords, or other credentials in public evidence or documentation. Provide them only through the private note field in the proposal or directly to OKVIZ.
 
 ## Review Process
 
-Submitted changes are not applied automatically. OKVIZ reviews each proposed change before it affects public visual metadata, rating inputs, or the public catalog.
+**Submitted changes are not applied automatically.** OKVIZ reviews each proposed change before it affects public visual metadata, rating inputs, or the public catalog.
 
 During review, OKVIZ may compare the request with AppSource data, public documentation, the publisher website, release notes, screenshots, or other visible evidence. A change can be rejected when it is unsupported, unverifiable, inconsistent with public evidence, or outside the editable scope.
 
-The account that submitted the request receives an email when the claim is accepted or rejected. The account also receives an email when proposed metadata changes are accepted or rejected.
+> **NOTE:** The account that submitted the proposal receives an email when the changes are accepted or rejected.
 
 ## Effect on the Rating
 

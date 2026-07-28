@@ -4,7 +4,7 @@ title:          OKVIZ Index
 menu_title:     Index
 published:      true
 date:           2026-07-03
-modified:       2026-07-07
+modified:       2026-07-28
 order:          /website/index
 ---
 
@@ -56,4 +56,4 @@ See [Index Rating System](./rating) for the full explanation of how ratings are 
 
 Publishers can claim authority over their visuals and propose corrections for selected metadata and rating inputs. Claims and edits are reviewed by OKVIZ before they affect the public Index.
 
-See [Claim Visual Ownership](./claim-ownership) for the claim workflow, editable metadata scope, review process, and expected rating impact.
+See [Propose Changes to Your Visuals](./claim-ownership) for the claim workflow, editable metadata scope, review process, and expected rating impact.
