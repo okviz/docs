@@ -4,11 +4,13 @@ title:              Licensing Overview
 menu_title:         Licensing
 published:          true
 date:               2024-08-14
-modified:           2026-07-22
+modified:           2026-07-29
 order:              /04
 ---
 
 This page explains in detail how the licensing system for OKVIZ visuals works. 
+
+> **Short on time?** Instead of reading through this entire page, you can use our [Licensing Assistant](https://okviz.com/licensing/) for a guided experience: answer a few questions to find the licensing options compatible with your scenario and calculate pricing.
 
 We offer a dual licensing system so that you can choose the option that best fits your needs. Both licensing options follow a subscription model, on a monthly or yearly basis:
 
@@ -24,6 +26,7 @@ Each system has its unique management and operational features, as detailed belo
 | **Licensing Options**  | Per-user | Per-user, per-capacity, per-site |
 | **Assignment**         | Per-user assignment | No assignment needed |
 | **Power BI Platforms**   | Desktop, Mobile, powerbi.com  |  All platforms |
+| **Government Clouds (GCC/GCC High)** | Not supported | Supported via Organizational Visuals |
 | **Version Control**    | Auto-updates (always latest version, no rollback) | Full control over updates and rollback |
 | **Microsoft Certification**      | Eligible for certification | Cannot be certified |
 | **Offline**           | Offline not supported   | Supports offline use                       |
@@ -121,6 +124,20 @@ The two licensing systems also differ in how invoicing and payments are handled:
   The transaction is processed by OKVIZ: we issue the invoice and collect the payment directly. Keep in mind that visuals licensed by OKVIZ [cannot be certified by Microsoft](../certification.md).
 
 In other words, if you need an invoice issued by OKVIZ, you should purchase through the OKVIZ website — accepting that the visual will not be certified. The only exception is for enterprise agreements that meet a minimum contract value, for which OKVIZ can arrange a [private offer](private-offers.md) that results in the visual being downloaded from AppSource, certified, and licensed.
+
+## Government Clouds (GCC and GCC High)
+
+Microsoft provides dedicated Power BI environments for US government customers: **GCC** (Government Community Cloud), **GCC High**, and **DoD**. These environments do not support the AppSource commercial infrastructure, which directly affects how custom visuals can be licensed:
+
+- **AppSource Licensing is NOT available in government clouds.**  
+    Paid AppSource visuals cannot be purchased or used in any government cloud (GCC, GCC High, or DoD), because Microsoft does not support the purchase transaction and the license enforcement of AppSource visuals in these environments.
+
+- **OKVIZ Licensing is supported in both GCC and GCC High.**  
+    OKVIZ licenses do not rely on the AppSource infrastructure: we provide a visual package with the license embedded, which works in government clouds. The licensed visual should be distributed by deploying the package as an [Organizational Visual](../get-started/org-store.md), so that all report authors and viewers in the tenant use the licensed version.
+
+    > **NOTE:** If your environment restricts outbound Internet traffic, either allow traffic to `api.okviz.com` for licensing validation or rely on the offline usage approach described in the [OKVIZ Licensing](#okviz-licensing) section.
+
+> These limitations are documented by Microsoft: licensed AppSource visuals are not supported in sovereign or government clouds ([Considerations and limitations](https://learn.microsoft.com/en-us/power-bi/developer/visuals/power-bi-custom-visuals#considerations-and-limitations), [AppSource visual license models](https://learn.microsoft.com/en-us/power-bi/developer/visuals/custom-visual-licenses)). For a broader overview of feature availability in these environments, see [Power BI for US government customers](https://learn.microsoft.com/en-us/fabric/enterprise/powerbi/service-government-us-overview).
 
 ## What License Should I Get?
 
