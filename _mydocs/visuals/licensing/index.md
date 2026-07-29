@@ -46,7 +46,7 @@ When you purchase a license from [AppSource](https://appsource.microsoft.com/en-
 
 - **Platform Compatibility**  
     Because the assignment is user-specific, this licensing option does not support platforms where users are not publicly authenticated. 
-    This means that **Power BI Report Server, Power BI Embedded, SharePoint, Publish to Web, and National Clouds are NOT supported**.
+    This means that **Power BI Report Server, Power BI Embedded, SharePoint, Publish to Web, Government Clouds (GCC/GCC High), and National Clouds are NOT supported**.
 
 - **No Version Control**  
     AppSource licensed visuals are always updated to the latest version for every user. This means that you cannot roll back to a previous version in case of regressions.
@@ -71,7 +71,7 @@ When you purchase a license directly from the [OKVIZ website](https://okviz.com/
     Unlike AppSource licensing, there is no need for a per-user assignment. We provide you with a package containing the visual with the hardcoded license, which can be used in any report. If you install the visual in your [Organizational Store](../get-started/org-store.md), the process is even simpler.
 
 - **Platform Compatibility**  
-    OKVIZ licenses **can be used with any Power BI platform**, including Power BI Report Server, Power BI Embedded, SharePoint, Publish to Web, and National Clouds.
+    OKVIZ licenses **can be used with any Power BI platform**, including Power BI Report Server, Power BI Embedded, SharePoint, Publish to Web, Government Clouds (GCC/GCC High), and National Clouds.
 
 - **Version Control**  
     With OKVIZ licensing, you have full control over version updates. You can choose when to update the visual in your reports, and you can roll back to a previous version if necessary.
@@ -127,17 +127,13 @@ In other words, if you need an invoice issued by OKVIZ, you should purchase thro
 
 ## Government Clouds (GCC and GCC High)
 
-Microsoft provides dedicated Power BI environments for US government customers: **GCC** (Government Community Cloud), **GCC High**, and **DoD**. These environments do not support the AppSource commercial infrastructure, which directly affects how custom visuals can be licensed:
+Microsoft provides dedicated Power BI environments for [US government customers](https://learn.microsoft.com/en-us/fabric/enterprise/powerbi/service-government-us-overview): **GCC** (Government Community Cloud), **GCC High**, and **DoD**. These environments do not support the AppSource commercial infrastructure, which directly affects how custom visuals can be licensed:
 
 - **AppSource Licensing is NOT available in government clouds.**  
-    Paid AppSource visuals cannot be purchased or used in any government cloud (GCC, GCC High, or DoD), because Microsoft does not support the purchase transaction and the license enforcement of AppSource visuals in these environments.
+    Paid AppSource visuals cannot be purchased or used in any government cloud (GCC, GCC High, or DoD): as documented by Microsoft, [licensed visuals are not supported in sovereign or government clouds](https://learn.microsoft.com/en-us/power-bi/developer/visuals/power-bi-custom-visuals#considerations-and-limitations), where neither the purchase transaction nor the [license enforcement](https://learn.microsoft.com/en-us/power-bi/developer/visuals/custom-visual-licenses) is available.
 
 - **OKVIZ Licensing is supported in both GCC and GCC High.**  
-    OKVIZ licenses do not rely on the AppSource infrastructure: we provide a visual package with the license embedded, which works in government clouds. The licensed visual should be distributed by deploying the package as an [Organizational Visual](../get-started/org-store.md), so that all report authors and viewers in the tenant use the licensed version.
-
-    > **NOTE:** If your environment restricts outbound Internet traffic, either allow traffic to `api.okviz.com` for licensing validation or rely on the offline usage approach described in the [OKVIZ Licensing](#okviz-licensing) section.
-
-> These limitations are documented by Microsoft: licensed AppSource visuals are not supported in sovereign or government clouds ([Considerations and limitations](https://learn.microsoft.com/en-us/power-bi/developer/visuals/power-bi-custom-visuals#considerations-and-limitations), [AppSource visual license models](https://learn.microsoft.com/en-us/power-bi/developer/visuals/custom-visual-licenses)). For a broader overview of feature availability in these environments, see [Power BI for US government customers](https://learn.microsoft.com/en-us/fabric/enterprise/powerbi/service-government-us-overview).
+    OKVIZ licenses do not rely on the AppSource infrastructure: we provide a visual package with the license embedded, which works in government clouds. The licensed visual should be distributed by deploying the package as an [Organizational Visual](../get-started/org-store.md), so that all report authors and viewers in the tenant use the licensed version. If your environment restricts outbound Internet traffic, either allow traffic to `api.okviz.com` for licensing validation or rely on the offline usage approach described in the [OKVIZ Licensing](#okviz-licensing) section.
 
 ## What License Should I Get?
 
