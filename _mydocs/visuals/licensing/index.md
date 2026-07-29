@@ -10,7 +10,7 @@ order:              /04
 
 This page explains in detail how the licensing system for OKVIZ visuals works. 
 
-> **Short on time?** Instead of reading through this entire page, you can use our [Licensing Assistant](https://okviz.com/licensing/) for a guided experience: answer a few questions to find the licensing options compatible with your scenario and calculate pricing.
+> **Short on time?** Instead of reading through this entire page, use our [Licensing Assistant](https://okviz.com/licensing/) for a guided experience: answer a few questions to find the licensing options compatible with your scenario and calculate pricing.
 
 We offer a dual licensing system so that you can choose the option that best fits your needs. Both licensing options follow a subscription model, on a monthly or yearly basis:
 
