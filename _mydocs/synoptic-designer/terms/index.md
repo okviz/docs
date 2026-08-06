@@ -3,7 +3,7 @@ layout:             page
 title:              Terms of Use
 published:          true
 date:               2026-07-04
-modified:           2026-07-04
+modified:           2026-08-06
 order:              /synoptic-designer/{98}
 toc_h_max:          3
 next_reading:       true
@@ -19,7 +19,7 @@ You may use Synoptic Designer to:
 - create maps intended for Synoptic Panel;
 - edit SVG or JSVG map files for Synoptic Panel;
 - import local reference images or data lists to prepare Synoptic Panel maps;
-- export JSVG files for use in Synoptic Panel;
+- export SVG files for use in Synoptic Panel;
 - keep local project copies in your browser profile.
 
 Any other use is not permitted unless OKVIZ provides explicit written authorization.

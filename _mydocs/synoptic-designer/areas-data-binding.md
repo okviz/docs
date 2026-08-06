@@ -3,7 +3,7 @@ layout:             page
 title:              Areas, Data, and Binding
 published:          true
 date:               2026-06-01
-modified:           2026-07-21
+modified:           2026-08-06
 order:              /synoptic-designer/04
 toc_h_max:          3
 next_reading:       true
@@ -63,7 +63,7 @@ The selected-area details include a type selector next to the area name. It cont
 
 ### Link
 
-***Link*** replaces the binding controls with a ***URL*** field. Enter the external URL that Synoptic Panel should open when a report user clicks the element. Synoptic Designer stores and exports the URL with the JSVG map.
+***Link*** replaces the binding controls with a ***URL*** field. Enter the external URL that Synoptic Panel should open when a report user clicks the element. Synoptic Designer stores the URL and exports it with the SVG map.
 
 > **NOTE:** Use an HTTP or HTTPS URL. Synoptic Designer rejects other explicit URL schemes before saving or exporting the link and never navigates to it from the editor.
 
@@ -78,6 +78,8 @@ When ***Decoration*** is applied to a group, all child elements inherit the deco
 The ***Areas*** tree shows a decoration icon instead of a binding-status indicator. See [Decoration in Synoptic Panel](../visuals/synoptic-panel/features/map-editor/edit-map.md#decoration) for the corresponding visual behavior.
 
 Synoptic Designer retains inactive binding, title, and link URL metadata when you switch types. If you switch the element back to a previous type, its earlier values are restored.
+
+Area types and link URLs are preserved by browser-local projects, exported SVG files, and supported SVG or JSVG imports.
 
 ## Binding States
 
@@ -103,7 +105,7 @@ Automatic matching follows Synoptic Panel rules such as case-insensitive compari
 
 The ***Title*** field stores optional display metadata for the selected area. Synoptic Panel can use this title when label options are configured to display area titles.
 
-The title is saved with the project and exported in the JSVG mapping metadata.
+The title is saved with the project and exported with the SVG metadata.
 
 ## Groups and Binding
 

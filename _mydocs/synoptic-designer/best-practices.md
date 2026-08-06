@@ -3,7 +3,7 @@ layout:             page
 title:              Best Practices
 published:          true
 date:               2026-06-01
-modified:           2026-07-06
+modified:           2026-08-06
 order:              /synoptic-designer/09
 toc_h_max:          3
 next_reading:       true
@@ -45,13 +45,14 @@ Avoid relying on unsupported SVG features such as scripts, event handlers, forei
 
 ## Export Portable Work
 
-Use browser-local save for continuing work in the same browser. Use JSVG export for portable files, sharing, backup, or import into Synoptic Panel.
+Use browser-local save for continuing work in the same browser. Use SVG export for portable files, sharing, backup, or import into Synoptic Panel.
 
 Before exporting, check:
 
 - all intended areas have stable IDs;
 - imported datapoints show expected matches;
 - explicit bindings are intentional;
-- decorative areas are marked ***Do Not Bind*** when needed;
+- decorative content uses ***Decoration***, and intentionally unbound areas use ***(Do Not Bind)***;
+- link elements use ***Link*** and have a valid URL;
 - the tracing image is still needed in the exported file;
 - the map name, author, and attribution are correct.

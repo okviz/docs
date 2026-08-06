@@ -3,7 +3,7 @@ layout:             page
 title:              Magic Wand
 published:          true
 date:               2026-06-08
-modified:           2026-07-06
+modified:           2026-08-06
 order:              /synoptic-designer/03/04
 toc_h_max:          3
 next_reading:       true
@@ -17,6 +17,8 @@ Click inside a visually enclosed bitmap region to show a non-destructive preview
 
 To create the area, click the preview directly. Synoptic Designer inserts the preview as an editable SVG path and returns to ***Selector*** unless ***Keep after Use*** is enabled.
 
+Turn on ***Quick apply*** when you want the first click to insert the traced area immediately, without preview confirmation. ***Quick apply*** is off by default.
+
 Clicking another bitmap region replaces the current preview with a new one. Press Escape, Delete, or Backspace to cancel the preview without changing the document.
 
 The active Magic Wand options include:
@@ -24,7 +26,7 @@ The active Magic Wand options include:
 - ***Node Density***, which controls how many points are kept in the generated path;
 - ***Tolerance***, which controls how similar neighboring bitmap pixels can be before they are included in the traced region.
 
-The options are enabled only while a preview is active. Changing ***Node Density*** or ***Tolerance*** recomputes that same preview from the original click point before insertion. This lets you tune the traced boundary before committing the path.
+The options remain available while ***Magic Wand*** is active. Changing ***Node Density*** or ***Tolerance*** recomputes the current preview when one exists and becomes the starting value for the next trace. Higher ***Tolerance*** values expand the traced region more predictably from the clicked source pixel.
 
 Generated Magic Wand shapes behave like other editable areas: they can be selected, formatted, renamed, bound, saved, and exported.
 

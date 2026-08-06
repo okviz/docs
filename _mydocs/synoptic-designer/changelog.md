@@ -3,12 +3,30 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2026-07-04
-modified:           2026-07-28
+modified:           2026-08-06
 order:              /synoptic-designer/{98}
 toc_h_max:          2
 ---
 
 This page contains a quick summary of versions and notable changes of Synoptic Designer.
+
+## v2.0.5
+
+**Released:** 2026-08-06
+
+**New Features:**
+
+- Add SVG export that includes Synoptic Panel mapping metadata.
+
+**Improvements:**
+
+- Add canvas drag-and-drop import for images and SVG files.
+- Magic Wand newly generated areas output at 75% object opacity.
+
+**Bug Fixes:**
+
+- Fix wrong rendering of imported SVG in some cases.
+- Prevent drawing tools from falling through to canvas lasso selection when drawing across existing areas.
 
 ## v2.0.4
 

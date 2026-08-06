@@ -3,7 +3,7 @@ layout:             page
 title:              Workspace
 published:          true
 date:               2026-06-01
-modified:           2026-07-06
+modified:           2026-08-06
 order:              /synoptic-designer/02
 next_reading:       true
 ---
@@ -18,9 +18,11 @@ The header contains project-level actions:
 
 - ***New*** opens the project dialog on the ***New Project*** tab.
 - ***Load*** opens the project dialog on the ***Load Project*** tab.
-- ***Export*** opens the JSVG export dialog.
+- ***Export*** opens the SVG export dialog.
 - ***Auto Save*** controls browser-local saving.
 - ***Save*** appears when ***Auto Save*** is disabled.
+
+The resources menu opens documentation, release notes, support links, and Synoptic Panel references. The header also includes a ***Built for Synoptic Panel*** link.
 
 Save status labels indicate whether the current project is saved locally, saving, unsaved, empty, or failed to save.
 
@@ -28,7 +30,7 @@ Save status labels indicate whether the current project is saved locally, saving
 
 The left toolbar contains the editor tools. Some toolbar buttons open a grouped menu. You can click the main button to activate its current tool, or open the menu to choose another tool in the same group.
 
-Creation tools can use ***Keep after Use***. When enabled, the active creation tool remains active after creating an object. Press `K` to toggle this behavior when it is available.
+Creation tools can use ***Keep after Use***. When enabled, the active creation tool remains active after creating an object. Press `K` to toggle this behavior when it is available. Synoptic Designer remembers the setting in the browser for later sessions.
 
 Some tools show an options panel near the canvas while active. For example, ***Magic Wand*** shows tracing controls, and ***Grid*** shows grid generation controls.
 

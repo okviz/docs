@@ -3,7 +3,7 @@ layout:             page
 title:              Object Commands
 published:          true
 date:               2026-06-01
-modified:           2026-07-06
+modified:           2026-08-06
 order:              /synoptic-designer/03-object-commands
 toc_h_max:          3
 next_reading:       true
@@ -68,4 +68,4 @@ Combine is undoable. Unsupported open, locked, placed-asset, or helper content i
 
 ***Hide*** removes an area from view without deleting it. ***Lock*** protects an area from normal editing and formatting.
 
-Hidden and locked states are visible in the ***Areas*** tree and are preserved by browser-local save and JSVG export when supported by the project model.
+Hidden and locked states are visible in the ***Areas*** tree and are preserved by browser-local save and SVG export when supported by the project model.

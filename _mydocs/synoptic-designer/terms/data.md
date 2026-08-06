@@ -3,7 +3,7 @@ layout:             page
 title:              Data Policy
 published:          true
 date:               2026-07-04
-modified:           2026-07-04
+modified:           2026-08-06
 order:              /synoptic-designer/terms/01
 toc_h_max:          3
 ---
@@ -12,11 +12,11 @@ Synoptic Designer is designed as a local browser-based editor. The SVG maps, JSV
 
 ## No Project Data Sent to OKVIZ
 
-Synoptic Designer does not send your map content, imported drawings, tracing images, imported data lists, browser-local projects, or exported JSVG files to OKVIZ servers or other external servers.
+Synoptic Designer does not send your map content, imported drawings, tracing images, imported data lists, browser-local projects, or exported SVG files to OKVIZ servers or other external servers.
 
 In particular, OKVIZ does not receive:
 
-- SVG or JSVG files that you open or export;
+- SVG or JSVG files that you open, and SVG files that you export;
 - bitmap images used as tracing references;
 - data lists imported to review area binding;
 - browser-local project snapshots;
@@ -42,6 +42,6 @@ This policy applies to content created, imported, edited, saved, or exported ins
 
 ## Export and Sharing
 
-Exporting a JSVG file downloads a local file from the browser. After export, you control where that file is stored, shared, uploaded, imported, backed up, or published.
+Exporting an SVG file downloads a local file from the browser. After export, you control where that file is stored, shared, uploaded, imported, backed up, hosted, or published.
 
 If you import an exported map into Synoptic Panel, the data and privacy behavior of Synoptic Panel is governed by the Synoptic Panel documentation and policies.

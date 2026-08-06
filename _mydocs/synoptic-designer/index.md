@@ -4,7 +4,7 @@ title:              Synoptic Designer
 menu_title:         Synoptic Designer
 published:          true
 date:               2026-06-01
-modified:           2026-07-21
+modified:           2026-08-06
 order:              /{synoptic-designer}
 next_reading:       true
 ---
@@ -20,8 +20,8 @@ Use Synoptic Designer when you need to:
 - create a new Synoptic Panel map from a blank canvas;
 - trace a bitmap image into editable SVG areas;
 - clean up or extend an existing SVG map;
-- edit an existing JSVG map while preserving data binding metadata;
-- prepare a map that can be imported into Synoptic Panel.
+- edit an existing SVG or JSVG map while preserving supported Synoptic Panel metadata;
+- export an SVG map that can be imported into Synoptic Panel.
 
 The following workflow creates a first SVG area from a blank project.
 
@@ -35,7 +35,7 @@ Synoptic Panel uses [SVG maps](../visuals/synoptic-panel/concepts/maps/index.md#
 
 For the complete matching behavior, see [Data Binding](../visuals/synoptic-panel/concepts/data-binding.md) in the Synoptic Panel documentation.
 
-The main export format is [JSVG](../visuals/synoptic-panel/concepts/maps/index.md#jsvg). A JSVG file is a JSON map file that contains the SVG artwork plus optional Synoptic Panel data mapping. This allows Synoptic Designer to preserve:
+The main export format is [SVG](../visuals/synoptic-panel/concepts/maps/index.md#svg). Synoptic Designer writes supported Synoptic Panel mapping metadata directly into the exported SVG, so the file can be imported as a [Local Map or Remote Map](../visuals/synoptic-panel/features/importing/index.md). This allows Synoptic Designer to preserve:
 
 - SVG shapes, groups, text, and supported embedded images;
 - area identifiers used for automatic binding;
@@ -46,12 +46,14 @@ The main export format is [JSVG](../visuals/synoptic-panel/concepts/maps/index.m
 - optional area titles;
 - tracing images embedded by Synoptic Designer.
 
+Synoptic Designer can also load [JSVG](../visuals/synoptic-panel/concepts/maps/index.md#jsvg) files when you need to update a map that already contains Synoptic Panel mapping metadata in that project format.
+
 ## Local-Only Workflow
 
 Synoptic Designer runs in the browser. Core workflows do not require a Power BI connection, an OKVIZ account, cloud storage, or a backend service.
 
 Project files, imported data lists, bitmap tracing images, and saved browser-local projects remain local to the browser unless you explicitly export or download a file.
 
-> **NOTE:** Browser-local projects are saved in the current browser profile. They are useful for continuing work later on the same device, but they are not a cloud backup. Export a JSVG file when you need a portable copy.
+> **NOTE:** Browser-local projects are saved in the current browser profile. They are useful for continuing work later on the same device, but they are not a cloud backup. Export an SVG file when you need a portable copy for Synoptic Panel.
 
 For a tour of the editor layout, see [Workspace](workspace.md).

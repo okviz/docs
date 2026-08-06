@@ -3,7 +3,7 @@ layout:             page
 title:              Create and Load Projects
 published:          true
 date:               2026-06-01
-modified:           2026-07-06
+modified:           2026-08-06
 order:              /synoptic-designer/01
 next_reading:       true
 ---
@@ -25,7 +25,7 @@ Use ***New Project*** to create a new editing session from one of these sources.
 |Source|Use it when|Result|
 |---|---|---|
 |Image or SVG|You have a bitmap tracing image or an existing SVG map.|Bitmap files become tracing images. SVG files become editable vector content.|
-|JSVG|You have a map exported from Synoptic Panel or Synoptic Designer.|SVG content and mapping metadata are loaded together.|
+|JSVG|You have a map-with-binding file from Synoptic Panel or another compatible workflow.|SVG content and mapping metadata are loaded together.|
 |Start from the scratch|You want to draw the map directly in Synoptic Designer.|A blank SVG document opens.|
 
 Supported bitmap inputs are PNG, JPEG, and WebP. Supported vector inputs are SVG files. JSVG input can use the `.jsvg` or `.json` extension.
@@ -51,7 +51,7 @@ If the SVG is loaded as the initial document, its supported shapes become editab
 
 ## Starting from a JSVG File
 
-Use a JSVG file when you need to keep Synoptic Panel mapping metadata. Synoptic Designer imports the SVG content and reads supported mapping information from the file.
+Use a JSVG file when you need to keep Synoptic Panel mapping metadata from an existing map-with-binding file. Synoptic Designer imports the SVG content and reads supported mapping information from the file.
 
 This is the preferred workflow when you need to update a map that already has manual bindings, unbound areas, or area titles.
 
