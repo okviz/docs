@@ -4,13 +4,15 @@ title:              Bullet Chart
 menu_title:         – Bullet Chart
 published:          true
 date:               2022-07-14
-modified:           2025-02-25
+modified:           2026-08-27
 order:              /bullet-chart
 class:              front-section
 next_reading:       true
 ---
 
 **Bullet Chart** is a custom visual that allows you to show data values, saving precious space on your reports. It can render single or multiple values in a series and show comparison values, different targets, and includes several advanced features.
+
+> Ask an AI assistant how to configure and use this visual with the official OKVIZ documentation. [Learn how](../get-started/ai).
 
 <img src="images/bullet-chart.png" width="700" class="naked">
 

@@ -3,11 +3,13 @@ layout:             page
 title:              Get Started
 published:          true
 date:               2024-05-10
-modified:           2026-06-22
+modified:           2026-08-27
 order:              /synoptic-panel/01
 
 ---
 In this section, you will learn how to install and use Synoptic Panel in a Power BI report. This is a quick guide to get you started; for more detailed information, refer to the [Concepts](../concepts/index) and [Features](../features/index) sections.
+
+> Ask an AI assistant how to configure and use this visual with the official OKVIZ documentation. [Learn how](../../get-started/ai).
 
 ## Installation
 

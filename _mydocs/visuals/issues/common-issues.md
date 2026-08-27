@@ -3,7 +3,7 @@ layout:             page
 title:              Common Issues
 published:          true
 date:               2021-12-17
-modified:           2026-05-05
+modified:           2026-08-25
 toc:                false
 order:              /03/02
 ---
@@ -15,7 +15,7 @@ Here are some of the most common errors you can run into with Power BI and custo
 
     <video src="images/generic-error.mp4" width="450" autoplay loop muted></video>
 
-- **The visual is no longer available. Please contact your administrator for details.**
+- <span id="the-visual-is-no-longer-available-please-contact-your-administrator-for-details"></span>**The visual is no longer available. Please contact your administrator for details.**
 
     This happens when you share a report containing a custom visual stored in the [Org Store](../get-started/org-store.md) outside your organization. If you plan to share a report file, include any custom visuals directly from a file. See [Installation](../get-started/installation.md) for more information.  
 
@@ -43,7 +43,7 @@ Here are some of the most common errors you can run into with Power BI and custo
     See [Data Not Visible in the Visual](data-not-visible.md) for a diagnostic technique to determine whether the issue is in the visual configuration or in the underlying data.
 
 
-- **We can't display this visual because a measure is used in cross highlighting. Please remove the measure or cross highlight.**
+- <span id="we-cant-display-this-visual-because-a-measure-is-used-in-cross-highlighting-please-remove-the-measure-or-cross-highlight"></span>**We can't display this visual because a measure is used in cross highlighting. Please remove the measure or cross highlight.**
 
     This usually affect ***Smart Filter Pro***. This error occurs when you enable [Consolidate Fields](../smart-filter-pro/options/mode/consolidate-fields.md) and change the logical operator to ***OR***. Unfortunately, Power BI doesn't support filtering different fields in OR.
 
@@ -51,4 +51,3 @@ Here are some of the most common errors you can run into with Power BI and custo
 
 ---
 If you encounter an error not listed here, please visit the [Power BI Tile Errors](https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-troubleshooting-tile-errors#error-list) page.
-

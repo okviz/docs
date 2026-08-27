@@ -15,6 +15,22 @@ You must follow only 3 steps:
 You can run the website locally to see the changes before pushing them to the repository. To do this, you need to install Jekyll and the GitHub Pages gem.
 See: [Setting up your GitHub Pages site locally with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)
 
+Before publishing documentation changes, run the complete local validation:
+
+```shell
+npm run validate
+```
+
+This command builds the site and validates generated metadata, JSON-LD, optional machine-readable AI resources, internal links, anchors, local media, and external HTTP links. External URLs are deduplicated, redirects are followed, and inconclusive responses such as authentication failures or rate limits are reported as warnings. Requests to the same hostname are spaced by five seconds, while different hostnames are checked in parallel.
+
+Set `url` in `_config.yml` to the public origin of the documentation site so canonical URLs, structured metadata, and the sitemap use the production domain.
+
+To validate an existing `_site` build without making network requests, run:
+
+```shell
+npm run validate:site
+```
+
 
 ## Directory Structure
 
@@ -113,7 +129,7 @@ Parameters:
 - **body_class:** (optional) set a custom CSS class for the body of the document.
 - **published:** set ***true*** to display the document on the website. 
 - **unlisted:** set ***true*** to hide the document from the navigation menu.
-- **draft:** (optional) set ***true*** to show a notice that the document is not completed (note that this notice appears automatically if the document is empty or if it contains a &lt;todo&gt;&lt;/todo&gt; tag. Set ***nodraft: true*** to avoid displaying the notice.
+- **draft:** (optional) set ***true*** to show a notice that the document is not completed. The notice also appears automatically when the document is empty or if it contains a &lt;todo&gt;&lt;/todo&gt; tag. Set ***nodraft: true*** to avoid displaying the notice for an intentionally empty page.
 - **date:** set the creation date of the document.
 - **modified:** set the date of the last modification of the document.
 - **no_date:** (optional) set ***true*** to hide the date.
@@ -498,7 +514,7 @@ The URL of the links can be:
     </tr>
     <tr>
         <td>
-            <pre>&#60;img src="images/screenshot.png" width="500"&#62;</pre>
+            <pre>&#60;img src="images/screenshot.png" width="500" alt="Color settings in the Power BI formatting pane"&#62;</pre>
         </td>
         <td>
             N/A
@@ -511,6 +527,8 @@ You are not allowed to embed images in Markdown documents like in Word, but they
 Always create a folder called images in the parent folder of the document you are working on (if it doesn't exist) and put all the images in it. For example, the images of ***smart-filter-pro/about.md*** must be placed in the folder ***_mydocs/smart-filter-pro/images/***.
 
 > Set a reasonable number of pixels in the ***width*** attribute of the &lt;img&gt; tag.
+
+> Add a concise ***alt*** attribute that explains the relevant information in an image. Use `alt=""` only when the image is decorative and adds no information beyond the surrounding text.
 
 > You can align text around images by adding `class="fr"` or `class="fl"` to the img tag.
 
@@ -539,6 +557,8 @@ Always create a folder called images in the parent folder of the document you ar
 Like with images, you need to use a HTML syntax to embed videos in your pages. Follow the same rules and best practices of images.
 
 > Be sure to include ***autoplay***, ***loop*** and ***muted*** attributes.
+
+> Add nearby text that summarizes the action or result shown in each screencast. The documentation must remain understandable when the video cannot be viewed or processed.
 
 #### Badges
 
@@ -658,7 +678,7 @@ You can add notes to your documents by using the blockquote syntax.
 
 #### TODOs
 
-You can add some placeholders and notes in unfinished documents, to keep track of the content to be edited or the tasks to be performed. **TODOs are not displayed on the rendered page**, but still visible if you inspect the HTML in the browser – if you need to add truly hidden content, please use comments. Also, when there is a TODO in the file, a **draft notice** is added to the rendered page.
+You can add some placeholders and notes in unfinished documents, to keep track of the content to be edited or the tasks to be performed. **TODOs are not displayed on the rendered page**, but are still visible if you inspect the HTML in the browser. If you need to add truly hidden content, use comments. A TODO does not add a draft notice; set `draft: true` in the document header when the entire page is not ready for publication.
 
     <todo>Take a screenshot</todo>
 

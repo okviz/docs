@@ -3,7 +3,7 @@ layout:             page
 title:              Filtering Maps
 published:          true
 date:               2025-08-01
-modified:           2025-08-04
+modified:           2026-08-25
 order:              /synoptic-panel/features/filtering-maps
 ---
 
@@ -42,9 +42,9 @@ Synoptic Panel allows you to assign a map to each data point in the dataset. Sin
 
 There are two options that you need to consider:
 
-- [Category Level Maps](../drill-mode.md#category-level-maps-option): this option must be *disabled*, otherwise you will be able to assign a map only to each category, not to each data point (which are the values of the category).
+- [Category Level Maps](../../options/drill-behavior/category-level-maps.md): this option must be *disabled*, otherwise you will be able to assign a map only to each category, not to each data point (which are the values of the category).
 
-- [Last Level Maps](../drill-mode.md#last-level-maps-option): this option must be *enabled*, otherwise you won't be able to assign a map to the last level of the hierarchy, or the first one if the hierarchy has only one level (the initial state).
+- [Last Level Maps](../../options/drill-behavior/last-level-maps.md): this option must be *enabled*, otherwise you won't be able to assign a map to the last level of the hierarchy, or the first one if the hierarchy has only one level (the initial state).
 
 When these options are set correctly, you can assign a map to each data point in the dataset, but **note that is only visible if there is a single data point in the visual**. If there are multiple data points, the visual will follow the default behavior and display the map assigned to the category.
 

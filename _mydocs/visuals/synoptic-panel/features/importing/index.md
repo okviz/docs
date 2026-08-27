@@ -3,7 +3,7 @@ layout:             page
 title:              Importing Maps
 published:          true
 date:               2024-05-26
-modified:           2026-04-13
+modified:           2026-08-25
 order:              /synoptic-panel/features/importing
 ---
 
@@ -128,7 +128,7 @@ To load a map from My Storage, follow these steps:
 
     If you have already loaded a map, you can click the ***+ Add*** button in the [Map Editor](../map-editor/index.md) dialog.
 
-2. [Connect one or more maps](../../features/my-storage.md#connecting-maps-to-the-visual) to the visual.
+2. [Connect one or more maps](../../features/my-storage.md#connecting-a-my-storage-map) to the visual.
 
 ### Map URLs Column
 

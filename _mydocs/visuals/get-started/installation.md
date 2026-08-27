@@ -3,7 +3,7 @@ layout:             page
 title:              Installation
 published:          true
 date:               2021-11-17
-modified:           2024-12-09
+modified:           2026-08-25
 order:              /01/02
 toc_h_max:            2
 ---
@@ -52,10 +52,10 @@ To use it, follow these steps:
 
 The Power BI Organizational Store is a private marketplace used to store and share visuals within an organization. In order to use OKVIZ visuals with the Org Store, there are two steps required:
 
-1.	[Installing a visual in the Org Store](#installing-a-visual-in-the-org-store)  
+1.	[Installing a visual in the Org Store](#1-installing-a-visual-in-the-org-store)
     This must be done by an admin every time a new version of the visual is released.
 
-2.	[Importing a visual from the Org Store into your reports](#importing-a-visual-from-the-org-store-into-your-reports)  
+2.	[Importing a visual from the Org Store into your reports](#2-importing-a-visual-from-the-org-store)
     Any user in the organization can do that.
 
 These steps are described in detail in the following sections.

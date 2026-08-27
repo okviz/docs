@@ -1,0 +1,67 @@
+---
+layout: null
+permalink: /ai/catalog.json
+unlisted: true
+---
+{
+    "schemaVersion": 1,
+    "name": "OKVIZ Documentation",
+    "canonicalBaseUrl": {{ site.url | jsonify }},
+    "usageGuideUrl": {{ "/visuals/get-started/ai" | absolute_url | jsonify }},
+    "policyUrl": {{ "/ai/policy.json" | absolute_url | jsonify }},
+    "documents": [
+{% assign first_document = true %}
+{% for doc in site.mydocs %}
+    {% unless doc.redirect or doc.unlisted %}
+        {% unless doc.draft %}
+            {% unless doc.noindex %}
+                {% unless doc.published == false %}
+                    {% assign doc_url = doc.url | append: "__docs0_url_end__" | replace: "/index__docs0_url_end__", "/__docs0_url_end__" | remove: "__docs0_url_end__" %}
+                    {% assign product_title = nil %}
+                    {% if doc_url contains "/visuals/bullet-chart" %}
+                        {% assign product_title = "Bullet Chart" %}
+                    {% elsif doc_url contains "/visuals/calendar-pro" %}
+                        {% assign product_title = "Calendar Pro" %}
+                    {% elsif doc_url contains "/visuals/card-with-states" %}
+                        {% assign product_title = "Card with States" %}
+                    {% elsif doc_url contains "/visuals/smart-filter-pro" %}
+                        {% assign product_title = "Smart Filter Pro" %}
+                    {% elsif doc_url contains "/visuals/synoptic-panel" %}
+                        {% assign product_title = "Synoptic Panel" %}
+                    {% elsif doc_url contains "/synoptic-designer" %}
+                        {% assign product_title = "Synoptic Designer" %}
+                    {% endif %}
+                    {% assign content_type = "documentation" %}
+                    {% if doc_url contains "/options/" or doc_url contains "/fields/" %}
+                        {% assign content_type = "reference" %}
+                    {% elsif doc_url contains "/issues/" %}
+                        {% assign content_type = "troubleshooting" %}
+                    {% elsif doc_url contains "/legal/" or doc_url contains "/terms/" or doc_url contains "/licensing/" %}
+                        {% assign content_type = "legal" %}
+                    {% elsif doc_url contains "/get-started/" or doc_url contains "/features/" or doc_url contains "/concepts/" or doc_url contains "/tools/" %}
+                        {% assign content_type = "guide" %}
+                    {% endif %}
+                    {% capture context_title %}{% if product_title and doc.title != product_title %}{{ doc.title }} — {{ product_title }}{% else %}{{ doc.title }}{% endif %}{% endcapture %}
+                    {% capture description %}{% if doc.description %}{{ doc.description }}{% elsif product_title %}{{ doc.title }} documentation for {{ product_title }} in Power BI.{% else %}{{ doc.title }} on OKVIZ Documentation.{% endif %}{% endcapture %}{% unless first_document %},{% endunless %}
+        {
+            "id": {{ doc_url | jsonify }},
+            "url": {{ doc_url | absolute_url | jsonify }},
+            "title": {{ doc.title | jsonify }},
+            "contextTitle": {{ context_title | normalize_whitespace | strip | jsonify }},
+            "description": {{ description | normalize_whitespace | strip | jsonify }},
+            "product": {% if product_title %}{{ product_title | jsonify }}{% else %}null{% endif %},
+            "contentType": {{ content_type | jsonify }},
+            "datePublished": {% if doc.date %}{{ doc.date | date: "%Y-%m-%d" | jsonify }}{% else %}null{% endif %},
+            "dateModified": {% if doc.modified %}{{ doc.modified | date: "%Y-%m-%d" | jsonify }}{% elsif doc.date %}{{ doc.date | date: "%Y-%m-%d" | jsonify }}{% else %}null{% endif %},
+            "version": {% if doc.version %}{{ doc.version | jsonify }}{% else %}null{% endif %},
+            "available": {% if doc.available %}{{ doc.available | jsonify }}{% else %}null{% endif %},
+            "premium": {% if doc.premium %}true{% else %}false{% endif %},
+            "sourceUrl": {{ site.github_url | append: "/blob/main/" | append: doc.path | jsonify }}
+        }{% assign first_document = false %}
+                {% endunless %}
+            {% endunless %}
+        {% endunless %}
+    {% endunless %}
+{% endfor %}
+    ]
+}

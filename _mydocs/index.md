@@ -4,6 +4,7 @@ title:          OKVIZ Documentation
 menu_title:     Docs
 published:      true
 no_date:        true
+modified:       2026-08-27
 order:          /
 toc:            false
 class:          front-site
@@ -77,6 +78,7 @@ In this site, you will find information about our products, services, and other 
 - [How to Install a Custom Visual?](visuals/get-started/installation.md)
 - [Benefits of Organizational Store](visuals/get-started/org-store.md)
 - [About Microsoft Certification](visuals/certification.md)
+- [Learn How to Use OKVIZ Visuals with AI](visuals/get-started/ai)
 
 ### Support
 

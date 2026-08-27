@@ -4,13 +4,15 @@ title:              Card with States
 menu_title:         – Card with States
 published:          true
 date:               2026-04-07
-modified:           2026-04-15
+modified:           2026-08-27
 order:              /card-with-states
 class:              front-section
 next_reading:       true
 ---
 
 **Card with States** is a Power BI custom visual that displays one or more KPI cards with conditional rules, optional targets, and optional trendlines.
+
+> Ask an AI assistant how to configure and use this visual with the official OKVIZ documentation. [Learn how](../get-started/ai).
 
 <img src="images/card-with-states.png" width="700" class="naked">
 

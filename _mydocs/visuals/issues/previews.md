@@ -3,7 +3,7 @@ layout:             page
 title:              Preview Versions
 published:          true
 date:               2022-08-10
-modified:           2025-03-20
+modified:           2026-08-25
 toc:                false
 order:              /03/01
 related:
@@ -18,7 +18,7 @@ These types of versions are almost identical to published versions, but with som
 
     Preview versions cannot be certified ([Certification](../certification.md)). This does not mean that we steal your data or that they contain unsafe code, but just that, since we want to distribute them before the Microsoft certification process, they do not have enough time to complete it. Indeed, **we send the same version to Microsoft at the exact time we release it as a preview.**
 
-    > Check if uncertified visuals are allowed in your tenant here: [Enabled Uncertified Visuals](../certification.md#enabled-uncertified-visuals)
+    > Check if uncertified visuals are allowed in your tenant here: [Uncertified Visuals](../certification.md#uncertified-visuals)
 
 * ### Expiration
 

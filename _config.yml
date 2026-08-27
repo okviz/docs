@@ -2,6 +2,7 @@
 title: OKVIZ Documentation
 email: support@okviz.com
 company: OKVIZ Corp.
+url: https://docs.okviz.com
 
 # Main website URL
 web_url: https://okviz.com
@@ -13,7 +14,7 @@ privacy_url: https://docs.okviz.com/www/terms/privacy
 terms_url: https://docs.okviz.com/www/terms
 
 # GitHub URL - Leave blank if you don't want to display links to GitHub repo
-github_url:
+github_url: https://github.com/okviz/docs
 
 # Header quick link - This is usually a quick link to the service/product
 header_link_title: OKVIZ.com
@@ -35,7 +36,6 @@ nav_root_title: Docs
 ### DO NOT CHANGE BELOW THIS LINE ###
 
 plugins:
-  - jekyll-sitemap
   - jekyll-relative-links
   - jekyll-include-cache
 

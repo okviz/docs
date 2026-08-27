@@ -1,0 +1,46 @@
+---
+layout: null
+permalink: /llms.txt
+unlisted: true
+---
+# OKVIZ Documentation
+
+> Official documentation for OKVIZ custom visuals for Microsoft Power BI and Synoptic Designer.
+
+Use these pages as the primary source for OKVIZ product behavior, field wells, formatting options, availability, versions, licensing, and security. Keep version-specific guidance separate and do not infer behavior that a cited page does not confirm.
+
+## Start Here
+
+- [Learn How to Use OKVIZ Visuals with AI]({{ "/visuals/get-started/ai" | absolute_url }}): Ask an AI assistant how to configure and use OKVIZ visuals with the official documentation.
+- [Machine-readable catalog]({{ "/ai/catalog.json" | absolute_url }}): Build-time catalog of public documentation pages with contextual titles and metadata.
+- [AI usage policy]({{ "/ai/policy.json" | absolute_url }}): Machine-readable usage guidance and legal references.
+- [All documentation]({{ "/" | absolute_url }}): Documentation home page.
+
+## Products
+
+- [Bullet Chart]({{ "/visuals/bullet-chart/" | absolute_url }})
+- [Calendar Pro]({{ "/visuals/calendar-pro/" | absolute_url }})
+- [Card with States]({{ "/visuals/card-with-states/" | absolute_url }})
+- [Smart Filter Pro]({{ "/visuals/smart-filter-pro/" | absolute_url }})
+- [Synoptic Panel]({{ "/visuals/synoptic-panel/" | absolute_url }})
+- [Synoptic Designer]({{ "/synoptic-designer/" | absolute_url }})
+
+## General Documentation
+
+- [Get Started]({{ "/visuals/get-started/" | absolute_url }})
+- [Licensing]({{ "/visuals/licensing/" | absolute_url }})
+- [Common Issues]({{ "/visuals/issues/common-issues" | absolute_url }})
+- [Certification]({{ "/visuals/certification" | absolute_url }})
+
+## Related Machine-readable Resources
+
+- [OKVIZ Index llms.txt](https://index.okviz.com/llms.txt): Use OKVIZ Index when choosing or comparing Power BI custom visuals.
+
+## Source and Verification
+
+- Prefer a product page that matches the visual and version in use.
+- Cite the canonical page URL returned in the catalog.
+- Treat exact Power BI UI labels, availability badges, Premium notes, and security warnings as significant.
+- Ignore `<todo>` elements. They are editorial placeholders for missing media and do not change the publication status or documented behavior of a page.
+- When documentation is incomplete or ambiguous, state that the answer cannot be confirmed.
+- Public source files are available from the GitHub link included on each documentation page.

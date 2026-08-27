@@ -4,7 +4,7 @@ title:              Cookie Policy
 published:          true
 toc_h_max:          2
 date:               2024-12-31
-modified:           2025-07-28
+modified:           2026-08-26
 order:              /terms/03
 ---
 
@@ -119,7 +119,7 @@ You can use your browser settings to:
 For example, you can find information on managing Cookies in common browsers at the following links:
 - [Google Chrome](https://support.google.com/chrome/answer/95647?hl=en&p=cpn_cookies)
 - [Mozilla Firefox](https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences)
-- [Apple Safari](https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/)
+- [Apple Safari](https://support.apple.com/guide/safari/manage-cookies-sfri11471/mac)
 - [Microsoft Internet Explorer](http://windows.microsoft.com/en-us/windows-vista/block-or-allow-cookies)
 - [Microsoft Edge](https://support.microsoft.com/en-us/help/4027947)
 - [Brave](https://support.brave.com/hc/en-us/articles/360022806212-How-do-I-use-Shields-while-browsing)
@@ -201,6 +201,10 @@ A Tracker refers to any technology—for example, Cookies, unique identifiers, w
 This privacy statement has been prepared based on provisions from multiple legislations. This privacy policy relates solely to this Application, unless stated otherwise.
 
 ## Changes to this Policy
+
+### 2026-08-26
+
+- We updated the Safari cookie help article link.
 
 ### 2025-07-28
 

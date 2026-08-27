@@ -83,7 +83,9 @@ This repo is public. Some reference repos for the visuals are private. Treat tha
   image appear at natural size. Because the site content column is capped at
   700px and images use `max-width: 100%`, do not set `width` above `700`; when
   the natural image width would be greater than `700`, omit the `width`
-  attribute. Never add `alt` attributes to image tags.
+  attribute. Add concise, meaningful `alt` text to informative images and use
+  `alt=""` for decorative images. Add nearby explanatory text for videos so the
+  documented action or result does not depend on viewing the recording.
 - Reference UI elements in text with bold italic emphasis, such as
   `***Settings***` for a UI section named "Settings".
 - Use bold sparingly. Reserve it for terms that truly need emphasis, because

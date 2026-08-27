@@ -15,7 +15,7 @@ Dynamic Links lets Synoptic Panel navigate to a URL when a user clicks a matched
 
 Before start using Dynamic Links, you should be aware of these requirements:
 
-- The SVG map must already be bound to data through **Categories**. See [Data Binding](https://docs.okviz.com/visuals/synoptic-panel/concepts/data-binding) for how shapes match data points.
+- The SVG map must already be bound to data through **Categories**. See [Data Binding](../concepts/data-binding.md) for how shapes match data points.
 - [Dynamic Links field well](../fields/dynamic-links.md) accepts **one measure**. The measure must return a URL as text.
 - [Dynamic Links options](../options/dynamic-links/index.md) are only visible after a measure is placed in the Dynamic Links field well.
 
