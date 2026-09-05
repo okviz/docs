@@ -3,7 +3,7 @@ layout:             page
 title:              Creating SVG Files
 published:          true
 date:               2024-05-26
-modified:           2026-09-01
+modified:           2026-09-05
 order:              /synoptic-panel/concepts/maps/02
 ---
 
@@ -11,7 +11,7 @@ SVG files can be created using various tools. This page provides an overview of 
 
 ## Creating with AI Map Maker
 
-Use [AI Map Maker](https://okviz.com/synoptic-panel/map-maker/) to generate a Synoptic-ready SVG from a natural-language description with a supported AI assistant. It can also help you generate synthetic sample data or a ready-to-fill template for your own data.
+Follow [Creating SVGs with AI](creating-svg-with-ai.md) to generate a Synoptic-ready SVG from a natural-language description with a supported AI assistant. It can also help you generate synthetic sample data or a ready-to-fill template for your own data.
 
 Describe the areas, labels, and identifiers that should connect to your Power BI data, then review the generated SVG to confirm that it contains the expected areas and unique identifiers. If necessary, open the file in [Synoptic Designer](../../../../synoptic-designer/index.md) to refine its shapes and area bindings before loading it into Synoptic Panel.
 

@@ -2,16 +2,10 @@
 layout:             page
 title:              Creating SVGs with AI
 description:        Create SVG maps for Synoptic Panel with ChatGPT, Claude, Codex, or Grok, and prepare matching data for Power BI.
-published:          false
-draft:              true
+published:          true
 date:               2026-09-04
 modified:           2026-09-04
 order:              /synoptic-panel/concepts/maps/02-ai
-related:
-    - creating-svg.md
-    - /visuals/synoptic-panel/concepts/data-binding.md
-    - /visuals/synoptic-panel/features/importing/index.md
-    - /synoptic-designer/index.md
 ---
 
 Use your preferred AI assistant to create SVG maps for Synoptic Panel: ChatGPT, Claude, Codex, or Grok. The [AI Map Maker](https://okviz.com/synoptic-panel/map-maker/) page provides access to OKVIZ's map-making instructions for these assistants.
@@ -44,11 +38,19 @@ Open [Synoptic Panel SVG Map Maker](https://chatgpt.com/g/g-6a50fa7acabc8191800d
 
 Describe the map to create, or attach an existing SVG and explain the changes required. Include the data identifiers when they are already available.
 
-### Claude, Codex, and Grok
+### Codex, Claude, and Grok
 
 Open the [Synoptic Panel Map Maker repository](https://github.com/okviz/synoptic-panel-map-maker). Select ***Code***, then ***Download ZIP***, and follow the installation steps for the chosen assistant below.
 
 > **NOTE:** Use the complete skill package, including its supporting references, examples, and scripts.
+
+#### Install in Codex
+
+Extract the downloaded ZIP. Rename the extracted folder to `synoptic-panel-map-maker` if its name includes a branch suffix such as `-main`.
+
+Copy the complete `synoptic-panel-map-maker` folder into `.agents/skills/` inside the project repository. The resulting path is `.agents/skills/synoptic-panel-map-maker/SKILL.md`, with the supporting folders alongside `SKILL.md`.
+
+Start a task in that project and ask Codex to use the `synoptic-panel-map-maker` skill. If the skill does not appear, restart Codex. For installation across projects, see the [Codex installation instructions](https://github.com/okviz/synoptic-panel-map-maker#codex) and [official skill documentation](https://learn.chatgpt.com/docs/build-skills).
 
 #### Install in Claude
 
@@ -61,14 +63,6 @@ For Claude on the web or desktop, use the downloaded ZIP as-is. There is no need
 For account-specific settings or upload problems, see Claude's [custom skill instructions](https://support.claude.com/en/articles/12512180-use-skills-in-claude).
 
 Claude Code uses a folder-based installation instead. See the [Claude Code installation instructions](https://github.com/okviz/synoptic-panel-map-maker#claude).
-
-#### Install in Codex
-
-Extract the downloaded ZIP. Rename the extracted folder to `synoptic-panel-map-maker` if its name includes a branch suffix such as `-main`.
-
-Copy the complete `synoptic-panel-map-maker` folder into `.agents/skills/` inside the project repository. The resulting path is `.agents/skills/synoptic-panel-map-maker/SKILL.md`, with the supporting folders alongside `SKILL.md`.
-
-Start a task in that project and ask Codex to use the `synoptic-panel-map-maker` skill. If the skill does not appear, restart Codex. For installation across projects, see the [Codex installation instructions](https://github.com/okviz/synoptic-panel-map-maker#codex) and [official skill documentation](https://learn.chatgpt.com/docs/build-skills).
 
 #### Install in Grok
 
