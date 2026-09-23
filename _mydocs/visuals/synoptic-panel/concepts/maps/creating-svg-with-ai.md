@@ -1,7 +1,6 @@
 ---
 layout:             page
 title:              Creating SVGs with AI
-description:        Create SVG maps for Synoptic Panel with ChatGPT, Claude, Codex, or Grok, and prepare matching data for Power BI.
 published:          true
 date:               2026-09-04
 modified:           2026-09-04

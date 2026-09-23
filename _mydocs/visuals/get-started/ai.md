@@ -2,7 +2,6 @@
 layout:             page
 title:              Learn How to Use OKVIZ Visuals with AI
 menu_title:         Learn with AI
-description:        Ask an AI assistant how to configure and use OKVIZ visuals with the official documentation.
 published:          true
 date:               2026-08-25
 modified:           2026-08-27

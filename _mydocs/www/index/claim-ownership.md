@@ -1,7 +1,6 @@
 ---
 layout:         page
 title:          Propose Changes to Your Visuals
-description:    How publishers can claim their visuals and propose corrections to the OKVIZ Index.
 menu_title:     Propose Changes
 published:      true
 date:           2026-07-07
