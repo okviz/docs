@@ -3,12 +3,22 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2026-07-04
-modified:           2026-08-06
+modified:           2026-09-29
 order:              /synoptic-designer/{98}
 toc_h_max:          2
 ---
 
 This page contains a quick summary of versions and notable changes of Synoptic Designer.
+
+## v2.0.6
+
+**Released:** 2026-09-29
+
+**New Features:**
+
+- Add PDF import. Choose ***Convert to SVG*** to edit vector shapes or ***Use as tracing image*** to trace the selected page.
+- Add ***Crop Image*** to crop tracing images directly on the canvas.
+- Add ***Create with AI*** to ***New Project*** to open OKVIZ Map Maker in a new browser tab.
 
 ## v2.0.5
 
