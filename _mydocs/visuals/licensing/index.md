@@ -4,7 +4,7 @@ title:              Licensing Overview
 menu_title:         Licensing
 published:          true
 date:               2024-08-14
-modified:           2026-07-29
+modified:           2026-11-16
 order:              /04
 ---
 
@@ -83,7 +83,7 @@ When you purchase a license directly from the [OKVIZ website](https://okviz.com/
 - **Offline Usage**  
     Visuals licensed via OKVIZ can operate offline, provided the next payment date is still in the future. Here's how it works:
 
-    - When the subscription is renewed, we send you an updated visual package containing the new license information.  
+    - When the subscription is renewed, download the updated visual package containing the new license information from the OKVIZ website.  
     - By replacing the visual package in your reports (especially if using the Organizational Store), you can continue to work offline.  
     - Alternatively, the visual will automatically connect to our licensing servers to verify the license expiration.
 

@@ -3,7 +3,7 @@ layout:             page
 title:              Security & Privacy
 published:          true
 date:               2024-05-10
-modified:           2026-03-20
+modified:           2026-11-16
 order:              /synoptic-panel/{96}
 ---
 Synoptic Panel uses the latest technologies available and is updated regularly. It does not contain malicious or unsafe code.
@@ -40,7 +40,7 @@ You can [request our latest Aikido Security report here](https://app.aikido.dev/
 
 Synoptic Panel **does not send user/report data over the Internet** to external services.
 
-However, it periodically communicate with external services to check the current status of your license. You cannot block communication with our license servers, otherwise the visual will stop working properly.
+However, it periodically communicates with external services to check the current status of your license. If you use the visual package with an [OKVIZ license](../../licensing/index.md#okviz-licensing), blocking these connections does not affect the visual until the license expiration date included in the package. For more information, see [Offline and Restricted Environments](offline.md).
 
 During this communication, the visual sends and logs the following data:
 
@@ -60,7 +60,7 @@ During this communication, the visual sends and logs the following data:
 
 ### URLs to Whitelist
 
-To ensure that Synoptic Panel works correctly, if you have a corporate firewall that blocks outbound connections, you need to whitelist these URLs:
+If you have a corporate firewall that blocks outbound connections and you do not replace the visual package at every license renewal, you need to whitelist these URLs:
 
 - `https://api.okviz.com`
 
