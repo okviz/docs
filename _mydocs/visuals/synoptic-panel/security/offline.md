@@ -60,7 +60,7 @@ The license information in the package is valid until the next payment date of y
 1. Download the updated visual package from the OKVIZ website.
 2. Replace the visual in your reports or in the Organizational Visuals store.
 
-How often you need to replace the package depends on the billing period of your subscription, either monthly or yearly.
+How often you need to replace the package depends on the billing period of your subscription: monthly, yearly, or every three years.
 
 >> **IMPORTANT:** If the package is not replaced and the visual cannot reach the licensing servers, the visual can no longer validate the license after the expiration date included in the package.
 
