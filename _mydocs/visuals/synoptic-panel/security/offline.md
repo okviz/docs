@@ -6,12 +6,6 @@ published:          true
 date:               2026-11-16
 modified:           2026-11-16
 order:              /synoptic-panel/security/offline
-related:
-    - /synoptic-panel/security/index.md
-    - /licensing/index.md
-    - /get-started/org-store.md
-    - /synoptic-panel/features/importing/index.md
-    - /synoptic-panel/concepts/best-practices.md
 ---
 
 This page describes how to use Synoptic Panel in environments that restrict or block outbound connections, such as air-gapped networks, Government Clouds, and National Clouds.
