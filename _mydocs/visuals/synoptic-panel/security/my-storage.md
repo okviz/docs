@@ -5,7 +5,7 @@ menu_title:         My Storage
 published:          true
 date:               2024-09-12
 modified:           2025-03-20
-order:              /synoptic-panel/security/my-storage
+order:              /synoptic-panel/security/3
 ---
 
 My Storage is a feature of the Synoptic Panel designed to provide secure and controlled access to your SVG maps. This document outlines the key security measures and considerations involved in using My Storage.
@@ -27,9 +27,11 @@ You can [request our latest Aikido Security report here](https://app.aikido.dev/
 ## Access Controls and URLs
 
 ### Private Storage Access
+
 My Storage does not expose a publicly browsable file directory. You cannot list or view all resources without the appropriate credentials. Instead, each map is assigned a unique URL that must be known in advance to request that specific resource.
 
 ### Resource URLs and Nonce Protection
+
 To access a particular map, a user or the Synoptic Panel visual needs:
 
 1. **Resource URL:**  
@@ -72,10 +74,10 @@ My Storage offers an optional encryption feature for further security:
 - **Front-End Security Limitations:**  
   The Synoptic Panel visual runs in a web environment. A highly skilled, malicious user may attempt to analyze and modify the visual's source code, potentially retrieving read keys or nonces. While the security measures discussed here provide robust deterrents and safeguards, they cannot offer a 100% hack-proof guarantee.
 
-- **Best Practices:**  
-  - Avoid publishing your reports with My Storage maps publicly on the internet if security is a concern.  
-  - Keep your edit key and encryption key confidential and share them only with trusted members of your organization.  
-  - Regularly review who has access to these keys and consider changing them if a security incident is suspected.
+- **Best Practices:**
+    - Avoid publishing your reports with My Storage maps publicly on the internet if security is a concern.  
+    - Keep your edit key and encryption key confidential and share them only with trusted members of your organization.  
+    - Regularly review who has access to these keys and consider changing them if a security incident is suspected.
 
 ## Conclusion
 

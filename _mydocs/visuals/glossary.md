@@ -42,9 +42,9 @@ Field wells are the areas in the Power BI report canvas where you can drag and d
 
 In the context of Synoptic Panel, a map is an image that can be used to visualize and represent data dynamically. These are not limited to geographical maps but can include a variety of other visual representations such as floor plans, city layouts, machine schematics, or anatomical diagrams of the human body. See also [What are Maps?](./synoptic-panel/concepts/maps/index.md)
 
-## Organizational Store, Org Store, OCV
+## Organizational Visuals, Organizational Store, Org Store, OCV
 
-The Organizational Store is a feature of Power BI that allows organizations to distribute custom visuals to their users. This is a private repository where organizations can upload and share custom visuals with their users. See  [Power BI Organizational Store](./get-started/org-store.md) for more information.
+Organizational Visuals is a feature of Power BI that allows organizations to distribute custom visuals to their users. This is a private repository where organizations can upload and share custom visuals with their users. See [Power BI Organizational Visuals](./get-started/org-store.md) for more information.
 
 ## Reading and Editing View
 

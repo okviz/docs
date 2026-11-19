@@ -4,7 +4,7 @@ title:              Licensing Overview
 menu_title:         Licensing
 published:          true
 date:               2024-08-14
-modified:           2026-07-29
+modified:           2026-11-16
 order:              /04
 ---
 
@@ -68,7 +68,7 @@ When you purchase a license directly from the [OKVIZ website](https://okviz.com/
     - **Per Site:** Ideal for embedded scenarios, enabling use across an entire site.
 
 - **No Assignment Procedure**  
-    Unlike AppSource licensing, there is no need for a per-user assignment. We provide you with a package containing the visual with the hardcoded license, which can be used in any report. If you install the visual in your [Organizational Store](../get-started/org-store.md), the process is even simpler.
+    Unlike AppSource licensing, there is no need for a per-user assignment. We provide you with a package containing the visual with the hardcoded license, which can be used in any report. If you install the visual in your [Organizational Visuals](../get-started/org-store.md), the process is even simpler.
 
 - **Platform Compatibility**  
     OKVIZ licenses **can be used with any Power BI platform**, including Power BI Report Server, Power BI Embedded, SharePoint, Publish to Web, Government Clouds (GCC/GCC High), and National Clouds.
@@ -83,8 +83,8 @@ When you purchase a license directly from the [OKVIZ website](https://okviz.com/
 - **Offline Usage**  
     Visuals licensed via OKVIZ can operate offline, provided the next payment date is still in the future. Here's how it works:
 
-    - When the subscription is renewed, we send you an updated visual package containing the new license information.  
-    - By replacing the visual package in your reports (especially if using the Organizational Store), you can continue to work offline.  
+    - When the subscription is renewed, download the updated visual package containing the new license information from the OKVIZ website.  
+    - By replacing the visual package in your reports (especially if using Organizational Visuals), you can continue to work offline.  
     - Alternatively, the visual will automatically connect to our licensing servers to verify the license expiration.
 
     > **NOTE:** If you are not operating offline or if you choose not to replace the visual package at every renewal and your organization uses a firewall, you must allow traffic to `api.okviz.com` for licensing validation.
