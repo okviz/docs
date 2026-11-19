@@ -1,6 +1,6 @@
 ---
 layout:             page
-title:              Power BI Organizational Visuals Store
+title:              Power BI Organizational Visuals (Org Store)
 menu_title:         Org Store
 published:          true
 date:               2021-12-21
@@ -40,8 +40,8 @@ Unfortunately, this **only applies to visuals that are not available on AppSourc
 
 > Find out more here: [Pros and Cons of Certified Visuals](../certification.md)
 
-## How to Manage Visuals in the Org Store
+## How to Manage Visuals in the Organizational Visuals (Org Store)
 
-The installation of custom visuals in the Org Store is described here: [Installing from the Org Store](installation.md#from-the-org-store)
+The installation of custom visuals in Organizational Visuals (Org Store) is described here: [Installing from Organizational Visuals (Org Store)](installation.md#from-organizational-visuals-org-store)
 
-Updating an existing visual in the Org Store is covered here: [Updating from the Org Store](updating.md#from-the-org-store)
+Updating an existing visual in Organizational Visuals (Org Store) is covered here: [Updating from Organizational Visuals (Org Store)](updating.md#from-organizational-visuals-org-store)

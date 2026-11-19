@@ -7,7 +7,7 @@ modified:           2026-08-25
 order:              /01/02
 toc_h_max:            2
 ---
-OKVIZ visuals (like any other custom visuals for Power BI) are wrapped as files with the ***.pbiviz*** extension. You cannot directly open .pbiviz files with Power BI. Instead, you must import them into your reports or install them in your organizational store by following one of the methods described below.
+OKVIZ visuals (like any other custom visuals for Power BI) are wrapped as files with the ***.pbiviz*** extension. You cannot directly open .pbiviz files with Power BI. Instead, you must import them into your reports or install them in your Organizational Visuals store by following one of the methods described below.
 
 >> Custom visuals may be disabled in your organization, [check your tenant settings](#enable-custom-visuals) to be sure you can use them.
 
@@ -48,9 +48,9 @@ To use it, follow these steps:
 
 > **Smart Filter Pro**: The benefit of using AppSource is that **every new version of the visual is automatically downloaded and applied** to each report. Unfortunately, **this is also a drawback** as you do not have control over the version of the visual in use and cannot downgrade to an older version in case of regressions. For this reason, we recommend that you install it as described in the next method.
 
-## From the Org Store
+## From Organizational Visuals (Org Store)
 
-The Power BI Organizational Store is a private marketplace used to store and share visuals within an organization. In order to use OKVIZ visuals with the Org Store, there are two steps required:
+Power BI Organizational Visuals is a private marketplace used to store and share visuals within an organization. In order to use OKVIZ visuals with the Org Store, there are two steps required:
 
 1.	[Installing a visual in the Org Store](#1-installing-a-visual-in-the-org-store)
     This must be done by an admin every time a new version of the visual is released.
@@ -60,7 +60,7 @@ The Power BI Organizational Store is a private marketplace used to store and sha
 
 These steps are described in detail in the following sections.
 
-> **Smart Filter Pro**:  We encourage you to install Smart Filter Pro in the Org Store in order to benefit from automatic updates and timely support. More information here: [Power BI Organizational Store](org-store.md)
+> **Smart Filter Pro**:  We encourage you to install Smart Filter Pro in the Org Store in order to benefit from automatic updates and timely support. More information here: [Power BI Organizational Visuals (Org Store)](org-store.md)
 
 
 ### 1. Installing a visual in the Org Store

@@ -31,7 +31,7 @@ If the visual has been installed on AppSource, no additional actions are require
 
 This behavior is straightforward and time-saving, but since **it doesn't show any notification when a new version is updated in your reports (and you cannot downgrade it at any time)** you may run into problems if a regression or new default settings cause a sudden change in the report layout. It is our duty to avoid these scenarios, but they actually happen.
 
-## From the Org Store
+## From Organizational Visuals (Org Store)
 
 When a new version of a custom visual installed in the Org Store is released, Power BI admins can automatically **update all the reports using that visual throughout the organization**.
 To update an existing visual in the Org Store:

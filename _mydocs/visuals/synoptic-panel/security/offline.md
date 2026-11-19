@@ -4,62 +4,111 @@ title:              Offline and Restricted Environments
 menu_title:         Offline Use
 published:          true
 date:               2026-11-16
-modified:           2026-11-16
-order:              /synoptic-panel/security/offline
+modified:           2026-11-19
+order:              /synoptic-panel/security/1
+toc_h_max:         2
 ---
 
-This page describes how to use Synoptic Panel in environments that restrict or block outbound connections, such as air-gapped networks, Government Clouds, and National Clouds.
+When you are in an offline or restricted environment with no Internet access, only Synoptic Panel with a license purchased directly from OKVIZ will work. This applies to Power BI Desktop used offline, Power BI Report Server on an isolated network, and cloud environments that block outbound Internet connections such as the [government clouds](../../licensing/index.md#government-clouds-gcc-and-gcc-high).
 
-## Supported Version and License
+## Supported Versions Without Internet Access
 
-Only Synoptic Panel v2 with an [OKVIZ license](../../licensing/index.md#okviz-licensing) can be used in these environments:
+| Version | Licensing | Power BI Desktop | Power BI Report Server | GCC, GCC High, and National Clouds |
+| --- | --- | --- | --- | --- |
+| Synoptic Panel | OKVIZ | ✅ Supported | ✅ Supported | ✅ Supported |
+| Synoptic Panel | AppSource | ❌ Unsupported | ❌ Unsupported | ❌ Unsupported |
+| Synoptic Panel | [Hybrid](../../licensing/index.md#a-third-option-hybrid-licensing) | ❌ Unsupported | ❌ Unsupported | ❌ Unsupported |
+| Synoptic Panel Lite | AppSource | ❌ Unsupported | ❌ Unsupported | ❌ Unsupported |
 
-- Synoptic Panel Lite and AppSource licenses do not support Government Clouds, National Clouds, or offline use.
-- The [Hybrid Licensing](../../licensing/index.md#a-third-option-hybrid-licensing) model does not support Government Clouds, National Clouds, or offline use either.
+## Licensing and Renewal
 
-With an OKVIZ license, Synoptic Panel can be used on any Power BI platform, including Government Clouds (GCC/GCC High) and National Clouds, for both report authors and report viewers. For more information, see [Government Clouds (GCC and GCC High)](../../licensing/index.md#government-clouds-gcc-and-gcc-high).
+When you buy Synoptic Panel [directly from OKVIZ](../../licensing/index.md#okviz-licensing), you receive a package that must be installed on your Organizational Visuals (Org Store) or manually imported in your reports. That package already contains your license. The visual still attempts to contact OKVIZ to validate it, but if the licensing server is unreachable, it continues to work until the embedded license expires.
 
-## Deployment
+To continue using the visual offline after that date, renew your license and update the visual in your reports.
 
-With an OKVIZ license, you receive a visual package (.pbiviz file) that contains your license information. No per-user assignment is required.
+### Replace the Visual After Renewal
 
-You can import the package directly into your reports, or deploy it centrally through the [Organizational Visuals store](../../get-started/org-store.md). The Organizational Visuals store makes it easier to replace the package when the license is renewed.
+After renewal, download the updated visual from your
+[OKVIZ account](https://okviz.com/account). Update it where you installed it.
 
-## Network Behavior
+- **Imported from a file.** Open each report for editing and
+    [import the updated visual](../../get-started/updating.md#from-a-file).
+    Save the report. If you edited a local copy of a published report, publish
+    it again to the Power BI service or save it back to Power BI Report Server.
 
-Synoptic Panel does not send user or report data over the Internet.
+- **Installed from Organizational Visuals (Org Store).** A Power BI admin can
+    [update the existing store entry](../../get-started/updating.md#from-organizational-visuals-org-store)
+    with the updated visual. Reports that use the entry pick up the update
+    when they can reach the store.
 
-The visual periodically tries to contact the OKVIZ licensing servers to check the license status. The data sent during this check is described in [Data Sent over the Internet](index.md#data-sent-over-the-internet).
+## Features Without Internet Access
 
-If these connections are blocked, the visual keeps working until the license expiration date included in the package. Blocking all OKVIZ domains does not affect the visual during this period.
+✅ [Local maps](../features/importing/index.md#local-maps) and report
+interactions such as tooltips, cross-filtering, and drill-down to local maps
+work with the data available to Power BI.
 
-> **NOTE:** The visual still attempts the connections even when they are blocked. Blocked requests may appear in firewall or proxy logs.
+- ### Remote Maps
 
-## Maps
+    ❌ Synoptic Panel cannot download or refresh
+    [remote maps](../features/importing/index.md#remote-maps) hosted on the
+    Internet. This includes maps selected through ***Map Selector*** or Drill
+    Mode.
 
-In an offline environment, import maps as [local maps](../features/importing/index.md#local-maps). Local maps are stored inside the report, so they do not require any external connection.
+    ✅ Maps on a reachable internal host can still load if the host meets the
+    [hosting requirements](../features/importing/hosting-requirements.md).
 
-The following features load maps from external locations and do not work when outbound connections are blocked:
+- ### Map URLs
 
-- [Remote maps](../features/importing/index.md#remote-maps)
-- [My Storage](../features/my-storage.md) maps
-- Maps loaded from the [Map URLs](../fields/map-urls.md) field
+    ❌ The [***Map URLs*** field](../fields/map-urls.md) cannot load maps from
+    Internet hosts.
 
-Because local maps are stored inside the report, large maps can increase the report size and affect performance. Review the [Best Practices](../concepts/best-practices.md) before importing large or numerous maps.
+    ✅ A URL on a reachable internal host can still load its map.
 
-## License Renewal
+- ### My Storage
 
-The license information in the package is valid until the next payment date of your subscription. To keep using the visual offline after a renewal:
+    ❌ [My Storage](../features/my-storage.md) is unavailable offline. Loading
+    or managing maps requires access to the regional OKVIZ service.
 
-1. Download the updated visual package from the OKVIZ website.
-2. Replace the visual in your reports or in the Organizational Visuals store.
+- ### Child Maps
 
-How often you need to replace the package depends on the billing period of your subscription: monthly, yearly, or every three years.
+    ❌ [Child maps](../features/drill-mode.md#child-maps) on unreachable hosts
+    cannot load, even if the parent map is stored in the report.
 
->> **IMPORTANT:** If the package is not replaced and the visual cannot reach the licensing servers, the visual can no longer validate the license after the expiration date included in the package.
+    ✅ A child map can load from a reachable internal host.
 
-## Security Reviews
+- ### Auto-Fetch
 
-Synoptic Panel is audited by a third-party company on every update. Your security team can request the latest audit report as described in [Audit Process](index.md#audit-process).
+    ❌ [Auto-Fetch](../features/auto-fetch.md) cannot download child maps when
+    the parent map's host is unreachable.
 
-For additional documentation requests, [contact our administrative support team](mailto:backoffice@okviz.com).
+    ✅ Auto-Fetch can use a reachable internal host that serves both the
+    parent and child maps.
+
+- ### Map Search
+
+    ❌ [Map Search](../features/map-search.md) skips remote maps it cannot
+    download when building the search index.
+
+    ✅ Map Search can index maps stored in the report and maps it can download
+    from a reachable internal host.
+
+- ### Dynamic Links
+
+    ❌ Pages blocked by the viewer's network cannot load. This applies to
+    [Dynamic Links](../features/dynamic-links.md) and other links to URLs.
+
+    ✅ Links to internal pages still work if the browser can reach them.
+
+- ### Check for Updates
+
+    ❌ [***Check for updates***](../options/updates/index.md#check-for-updates)
+    requires access to the OKVIZ update server.
+
+## Fully Isolated Version
+
+The standard visual still declares its Power BI privileges when it runs
+offline. On request, OKVIZ can provide a fully isolated version that declares
+no Power BI privileges and makes no outbound connection attempts. It includes
+your OKVIZ license and supports the same environments listed above.
+
+To request the fully isolated version, [contact OKVIZ](mailto:backoffice@okviz.com).

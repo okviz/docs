@@ -76,7 +76,7 @@ In this site, you will find information about our products, services, and other 
 
 - [What are Custom Visuals?](visuals/get-started/custom-visuals.md)
 - [How to Install a Custom Visual?](visuals/get-started/installation.md)
-- [Benefits of Organizational Store](visuals/get-started/org-store.md)
+- [Benefits of Organizational Visuals (Org Store)](visuals/get-started/org-store.md)
 - [About Microsoft Certification](visuals/certification.md)
 - [Learn How to Use OKVIZ Visuals with AI](visuals/get-started/ai)
 

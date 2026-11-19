@@ -3,12 +3,15 @@ layout:             page
 title:              Security & Privacy
 published:          true
 date:               2024-05-10
-modified:           2026-11-16
+modified:           2026-11-19
 order:              /synoptic-panel/{96}
 ---
 Synoptic Panel uses the latest technologies available and is updated regularly. It does not contain malicious or unsafe code.
 
 According to the version of the visual you are using, there are some differences in the security and privacy aspects. For more information on the available versions, see [Versions](../versions/index.md).
+
+See [SVG Validation and Sanitization](svg-validation.md) for the checks
+applied when you import SVG maps.
 
 ## Synoptic Panel v2
 
@@ -38,13 +41,26 @@ You can [request our latest Aikido Security report here](https://app.aikido.dev/
 
 ### Data Sent over the Internet
 
-Synoptic Panel **does not send user/report data over the Internet** to external services.
+Power BI supplies the report fields assigned to Synoptic Panel. The visual
+renders the map in the report viewer and returns selections to Power BI for
+cross-filtering. Local maps and their settings are saved in the report.
 
-However, it periodically communicates with external services to check the current status of your license. If you use the visual package with an [OKVIZ license](../../licensing/index.md#okviz-licensing), blocking these connections does not affect the visual until the license expiration date included in the package. For more information, see [Offline and Restricted Environments](offline.md).
+<img src="images/data-flow.svg" class="naked" alt="Power BI sends report fields to Synoptic Panel and receives selections. Synoptic Panel can contact the OKVIZ API, configured hosts, and My Storage." />
 
-During this communication, the visual sends and logs the following data:
+For Synoptic Panel licensed directly by OKVIZ, license and update checks use
+licensing and product information. Values included in a map URL or a dynamic
+link go to the destination in that URL.
 
-- **Timestamp**: The date and time when the visual is used.
+The visual can contact OKVIZ to check the license status. With an
+[OKVIZ license](../../licensing/index.md#okviz-licensing) included in the visual,
+local functionality remains available until the license expires even if these
+requests are blocked. The [fully isolated version](offline.md#fully-isolated-version)
+is available on request. It declares no Power BI privileges and makes no
+outbound connection attempts.
+
+OKVIZ records the time of the license check. The information sent by the
+visual depends on the licensing option.
+
 - **Visual Version**: The version of the visual that is used.
 
 (In case you are using the [Hybrid Licensing Model](../../licensing/index.md#a-third-option-hybrid-licensing))
@@ -60,23 +76,21 @@ During this communication, the visual sends and logs the following data:
 
 ### URLs to Whitelist
 
-If you have a corporate firewall that blocks outbound connections and you do not replace the visual package at every license renewal, you need to whitelist these URLs:
+For online license validation and update checks, allow outbound access to
+`https://api.okviz.com`.
 
-- `https://api.okviz.com`
-
-According to the region where you activated the license, one of the following URLs is also required:
+If you use My Storage, also allow access to the endpoint for your storage
+region.
 
 - `https://us.synopticpanel-api.okviz.com`
 - `https://eu.synopticpanel-api.okviz.com`
 - `https://au.synopticpanel-api.okviz.com`
-
 
 ### My Storage
 
 Synoptic Panel allows you to store your maps in a private storage called **My Storage**. 
 
 For more information about where and how we handle your data and the security measures we take, see the section [My Storage Security](my-storage.md).
-
 
 ## Synoptic Panel Lite
 
@@ -89,6 +103,8 @@ Synoptic Panel Lite is [certified by Microsoft](../../certification.md).
 ### Data Sent over the Internet
 
 No data is sent over the Internet or collected by OKVIZ.
+
+<img src="images/data-flow-lite.svg" class="naked" alt="Power BI sends report fields to Synoptic Panel Lite and receives selections. Lite makes no outbound requests. Power BI handles AppSource licensing." />
 
 ## Synoptic Panel v1
 

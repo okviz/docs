@@ -66,7 +66,7 @@ After the switch, you must obtain the OKVIZ visual and use that version in your 
 
 3. Open each report that still uses the AppSource version and replace it with the OKVIZ version of the visual.
 
-4. If you manage the visual through the Org Store, update the existing Org Store entry instead of deleting it and creating a new one. See [Updating from the Org Store](../../get-started/updating.md#from-the-org-store).
+4. If you manage the visual through the Org Store, update the existing Org Store entry instead of deleting it and creating a new one. See [Updating from the Org Store](../../get-started/updating.md#from-organizational-visuals-org-store).
 
 ## Important Notes
 
